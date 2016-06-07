@@ -2,8 +2,6 @@
 transform column "$.'studynum'" to "dataset.ID";
 transform column "$.'study_title'" to "dataset.title";
 transform column "$.'study_description'" to "dataset.description";
-transform column "$.'studynum'" to "dataset.downloadURL" apply {{ result = 'http://ctndisseminationlibrary.org/protocols/' + value }};
-
 transform column "$.'release_date'" to "release_date";
 
 transform column "$.'keywords'" to "dataset.keywords[]" apply {{
@@ -14,6 +12,8 @@ result=arr
 transform column "$.'investigator'" to "dataset.creator";
 transform column "$.'url'" to "url";
 
+/* Access Information */
+transform column "$.'studynum'" to "access.accessURL" apply {{ result = 'http://ctndisseminationlibrary.org/protocols/' + value }};
 let "dataset.accesstypes"  = "download";
 let "dataset.authorization"  = "registration";
 let "dataset.authentication" = "simpleLogin";
