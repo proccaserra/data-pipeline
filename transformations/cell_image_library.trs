@@ -2,8 +2,13 @@
 transform column "$.'id'" to "dataset.ID";
 transform column "$.'id'" to "dataset.title" apply {{ result = 'Cell Image Library Dataset CIL:' + value }};
 transform column "$.'imagedescription'" to "dataset.description";
-transform column "$.'id'" to "dataset.downloadURL" apply {{ result = 'http://www.cellimagelibrary.org/images/' + value }};
 transform column "$.'itemtype'" to "dataset.dataType";
+
+/* Access Information */
+transform column "$.'id'" to "access.accessURL" apply {{ result = 'http://www.cellimagelibrary.org/images/' + value }};
+let "dataset.accesstypes"  = "download";
+let "dataset.authorization"  = "none";
+let "dataset.authentication" = "none";
 
 /* Individual Entity Information */
 transform column "$.'ncbiorganismalclassification'" to "organism[]" apply {{
