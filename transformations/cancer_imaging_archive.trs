@@ -1,7 +1,6 @@
 /* initial identity transformation */
 transform column "$.'collection_name'" to "dataset.ID";
 transform column "$.'collection_name'" to "dataset.title";
-transform column "$.'collection_name'" to "dataset.downloadURL" apply {{ result = 'https://wiki.cancerimagingarchive.net/display/Public/' + value }};
 transform column "$.'submission_status'" to "dataset.status";
 transform column "$.'access'" to "dataset.license";
 transform column "$.'subjects_available'" to "dataset.size";
@@ -10,6 +9,8 @@ transform column "$.'last_update'" to "dataset.dateLastUpdate" apply toStandardD
 
 transform column "$.'supporting_data_available'" to "dataset.relatedDataset";
 
+/* Access Information */
+transform column "$.'collection_name'" to "access.accessURL" apply {{ result = 'https://wiki.cancerimagingarchive.net/display/Public/' + value }};
 let "dataset.accesstypes"  = "download";
 let "dataset.authorization"  = "none";
 let "dataset.authentication" = "none";
