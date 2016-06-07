@@ -14,9 +14,9 @@ transform column "$.'url'" to "url";
 
 /* Access Information */
 transform column "$.'studynum'" to "access.accessURL" apply {{ result = 'http://ctndisseminationlibrary.org/protocols/' + value }};
-let "dataset.accesstypes"  = "download";
-let "dataset.authorization"  = "registration";
-let "dataset.authentication" = "simpleLogin";
+let "access.accesstypes"  = "download";
+let "access.authorization"  = "registration";
+let "access.authentication" = "simpleLogin";
 
 /* Organism Information */
 transform column "$.'studynum'" to "organism[0].name" apply {{ result = 'human' }};
