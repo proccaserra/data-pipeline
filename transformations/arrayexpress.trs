@@ -10,9 +10,9 @@ transform column "$.'experiment'.'lastupdatedate'.'_$'" to "dataset.dateModified
 
 /* Access information */
 transform column "$.'experiment'.'accession'.'_$'" to "access.accessURL" apply {{ result = 'https://www.ebi.ac.uk/arrayexpress/experiments/' + value }};
-let "dataset.accesstypes"  = "download";
-let "dataset.authorization"  = "none";
-let "dataset.authentication" = "none";
+let "access.accesstypes"  = "download";
+let "access.authorization"  = "none";
+let "access.authentication" = "none";
 
 /* Data Collection Information */
 transform column "$.'experiment'.'experimentdesign'.'_$'" to "treatment.title";
