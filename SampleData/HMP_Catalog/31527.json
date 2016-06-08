@@ -1,0 +1,28 @@
+{
+    "project": {
+        "Current Finishing Level": "Level 2: High-Quality Draft",
+        "Domain": "BACTERIAL",
+        "Funding Source": "NIH-NHGRI",
+        "GOLD ID": "Gi02855",
+        "Genbank ID": "ADVL00000000",
+        "Genbank URL": "http://www.ncbi.nlm.nih.gov/sites/entrez?Db=genomeprj&cmd=ShowDetailView&TermToSearch=31527",
+        "Gene Count": "4778",
+        "Gold URL": "",
+        "HMP ID": "731",
+        "HMP Isolation Body Site": "urogenital_tract",
+        "HOMD ID": "",
+        "HOMD URL": "http://www.hmpdacc-resources.org/cgi-bin/img_hmp/main.cgi?section=TaxonDetail&page=taxonDetail&taxon_oid=2513237333",
+        "IMG/HMP ID": "2513237333",
+        "Image URL": "http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?db=nucleotide&val=ADVL00000000",
+        "NCBI Project ID": "31527",
+        "NCBI Submission Status": "6. annotation (and sequence) public on NCBI site",
+        "NCBI Superkingdom": "Bacteria",
+        "NCBI URL": "http://genomesonline.org/cgi-bin/GOLD/bin/GOLDCards.cgi?goldstamp=Gi02855",
+        "Organism Name": "Roseomonas cervicalis ATCC 49957",
+        "Organization URL": "",
+        "Project Status": "Complete",
+        "Sequencing Center": "Baylor College of Medicine",
+        "Strain Repository ID": "ATCC 49957",
+        "Strain Repository URL": ""
+    }
+}

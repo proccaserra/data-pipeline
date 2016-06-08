@@ -1,0 +1,1660 @@
+{
+    "cross": "NZBXFVB-N2", 
+    "database": "NZBXFVB-N2Publish", 
+    "records": [
+        {
+            "AdditiveEffect?": "2.985", 
+            "Authors": "Kent Hunter et al.", 
+            "Description": "Tumor latency", 
+            "Index": "1", 
+            "Max LRS Location": "Chr10: 10.618794", 
+            "MaxLRS": "6.8", 
+            "Record": "10001", 
+            "Year": "2009", 
+            "details": {
+                "stats": {
+                    "all": [], 
+                    "grouponly": [
+                        {
+                            "name": "Interquartile Range", 
+                            "value": "4096.00"
+                        }, 
+                        {
+                            "name": "Maximum", 
+                            "value": "84.00"
+                        }, 
+                        {
+                            "name": "Mean", 
+                            "value": "54.61"
+                        }, 
+                        {
+                            "name": "Median", 
+                            "value": "52.00"
+                        }, 
+                        {
+                            "name": "Minimum", 
+                            "value": "34.00"
+                        }, 
+                        {
+                            "name": "N of Samples", 
+                            "value": "69"
+                        }, 
+                        {
+                            "name": "Range (fold)", 
+                            "value": "1125899906842624.00"
+                        }, 
+                        {
+                            "name": "Range (log2)", 
+                            "value": "50.00"
+                        }, 
+                        {
+                            "name": "Standard Deviation (SD)", 
+                            "value": "10.20"
+                        }, 
+                        {
+                            "name": "Standard Error (SE)", 
+                            "value": "1.23"
+                        }
+                    ], 
+                    "nongroup": []
+                }, 
+                "traits": {
+                    "other": [], 
+                    "primary": [
+                        {
+                            "Index": "1", 
+                            "Sample": "NZB2421", 
+                            "Value": "53.000"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "NZB2424", 
+                            "Value": "56.000"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "NZB2426", 
+                            "Value": "52.000"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "NZB2703", 
+                            "Value": "84.000"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "NZB3001", 
+                            "Value": "49.000"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "NZB3004", 
+                            "Value": "44.000"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "NZB3039", 
+                            "Value": "58.000"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "NZB3042", 
+                            "Value": "62.000"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "NZB3046", 
+                            "Value": "61.000"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "NZB3047", 
+                            "Value": "67.000"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "NZB3053", 
+                            "Value": "51.000"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "NZB3197", 
+                            "Value": "63.000"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "NZB3199", 
+                            "Value": "75.000"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "NZB3289", 
+                            "Value": "49.000"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "NZB3290", 
+                            "Value": "72.000"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "NZB3291", 
+                            "Value": "58.000"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "NZB3295", 
+                            "Value": "65.000"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "NZB3296", 
+                            "Value": "51.000"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "NZB3299", 
+                            "Value": "70.000"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "NZB3351", 
+                            "Value": "57.000"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "NZB3353", 
+                            "Value": "44.000"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "NZB3355", 
+                            "Value": "48.000"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "NZB3394", 
+                            "Value": "38.000"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "NZB3397", 
+                            "Value": "34.000"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "NZB3546", 
+                            "Value": "47.000"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "NZB3547", 
+                            "Value": "58.000"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "NZB3548", 
+                            "Value": "63.000"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "NZB3550", 
+                            "Value": "49.000"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "NZB3551", 
+                            "Value": "40.000"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "NZB3567", 
+                            "Value": "45.000"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "NZB3568", 
+                            "Value": "48.000"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "NZB3569", 
+                            "Value": "59.000"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "NZB3570", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "NZB3572", 
+                            "Value": "64.000"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "NZB3738", 
+                            "Value": "51.000"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "NZB3739", 
+                            "Value": "72.000"
+                        }, 
+                        {
+                            "Index": "37", 
+                            "Sample": "NZB3769", 
+                            "Value": "56.000"
+                        }, 
+                        {
+                            "Index": "38", 
+                            "Sample": "NZB3824", 
+                            "Value": "54.000"
+                        }, 
+                        {
+                            "Index": "39", 
+                            "Sample": "NZB3825", 
+                            "Value": "47.000"
+                        }, 
+                        {
+                            "Index": "40", 
+                            "Sample": "NZB3827", 
+                            "Value": "58.000"
+                        }, 
+                        {
+                            "Index": "41", 
+                            "Sample": "NZB3830", 
+                            "Value": "54.000"
+                        }, 
+                        {
+                            "Index": "42", 
+                            "Sample": "NZB3852", 
+                            "Value": "42.000"
+                        }, 
+                        {
+                            "Index": "43", 
+                            "Sample": "NZB3853", 
+                            "Value": "53.000"
+                        }, 
+                        {
+                            "Index": "44", 
+                            "Sample": "NZB3854", 
+                            "Value": "49.000"
+                        }, 
+                        {
+                            "Index": "45", 
+                            "Sample": "NZB3855", 
+                            "Value": "43.000"
+                        }, 
+                        {
+                            "Index": "46", 
+                            "Sample": "NZB3864", 
+                            "Value": "58.000"
+                        }, 
+                        {
+                            "Index": "47", 
+                            "Sample": "NZB3867", 
+                            "Value": "41.000"
+                        }, 
+                        {
+                            "Index": "48", 
+                            "Sample": "NZB3868", 
+                            "Value": "51.000"
+                        }, 
+                        {
+                            "Index": "49", 
+                            "Sample": "NZB3890", 
+                            "Value": "49.000"
+                        }, 
+                        {
+                            "Index": "50", 
+                            "Sample": "NZB3891", 
+                            "Value": "49.000"
+                        }, 
+                        {
+                            "Index": "51", 
+                            "Sample": "NZB4946", 
+                            "Value": "65.000"
+                        }, 
+                        {
+                            "Index": "52", 
+                            "Sample": "NZB4950", 
+                            "Value": "61.000"
+                        }, 
+                        {
+                            "Index": "53", 
+                            "Sample": "NZB4955", 
+                            "Value": "49.000"
+                        }, 
+                        {
+                            "Index": "54", 
+                            "Sample": "NZB4956", 
+                            "Value": "51.000"
+                        }, 
+                        {
+                            "Index": "55", 
+                            "Sample": "NZB4957", 
+                            "Value": "49.000"
+                        }, 
+                        {
+                            "Index": "56", 
+                            "Sample": "NZB4958", 
+                            "Value": "61.000"
+                        }, 
+                        {
+                            "Index": "57", 
+                            "Sample": "NZB4960", 
+                            "Value": "61.000"
+                        }, 
+                        {
+                            "Index": "58", 
+                            "Sample": "NZB4963", 
+                            "Value": "52.000"
+                        }, 
+                        {
+                            "Index": "59", 
+                            "Sample": "NZB4964", 
+                            "Value": "45.000"
+                        }, 
+                        {
+                            "Index": "60", 
+                            "Sample": "NZB4966", 
+                            "Value": "52.000"
+                        }, 
+                        {
+                            "Index": "61", 
+                            "Sample": "NZB4967", 
+                            "Value": "63.000"
+                        }, 
+                        {
+                            "Index": "62", 
+                            "Sample": "NZB4971", 
+                            "Value": "37.000"
+                        }, 
+                        {
+                            "Index": "63", 
+                            "Sample": "NZB4973", 
+                            "Value": "70.000"
+                        }, 
+                        {
+                            "Index": "64", 
+                            "Sample": "NZB4974", 
+                            "Value": "51.000"
+                        }, 
+                        {
+                            "Index": "65", 
+                            "Sample": "NZB4975", 
+                            "Value": "42.000"
+                        }, 
+                        {
+                            "Index": "66", 
+                            "Sample": "NZB4977", 
+                            "Value": "54.000"
+                        }, 
+                        {
+                            "Index": "67", 
+                            "Sample": "NZB4978", 
+                            "Value": "84.000"
+                        }, 
+                        {
+                            "Index": "68", 
+                            "Sample": "NZB4979", 
+                            "Value": "63.000"
+                        }, 
+                        {
+                            "Index": "69", 
+                            "Sample": "NZB4980", 
+                            "Value": "51.000"
+                        }, 
+                        {
+                            "Index": "70", 
+                            "Sample": "NZB5000", 
+                            "Value": "46.000"
+                        }
+                    ]
+                }
+            }
+        }, 
+        {
+            "AdditiveEffect?": "1.099", 
+            "Authors": "Kent Hunter et al.", 
+            "Description": "Tumor burden", 
+            "Index": "2", 
+            "Max LRS Location": "Chr9: 23.212796", 
+            "MaxLRS": "4.7", 
+            "Record": "10002", 
+            "Year": "2009", 
+            "details": {
+                "stats": {
+                    "all": [], 
+                    "grouponly": [
+                        {
+                            "name": "Interquartile Range", 
+                            "value": "13.00"
+                        }, 
+                        {
+                            "name": "Maximum", 
+                            "value": "22.10"
+                        }, 
+                        {
+                            "name": "Mean", 
+                            "value": "8.25"
+                        }, 
+                        {
+                            "name": "Median", 
+                            "value": "7.20"
+                        }, 
+                        {
+                            "name": "Minimum", 
+                            "value": "2.30"
+                        }, 
+                        {
+                            "name": "N of Samples", 
+                            "value": "57"
+                        }, 
+                        {
+                            "name": "Range (fold)", 
+                            "value": "912838.43"
+                        }, 
+                        {
+                            "name": "Range (log2)", 
+                            "value": "19.80"
+                        }, 
+                        {
+                            "name": "Standard Deviation (SD)", 
+                            "value": "3.90"
+                        }, 
+                        {
+                            "name": "Standard Error (SE)", 
+                            "value": "0.52"
+                        }
+                    ], 
+                    "nongroup": []
+                }, 
+                "traits": {
+                    "other": [], 
+                    "primary": [
+                        {
+                            "Index": "1", 
+                            "Sample": "NZB2421", 
+                            "Value": "7.600"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "NZB2424", 
+                            "Value": "13.400"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "NZB2426", 
+                            "Value": "8.300"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "NZB2703", 
+                            "Value": "18.300"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "NZB3001", 
+                            "Value": "11.000"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "NZB3004", 
+                            "Value": "6.300"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "NZB3039", 
+                            "Value": "9.000"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "NZB3042", 
+                            "Value": "10.700"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "NZB3046", 
+                            "Value": "7.000"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "NZB3047", 
+                            "Value": "9.600"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "NZB3053", 
+                            "Value": "3.100"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "NZB3197", 
+                            "Value": "5.800"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "NZB3199", 
+                            "Value": "7.800"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "NZB3289", 
+                            "Value": "6.400"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "NZB3290", 
+                            "Value": "4.200"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "NZB3291", 
+                            "Value": "10.100"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "NZB3295", 
+                            "Value": "8.600"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "NZB3296", 
+                            "Value": "7.000"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "NZB3299", 
+                            "Value": "4.400"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "NZB3351", 
+                            "Value": "5.200"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "NZB3353", 
+                            "Value": "8.700"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "NZB3355", 
+                            "Value": "9.100"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "NZB3394", 
+                            "Value": "6.800"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "NZB3397", 
+                            "Value": "6.500"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "NZB3546", 
+                            "Value": "4.900"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "NZB3547", 
+                            "Value": "10.100"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "NZB3548", 
+                            "Value": "11.100"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "NZB3550", 
+                            "Value": "19.500"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "NZB3551", 
+                            "Value": "9.300"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "NZB3567", 
+                            "Value": "7.800"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "NZB3568", 
+                            "Value": "7.200"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "NZB3569", 
+                            "Value": "9.800"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "NZB3570", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "NZB3572", 
+                            "Value": "22.100"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "NZB3738", 
+                            "Value": "9.400"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "NZB3739", 
+                            "Value": "2.300"
+                        }, 
+                        {
+                            "Index": "37", 
+                            "Sample": "NZB3769", 
+                            "Value": "5.700"
+                        }, 
+                        {
+                            "Index": "38", 
+                            "Sample": "NZB3824", 
+                            "Value": "6.700"
+                        }, 
+                        {
+                            "Index": "39", 
+                            "Sample": "NZB3825", 
+                            "Value": "6.900"
+                        }, 
+                        {
+                            "Index": "40", 
+                            "Sample": "NZB3827", 
+                            "Value": "7.300"
+                        }, 
+                        {
+                            "Index": "41", 
+                            "Sample": "NZB3830", 
+                            "Value": "5.800"
+                        }, 
+                        {
+                            "Index": "42", 
+                            "Sample": "NZB3852", 
+                            "Value": "9.500"
+                        }, 
+                        {
+                            "Index": "43", 
+                            "Sample": "NZB3853", 
+                            "Value": "16.400"
+                        }, 
+                        {
+                            "Index": "44", 
+                            "Sample": "NZB3854", 
+                            "Value": "4.400"
+                        }, 
+                        {
+                            "Index": "45", 
+                            "Sample": "NZB3855", 
+                            "Value": "5.900"
+                        }, 
+                        {
+                            "Index": "46", 
+                            "Sample": "NZB3864", 
+                            "Value": "4.400"
+                        }, 
+                        {
+                            "Index": "47", 
+                            "Sample": "NZB3867", 
+                            "Value": "6.200"
+                        }, 
+                        {
+                            "Index": "48", 
+                            "Sample": "NZB3868", 
+                            "Value": "6.400"
+                        }, 
+                        {
+                            "Index": "49", 
+                            "Sample": "NZB3890", 
+                            "Value": "14.200"
+                        }, 
+                        {
+                            "Index": "50", 
+                            "Sample": "NZB3891", 
+                            "Value": "8.500"
+                        }, 
+                        {
+                            "Index": "51", 
+                            "Sample": "NZB4946", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "52", 
+                            "Sample": "NZB4950", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "53", 
+                            "Sample": "NZB4955", 
+                            "Value": "7.200"
+                        }, 
+                        {
+                            "Index": "54", 
+                            "Sample": "NZB4956", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "55", 
+                            "Sample": "NZB4957", 
+                            "Value": "6.600"
+                        }, 
+                        {
+                            "Index": "56", 
+                            "Sample": "NZB4958", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "57", 
+                            "Sample": "NZB4960", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "58", 
+                            "Sample": "NZB4963", 
+                            "Value": "5.300"
+                        }, 
+                        {
+                            "Index": "59", 
+                            "Sample": "NZB4964", 
+                            "Value": "13.000"
+                        }, 
+                        {
+                            "Index": "60", 
+                            "Sample": "NZB4966", 
+                            "Value": "5.300"
+                        }, 
+                        {
+                            "Index": "61", 
+                            "Sample": "NZB4967", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "62", 
+                            "Sample": "NZB4971", 
+                            "Value": "3.100"
+                        }, 
+                        {
+                            "Index": "63", 
+                            "Sample": "NZB4973", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "64", 
+                            "Sample": "NZB4974", 
+                            "Value": "4.400"
+                        }, 
+                        {
+                            "Index": "65", 
+                            "Sample": "NZB4975", 
+                            "Value": "8.600"
+                        }, 
+                        {
+                            "Index": "66", 
+                            "Sample": "NZB4977", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "67", 
+                            "Sample": "NZB4978", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "68", 
+                            "Sample": "NZB4979", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "69", 
+                            "Sample": "NZB4980", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "70", 
+                            "Sample": "NZB5000", 
+                            "Value": "x"
+                        }
+                    ]
+                }
+            }
+        }, 
+        {
+            "AdditiveEffect?": "-0.579", 
+            "Authors": "Kent Hunter et al.", 
+            "Description": "Metastasis density", 
+            "Index": "3", 
+            "Max LRS Location": "N/A", 
+            "MaxLRS": "N/A", 
+            "Record": "10003", 
+            "Year": "2009", 
+            "details": {
+                "stats": {
+                    "all": [], 
+                    "grouponly": [
+                        {
+                            "name": "Interquartile Range", 
+                            "value": "693826642.81"
+                        }, 
+                        {
+                            "name": "Maximum", 
+                            "value": "614.58"
+                        }, 
+                        {
+                            "name": "Mean", 
+                            "value": "39.47"
+                        }, 
+                        {
+                            "name": "Median", 
+                            "value": "7.78"
+                        }, 
+                        {
+                            "name": "Minimum", 
+                            "value": "0.69"
+                        }, 
+                        {
+                            "name": "N of Samples", 
+                            "value": "53"
+                        }, 
+                        {
+                            "name": "Range (fold)", 
+                            "value": "6.299470379013444e+184"
+                        }, 
+                        {
+                            "name": "Range (log2)", 
+                            "value": "613.89"
+                        }, 
+                        {
+                            "name": "Standard Deviation (SD)", 
+                            "value": "89.46"
+                        }, 
+                        {
+                            "name": "Standard Error (SE)", 
+                            "value": "12.29"
+                        }
+                    ], 
+                    "nongroup": []
+                }, 
+                "traits": {
+                    "other": [], 
+                    "primary": [
+                        {
+                            "Index": "1", 
+                            "Sample": "NZB2421", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "NZB2424", 
+                            "Value": "5.650"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "NZB2426", 
+                            "Value": "92.040"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "NZB2703", 
+                            "Value": "27.900"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "NZB3001", 
+                            "Value": "17.980"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "NZB3004", 
+                            "Value": "1.040"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "NZB3039", 
+                            "Value": "0.760"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "NZB3042", 
+                            "Value": "20.970"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "NZB3046", 
+                            "Value": "0.690"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "NZB3047", 
+                            "Value": "18.950"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "NZB3053", 
+                            "Value": "3.010"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "NZB3197", 
+                            "Value": "2.840"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "NZB3199", 
+                            "Value": "0.940"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "NZB3289", 
+                            "Value": "0.780"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "NZB3290", 
+                            "Value": "3.470"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "NZB3291", 
+                            "Value": "5.930"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "NZB3295", 
+                            "Value": "2.540"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "NZB3296", 
+                            "Value": "3.670"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "NZB3299", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "NZB3351", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "NZB3353", 
+                            "Value": "1.730"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "NZB3355", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "NZB3394", 
+                            "Value": "0.840"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "NZB3397", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "NZB3546", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "NZB3547", 
+                            "Value": "30.670"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "NZB3548", 
+                            "Value": "124.520"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "NZB3550", 
+                            "Value": "166.540"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "NZB3551", 
+                            "Value": "3.560"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "NZB3567", 
+                            "Value": "1.800"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "NZB3568", 
+                            "Value": "6.690"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "NZB3569", 
+                            "Value": "7.200"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "NZB3570", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "NZB3572", 
+                            "Value": "0.880"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "NZB3738", 
+                            "Value": "8.640"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "NZB3739", 
+                            "Value": "38.840"
+                        }, 
+                        {
+                            "Index": "37", 
+                            "Sample": "NZB3769", 
+                            "Value": "91.150"
+                        }, 
+                        {
+                            "Index": "38", 
+                            "Sample": "NZB3824", 
+                            "Value": "1.710"
+                        }, 
+                        {
+                            "Index": "39", 
+                            "Sample": "NZB3825", 
+                            "Value": "12.900"
+                        }, 
+                        {
+                            "Index": "40", 
+                            "Sample": "NZB3827", 
+                            "Value": "4.200"
+                        }, 
+                        {
+                            "Index": "41", 
+                            "Sample": "NZB3830", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "42", 
+                            "Sample": "NZB3852", 
+                            "Value": "7.120"
+                        }, 
+                        {
+                            "Index": "43", 
+                            "Sample": "NZB3853", 
+                            "Value": "89.760"
+                        }, 
+                        {
+                            "Index": "44", 
+                            "Sample": "NZB3854", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "45", 
+                            "Sample": "NZB3855", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "46", 
+                            "Sample": "NZB3864", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "47", 
+                            "Sample": "NZB3867", 
+                            "Value": "0.830"
+                        }, 
+                        {
+                            "Index": "48", 
+                            "Sample": "NZB3868", 
+                            "Value": "4.890"
+                        }, 
+                        {
+                            "Index": "49", 
+                            "Sample": "NZB3890", 
+                            "Value": "3.150"
+                        }, 
+                        {
+                            "Index": "50", 
+                            "Sample": "NZB3891", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "51", 
+                            "Sample": "NZB4946", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "52", 
+                            "Sample": "NZB4950", 
+                            "Value": "17.590"
+                        }, 
+                        {
+                            "Index": "53", 
+                            "Sample": "NZB4955", 
+                            "Value": "67.600"
+                        }, 
+                        {
+                            "Index": "54", 
+                            "Sample": "NZB4956", 
+                            "Value": "22.440"
+                        }, 
+                        {
+                            "Index": "55", 
+                            "Sample": "NZB4957", 
+                            "Value": "7.530"
+                        }, 
+                        {
+                            "Index": "56", 
+                            "Sample": "NZB4958", 
+                            "Value": "94.790"
+                        }, 
+                        {
+                            "Index": "57", 
+                            "Sample": "NZB4960", 
+                            "Value": "27.110"
+                        }, 
+                        {
+                            "Index": "58", 
+                            "Sample": "NZB4963", 
+                            "Value": "25.480"
+                        }, 
+                        {
+                            "Index": "59", 
+                            "Sample": "NZB4964", 
+                            "Value": "40.490"
+                        }, 
+                        {
+                            "Index": "60", 
+                            "Sample": "NZB4966", 
+                            "Value": "7.780"
+                        }, 
+                        {
+                            "Index": "61", 
+                            "Sample": "NZB4967", 
+                            "Value": "64.100"
+                        }, 
+                        {
+                            "Index": "62", 
+                            "Sample": "NZB4971", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "63", 
+                            "Sample": "NZB4973", 
+                            "Value": "614.580"
+                        }, 
+                        {
+                            "Index": "64", 
+                            "Sample": "NZB4974", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "65", 
+                            "Sample": "NZB4975", 
+                            "Value": "63.030"
+                        }, 
+                        {
+                            "Index": "66", 
+                            "Sample": "NZB4977", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "67", 
+                            "Sample": "NZB4978", 
+                            "Value": "170.120"
+                        }, 
+                        {
+                            "Index": "68", 
+                            "Sample": "NZB4979", 
+                            "Value": "32.380"
+                        }, 
+                        {
+                            "Index": "69", 
+                            "Sample": "NZB4980", 
+                            "Value": "20.200"
+                        }, 
+                        {
+                            "Index": "70", 
+                            "Sample": "NZB5000", 
+                            "Value": "x"
+                        }
+                    ]
+                }
+            }
+        }, 
+        {
+            "AdditiveEffect?": "6315.928", 
+            "Authors": "Kent Hunter et al.", 
+            "Description": "Average met size", 
+            "Index": "4", 
+            "Max LRS Location": "Chr19: 55.462107", 
+            "MaxLRS": "20.8", 
+            "Record": "10004", 
+            "Year": "2009", 
+            "details": {
+                "stats": {
+                    "all": [], 
+                    "grouponly": [
+                        {
+                            "name": "Interquartile Range", 
+                            "value": "Infinity"
+                        }, 
+                        {
+                            "name": "Maximum", 
+                            "value": "1270000.00"
+                        }, 
+                        {
+                            "name": "Mean", 
+                            "value": "104993.23"
+                        }, 
+                        {
+                            "name": "Median", 
+                            "value": "36594.65"
+                        }, 
+                        {
+                            "name": "Minimum", 
+                            "value": "1708.97"
+                        }, 
+                        {
+                            "name": "N of Samples", 
+                            "value": "52"
+                        }, 
+                        {
+                            "name": "Range (fold)", 
+                            "value": "Infinity"
+                        }, 
+                        {
+                            "name": "Range (log2)", 
+                            "value": "1268291.03"
+                        }, 
+                        {
+                            "name": "Standard Deviation (SD)", 
+                            "value": "193344.66"
+                        }, 
+                        {
+                            "name": "Standard Error (SE)", 
+                            "value": "26812.08"
+                        }
+                    ], 
+                    "nongroup": []
+                }, 
+                "traits": {
+                    "other": [], 
+                    "primary": [
+                        {
+                            "Index": "1", 
+                            "Sample": "NZB2421", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "NZB2424", 
+                            "Value": "19503.600"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "NZB2426", 
+                            "Value": "49319.600"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "NZB2703", 
+                            "Value": "36306.600"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "NZB3001", 
+                            "Value": "24989.900"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "NZB3004", 
+                            "Value": "29892.800"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "NZB3039", 
+                            "Value": "36882.700"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "NZB3042", 
+                            "Value": "254579.000"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "NZB3046", 
+                            "Value": "74657.700"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "NZB3047", 
+                            "Value": "521425.000"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "NZB3053", 
+                            "Value": "46698.200"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "NZB3197", 
+                            "Value": "37328.800"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "NZB3199", 
+                            "Value": "17549.000"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "NZB3289", 
+                            "Value": "1270000.000"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "NZB3290", 
+                            "Value": "111735.000"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "NZB3291", 
+                            "Value": "84287.400"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "NZB3295", 
+                            "Value": "80082.600"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "NZB3296", 
+                            "Value": "193947.000"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "NZB3299", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "NZB3351", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "NZB3353", 
+                            "Value": "41121.200"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "NZB3355", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "NZB3394", 
+                            "Value": "13682.300"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "NZB3397", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "NZB3546", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "NZB3547", 
+                            "Value": "319188.000"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "NZB3548", 
+                            "Value": "276839.000"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "NZB3550", 
+                            "Value": "255972.000"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "NZB3551", 
+                            "Value": "21638.800"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "NZB3567", 
+                            "Value": "18069.500"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "NZB3568", 
+                            "Value": "105514.000"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "NZB3569", 
+                            "Value": "232956.000"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "NZB3570", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "NZB3572", 
+                            "Value": "31826.200"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "NZB3738", 
+                            "Value": "225115.000"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "NZB3739", 
+                            "Value": "89278.600"
+                        }, 
+                        {
+                            "Index": "37", 
+                            "Sample": "NZB3769", 
+                            "Value": "203278.000"
+                        }, 
+                        {
+                            "Index": "38", 
+                            "Sample": "NZB3824", 
+                            "Value": "26249.200"
+                        }, 
+                        {
+                            "Index": "39", 
+                            "Sample": "NZB3825", 
+                            "Value": "195938.000"
+                        }, 
+                        {
+                            "Index": "40", 
+                            "Sample": "NZB3827", 
+                            "Value": "34391.600"
+                        }, 
+                        {
+                            "Index": "41", 
+                            "Sample": "NZB3830", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "42", 
+                            "Sample": "NZB3852", 
+                            "Value": "22371.800"
+                        }, 
+                        {
+                            "Index": "43", 
+                            "Sample": "NZB3853", 
+                            "Value": "85694.700"
+                        }, 
+                        {
+                            "Index": "44", 
+                            "Sample": "NZB3854", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "45", 
+                            "Sample": "NZB3855", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "46", 
+                            "Sample": "NZB3864", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "47", 
+                            "Sample": "NZB3867", 
+                            "Value": "100000.000"
+                        }, 
+                        {
+                            "Index": "48", 
+                            "Sample": "NZB3868", 
+                            "Value": "16508.000"
+                        }, 
+                        {
+                            "Index": "49", 
+                            "Sample": "NZB3890", 
+                            "Value": "107263.000"
+                        }, 
+                        {
+                            "Index": "50", 
+                            "Sample": "NZB3891", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "51", 
+                            "Sample": "NZB4946", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "52", 
+                            "Sample": "NZB4950", 
+                            "Value": "57641.700"
+                        }, 
+                        {
+                            "Index": "53", 
+                            "Sample": "NZB4955", 
+                            "Value": "4653.410"
+                        }, 
+                        {
+                            "Index": "54", 
+                            "Sample": "NZB4956", 
+                            "Value": "5275.090"
+                        }, 
+                        {
+                            "Index": "55", 
+                            "Sample": "NZB4957", 
+                            "Value": "22147.500"
+                        }, 
+                        {
+                            "Index": "56", 
+                            "Sample": "NZB4958", 
+                            "Value": "2285.210"
+                        }, 
+                        {
+                            "Index": "57", 
+                            "Sample": "NZB4960", 
+                            "Value": "1715.560"
+                        }, 
+                        {
+                            "Index": "58", 
+                            "Sample": "NZB4963", 
+                            "Value": "3865.770"
+                        }, 
+                        {
+                            "Index": "59", 
+                            "Sample": "NZB4964", 
+                            "Value": "14538.400"
+                        }, 
+                        {
+                            "Index": "60", 
+                            "Sample": "NZB4966", 
+                            "Value": "1708.970"
+                        }, 
+                        {
+                            "Index": "61", 
+                            "Sample": "NZB4967", 
+                            "Value": "1861.260"
+                        }, 
+                        {
+                            "Index": "62", 
+                            "Sample": "NZB4971", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "63", 
+                            "Sample": "NZB4973", 
+                            "Value": "4587.890"
+                        }, 
+                        {
+                            "Index": "64", 
+                            "Sample": "NZB4974", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "65", 
+                            "Sample": "NZB4975", 
+                            "Value": "14818.700"
+                        }, 
+                        {
+                            "Index": "66", 
+                            "Sample": "NZB4977", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "67", 
+                            "Sample": "NZB4978", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "68", 
+                            "Sample": "NZB4979", 
+                            "Value": "8887.780"
+                        }, 
+                        {
+                            "Index": "69", 
+                            "Sample": "NZB4980", 
+                            "Value": "3580.940"
+                        }, 
+                        {
+                            "Index": "70", 
+                            "Sample": "NZB5000", 
+                            "Value": "x"
+                        }
+                    ]
+                }
+            }
+        }
+    ], 
+    "species": "mouse", 
+    "tissue": "Phenotypes"
+}

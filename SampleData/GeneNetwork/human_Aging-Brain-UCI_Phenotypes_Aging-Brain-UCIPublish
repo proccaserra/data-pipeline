@@ -1,0 +1,2792 @@
+{
+    "cross": "Aging-Brain-UCI", 
+    "database": "Aging-Brain-UCIPublish", 
+    "records": [
+        {
+            "AdditiveEffect?": "0.000", 
+            "Authors": "Berchtold NC, Cribbs DH, Coleman PD, Rogers J, Head E, Kim R, Beach T, Miller C, Troncoso J, Trojanowski JQ, Zielke HR, Cotman CW", 
+            "Description": "Cofactor, metadata: Sex, corrected (0=male, 1=female) [sex]", 
+            "Index": "1", 
+            "Max LRS Location": "N/A", 
+            "MaxLRS": "N/A", 
+            "Record": "1", 
+            "Year": "2008", 
+            "details": {
+                "stats": {
+                    "all": [], 
+                    "grouponly": [
+                        {
+                            "name": "N of Samples", 
+                            "value": "83"
+                        }, 
+                        {
+                            "name": "Mean", 
+                            "value": "1.00"
+                        }, 
+                        {
+                            "name": "Median", 
+                            "value": "1.00"
+                        }, 
+                        {
+                            "name": "Standard Error (SE)", 
+                            "value": "0.00"
+                        }, 
+                        {
+                            "name": "Standard Deviation (SD)", 
+                            "value": "0.00"
+                        }, 
+                        {
+                            "name": "Minimum", 
+                            "value": "1.00"
+                        }, 
+                        {
+                            "name": "Maximum", 
+                            "value": "1.00"
+                        }, 
+                        {
+                            "name": "Range (log2)", 
+                            "value": "0.00"
+                        }, 
+                        {
+                            "name": "Range (fold)", 
+                            "value": "1.00"
+                        }, 
+                        {
+                            "name": "Interquartile Range", 
+                            "value": "1.00"
+                        }
+                    ], 
+                    "nongroup": []
+                }, 
+                "traits": {
+                    "other": [], 
+                    "primary": [
+                        {
+                            "Index": "1", 
+                            "Sample": "GSM300166", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "GSM300167", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "GSM300168", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "GSM300169", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "GSM300170", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "GSM300171", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "GSM300172", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "GSM300173", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "GSM300174", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "GSM300175", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "GSM300176", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "GSM300177", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "GSM300178", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "GSM300179", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "GSM300180", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "GSM300181", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "GSM300182", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "GSM300183", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "GSM300185", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "GSM300186", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "GSM300187", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "GSM300188", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "GSM300189", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "GSM300190", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "GSM300191", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "GSM300192", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "GSM300193", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "GSM300194", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "GSM300195", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "GSM300196", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "GSM300197", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "GSM300198", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "GSM300199", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "GSM300200", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "GSM300201", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "GSM300202", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "37", 
+                            "Sample": "GSM300203", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "38", 
+                            "Sample": "GSM300204", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "39", 
+                            "Sample": "GSM300205", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "40", 
+                            "Sample": "GSM300206", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "41", 
+                            "Sample": "GSM300207", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "42", 
+                            "Sample": "GSM300208", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "43", 
+                            "Sample": "GSM300209", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "44", 
+                            "Sample": "GSM300210", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "45", 
+                            "Sample": "GSM300211", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "46", 
+                            "Sample": "GSM300212", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "47", 
+                            "Sample": "GSM300213", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "48", 
+                            "Sample": "GSM300214", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "49", 
+                            "Sample": "GSM300215", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "50", 
+                            "Sample": "GSM300216", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "51", 
+                            "Sample": "GSM300217", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "52", 
+                            "Sample": "GSM300218", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "53", 
+                            "Sample": "GSM300219", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "54", 
+                            "Sample": "GSM300220", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "55", 
+                            "Sample": "GSM300221", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "56", 
+                            "Sample": "GSM300222", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "57", 
+                            "Sample": "GSM300223", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "58", 
+                            "Sample": "GSM300224", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "59", 
+                            "Sample": "GSM300225", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "60", 
+                            "Sample": "GSM300226", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "61", 
+                            "Sample": "GSM300227", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "62", 
+                            "Sample": "GSM300228", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "63", 
+                            "Sample": "GSM300229", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "64", 
+                            "Sample": "GSM300230", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "65", 
+                            "Sample": "GSM300231", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "66", 
+                            "Sample": "GSM300232", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "67", 
+                            "Sample": "GSM300233", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "68", 
+                            "Sample": "GSM300234", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "69", 
+                            "Sample": "GSM300235", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "70", 
+                            "Sample": "GSM300236", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "71", 
+                            "Sample": "GSM300237", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "72", 
+                            "Sample": "GSM300238", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "73", 
+                            "Sample": "GSM300239", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "74", 
+                            "Sample": "GSM300240", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "75", 
+                            "Sample": "GSM300241", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "76", 
+                            "Sample": "GSM300242", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "77", 
+                            "Sample": "GSM300243", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "78", 
+                            "Sample": "GSM300244", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "79", 
+                            "Sample": "GSM300245", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "80", 
+                            "Sample": "GSM300246", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "81", 
+                            "Sample": "GSM300247", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "82", 
+                            "Sample": "GSM300248", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "83", 
+                            "Sample": "GSM300249", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "84", 
+                            "Sample": "GSM300250", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "85", 
+                            "Sample": "GSM300251", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "86", 
+                            "Sample": "GSM300252", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "87", 
+                            "Sample": "GSM300253", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "88", 
+                            "Sample": "GSM300254", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "89", 
+                            "Sample": "GSM300255", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "90", 
+                            "Sample": "GSM300256", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "91", 
+                            "Sample": "GSM300258", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "92", 
+                            "Sample": "GSM300259", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "93", 
+                            "Sample": "GSM300260", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "94", 
+                            "Sample": "GSM300261", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "95", 
+                            "Sample": "GSM300262", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "96", 
+                            "Sample": "GSM300263", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "97", 
+                            "Sample": "GSM300264", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "98", 
+                            "Sample": "GSM300265", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "99", 
+                            "Sample": "GSM300266", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "100", 
+                            "Sample": "GSM300267", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "101", 
+                            "Sample": "GSM300268", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "102", 
+                            "Sample": "GSM300269", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "103", 
+                            "Sample": "GSM300270", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "104", 
+                            "Sample": "GSM300271", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "105", 
+                            "Sample": "GSM300272", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "106", 
+                            "Sample": "GSM300273", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "107", 
+                            "Sample": "GSM300274", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "108", 
+                            "Sample": "GSM300275", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "109", 
+                            "Sample": "GSM300276", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "110", 
+                            "Sample": "GSM300277", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "111", 
+                            "Sample": "GSM300278", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "112", 
+                            "Sample": "GSM300279", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "113", 
+                            "Sample": "GSM300280", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "114", 
+                            "Sample": "GSM300281", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "115", 
+                            "Sample": "GSM300282", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "116", 
+                            "Sample": "GSM300283", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "117", 
+                            "Sample": "GSM300284", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "118", 
+                            "Sample": "GSM300285", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "119", 
+                            "Sample": "GSM300286", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "120", 
+                            "Sample": "GSM300287", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "121", 
+                            "Sample": "GSM300288", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "122", 
+                            "Sample": "GSM300289", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "123", 
+                            "Sample": "GSM300290", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "124", 
+                            "Sample": "GSM300291", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "125", 
+                            "Sample": "GSM300292", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "126", 
+                            "Sample": "GSM300293", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "127", 
+                            "Sample": "GSM300294", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "128", 
+                            "Sample": "GSM300295", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "129", 
+                            "Sample": "GSM300296", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "130", 
+                            "Sample": "GSM300297", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "131", 
+                            "Sample": "GSM300298", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "132", 
+                            "Sample": "GSM300299", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "133", 
+                            "Sample": "GSM300300", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "134", 
+                            "Sample": "GSM300301", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "135", 
+                            "Sample": "GSM300302", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "136", 
+                            "Sample": "GSM300303", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "137", 
+                            "Sample": "GSM300304", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "138", 
+                            "Sample": "GSM300305", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "139", 
+                            "Sample": "GSM300306", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "140", 
+                            "Sample": "GSM300307", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "141", 
+                            "Sample": "GSM300308", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "142", 
+                            "Sample": "GSM300309", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "143", 
+                            "Sample": "GSM300310", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "144", 
+                            "Sample": "GSM300311", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "145", 
+                            "Sample": "GSM300312", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "146", 
+                            "Sample": "GSM300313", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "147", 
+                            "Sample": "GSM300314", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "148", 
+                            "Sample": "GSM300315", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "149", 
+                            "Sample": "GSM300316", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "150", 
+                            "Sample": "GSM300317", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "151", 
+                            "Sample": "GSM300318", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "152", 
+                            "Sample": "GSM300319", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "153", 
+                            "Sample": "GSM300320", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "154", 
+                            "Sample": "GSM300321", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "155", 
+                            "Sample": "GSM300322", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "156", 
+                            "Sample": "GSM300323", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "157", 
+                            "Sample": "GSM300324", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "158", 
+                            "Sample": "GSM300325", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "159", 
+                            "Sample": "GSM300326", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "160", 
+                            "Sample": "GSM300327", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "161", 
+                            "Sample": "GSM300328", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "162", 
+                            "Sample": "GSM300329", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "163", 
+                            "Sample": "GSM300330", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "164", 
+                            "Sample": "GSM300331", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "165", 
+                            "Sample": "GSM300332", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "166", 
+                            "Sample": "GSM300333", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "167", 
+                            "Sample": "GSM300335", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "168", 
+                            "Sample": "GSM300338", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "169", 
+                            "Sample": "GSM300339", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "170", 
+                            "Sample": "GSM300340", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "171", 
+                            "Sample": "GSM300341", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "172", 
+                            "Sample": "GSM318840", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "173", 
+                            "Sample": "GSM350078", 
+                            "Value": "x"
+                        }
+                    ]
+                }
+            }
+        }, 
+        {
+            "AdditiveEffect?": "0.000", 
+            "Authors": "Berchtold NC, Cribbs DH, Coleman PD, Rogers J, Head E, Kim R, Beach T, Miller C, Troncoso J, Trojanowski JQ, Zielke HR, Cotman CW", 
+            "Description": "Cofactor, metadata: Age of individual [years]", 
+            "Index": "2", 
+            "Max LRS Location": "N/A", 
+            "MaxLRS": "N/A", 
+            "Record": "2", 
+            "Year": "2008", 
+            "details": {
+                "stats": {
+                    "all": [], 
+                    "grouponly": [
+                        {
+                            "name": "Interquartile Range", 
+                            "value": "70368744177664.00"
+                        }, 
+                        {
+                            "name": "Maximum", 
+                            "value": "99.00"
+                        }, 
+                        {
+                            "name": "Mean", 
+                            "value": "59.99"
+                        }, 
+                        {
+                            "name": "Median", 
+                            "value": "69.00"
+                        }, 
+                        {
+                            "name": "Minimum", 
+                            "value": "20.00"
+                        }, 
+                        {
+                            "name": "N of Samples", 
+                            "value": "173"
+                        }, 
+                        {
+                            "name": "Range (fold)", 
+                            "value": "6.044629098073146e+23"
+                        }, 
+                        {
+                            "name": "Range (log2)", 
+                            "value": "79.00"
+                        }, 
+                        {
+                            "name": "Standard Deviation (SD)", 
+                            "value": "25.14"
+                        }, 
+                        {
+                            "name": "Standard Error (SE)", 
+                            "value": "1.91"
+                        }
+                    ], 
+                    "nongroup": []
+                }, 
+                "traits": {
+                    "other": [], 
+                    "primary": [
+                        {
+                            "Index": "1", 
+                            "Sample": "GSM300166", 
+                            "Value": "91.000"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "GSM300167", 
+                            "Value": "91.000"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "GSM300168", 
+                            "Value": "96.000"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "GSM300169", 
+                            "Value": "82.000"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "GSM300170", 
+                            "Value": "84.000"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "GSM300171", 
+                            "Value": "87.000"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "GSM300172", 
+                            "Value": "82.000"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "GSM300173", 
+                            "Value": "45.000"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "GSM300174", 
+                            "Value": "45.000"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "GSM300175", 
+                            "Value": "45.000"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "GSM300176", 
+                            "Value": "45.000"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "GSM300177", 
+                            "Value": "95.000"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "GSM300178", 
+                            "Value": "95.000"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "GSM300179", 
+                            "Value": "95.000"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "GSM300180", 
+                            "Value": "95.000"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "GSM300181", 
+                            "Value": "80.000"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "GSM300182", 
+                            "Value": "80.000"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "GSM300183", 
+                            "Value": "80.000"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "GSM300185", 
+                            "Value": "91.000"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "GSM300186", 
+                            "Value": "45.000"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "GSM300187", 
+                            "Value": "45.000"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "GSM300188", 
+                            "Value": "45.000"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "GSM300189", 
+                            "Value": "74.000"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "GSM300190", 
+                            "Value": "74.000"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "GSM300191", 
+                            "Value": "74.000"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "GSM300192", 
+                            "Value": "99.000"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "GSM300193", 
+                            "Value": "99.000"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "GSM300194", 
+                            "Value": "99.000"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "GSM300195", 
+                            "Value": "99.000"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "GSM300196", 
+                            "Value": "74.000"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "GSM300197", 
+                            "Value": "74.000"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "GSM300198", 
+                            "Value": "74.000"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "GSM300199", 
+                            "Value": "74.000"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "GSM300200", 
+                            "Value": "92.000"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "GSM300201", 
+                            "Value": "92.000"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "GSM300202", 
+                            "Value": "91.000"
+                        }, 
+                        {
+                            "Index": "37", 
+                            "Sample": "GSM300203", 
+                            "Value": "91.000"
+                        }, 
+                        {
+                            "Index": "38", 
+                            "Sample": "GSM300204", 
+                            "Value": "83.000"
+                        }, 
+                        {
+                            "Index": "39", 
+                            "Sample": "GSM300205", 
+                            "Value": "83.000"
+                        }, 
+                        {
+                            "Index": "40", 
+                            "Sample": "GSM300206", 
+                            "Value": "83.000"
+                        }, 
+                        {
+                            "Index": "41", 
+                            "Sample": "GSM300207", 
+                            "Value": "83.000"
+                        }, 
+                        {
+                            "Index": "42", 
+                            "Sample": "GSM300208", 
+                            "Value": "28.000"
+                        }, 
+                        {
+                            "Index": "43", 
+                            "Sample": "GSM300209", 
+                            "Value": "28.000"
+                        }, 
+                        {
+                            "Index": "44", 
+                            "Sample": "GSM300210", 
+                            "Value": "28.000"
+                        }, 
+                        {
+                            "Index": "45", 
+                            "Sample": "GSM300211", 
+                            "Value": "28.000"
+                        }, 
+                        {
+                            "Index": "46", 
+                            "Sample": "GSM300212", 
+                            "Value": "74.000"
+                        }, 
+                        {
+                            "Index": "47", 
+                            "Sample": "GSM300213", 
+                            "Value": "74.000"
+                        }, 
+                        {
+                            "Index": "48", 
+                            "Sample": "GSM300214", 
+                            "Value": "97.000"
+                        }, 
+                        {
+                            "Index": "49", 
+                            "Sample": "GSM300215", 
+                            "Value": "97.000"
+                        }, 
+                        {
+                            "Index": "50", 
+                            "Sample": "GSM300216", 
+                            "Value": "97.000"
+                        }, 
+                        {
+                            "Index": "51", 
+                            "Sample": "GSM300217", 
+                            "Value": "97.000"
+                        }, 
+                        {
+                            "Index": "52", 
+                            "Sample": "GSM300218", 
+                            "Value": "34.000"
+                        }, 
+                        {
+                            "Index": "53", 
+                            "Sample": "GSM300219", 
+                            "Value": "34.000"
+                        }, 
+                        {
+                            "Index": "54", 
+                            "Sample": "GSM300220", 
+                            "Value": "34.000"
+                        }, 
+                        {
+                            "Index": "55", 
+                            "Sample": "GSM300221", 
+                            "Value": "34.000"
+                        }, 
+                        {
+                            "Index": "56", 
+                            "Sample": "GSM300222", 
+                            "Value": "74.000"
+                        }, 
+                        {
+                            "Index": "57", 
+                            "Sample": "GSM300223", 
+                            "Value": "74.000"
+                        }, 
+                        {
+                            "Index": "58", 
+                            "Sample": "GSM300224", 
+                            "Value": "74.000"
+                        }, 
+                        {
+                            "Index": "59", 
+                            "Sample": "GSM300225", 
+                            "Value": "74.000"
+                        }, 
+                        {
+                            "Index": "60", 
+                            "Sample": "GSM300226", 
+                            "Value": "90.000"
+                        }, 
+                        {
+                            "Index": "61", 
+                            "Sample": "GSM300227", 
+                            "Value": "91.000"
+                        }, 
+                        {
+                            "Index": "62", 
+                            "Sample": "GSM300228", 
+                            "Value": "44.000"
+                        }, 
+                        {
+                            "Index": "63", 
+                            "Sample": "GSM300229", 
+                            "Value": "44.000"
+                        }, 
+                        {
+                            "Index": "64", 
+                            "Sample": "GSM300230", 
+                            "Value": "37.000"
+                        }, 
+                        {
+                            "Index": "65", 
+                            "Sample": "GSM300231", 
+                            "Value": "37.000"
+                        }, 
+                        {
+                            "Index": "66", 
+                            "Sample": "GSM300232", 
+                            "Value": "37.000"
+                        }, 
+                        {
+                            "Index": "67", 
+                            "Sample": "GSM300233", 
+                            "Value": "37.000"
+                        }, 
+                        {
+                            "Index": "68", 
+                            "Sample": "GSM300234", 
+                            "Value": "85.000"
+                        }, 
+                        {
+                            "Index": "69", 
+                            "Sample": "GSM300235", 
+                            "Value": "85.000"
+                        }, 
+                        {
+                            "Index": "70", 
+                            "Sample": "GSM300236", 
+                            "Value": "85.000"
+                        }, 
+                        {
+                            "Index": "71", 
+                            "Sample": "GSM300237", 
+                            "Value": "85.000"
+                        }, 
+                        {
+                            "Index": "72", 
+                            "Sample": "GSM300238", 
+                            "Value": "70.000"
+                        }, 
+                        {
+                            "Index": "73", 
+                            "Sample": "GSM300239", 
+                            "Value": "70.000"
+                        }, 
+                        {
+                            "Index": "74", 
+                            "Sample": "GSM300240", 
+                            "Value": "70.000"
+                        }, 
+                        {
+                            "Index": "75", 
+                            "Sample": "GSM300241", 
+                            "Value": "70.000"
+                        }, 
+                        {
+                            "Index": "76", 
+                            "Sample": "GSM300242", 
+                            "Value": "64.000"
+                        }, 
+                        {
+                            "Index": "77", 
+                            "Sample": "GSM300243", 
+                            "Value": "64.000"
+                        }, 
+                        {
+                            "Index": "78", 
+                            "Sample": "GSM300244", 
+                            "Value": "64.000"
+                        }, 
+                        {
+                            "Index": "79", 
+                            "Sample": "GSM300245", 
+                            "Value": "64.000"
+                        }, 
+                        {
+                            "Index": "80", 
+                            "Sample": "GSM300246", 
+                            "Value": "70.000"
+                        }, 
+                        {
+                            "Index": "81", 
+                            "Sample": "GSM300247", 
+                            "Value": "70.000"
+                        }, 
+                        {
+                            "Index": "82", 
+                            "Sample": "GSM300248", 
+                            "Value": "85.000"
+                        }, 
+                        {
+                            "Index": "83", 
+                            "Sample": "GSM300249", 
+                            "Value": "85.000"
+                        }, 
+                        {
+                            "Index": "84", 
+                            "Sample": "GSM300250", 
+                            "Value": "85.000"
+                        }, 
+                        {
+                            "Index": "85", 
+                            "Sample": "GSM300251", 
+                            "Value": "91.000"
+                        }, 
+                        {
+                            "Index": "86", 
+                            "Sample": "GSM300252", 
+                            "Value": "21.000"
+                        }, 
+                        {
+                            "Index": "87", 
+                            "Sample": "GSM300253", 
+                            "Value": "21.000"
+                        }, 
+                        {
+                            "Index": "88", 
+                            "Sample": "GSM300254", 
+                            "Value": "21.000"
+                        }, 
+                        {
+                            "Index": "89", 
+                            "Sample": "GSM300255", 
+                            "Value": "69.000"
+                        }, 
+                        {
+                            "Index": "90", 
+                            "Sample": "GSM300256", 
+                            "Value": "69.000"
+                        }, 
+                        {
+                            "Index": "91", 
+                            "Sample": "GSM300258", 
+                            "Value": "40.000"
+                        }, 
+                        {
+                            "Index": "92", 
+                            "Sample": "GSM300259", 
+                            "Value": "40.000"
+                        }, 
+                        {
+                            "Index": "93", 
+                            "Sample": "GSM300260", 
+                            "Value": "40.000"
+                        }, 
+                        {
+                            "Index": "94", 
+                            "Sample": "GSM300261", 
+                            "Value": "52.000"
+                        }, 
+                        {
+                            "Index": "95", 
+                            "Sample": "GSM300262", 
+                            "Value": "52.000"
+                        }, 
+                        {
+                            "Index": "96", 
+                            "Sample": "GSM300263", 
+                            "Value": "52.000"
+                        }, 
+                        {
+                            "Index": "97", 
+                            "Sample": "GSM300264", 
+                            "Value": "80.000"
+                        }, 
+                        {
+                            "Index": "98", 
+                            "Sample": "GSM300265", 
+                            "Value": "75.000"
+                        }, 
+                        {
+                            "Index": "99", 
+                            "Sample": "GSM300266", 
+                            "Value": "52.000"
+                        }, 
+                        {
+                            "Index": "100", 
+                            "Sample": "GSM300267", 
+                            "Value": "86.000"
+                        }, 
+                        {
+                            "Index": "101", 
+                            "Sample": "GSM300268", 
+                            "Value": "86.000"
+                        }, 
+                        {
+                            "Index": "102", 
+                            "Sample": "GSM300269", 
+                            "Value": "86.000"
+                        }, 
+                        {
+                            "Index": "103", 
+                            "Sample": "GSM300270", 
+                            "Value": "75.000"
+                        }, 
+                        {
+                            "Index": "104", 
+                            "Sample": "GSM300271", 
+                            "Value": "26.000"
+                        }, 
+                        {
+                            "Index": "105", 
+                            "Sample": "GSM300272", 
+                            "Value": "26.000"
+                        }, 
+                        {
+                            "Index": "106", 
+                            "Sample": "GSM300273", 
+                            "Value": "26.000"
+                        }, 
+                        {
+                            "Index": "107", 
+                            "Sample": "GSM300274", 
+                            "Value": "86.000"
+                        }, 
+                        {
+                            "Index": "108", 
+                            "Sample": "GSM300275", 
+                            "Value": "20.000"
+                        }, 
+                        {
+                            "Index": "109", 
+                            "Sample": "GSM300276", 
+                            "Value": "20.000"
+                        }, 
+                        {
+                            "Index": "110", 
+                            "Sample": "GSM300277", 
+                            "Value": "20.000"
+                        }, 
+                        {
+                            "Index": "111", 
+                            "Sample": "GSM300278", 
+                            "Value": "26.000"
+                        }, 
+                        {
+                            "Index": "112", 
+                            "Sample": "GSM300279", 
+                            "Value": "20.000"
+                        }, 
+                        {
+                            "Index": "113", 
+                            "Sample": "GSM300280", 
+                            "Value": "20.000"
+                        }, 
+                        {
+                            "Index": "114", 
+                            "Sample": "GSM300281", 
+                            "Value": "20.000"
+                        }, 
+                        {
+                            "Index": "115", 
+                            "Sample": "GSM300282", 
+                            "Value": "20.000"
+                        }, 
+                        {
+                            "Index": "116", 
+                            "Sample": "GSM300283", 
+                            "Value": "36.000"
+                        }, 
+                        {
+                            "Index": "117", 
+                            "Sample": "GSM300284", 
+                            "Value": "20.000"
+                        }, 
+                        {
+                            "Index": "118", 
+                            "Sample": "GSM300285", 
+                            "Value": "69.000"
+                        }, 
+                        {
+                            "Index": "119", 
+                            "Sample": "GSM300286", 
+                            "Value": "69.000"
+                        }, 
+                        {
+                            "Index": "120", 
+                            "Sample": "GSM300287", 
+                            "Value": "69.000"
+                        }, 
+                        {
+                            "Index": "121", 
+                            "Sample": "GSM300288", 
+                            "Value": "36.000"
+                        }, 
+                        {
+                            "Index": "122", 
+                            "Sample": "GSM300289", 
+                            "Value": "44.000"
+                        }, 
+                        {
+                            "Index": "123", 
+                            "Sample": "GSM300290", 
+                            "Value": "44.000"
+                        }, 
+                        {
+                            "Index": "124", 
+                            "Sample": "GSM300291", 
+                            "Value": "44.000"
+                        }, 
+                        {
+                            "Index": "125", 
+                            "Sample": "GSM300292", 
+                            "Value": "69.000"
+                        }, 
+                        {
+                            "Index": "126", 
+                            "Sample": "GSM300293", 
+                            "Value": "48.000"
+                        }, 
+                        {
+                            "Index": "127", 
+                            "Sample": "GSM300294", 
+                            "Value": "48.000"
+                        }, 
+                        {
+                            "Index": "128", 
+                            "Sample": "GSM300295", 
+                            "Value": "48.000"
+                        }, 
+                        {
+                            "Index": "129", 
+                            "Sample": "GSM300296", 
+                            "Value": "44.000"
+                        }, 
+                        {
+                            "Index": "130", 
+                            "Sample": "GSM300297", 
+                            "Value": "30.000"
+                        }, 
+                        {
+                            "Index": "131", 
+                            "Sample": "GSM300298", 
+                            "Value": "30.000"
+                        }, 
+                        {
+                            "Index": "132", 
+                            "Sample": "GSM300299", 
+                            "Value": "48.000"
+                        }, 
+                        {
+                            "Index": "133", 
+                            "Sample": "GSM300300", 
+                            "Value": "20.000"
+                        }, 
+                        {
+                            "Index": "134", 
+                            "Sample": "GSM300301", 
+                            "Value": "20.000"
+                        }, 
+                        {
+                            "Index": "135", 
+                            "Sample": "GSM300302", 
+                            "Value": "20.000"
+                        }, 
+                        {
+                            "Index": "136", 
+                            "Sample": "GSM300303", 
+                            "Value": "30.000"
+                        }, 
+                        {
+                            "Index": "137", 
+                            "Sample": "GSM300304", 
+                            "Value": "33.000"
+                        }, 
+                        {
+                            "Index": "138", 
+                            "Sample": "GSM300305", 
+                            "Value": "33.000"
+                        }, 
+                        {
+                            "Index": "139", 
+                            "Sample": "GSM300306", 
+                            "Value": "33.000"
+                        }, 
+                        {
+                            "Index": "140", 
+                            "Sample": "GSM300307", 
+                            "Value": "20.000"
+                        }, 
+                        {
+                            "Index": "141", 
+                            "Sample": "GSM300308", 
+                            "Value": "22.000"
+                        }, 
+                        {
+                            "Index": "142", 
+                            "Sample": "GSM300309", 
+                            "Value": "22.000"
+                        }, 
+                        {
+                            "Index": "143", 
+                            "Sample": "GSM300310", 
+                            "Value": "22.000"
+                        }, 
+                        {
+                            "Index": "144", 
+                            "Sample": "GSM300311", 
+                            "Value": "33.000"
+                        }, 
+                        {
+                            "Index": "145", 
+                            "Sample": "GSM300312", 
+                            "Value": "42.000"
+                        }, 
+                        {
+                            "Index": "146", 
+                            "Sample": "GSM300313", 
+                            "Value": "42.000"
+                        }, 
+                        {
+                            "Index": "147", 
+                            "Sample": "GSM300314", 
+                            "Value": "42.000"
+                        }, 
+                        {
+                            "Index": "148", 
+                            "Sample": "GSM300315", 
+                            "Value": "22.000"
+                        }, 
+                        {
+                            "Index": "149", 
+                            "Sample": "GSM300316", 
+                            "Value": "45.000"
+                        }, 
+                        {
+                            "Index": "150", 
+                            "Sample": "GSM300317", 
+                            "Value": "45.000"
+                        }, 
+                        {
+                            "Index": "151", 
+                            "Sample": "GSM300318", 
+                            "Value": "45.000"
+                        }, 
+                        {
+                            "Index": "152", 
+                            "Sample": "GSM300319", 
+                            "Value": "42.000"
+                        }, 
+                        {
+                            "Index": "153", 
+                            "Sample": "GSM300320", 
+                            "Value": "47.000"
+                        }, 
+                        {
+                            "Index": "154", 
+                            "Sample": "GSM300321", 
+                            "Value": "47.000"
+                        }, 
+                        {
+                            "Index": "155", 
+                            "Sample": "GSM300322", 
+                            "Value": "47.000"
+                        }, 
+                        {
+                            "Index": "156", 
+                            "Sample": "GSM300323", 
+                            "Value": "45.000"
+                        }, 
+                        {
+                            "Index": "157", 
+                            "Sample": "GSM300324", 
+                            "Value": "69.000"
+                        }, 
+                        {
+                            "Index": "158", 
+                            "Sample": "GSM300325", 
+                            "Value": "69.000"
+                        }, 
+                        {
+                            "Index": "159", 
+                            "Sample": "GSM300326", 
+                            "Value": "69.000"
+                        }, 
+                        {
+                            "Index": "160", 
+                            "Sample": "GSM300327", 
+                            "Value": "47.000"
+                        }, 
+                        {
+                            "Index": "161", 
+                            "Sample": "GSM300328", 
+                            "Value": "91.000"
+                        }, 
+                        {
+                            "Index": "162", 
+                            "Sample": "GSM300329", 
+                            "Value": "91.000"
+                        }, 
+                        {
+                            "Index": "163", 
+                            "Sample": "GSM300330", 
+                            "Value": "91.000"
+                        }, 
+                        {
+                            "Index": "164", 
+                            "Sample": "GSM300331", 
+                            "Value": "69.000"
+                        }, 
+                        {
+                            "Index": "165", 
+                            "Sample": "GSM300332", 
+                            "Value": "75.000"
+                        }, 
+                        {
+                            "Index": "166", 
+                            "Sample": "GSM300333", 
+                            "Value": "75.000"
+                        }, 
+                        {
+                            "Index": "167", 
+                            "Sample": "GSM300335", 
+                            "Value": "91.000"
+                        }, 
+                        {
+                            "Index": "168", 
+                            "Sample": "GSM300338", 
+                            "Value": "82.000"
+                        }, 
+                        {
+                            "Index": "169", 
+                            "Sample": "GSM300339", 
+                            "Value": "82.000"
+                        }, 
+                        {
+                            "Index": "170", 
+                            "Sample": "GSM300340", 
+                            "Value": "82.000"
+                        }, 
+                        {
+                            "Index": "171", 
+                            "Sample": "GSM300341", 
+                            "Value": "75.000"
+                        }, 
+                        {
+                            "Index": "172", 
+                            "Sample": "GSM318840", 
+                            "Value": "82.000"
+                        }, 
+                        {
+                            "Index": "173", 
+                            "Sample": "GSM350078", 
+                            "Value": "66.000"
+                        }
+                    ]
+                }
+            }
+        }, 
+        {
+            "AdditiveEffect?": "0.000", 
+            "Authors": "Berchtold NC, Cribbs DH, Coleman PD, Rogers J, Head E, Kim R, Beach T, Miller C, Troncoso J, Trojanowski JQ, Zielke HR, Cotman CW", 
+            "Description": "Cofactor, metadata: Brain region of individual (1 = EC = Entorhinal cortex, 2 = HC = Hippocampus, 3 = PCG = Postcentral gyrus, 4 = SG = Superior frontal gyrus [n]", 
+            "Index": "3", 
+            "Max LRS Location": "N/A", 
+            "MaxLRS": "N/A", 
+            "Record": "3", 
+            "Year": "2008", 
+            "details": {
+                "stats": {
+                    "all": [], 
+                    "grouponly": [
+                        {
+                            "name": "Interquartile Range", 
+                            "value": "4.00"
+                        }, 
+                        {
+                            "name": "Maximum", 
+                            "value": "4.00"
+                        }, 
+                        {
+                            "name": "Mean", 
+                            "value": "2.58"
+                        }, 
+                        {
+                            "name": "Median", 
+                            "value": "3.00"
+                        }, 
+                        {
+                            "name": "Minimum", 
+                            "value": "1.00"
+                        }, 
+                        {
+                            "name": "N of Samples", 
+                            "value": "173"
+                        }, 
+                        {
+                            "name": "Range (fold)", 
+                            "value": "8.00"
+                        }, 
+                        {
+                            "name": "Range (log2)", 
+                            "value": "3.00"
+                        }, 
+                        {
+                            "name": "Standard Deviation (SD)", 
+                            "value": "1.12"
+                        }, 
+                        {
+                            "name": "Standard Error (SE)", 
+                            "value": "0.08"
+                        }
+                    ], 
+                    "nongroup": []
+                }, 
+                "traits": {
+                    "other": [], 
+                    "primary": [
+                        {
+                            "Index": "1", 
+                            "Sample": "GSM300166", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "GSM300167", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "GSM300168", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "GSM300169", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "GSM300170", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "GSM300171", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "GSM300172", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "GSM300173", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "GSM300174", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "GSM300175", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "GSM300176", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "GSM300177", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "GSM300178", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "GSM300179", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "GSM300180", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "GSM300181", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "GSM300182", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "GSM300183", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "GSM300185", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "GSM300186", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "GSM300187", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "GSM300188", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "GSM300189", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "GSM300190", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "GSM300191", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "GSM300192", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "GSM300193", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "GSM300194", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "GSM300195", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "GSM300196", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "GSM300197", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "GSM300198", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "GSM300199", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "GSM300200", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "GSM300201", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "GSM300202", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "37", 
+                            "Sample": "GSM300203", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "38", 
+                            "Sample": "GSM300204", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "39", 
+                            "Sample": "GSM300205", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "40", 
+                            "Sample": "GSM300206", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "41", 
+                            "Sample": "GSM300207", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "42", 
+                            "Sample": "GSM300208", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "43", 
+                            "Sample": "GSM300209", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "44", 
+                            "Sample": "GSM300210", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "45", 
+                            "Sample": "GSM300211", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "46", 
+                            "Sample": "GSM300212", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "47", 
+                            "Sample": "GSM300213", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "48", 
+                            "Sample": "GSM300214", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "49", 
+                            "Sample": "GSM300215", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "50", 
+                            "Sample": "GSM300216", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "51", 
+                            "Sample": "GSM300217", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "52", 
+                            "Sample": "GSM300218", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "53", 
+                            "Sample": "GSM300219", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "54", 
+                            "Sample": "GSM300220", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "55", 
+                            "Sample": "GSM300221", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "56", 
+                            "Sample": "GSM300222", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "57", 
+                            "Sample": "GSM300223", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "58", 
+                            "Sample": "GSM300224", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "59", 
+                            "Sample": "GSM300225", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "60", 
+                            "Sample": "GSM300226", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "61", 
+                            "Sample": "GSM300227", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "62", 
+                            "Sample": "GSM300228", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "63", 
+                            "Sample": "GSM300229", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "64", 
+                            "Sample": "GSM300230", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "65", 
+                            "Sample": "GSM300231", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "66", 
+                            "Sample": "GSM300232", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "67", 
+                            "Sample": "GSM300233", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "68", 
+                            "Sample": "GSM300234", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "69", 
+                            "Sample": "GSM300235", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "70", 
+                            "Sample": "GSM300236", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "71", 
+                            "Sample": "GSM300237", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "72", 
+                            "Sample": "GSM300238", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "73", 
+                            "Sample": "GSM300239", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "74", 
+                            "Sample": "GSM300240", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "75", 
+                            "Sample": "GSM300241", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "76", 
+                            "Sample": "GSM300242", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "77", 
+                            "Sample": "GSM300243", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "78", 
+                            "Sample": "GSM300244", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "79", 
+                            "Sample": "GSM300245", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "80", 
+                            "Sample": "GSM300246", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "81", 
+                            "Sample": "GSM300247", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "82", 
+                            "Sample": "GSM300248", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "83", 
+                            "Sample": "GSM300249", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "84", 
+                            "Sample": "GSM300250", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "85", 
+                            "Sample": "GSM300251", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "86", 
+                            "Sample": "GSM300252", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "87", 
+                            "Sample": "GSM300253", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "88", 
+                            "Sample": "GSM300254", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "89", 
+                            "Sample": "GSM300255", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "90", 
+                            "Sample": "GSM300256", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "91", 
+                            "Sample": "GSM300258", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "92", 
+                            "Sample": "GSM300259", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "93", 
+                            "Sample": "GSM300260", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "94", 
+                            "Sample": "GSM300261", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "95", 
+                            "Sample": "GSM300262", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "96", 
+                            "Sample": "GSM300263", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "97", 
+                            "Sample": "GSM300264", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "98", 
+                            "Sample": "GSM300265", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "99", 
+                            "Sample": "GSM300266", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "100", 
+                            "Sample": "GSM300267", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "101", 
+                            "Sample": "GSM300268", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "102", 
+                            "Sample": "GSM300269", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "103", 
+                            "Sample": "GSM300270", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "104", 
+                            "Sample": "GSM300271", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "105", 
+                            "Sample": "GSM300272", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "106", 
+                            "Sample": "GSM300273", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "107", 
+                            "Sample": "GSM300274", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "108", 
+                            "Sample": "GSM300275", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "109", 
+                            "Sample": "GSM300276", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "110", 
+                            "Sample": "GSM300277", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "111", 
+                            "Sample": "GSM300278", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "112", 
+                            "Sample": "GSM300279", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "113", 
+                            "Sample": "GSM300280", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "114", 
+                            "Sample": "GSM300281", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "115", 
+                            "Sample": "GSM300282", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "116", 
+                            "Sample": "GSM300283", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "117", 
+                            "Sample": "GSM300284", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "118", 
+                            "Sample": "GSM300285", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "119", 
+                            "Sample": "GSM300286", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "120", 
+                            "Sample": "GSM300287", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "121", 
+                            "Sample": "GSM300288", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "122", 
+                            "Sample": "GSM300289", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "123", 
+                            "Sample": "GSM300290", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "124", 
+                            "Sample": "GSM300291", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "125", 
+                            "Sample": "GSM300292", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "126", 
+                            "Sample": "GSM300293", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "127", 
+                            "Sample": "GSM300294", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "128", 
+                            "Sample": "GSM300295", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "129", 
+                            "Sample": "GSM300296", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "130", 
+                            "Sample": "GSM300297", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "131", 
+                            "Sample": "GSM300298", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "132", 
+                            "Sample": "GSM300299", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "133", 
+                            "Sample": "GSM300300", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "134", 
+                            "Sample": "GSM300301", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "135", 
+                            "Sample": "GSM300302", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "136", 
+                            "Sample": "GSM300303", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "137", 
+                            "Sample": "GSM300304", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "138", 
+                            "Sample": "GSM300305", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "139", 
+                            "Sample": "GSM300306", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "140", 
+                            "Sample": "GSM300307", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "141", 
+                            "Sample": "GSM300308", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "142", 
+                            "Sample": "GSM300309", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "143", 
+                            "Sample": "GSM300310", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "144", 
+                            "Sample": "GSM300311", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "145", 
+                            "Sample": "GSM300312", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "146", 
+                            "Sample": "GSM300313", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "147", 
+                            "Sample": "GSM300314", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "148", 
+                            "Sample": "GSM300315", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "149", 
+                            "Sample": "GSM300316", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "150", 
+                            "Sample": "GSM300317", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "151", 
+                            "Sample": "GSM300318", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "152", 
+                            "Sample": "GSM300319", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "153", 
+                            "Sample": "GSM300320", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "154", 
+                            "Sample": "GSM300321", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "155", 
+                            "Sample": "GSM300322", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "156", 
+                            "Sample": "GSM300323", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "157", 
+                            "Sample": "GSM300324", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "158", 
+                            "Sample": "GSM300325", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "159", 
+                            "Sample": "GSM300326", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "160", 
+                            "Sample": "GSM300327", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "161", 
+                            "Sample": "GSM300328", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "162", 
+                            "Sample": "GSM300329", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "163", 
+                            "Sample": "GSM300330", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "164", 
+                            "Sample": "GSM300331", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "165", 
+                            "Sample": "GSM300332", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "166", 
+                            "Sample": "GSM300333", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "167", 
+                            "Sample": "GSM300335", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "168", 
+                            "Sample": "GSM300338", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "169", 
+                            "Sample": "GSM300339", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "170", 
+                            "Sample": "GSM300340", 
+                            "Value": "3.000"
+                        }, 
+                        {
+                            "Index": "171", 
+                            "Sample": "GSM300341", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "172", 
+                            "Sample": "GSM318840", 
+                            "Value": "4.000"
+                        }, 
+                        {
+                            "Index": "173", 
+                            "Sample": "GSM350078", 
+                            "Value": "4.000"
+                        }
+                    ]
+                }
+            }
+        }
+    ], 
+    "species": "human", 
+    "tissue": "Phenotypes"
+}

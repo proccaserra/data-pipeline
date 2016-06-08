@@ -1,0 +1,28 @@
+{
+    "project": {
+        "Current Finishing Level": "N/A",
+        "Domain": "BACTERIAL",
+        "Funding Source": "NIH-HMP Sequencing Center",
+        "GOLD ID": "",
+        "Genbank ID": "",
+        "Genbank URL": "http://www.ncbi.nlm.nih.gov/sites/entrez?Db=genomeprj&cmd=ShowDetailView&TermToSearch=274513",
+        "Gene Count": "0",
+        "Gold URL": "",
+        "HMP ID": "3242",
+        "HMP Isolation Body Site": "bone",
+        "HOMD ID": "",
+        "HOMD URL": "",
+        "IMG/HMP ID": "",
+        "Image URL": "",
+        "NCBI Project ID": "274513",
+        "NCBI Submission Status": "2. project has NCBI project id",
+        "NCBI Superkingdom": "Bacteria",
+        "NCBI URL": "",
+        "Organism Name": "Enterococcus sp. HMSC34G12",
+        "Organization URL": "",
+        "Project Status": "In Progress",
+        "Sequencing Center": "Washington University Genome Sequencing Center",
+        "Strain Repository ID": "",
+        "Strain Repository URL": ""
+    }
+}

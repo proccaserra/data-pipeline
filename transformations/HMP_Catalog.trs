@@ -1,0 +1,36 @@
+﻿/* transform column "$.'project'.'IMG/HMP ID'" to "?"; */
+
+
+transform column "$.'project'.'Sequencing Center'" to "Dataset.creator[0]";
+transform column "$.'project'.'Organization URL'" to "Dataset.creator[1]";
+
+
+transform column "$.'project'.'NCBI Superkingdom'" to "Dataset.isAboutBiologicalProcess[0]";
+transform column "$.'project'.'Gene Count'" to "Dataset.isAboutBiologicalProcess[1]";
+transform column "$.'project'.'Organism Name'" to "Dataset.isAboutBiologicalProcess[2]";
+transform column "$.'project'.'Domain'" to "Dataset.isAboutBiologicalProcess[3]";
+transform column "$.'project'.'HMP Isolation Body Site'" to "Dataset.isAboutBiologicalProcess[4]";
+
+
+transform column "$.'project'.'Funding Source'" to "'Grant.funder'";
+
+
+transform column "$.'project'.'NCBI Submission Status'" to "Dataset.version[0]";
+transform column "$.'project'.'Current Finishing Level'" to "Dataset.version[1]";
+transform column "$.'project'.'Project Status'" to "Dataset.version[2]";
+
+
+transform column "$.'project'.'HOMD URL'" to "Dataset.storedIn.DataRepository.homepage[0]";
+transform column "$.'project'.'Strain Repository URL'" to "Dataset.storedIn.DataRepository.homepage[1]";
+transform column "$.'project'.'Genbank URL'" to "Dataset.storedIn.DataRepository.homepage[2]";
+transform column "$.'project'.'Gold URL'" to "Dataset.storedIn.DataRepository.homepage[3]";
+transform column "$.'project'.'NCBI URL'" to "Dataset.storedIn.DataRepository.homepage[4]";
+transform column "$.'project'.'Image URL'" to "Dataset.storedIn.DataRepository.homepage[5]";
+
+
+transform column "$.'project'.'HMP ID'" to "Dataset.identifier[0]";
+transform column "$.'project'.'GOLD ID'" to "Dataset.identifier[1]";
+transform column "$.'project'.'HOMD ID'" to "Dataset.identifier[2]";
+transform column "$.'project'.'Genbank ID'" to "Dataset.identifier[3]";
+transform column "$.'project'.'Strain Repository ID'" to "Dataset.identifier[4]";
+transform column "$.'project'.'NCBI Project ID'" to "Dataset.identifier[5]";

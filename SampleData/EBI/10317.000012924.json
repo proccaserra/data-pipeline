@@ -1,0 +1,59 @@
+{
+    "run":{
+        "Downloads":{
+            "Sequence Data":{
+                "Predicted CDS":"www.ebi.ac.uk/metagenomics/projects/ERP012803/samples/ERS917857/runs/ERR1075163/results/versions/2.0/sequences/PredictedCDS/chunks/1;jsessionid=0FBF2BD0B48EBEFFC4757A1D9933B977",
+                "Predicted CDS without annotation":"www.ebi.ac.uk/metagenomics/projects/ERP012803/samples/ERS917857/runs/ERR1075163/results/versions/2.0/sequences/PredictedCDSWithoutAnnotation/chunks/1;jsessionid=0FBF2BD0B48EBEFFC4757A1D9933B977",
+                "Predicted ORF without annotation":"www.ebi.ac.uk/metagenomics/projects/ERP012803/samples/ERS917857/runs/ERR1075163/results/versions/2.0/sequences/PredictedORFWithoutAnnotation/chunks/1;jsessionid=0FBF2BD0B48EBEFFC4757A1D9933B977",
+                "Processed nucleotide reads":"www.ebi.ac.uk/metagenomics/projects/ERP012803/samples/ERS917857/runs/ERR1075163/results/versions/2.0/sequences/ProcessedReads/chunks/1;jsessionid=0FBF2BD0B48EBEFFC4757A1D9933B977",
+                "Processed reads with annotation":"www.ebi.ac.uk/metagenomics/projects/ERP012803/samples/ERS917857/runs/ERR1075163/results/versions/2.0/sequences/ReadsWithMatches/chunks/1;jsessionid=0FBF2BD0B48EBEFFC4757A1D9933B977",
+                "Processed reads with pCDS":"www.ebi.ac.uk/metagenomics/projects/ERP012803/samples/ERS917857/runs/ERR1075163/results/versions/2.0/sequences/ReadsWithPredictedCDS/chunks/1;jsessionid=0FBF2BD0B48EBEFFC4757A1D9933B977",
+                "Processed reads without annotation":"www.ebi.ac.uk/metagenomics/projects/ERP012803/samples/ERS917857/runs/ERR1075163/results/versions/2.0/sequences/ReadsWithoutMatches/chunks/1;jsessionid=0FBF2BD0B48EBEFFC4757A1D9933B977",
+                "Submitted nucleotide reads":"https://www.ebi.ac.uk/ena/data/view/ERR1075163"
+            },
+            "Taxonomic Analysis":{}
+        },
+        "Overview":{
+            "Data Analysis":{
+                "Analysis date:":"15/01/2016",
+                "Experiment type:":" amplicon",
+                "Pipeline version:":"2.0"
+            },
+            "Description":{
+                "Classification:":"Host-associated > Human",
+                "Project name:":"American Gut Project (ERP012803)",
+                "Sample name:":"10317.000012924 (ERS917857)"
+            },
+            "Host Associated":{
+                "Species:":"Homo sapiens"
+            },
+            "Other Information":{
+                "ENA checklist":"ENA default sample checklist (ERC000011) ",
+                "NCBI sample classification":"1549736 ",
+                "altitude":"0 ",
+                "anonymized name":"000012924 ",
+                "body habitat":"UBERON:vagina ",
+                "body product":"UBERON:mucus ",
+                "body site":"UBERON:vaginal introitus ",
+                "collection date":"03/06/2014 ",
+                "collection time":"10:45 ",
+                "common name":"vaginal metagenome ",
+                "dominant hand":"I am right handed ",
+                "elevation":"86.7 ",
+                "environment (biome)":"ENVO:dense settlement biome ",
+                "environment (feature)":"ENVO:human-associated habitat ",
+                "environment (material)":"ENVO:mucus ",
+                "geographic location (country and/or sea,region)":"USA ",
+                "geographic location (depth)":"0.0 ",
+                "geographic location (latitude)":"38.6 ",
+                "geographic location (longitude)":"-122.0 ",
+                "host common name":"human ",
+                "host subject id":"46739934dc38b925255f716da825ab6d15a3079335d82119dcd785ed49f148af2d3f3974a63f87366a4d17f7db2ca32c637ea21370b129e6084c67e8986bcff3 ",
+                "host taxid":"9606 ",
+                "instrument model":"Illumina MiSeq ",
+                "sex":"female "
+            },
+            "Title":"American Gut Project Vaginal mucus sample"
+        }
+    }
+}

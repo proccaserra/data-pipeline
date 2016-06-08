@@ -1,0 +1,63 @@
+{
+    "run":{
+        "Downloads":{
+            "Sequence Data":{
+                "Predicted CDS":"www.ebi.ac.uk/metagenomics/projects/ERP012803/samples/ERS935300/runs/ERR1080060/results/versions/2.0/sequences/PredictedCDS/chunks/1;jsessionid=51E1E809C2AD15CE77FDC1B02FA0F5AA",
+                "Predicted CDS without annotation":"www.ebi.ac.uk/metagenomics/projects/ERP012803/samples/ERS935300/runs/ERR1080060/results/versions/2.0/sequences/PredictedCDSWithoutAnnotation/chunks/1;jsessionid=51E1E809C2AD15CE77FDC1B02FA0F5AA",
+                "Predicted ORF without annotation":"www.ebi.ac.uk/metagenomics/projects/ERP012803/samples/ERS935300/runs/ERR1080060/results/versions/2.0/sequences/PredictedORFWithoutAnnotation/chunks/1;jsessionid=51E1E809C2AD15CE77FDC1B02FA0F5AA",
+                "Processed nucleotide reads":"www.ebi.ac.uk/metagenomics/projects/ERP012803/samples/ERS935300/runs/ERR1080060/results/versions/2.0/sequences/ProcessedReads/chunks/1;jsessionid=51E1E809C2AD15CE77FDC1B02FA0F5AA",
+                "Processed reads with annotation":"www.ebi.ac.uk/metagenomics/projects/ERP012803/samples/ERS935300/runs/ERR1080060/results/versions/2.0/sequences/ReadsWithMatches/chunks/1;jsessionid=51E1E809C2AD15CE77FDC1B02FA0F5AA",
+                "Processed reads with pCDS":"www.ebi.ac.uk/metagenomics/projects/ERP012803/samples/ERS935300/runs/ERR1080060/results/versions/2.0/sequences/ReadsWithPredictedCDS/chunks/1;jsessionid=51E1E809C2AD15CE77FDC1B02FA0F5AA",
+                "Processed reads without annotation":"www.ebi.ac.uk/metagenomics/projects/ERP012803/samples/ERS935300/runs/ERR1080060/results/versions/2.0/sequences/ReadsWithoutMatches/chunks/1;jsessionid=51E1E809C2AD15CE77FDC1B02FA0F5AA",
+                "Submitted nucleotide reads":"https://www.ebi.ac.uk/ena/data/view/ERR1080060"
+            },
+            "Taxonomic Analysis":{
+                " OTUs, reads and taxonomic assignments":"www.ebi.ac.uk/metagenomics//projects/ERP012803/samples/ERS935300/runs/ERR1080060/results/versions/2.0/taxonomy/OTU-table-JSON-BIOM;jsessionid=51E1E809C2AD15CE77FDC1B02FA0F5AA",
+                " Phylogenetic tree":"www.ebi.ac.uk/metagenomics//projects/ERP012803/samples/ERS935300/runs/ERR1080060/results/versions/2.0/taxonomy/NewickPrunedTree;jsessionid=51E1E809C2AD15CE77FDC1B02FA0F5AA",
+                " Reads encoding 16S rRNA":"www.ebi.ac.uk/metagenomics//projects/ERP012803/samples/ERS935300/runs/ERR1080060/results/versions/2.0/taxonomy/16S-rRNA-FASTA;jsessionid=51E1E809C2AD15CE77FDC1B02FA0F5AA"
+            }
+        },
+        "Overview":{
+            "Data Analysis":{
+                "Analysis date:":"15/01/2016",
+                "Experiment type:":" amplicon",
+                "Pipeline version:":"2.0"
+            },
+            "Description":{
+                "Classification:":"Host-associated > Human",
+                "Project name:":"American Gut Project (ERP012803)",
+                "Sample name:":"10317.000018025 (ERS935300)"
+            },
+            "Host Associated":{
+                "Species:":"Homo sapiens"
+            },
+            "Other Information":{
+                "ENA checklist":"ENA default sample checklist (ERC000011) ",
+                "NCBI sample classification":"408170 ",
+                "altitude":"0 ",
+                "anonymized name":"18025 ",
+                "body habitat":"UBERON:feces ",
+                "body product":"UBERON:feces ",
+                "body site":"UBERON:feces ",
+                "collection date":"09/04/2014 ",
+                "collection time":"07:30 ",
+                "common name":"human gut metagenome ",
+                "dominant hand":"I am right handed ",
+                "elevation":"Unknown ",
+                "environment (biome)":"ENVO:dense settlement biome ",
+                "environment (feature)":"ENVO:human-associated habitat ",
+                "environment (material)":"ENVO:feces ",
+                "geographic location (country and/or sea,region)":"USA ",
+                "geographic location (depth)":"0.0 ",
+                "geographic location (latitude)":"Unknown ",
+                "geographic location (longitude)":"Unknown ",
+                "host common name":"human ",
+                "host subject id":"cdc838624f22944632bedbe9f0954ff84f64a972ff243b32dd4afc2e28d93f604d16ef93fd9a56f808ce2ca4438ec25db3965c7216ed7151041fc9360d921b97 ",
+                "host taxid":"9606 ",
+                "instrument model":"Illumina MiSeq ",
+                "sex":"male "
+            },
+            "Title":"American Gut Project Stool sample"
+        }
+    }
+}

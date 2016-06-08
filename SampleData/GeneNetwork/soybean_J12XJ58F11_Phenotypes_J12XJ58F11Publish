@@ -1,0 +1,5058 @@
+{
+    "cross": "J12XJ58F11", 
+    "database": "J12XJ58F11Publish", 
+    "records": [
+        {
+            "AdditiveEffect?": "-3.288", 
+            "Authors": "Shi XL, Yan L, Zhang MC", 
+            "Description": "Flowering time, June 2011 planted by hand in fields in Hebei province, days after planting, ten plants per line distributed over three furrows and three replicate fields [days]", 
+            "Index": "1", 
+            "Max LRS Location": "Chr6: 38.343256", 
+            "MaxLRS": "76.5", 
+            "Record": "1", 
+            "Year": "2013", 
+            "details": {
+                "stats": {
+                    "all": [], 
+                    "grouponly": [
+                        {
+                            "name": "Interquartile Range", 
+                            "value": "50.56"
+                        }, 
+                        {
+                            "name": "Maximum", 
+                            "value": "56.67"
+                        }, 
+                        {
+                            "name": "Mean", 
+                            "value": "39.98"
+                        }, 
+                        {
+                            "name": "Median", 
+                            "value": "39.67"
+                        }, 
+                        {
+                            "name": "Minimum", 
+                            "value": "30.67"
+                        }, 
+                        {
+                            "name": "N of Samples", 
+                            "value": "146"
+                        }, 
+                        {
+                            "name": "Range (fold)", 
+                            "value": "67108864.00"
+                        }, 
+                        {
+                            "name": "Range (log2)", 
+                            "value": "26.00"
+                        }, 
+                        {
+                            "name": "Standard Deviation (SD)", 
+                            "value": "5.08"
+                        }, 
+                        {
+                            "name": "Standard Error (SE)", 
+                            "value": "0.42"
+                        }
+                    ], 
+                    "nongroup": []
+                }, 
+                "traits": {
+                    "other": [], 
+                    "primary": [
+                        {
+                            "Index": "1", 
+                            "Sample": "JN2", 
+                            "Value": "39.670"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "JN3", 
+                            "Value": "36.330"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "JN4", 
+                            "Value": "32.000"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "JN5", 
+                            "Value": "47.000"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "JN6", 
+                            "Value": "48.670"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "JN7", 
+                            "Value": "32.330"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "JN8", 
+                            "Value": "39.330"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "JN9", 
+                            "Value": "33.000"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "JN11", 
+                            "Value": "32.330"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "JN12", 
+                            "Value": "42.330"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "JN13", 
+                            "Value": "48.330"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "JN14", 
+                            "Value": "40.330"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "JN15", 
+                            "Value": "47.330"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "JN16", 
+                            "Value": "32.000"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "JN17", 
+                            "Value": "40.330"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "JN18", 
+                            "Value": "39.670"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "JN19", 
+                            "Value": "32.000"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "JN20", 
+                            "Value": "30.670"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "JN21", 
+                            "Value": "37.330"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "JN23", 
+                            "Value": "40.000"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "JN24", 
+                            "Value": "38.330"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "JN25", 
+                            "Value": "42.000"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "JN26", 
+                            "Value": "41.330"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "JN27", 
+                            "Value": "36.670"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "JN28", 
+                            "Value": "56.670"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "JN29", 
+                            "Value": "38.670"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "JN30", 
+                            "Value": "37.000"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "JN31", 
+                            "Value": "40.670"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "JN32", 
+                            "Value": "46.670"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "JN33", 
+                            "Value": "36.330"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "JN34", 
+                            "Value": "37.000"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "JN35", 
+                            "Value": "33.000"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "JN36", 
+                            "Value": "37.000"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "JN37", 
+                            "Value": "37.670"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "JN38", 
+                            "Value": "49.000"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "JN39", 
+                            "Value": "49.330"
+                        }, 
+                        {
+                            "Index": "37", 
+                            "Sample": "JN40", 
+                            "Value": "36.330"
+                        }, 
+                        {
+                            "Index": "38", 
+                            "Sample": "JN41", 
+                            "Value": "35.000"
+                        }, 
+                        {
+                            "Index": "39", 
+                            "Sample": "JN42", 
+                            "Value": "36.000"
+                        }, 
+                        {
+                            "Index": "40", 
+                            "Sample": "JN43", 
+                            "Value": "36.330"
+                        }, 
+                        {
+                            "Index": "41", 
+                            "Sample": "JN44", 
+                            "Value": "40.000"
+                        }, 
+                        {
+                            "Index": "42", 
+                            "Sample": "JN45", 
+                            "Value": "43.000"
+                        }, 
+                        {
+                            "Index": "43", 
+                            "Sample": "JN46", 
+                            "Value": "49.670"
+                        }, 
+                        {
+                            "Index": "44", 
+                            "Sample": "JN47", 
+                            "Value": "40.000"
+                        }, 
+                        {
+                            "Index": "45", 
+                            "Sample": "JN48", 
+                            "Value": "34.670"
+                        }, 
+                        {
+                            "Index": "46", 
+                            "Sample": "JN49", 
+                            "Value": "35.330"
+                        }, 
+                        {
+                            "Index": "47", 
+                            "Sample": "JN50", 
+                            "Value": "33.330"
+                        }, 
+                        {
+                            "Index": "48", 
+                            "Sample": "JN51", 
+                            "Value": "41.000"
+                        }, 
+                        {
+                            "Index": "49", 
+                            "Sample": "JN52", 
+                            "Value": "42.000"
+                        }, 
+                        {
+                            "Index": "50", 
+                            "Sample": "JN53", 
+                            "Value": "40.330"
+                        }, 
+                        {
+                            "Index": "51", 
+                            "Sample": "JN54", 
+                            "Value": "51.330"
+                        }, 
+                        {
+                            "Index": "52", 
+                            "Sample": "JN55", 
+                            "Value": "42.000"
+                        }, 
+                        {
+                            "Index": "53", 
+                            "Sample": "JN56", 
+                            "Value": "40.670"
+                        }, 
+                        {
+                            "Index": "54", 
+                            "Sample": "JN60", 
+                            "Value": "37.330"
+                        }, 
+                        {
+                            "Index": "55", 
+                            "Sample": "JN61", 
+                            "Value": "42.670"
+                        }, 
+                        {
+                            "Index": "56", 
+                            "Sample": "JN62", 
+                            "Value": "36.330"
+                        }, 
+                        {
+                            "Index": "57", 
+                            "Sample": "JN63", 
+                            "Value": "33.000"
+                        }, 
+                        {
+                            "Index": "58", 
+                            "Sample": "JN64", 
+                            "Value": "37.000"
+                        }, 
+                        {
+                            "Index": "59", 
+                            "Sample": "JN66", 
+                            "Value": "50.000"
+                        }, 
+                        {
+                            "Index": "60", 
+                            "Sample": "JN68", 
+                            "Value": "51.330"
+                        }, 
+                        {
+                            "Index": "61", 
+                            "Sample": "JN69", 
+                            "Value": "41.330"
+                        }, 
+                        {
+                            "Index": "62", 
+                            "Sample": "JN70", 
+                            "Value": "40.670"
+                        }, 
+                        {
+                            "Index": "63", 
+                            "Sample": "JN72", 
+                            "Value": "43.330"
+                        }, 
+                        {
+                            "Index": "64", 
+                            "Sample": "JN74", 
+                            "Value": "40.330"
+                        }, 
+                        {
+                            "Index": "65", 
+                            "Sample": "JN75", 
+                            "Value": "47.000"
+                        }, 
+                        {
+                            "Index": "66", 
+                            "Sample": "JN76", 
+                            "Value": "50.670"
+                        }, 
+                        {
+                            "Index": "67", 
+                            "Sample": "JN77", 
+                            "Value": "48.000"
+                        }, 
+                        {
+                            "Index": "68", 
+                            "Sample": "JN78", 
+                            "Value": "42.330"
+                        }, 
+                        {
+                            "Index": "69", 
+                            "Sample": "JN79", 
+                            "Value": "35.330"
+                        }, 
+                        {
+                            "Index": "70", 
+                            "Sample": "JN81", 
+                            "Value": "35.670"
+                        }, 
+                        {
+                            "Index": "71", 
+                            "Sample": "JN82", 
+                            "Value": "41.330"
+                        }, 
+                        {
+                            "Index": "72", 
+                            "Sample": "JN85", 
+                            "Value": "42.670"
+                        }, 
+                        {
+                            "Index": "73", 
+                            "Sample": "JN86", 
+                            "Value": "35.000"
+                        }, 
+                        {
+                            "Index": "74", 
+                            "Sample": "JN87", 
+                            "Value": "36.000"
+                        }, 
+                        {
+                            "Index": "75", 
+                            "Sample": "JN88", 
+                            "Value": "34.330"
+                        }, 
+                        {
+                            "Index": "76", 
+                            "Sample": "JN89", 
+                            "Value": "42.000"
+                        }, 
+                        {
+                            "Index": "77", 
+                            "Sample": "JN90", 
+                            "Value": "39.670"
+                        }, 
+                        {
+                            "Index": "78", 
+                            "Sample": "JN91", 
+                            "Value": "38.330"
+                        }, 
+                        {
+                            "Index": "79", 
+                            "Sample": "JN92", 
+                            "Value": "36.670"
+                        }, 
+                        {
+                            "Index": "80", 
+                            "Sample": "JN93", 
+                            "Value": "36.330"
+                        }, 
+                        {
+                            "Index": "81", 
+                            "Sample": "JN94", 
+                            "Value": "42.330"
+                        }, 
+                        {
+                            "Index": "82", 
+                            "Sample": "JN95", 
+                            "Value": "39.000"
+                        }, 
+                        {
+                            "Index": "83", 
+                            "Sample": "JN96", 
+                            "Value": "34.330"
+                        }, 
+                        {
+                            "Index": "84", 
+                            "Sample": "JN98", 
+                            "Value": "44.330"
+                        }, 
+                        {
+                            "Index": "85", 
+                            "Sample": "JN99", 
+                            "Value": "43.330"
+                        }, 
+                        {
+                            "Index": "86", 
+                            "Sample": "JN100", 
+                            "Value": "37.330"
+                        }, 
+                        {
+                            "Index": "87", 
+                            "Sample": "JN102", 
+                            "Value": "43.330"
+                        }, 
+                        {
+                            "Index": "88", 
+                            "Sample": "JN103", 
+                            "Value": "38.670"
+                        }, 
+                        {
+                            "Index": "89", 
+                            "Sample": "JN104", 
+                            "Value": "32.330"
+                        }, 
+                        {
+                            "Index": "90", 
+                            "Sample": "JN106", 
+                            "Value": "39.000"
+                        }, 
+                        {
+                            "Index": "91", 
+                            "Sample": "JN107", 
+                            "Value": "41.670"
+                        }, 
+                        {
+                            "Index": "92", 
+                            "Sample": "JN108", 
+                            "Value": "42.330"
+                        }, 
+                        {
+                            "Index": "93", 
+                            "Sample": "JN109", 
+                            "Value": "32.000"
+                        }, 
+                        {
+                            "Index": "94", 
+                            "Sample": "JN110", 
+                            "Value": "45.670"
+                        }, 
+                        {
+                            "Index": "95", 
+                            "Sample": "JN111", 
+                            "Value": "49.000"
+                        }, 
+                        {
+                            "Index": "96", 
+                            "Sample": "JN112", 
+                            "Value": "49.330"
+                        }, 
+                        {
+                            "Index": "97", 
+                            "Sample": "JN115", 
+                            "Value": "37.000"
+                        }, 
+                        {
+                            "Index": "98", 
+                            "Sample": "JN116", 
+                            "Value": "51.330"
+                        }, 
+                        {
+                            "Index": "99", 
+                            "Sample": "JN117", 
+                            "Value": "40.000"
+                        }, 
+                        {
+                            "Index": "100", 
+                            "Sample": "JN118", 
+                            "Value": "42.670"
+                        }, 
+                        {
+                            "Index": "101", 
+                            "Sample": "JN119", 
+                            "Value": "40.000"
+                        }, 
+                        {
+                            "Index": "102", 
+                            "Sample": "JN120", 
+                            "Value": "39.670"
+                        }, 
+                        {
+                            "Index": "103", 
+                            "Sample": "JN121", 
+                            "Value": "42.670"
+                        }, 
+                        {
+                            "Index": "104", 
+                            "Sample": "JN123", 
+                            "Value": "40.000"
+                        }, 
+                        {
+                            "Index": "105", 
+                            "Sample": "JN124", 
+                            "Value": "41.000"
+                        }, 
+                        {
+                            "Index": "106", 
+                            "Sample": "JN125", 
+                            "Value": "41.000"
+                        }, 
+                        {
+                            "Index": "107", 
+                            "Sample": "JN126", 
+                            "Value": "41.000"
+                        }, 
+                        {
+                            "Index": "108", 
+                            "Sample": "JN127", 
+                            "Value": "34.330"
+                        }, 
+                        {
+                            "Index": "109", 
+                            "Sample": "JN129", 
+                            "Value": "37.330"
+                        }, 
+                        {
+                            "Index": "110", 
+                            "Sample": "JN130", 
+                            "Value": "37.000"
+                        }, 
+                        {
+                            "Index": "111", 
+                            "Sample": "JN131", 
+                            "Value": "50.670"
+                        }, 
+                        {
+                            "Index": "112", 
+                            "Sample": "JN132", 
+                            "Value": "51.000"
+                        }, 
+                        {
+                            "Index": "113", 
+                            "Sample": "JN133", 
+                            "Value": "40.000"
+                        }, 
+                        {
+                            "Index": "114", 
+                            "Sample": "JN134", 
+                            "Value": "36.670"
+                        }, 
+                        {
+                            "Index": "115", 
+                            "Sample": "JN135", 
+                            "Value": "42.330"
+                        }, 
+                        {
+                            "Index": "116", 
+                            "Sample": "JN136", 
+                            "Value": "41.670"
+                        }, 
+                        {
+                            "Index": "117", 
+                            "Sample": "JN138", 
+                            "Value": "34.670"
+                        }, 
+                        {
+                            "Index": "118", 
+                            "Sample": "JN139", 
+                            "Value": "40.000"
+                        }, 
+                        {
+                            "Index": "119", 
+                            "Sample": "JN142", 
+                            "Value": "37.000"
+                        }, 
+                        {
+                            "Index": "120", 
+                            "Sample": "JN143", 
+                            "Value": "41.000"
+                        }, 
+                        {
+                            "Index": "121", 
+                            "Sample": "JN144", 
+                            "Value": "38.330"
+                        }, 
+                        {
+                            "Index": "122", 
+                            "Sample": "JN145", 
+                            "Value": "36.670"
+                        }, 
+                        {
+                            "Index": "123", 
+                            "Sample": "JN146", 
+                            "Value": "37.000"
+                        }, 
+                        {
+                            "Index": "124", 
+                            "Sample": "JN147", 
+                            "Value": "37.330"
+                        }, 
+                        {
+                            "Index": "125", 
+                            "Sample": "JN148", 
+                            "Value": "38.670"
+                        }, 
+                        {
+                            "Index": "126", 
+                            "Sample": "JN149", 
+                            "Value": "41.000"
+                        }, 
+                        {
+                            "Index": "127", 
+                            "Sample": "JN150", 
+                            "Value": "46.330"
+                        }, 
+                        {
+                            "Index": "128", 
+                            "Sample": "JN151", 
+                            "Value": "34.000"
+                        }, 
+                        {
+                            "Index": "129", 
+                            "Sample": "JN152", 
+                            "Value": "40.000"
+                        }, 
+                        {
+                            "Index": "130", 
+                            "Sample": "JN156", 
+                            "Value": "35.670"
+                        }, 
+                        {
+                            "Index": "131", 
+                            "Sample": "JN157", 
+                            "Value": "31.000"
+                        }, 
+                        {
+                            "Index": "132", 
+                            "Sample": "JN159", 
+                            "Value": "38.330"
+                        }, 
+                        {
+                            "Index": "133", 
+                            "Sample": "JN160", 
+                            "Value": "41.330"
+                        }, 
+                        {
+                            "Index": "134", 
+                            "Sample": "JN161", 
+                            "Value": "33.000"
+                        }, 
+                        {
+                            "Index": "135", 
+                            "Sample": "JN162", 
+                            "Value": "35.330"
+                        }, 
+                        {
+                            "Index": "136", 
+                            "Sample": "JN164", 
+                            "Value": "41.000"
+                        }, 
+                        {
+                            "Index": "137", 
+                            "Sample": "JN165", 
+                            "Value": "39.330"
+                        }, 
+                        {
+                            "Index": "138", 
+                            "Sample": "JN166", 
+                            "Value": "39.670"
+                        }, 
+                        {
+                            "Index": "139", 
+                            "Sample": "JN167", 
+                            "Value": "49.000"
+                        }, 
+                        {
+                            "Index": "140", 
+                            "Sample": "JN169", 
+                            "Value": "38.000"
+                        }, 
+                        {
+                            "Index": "141", 
+                            "Sample": "JN170", 
+                            "Value": "35.330"
+                        }, 
+                        {
+                            "Index": "142", 
+                            "Sample": "JN171", 
+                            "Value": "36.670"
+                        }, 
+                        {
+                            "Index": "143", 
+                            "Sample": "JN172", 
+                            "Value": "39.670"
+                        }, 
+                        {
+                            "Index": "144", 
+                            "Sample": "JN173", 
+                            "Value": "40.330"
+                        }, 
+                        {
+                            "Index": "145", 
+                            "Sample": "JN174", 
+                            "Value": "39.000"
+                        }, 
+                        {
+                            "Index": "146", 
+                            "Sample": "JN175", 
+                            "Value": "41.670"
+                        }
+                    ]
+                }
+            }
+        }, 
+        {
+            "AdditiveEffect?": "11.277", 
+            "Authors": "Shi XL, Yan L, Zhang MC", 
+            "Description": "Plant height, June 2011 planted by hand in fields in Hebei province, ten plants per line distributed over three furrows and three replicate fields [cm]", 
+            "Index": "2", 
+            "Max LRS Location": "Chr19: 44.556825", 
+            "MaxLRS": "53.8", 
+            "Record": "2", 
+            "Year": "N/A", 
+            "details": {
+                "stats": {
+                    "all": [], 
+                    "grouponly": [
+                        {
+                            "name": "Interquartile Range", 
+                            "value": "7795530185.16"
+                        }, 
+                        {
+                            "name": "Maximum", 
+                            "value": "93.90"
+                        }, 
+                        {
+                            "name": "Mean", 
+                            "value": "46.79"
+                        }, 
+                        {
+                            "name": "Median", 
+                            "value": "40.97"
+                        }, 
+                        {
+                            "name": "Minimum", 
+                            "value": "18.63"
+                        }, 
+                        {
+                            "name": "N of Samples", 
+                            "value": "146"
+                        }, 
+                        {
+                            "name": "Range (fold)", 
+                            "value": "4.555413176214995e+22"
+                        }, 
+                        {
+                            "name": "Range (log2)", 
+                            "value": "75.27"
+                        }, 
+                        {
+                            "name": "Standard Deviation (SD)", 
+                            "value": "19.47"
+                        }, 
+                        {
+                            "name": "Standard Error (SE)", 
+                            "value": "1.61"
+                        }
+                    ], 
+                    "nongroup": []
+                }, 
+                "traits": {
+                    "other": [], 
+                    "primary": [
+                        {
+                            "Index": "1", 
+                            "Sample": "JN2", 
+                            "Value": "44.370"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "JN3", 
+                            "Value": "30.600"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "JN4", 
+                            "Value": "28.770"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "JN5", 
+                            "Value": "53.770"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "JN6", 
+                            "Value": "82.870"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "JN7", 
+                            "Value": "28.570"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "JN8", 
+                            "Value": "59.030"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "JN9", 
+                            "Value": "26.890"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "JN11", 
+                            "Value": "69.900"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "JN12", 
+                            "Value": "66.930"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "JN13", 
+                            "Value": "92.470"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "JN14", 
+                            "Value": "72.930"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "JN15", 
+                            "Value": "81.900"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "JN16", 
+                            "Value": "22.830"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "JN17", 
+                            "Value": "57.230"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "JN18", 
+                            "Value": "36.170"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "JN19", 
+                            "Value": "23.930"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "JN20", 
+                            "Value": "34.270"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "JN21", 
+                            "Value": "58.870"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "JN23", 
+                            "Value": "62.930"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "JN24", 
+                            "Value": "35.600"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "JN25", 
+                            "Value": "67.430"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "JN26", 
+                            "Value": "30.480"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "JN27", 
+                            "Value": "29.100"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "JN28", 
+                            "Value": "76.200"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "JN29", 
+                            "Value": "34.230"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "JN30", 
+                            "Value": "21.830"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "JN31", 
+                            "Value": "40.220"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "JN32", 
+                            "Value": "60.900"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "JN33", 
+                            "Value": "26.280"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "JN34", 
+                            "Value": "65.270"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "JN35", 
+                            "Value": "43.630"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "JN36", 
+                            "Value": "23.600"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "JN37", 
+                            "Value": "48.750"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "JN38", 
+                            "Value": "81.120"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "JN39", 
+                            "Value": "74.670"
+                        }, 
+                        {
+                            "Index": "37", 
+                            "Sample": "JN40", 
+                            "Value": "27.430"
+                        }, 
+                        {
+                            "Index": "38", 
+                            "Sample": "JN41", 
+                            "Value": "25.130"
+                        }, 
+                        {
+                            "Index": "39", 
+                            "Sample": "JN42", 
+                            "Value": "25.070"
+                        }, 
+                        {
+                            "Index": "40", 
+                            "Sample": "JN43", 
+                            "Value": "32.970"
+                        }, 
+                        {
+                            "Index": "41", 
+                            "Sample": "JN44", 
+                            "Value": "70.530"
+                        }, 
+                        {
+                            "Index": "42", 
+                            "Sample": "JN45", 
+                            "Value": "90.000"
+                        }, 
+                        {
+                            "Index": "43", 
+                            "Sample": "JN46", 
+                            "Value": "69.870"
+                        }, 
+                        {
+                            "Index": "44", 
+                            "Sample": "JN47", 
+                            "Value": "54.930"
+                        }, 
+                        {
+                            "Index": "45", 
+                            "Sample": "JN48", 
+                            "Value": "23.000"
+                        }, 
+                        {
+                            "Index": "46", 
+                            "Sample": "JN49", 
+                            "Value": "56.530"
+                        }, 
+                        {
+                            "Index": "47", 
+                            "Sample": "JN50", 
+                            "Value": "36.930"
+                        }, 
+                        {
+                            "Index": "48", 
+                            "Sample": "JN51", 
+                            "Value": "33.370"
+                        }, 
+                        {
+                            "Index": "49", 
+                            "Sample": "JN52", 
+                            "Value": "33.570"
+                        }, 
+                        {
+                            "Index": "50", 
+                            "Sample": "JN53", 
+                            "Value": "32.500"
+                        }, 
+                        {
+                            "Index": "51", 
+                            "Sample": "JN54", 
+                            "Value": "67.570"
+                        }, 
+                        {
+                            "Index": "52", 
+                            "Sample": "JN55", 
+                            "Value": "22.730"
+                        }, 
+                        {
+                            "Index": "53", 
+                            "Sample": "JN56", 
+                            "Value": "70.030"
+                        }, 
+                        {
+                            "Index": "54", 
+                            "Sample": "JN60", 
+                            "Value": "67.500"
+                        }, 
+                        {
+                            "Index": "55", 
+                            "Sample": "JN61", 
+                            "Value": "69.000"
+                        }, 
+                        {
+                            "Index": "56", 
+                            "Sample": "JN62", 
+                            "Value": "24.500"
+                        }, 
+                        {
+                            "Index": "57", 
+                            "Sample": "JN63", 
+                            "Value": "21.770"
+                        }, 
+                        {
+                            "Index": "58", 
+                            "Sample": "JN64", 
+                            "Value": "32.630"
+                        }, 
+                        {
+                            "Index": "59", 
+                            "Sample": "JN66", 
+                            "Value": "48.270"
+                        }, 
+                        {
+                            "Index": "60", 
+                            "Sample": "JN68", 
+                            "Value": "59.770"
+                        }, 
+                        {
+                            "Index": "61", 
+                            "Sample": "JN69", 
+                            "Value": "38.900"
+                        }, 
+                        {
+                            "Index": "62", 
+                            "Sample": "JN70", 
+                            "Value": "25.730"
+                        }, 
+                        {
+                            "Index": "63", 
+                            "Sample": "JN72", 
+                            "Value": "53.770"
+                        }, 
+                        {
+                            "Index": "64", 
+                            "Sample": "JN74", 
+                            "Value": "69.400"
+                        }, 
+                        {
+                            "Index": "65", 
+                            "Sample": "JN75", 
+                            "Value": "81.370"
+                        }, 
+                        {
+                            "Index": "66", 
+                            "Sample": "JN76", 
+                            "Value": "93.900"
+                        }, 
+                        {
+                            "Index": "67", 
+                            "Sample": "JN77", 
+                            "Value": "73.890"
+                        }, 
+                        {
+                            "Index": "68", 
+                            "Sample": "JN78", 
+                            "Value": "64.680"
+                        }, 
+                        {
+                            "Index": "69", 
+                            "Sample": "JN79", 
+                            "Value": "53.200"
+                        }, 
+                        {
+                            "Index": "70", 
+                            "Sample": "JN81", 
+                            "Value": "51.170"
+                        }, 
+                        {
+                            "Index": "71", 
+                            "Sample": "JN82", 
+                            "Value": "36.800"
+                        }, 
+                        {
+                            "Index": "72", 
+                            "Sample": "JN85", 
+                            "Value": "34.000"
+                        }, 
+                        {
+                            "Index": "73", 
+                            "Sample": "JN86", 
+                            "Value": "19.230"
+                        }, 
+                        {
+                            "Index": "74", 
+                            "Sample": "JN87", 
+                            "Value": "18.630"
+                        }, 
+                        {
+                            "Index": "75", 
+                            "Sample": "JN88", 
+                            "Value": "61.200"
+                        }, 
+                        {
+                            "Index": "76", 
+                            "Sample": "JN89", 
+                            "Value": "34.300"
+                        }, 
+                        {
+                            "Index": "77", 
+                            "Sample": "JN90", 
+                            "Value": "57.200"
+                        }, 
+                        {
+                            "Index": "78", 
+                            "Sample": "JN91", 
+                            "Value": "58.770"
+                        }, 
+                        {
+                            "Index": "79", 
+                            "Sample": "JN92", 
+                            "Value": "52.600"
+                        }, 
+                        {
+                            "Index": "80", 
+                            "Sample": "JN93", 
+                            "Value": "35.130"
+                        }, 
+                        {
+                            "Index": "81", 
+                            "Sample": "JN94", 
+                            "Value": "34.900"
+                        }, 
+                        {
+                            "Index": "82", 
+                            "Sample": "JN95", 
+                            "Value": "41.730"
+                        }, 
+                        {
+                            "Index": "83", 
+                            "Sample": "JN96", 
+                            "Value": "23.800"
+                        }, 
+                        {
+                            "Index": "84", 
+                            "Sample": "JN98", 
+                            "Value": "27.210"
+                        }, 
+                        {
+                            "Index": "85", 
+                            "Sample": "JN99", 
+                            "Value": "23.930"
+                        }, 
+                        {
+                            "Index": "86", 
+                            "Sample": "JN100", 
+                            "Value": "27.070"
+                        }, 
+                        {
+                            "Index": "87", 
+                            "Sample": "JN102", 
+                            "Value": "32.500"
+                        }, 
+                        {
+                            "Index": "88", 
+                            "Sample": "JN103", 
+                            "Value": "25.970"
+                        }, 
+                        {
+                            "Index": "89", 
+                            "Sample": "JN104", 
+                            "Value": "23.270"
+                        }, 
+                        {
+                            "Index": "90", 
+                            "Sample": "JN106", 
+                            "Value": "48.200"
+                        }, 
+                        {
+                            "Index": "91", 
+                            "Sample": "JN107", 
+                            "Value": "22.730"
+                        }, 
+                        {
+                            "Index": "92", 
+                            "Sample": "JN108", 
+                            "Value": "31.400"
+                        }, 
+                        {
+                            "Index": "93", 
+                            "Sample": "JN109", 
+                            "Value": "64.300"
+                        }, 
+                        {
+                            "Index": "94", 
+                            "Sample": "JN110", 
+                            "Value": "86.170"
+                        }, 
+                        {
+                            "Index": "95", 
+                            "Sample": "JN111", 
+                            "Value": "67.970"
+                        }, 
+                        {
+                            "Index": "96", 
+                            "Sample": "JN112", 
+                            "Value": "75.070"
+                        }, 
+                        {
+                            "Index": "97", 
+                            "Sample": "JN115", 
+                            "Value": "29.770"
+                        }, 
+                        {
+                            "Index": "98", 
+                            "Sample": "JN116", 
+                            "Value": "53.900"
+                        }, 
+                        {
+                            "Index": "99", 
+                            "Sample": "JN117", 
+                            "Value": "55.630"
+                        }, 
+                        {
+                            "Index": "100", 
+                            "Sample": "JN118", 
+                            "Value": "55.030"
+                        }, 
+                        {
+                            "Index": "101", 
+                            "Sample": "JN119", 
+                            "Value": "74.730"
+                        }, 
+                        {
+                            "Index": "102", 
+                            "Sample": "JN120", 
+                            "Value": "29.100"
+                        }, 
+                        {
+                            "Index": "103", 
+                            "Sample": "JN121", 
+                            "Value": "33.900"
+                        }, 
+                        {
+                            "Index": "104", 
+                            "Sample": "JN123", 
+                            "Value": "24.430"
+                        }, 
+                        {
+                            "Index": "105", 
+                            "Sample": "JN124", 
+                            "Value": "52.430"
+                        }, 
+                        {
+                            "Index": "106", 
+                            "Sample": "JN125", 
+                            "Value": "64.970"
+                        }, 
+                        {
+                            "Index": "107", 
+                            "Sample": "JN126", 
+                            "Value": "67.630"
+                        }, 
+                        {
+                            "Index": "108", 
+                            "Sample": "JN127", 
+                            "Value": "34.170"
+                        }, 
+                        {
+                            "Index": "109", 
+                            "Sample": "JN129", 
+                            "Value": "34.440"
+                        }, 
+                        {
+                            "Index": "110", 
+                            "Sample": "JN130", 
+                            "Value": "34.170"
+                        }, 
+                        {
+                            "Index": "111", 
+                            "Sample": "JN131", 
+                            "Value": "62.100"
+                        }, 
+                        {
+                            "Index": "112", 
+                            "Sample": "JN132", 
+                            "Value": "72.500"
+                        }, 
+                        {
+                            "Index": "113", 
+                            "Sample": "JN133", 
+                            "Value": "33.300"
+                        }, 
+                        {
+                            "Index": "114", 
+                            "Sample": "JN134", 
+                            "Value": "52.970"
+                        }, 
+                        {
+                            "Index": "115", 
+                            "Sample": "JN135", 
+                            "Value": "42.970"
+                        }, 
+                        {
+                            "Index": "116", 
+                            "Sample": "JN136", 
+                            "Value": "72.130"
+                        }, 
+                        {
+                            "Index": "117", 
+                            "Sample": "JN138", 
+                            "Value": "29.870"
+                        }, 
+                        {
+                            "Index": "118", 
+                            "Sample": "JN139", 
+                            "Value": "61.230"
+                        }, 
+                        {
+                            "Index": "119", 
+                            "Sample": "JN142", 
+                            "Value": "24.470"
+                        }, 
+                        {
+                            "Index": "120", 
+                            "Sample": "JN143", 
+                            "Value": "38.170"
+                        }, 
+                        {
+                            "Index": "121", 
+                            "Sample": "JN144", 
+                            "Value": "28.000"
+                        }, 
+                        {
+                            "Index": "122", 
+                            "Sample": "JN145", 
+                            "Value": "36.130"
+                        }, 
+                        {
+                            "Index": "123", 
+                            "Sample": "JN146", 
+                            "Value": "50.770"
+                        }, 
+                        {
+                            "Index": "124", 
+                            "Sample": "JN147", 
+                            "Value": "57.230"
+                        }, 
+                        {
+                            "Index": "125", 
+                            "Sample": "JN148", 
+                            "Value": "61.370"
+                        }, 
+                        {
+                            "Index": "126", 
+                            "Sample": "JN149", 
+                            "Value": "31.530"
+                        }, 
+                        {
+                            "Index": "127", 
+                            "Sample": "JN150", 
+                            "Value": "61.630"
+                        }, 
+                        {
+                            "Index": "128", 
+                            "Sample": "JN151", 
+                            "Value": "23.330"
+                        }, 
+                        {
+                            "Index": "129", 
+                            "Sample": "JN152", 
+                            "Value": "30.070"
+                        }, 
+                        {
+                            "Index": "130", 
+                            "Sample": "JN156", 
+                            "Value": "20.990"
+                        }, 
+                        {
+                            "Index": "131", 
+                            "Sample": "JN157", 
+                            "Value": "31.370"
+                        }, 
+                        {
+                            "Index": "132", 
+                            "Sample": "JN159", 
+                            "Value": "61.270"
+                        }, 
+                        {
+                            "Index": "133", 
+                            "Sample": "JN160", 
+                            "Value": "32.400"
+                        }, 
+                        {
+                            "Index": "134", 
+                            "Sample": "JN161", 
+                            "Value": "22.170"
+                        }, 
+                        {
+                            "Index": "135", 
+                            "Sample": "JN162", 
+                            "Value": "48.270"
+                        }, 
+                        {
+                            "Index": "136", 
+                            "Sample": "JN164", 
+                            "Value": "31.830"
+                        }, 
+                        {
+                            "Index": "137", 
+                            "Sample": "JN165", 
+                            "Value": "34.830"
+                        }, 
+                        {
+                            "Index": "138", 
+                            "Sample": "JN166", 
+                            "Value": "74.400"
+                        }, 
+                        {
+                            "Index": "139", 
+                            "Sample": "JN167", 
+                            "Value": "62.370"
+                        }, 
+                        {
+                            "Index": "140", 
+                            "Sample": "JN169", 
+                            "Value": "36.300"
+                        }, 
+                        {
+                            "Index": "141", 
+                            "Sample": "JN170", 
+                            "Value": "30.200"
+                        }, 
+                        {
+                            "Index": "142", 
+                            "Sample": "JN171", 
+                            "Value": "28.530"
+                        }, 
+                        {
+                            "Index": "143", 
+                            "Sample": "JN172", 
+                            "Value": "67.400"
+                        }, 
+                        {
+                            "Index": "144", 
+                            "Sample": "JN173", 
+                            "Value": "70.030"
+                        }, 
+                        {
+                            "Index": "145", 
+                            "Sample": "JN174", 
+                            "Value": "72.230"
+                        }, 
+                        {
+                            "Index": "146", 
+                            "Sample": "JN175", 
+                            "Value": "32.870"
+                        }
+                    ]
+                }
+            }
+        }, 
+        {
+            "AdditiveEffect?": "-1.767", 
+            "Authors": "Shi XL, Yan L, Zhang MC", 
+            "Description": "Height of stem from ground to lowest pod, June 2011, planted by hand in fields in Hebei province, ten plants per line distributed over three furrows and three replicate fields [cm]", 
+            "Index": "3", 
+            "Max LRS Location": "Chr6: 37.782182", 
+            "MaxLRS": "37.9", 
+            "Record": "3", 
+            "Year": "2013", 
+            "details": {
+                "stats": {
+                    "all": [], 
+                    "grouponly": [
+                        {
+                            "name": "Interquartile Range", 
+                            "value": "32.67"
+                        }, 
+                        {
+                            "name": "Maximum", 
+                            "value": "24.47"
+                        }, 
+                        {
+                            "name": "Mean", 
+                            "value": "12.00"
+                        }, 
+                        {
+                            "name": "Median", 
+                            "value": "11.43"
+                        }, 
+                        {
+                            "name": "Minimum", 
+                            "value": "4.43"
+                        }, 
+                        {
+                            "name": "N of Samples", 
+                            "value": "146"
+                        }, 
+                        {
+                            "name": "Range (fold)", 
+                            "value": "1078055.48"
+                        }, 
+                        {
+                            "name": "Range (log2)", 
+                            "value": "20.04"
+                        }, 
+                        {
+                            "name": "Standard Deviation (SD)", 
+                            "value": "3.66"
+                        }, 
+                        {
+                            "name": "Standard Error (SE)", 
+                            "value": "0.30"
+                        }
+                    ], 
+                    "nongroup": []
+                }, 
+                "traits": {
+                    "other": [], 
+                    "primary": [
+                        {
+                            "": "\u00b1", 
+                            "Index": "1", 
+                            "SE": "x", 
+                            "Sample": "JN2", 
+                            "Value": "12.070"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "2", 
+                            "SE": "x", 
+                            "Sample": "JN3", 
+                            "Value": "10.370"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "3", 
+                            "SE": "x", 
+                            "Sample": "JN4", 
+                            "Value": "6.700"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "4", 
+                            "SE": "x", 
+                            "Sample": "JN5", 
+                            "Value": "14.700"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "5", 
+                            "SE": "x", 
+                            "Sample": "JN6", 
+                            "Value": "18.100"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "6", 
+                            "SE": "x", 
+                            "Sample": "JN7", 
+                            "Value": "8.600"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "7", 
+                            "SE": "x", 
+                            "Sample": "JN8", 
+                            "Value": "12.070"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "8", 
+                            "SE": "x", 
+                            "Sample": "JN9", 
+                            "Value": "9.040"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "9", 
+                            "SE": "x", 
+                            "Sample": "JN11", 
+                            "Value": "23.170"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "10", 
+                            "SE": "x", 
+                            "Sample": "JN12", 
+                            "Value": "14.430"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "11", 
+                            "SE": "x", 
+                            "Sample": "JN13", 
+                            "Value": "21.870"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "12", 
+                            "SE": "x", 
+                            "Sample": "JN14", 
+                            "Value": "15.630"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "13", 
+                            "SE": "x", 
+                            "Sample": "JN15", 
+                            "Value": "18.230"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "14", 
+                            "SE": "x", 
+                            "Sample": "JN16", 
+                            "Value": "14.600"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "15", 
+                            "SE": "x", 
+                            "Sample": "JN17", 
+                            "Value": "11.870"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "16", 
+                            "SE": "x", 
+                            "Sample": "JN18", 
+                            "Value": "11.430"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "17", 
+                            "SE": "x", 
+                            "Sample": "JN19", 
+                            "Value": "7.830"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "18", 
+                            "SE": "x", 
+                            "Sample": "JN20", 
+                            "Value": "18.170"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "19", 
+                            "SE": "x", 
+                            "Sample": "JN21", 
+                            "Value": "9.700"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "20", 
+                            "SE": "x", 
+                            "Sample": "JN23", 
+                            "Value": "12.630"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "21", 
+                            "SE": "x", 
+                            "Sample": "JN24", 
+                            "Value": "11.630"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "22", 
+                            "SE": "x", 
+                            "Sample": "JN25", 
+                            "Value": "11.970"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "23", 
+                            "SE": "x", 
+                            "Sample": "JN26", 
+                            "Value": "9.180"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "24", 
+                            "SE": "x", 
+                            "Sample": "JN27", 
+                            "Value": "9.100"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "25", 
+                            "SE": "x", 
+                            "Sample": "JN28", 
+                            "Value": "17.870"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "26", 
+                            "SE": "x", 
+                            "Sample": "JN29", 
+                            "Value": "11.200"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "27", 
+                            "SE": "x", 
+                            "Sample": "JN30", 
+                            "Value": "4.430"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "28", 
+                            "SE": "x", 
+                            "Sample": "JN31", 
+                            "Value": "10.640"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "29", 
+                            "SE": "x", 
+                            "Sample": "JN32", 
+                            "Value": "12.170"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "30", 
+                            "SE": "x", 
+                            "Sample": "JN33", 
+                            "Value": "7.590"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "31", 
+                            "SE": "x", 
+                            "Sample": "JN34", 
+                            "Value": "11.100"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "32", 
+                            "SE": "x", 
+                            "Sample": "JN35", 
+                            "Value": "15.270"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "33", 
+                            "SE": "x", 
+                            "Sample": "JN36", 
+                            "Value": "7.900"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "34", 
+                            "SE": "x", 
+                            "Sample": "JN37", 
+                            "Value": "17.900"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "35", 
+                            "SE": "x", 
+                            "Sample": "JN38", 
+                            "Value": "18.640"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "36", 
+                            "SE": "x", 
+                            "Sample": "JN39", 
+                            "Value": "14.430"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "37", 
+                            "SE": "x", 
+                            "Sample": "JN40", 
+                            "Value": "9.430"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "38", 
+                            "SE": "x", 
+                            "Sample": "JN41", 
+                            "Value": "8.430"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "39", 
+                            "SE": "x", 
+                            "Sample": "JN42", 
+                            "Value": "9.400"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "40", 
+                            "SE": "x", 
+                            "Sample": "JN43", 
+                            "Value": "8.400"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "41", 
+                            "SE": "x", 
+                            "Sample": "JN44", 
+                            "Value": "13.230"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "42", 
+                            "SE": "x", 
+                            "Sample": "JN45", 
+                            "Value": "15.870"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "43", 
+                            "SE": "x", 
+                            "Sample": "JN46", 
+                            "Value": "16.100"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "44", 
+                            "SE": "x", 
+                            "Sample": "JN47", 
+                            "Value": "8.500"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "45", 
+                            "SE": "x", 
+                            "Sample": "JN48", 
+                            "Value": "8.130"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "46", 
+                            "SE": "x", 
+                            "Sample": "JN49", 
+                            "Value": "12.670"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "47", 
+                            "SE": "x", 
+                            "Sample": "JN50", 
+                            "Value": "8.600"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "48", 
+                            "SE": "x", 
+                            "Sample": "JN51", 
+                            "Value": "10.600"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "49", 
+                            "SE": "x", 
+                            "Sample": "JN52", 
+                            "Value": "9.000"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "50", 
+                            "SE": "x", 
+                            "Sample": "JN53", 
+                            "Value": "10.370"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "51", 
+                            "SE": "x", 
+                            "Sample": "JN54", 
+                            "Value": "18.930"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "52", 
+                            "SE": "x", 
+                            "Sample": "JN55", 
+                            "Value": "8.270"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "53", 
+                            "SE": "x", 
+                            "Sample": "JN56", 
+                            "Value": "12.870"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "54", 
+                            "SE": "x", 
+                            "Sample": "JN60", 
+                            "Value": "11.530"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "55", 
+                            "SE": "x", 
+                            "Sample": "JN61", 
+                            "Value": "13.730"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "56", 
+                            "SE": "x", 
+                            "Sample": "JN62", 
+                            "Value": "7.530"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "57", 
+                            "SE": "x", 
+                            "Sample": "JN63", 
+                            "Value": "6.030"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "58", 
+                            "SE": "x", 
+                            "Sample": "JN64", 
+                            "Value": "10.870"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "59", 
+                            "SE": "x", 
+                            "Sample": "JN66", 
+                            "Value": "13.710"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "60", 
+                            "SE": "x", 
+                            "Sample": "JN68", 
+                            "Value": "17.510"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "61", 
+                            "SE": "x", 
+                            "Sample": "JN69", 
+                            "Value": "10.730"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "62", 
+                            "SE": "x", 
+                            "Sample": "JN70", 
+                            "Value": "6.900"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "63", 
+                            "SE": "x", 
+                            "Sample": "JN72", 
+                            "Value": "12.800"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "64", 
+                            "SE": "x", 
+                            "Sample": "JN74", 
+                            "Value": "13.500"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "65", 
+                            "SE": "x", 
+                            "Sample": "JN75", 
+                            "Value": "19.370"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "66", 
+                            "SE": "x", 
+                            "Sample": "JN76", 
+                            "Value": "19.100"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "67", 
+                            "SE": "x", 
+                            "Sample": "JN77", 
+                            "Value": "17.570"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "68", 
+                            "SE": "x", 
+                            "Sample": "JN78", 
+                            "Value": "12.820"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "69", 
+                            "SE": "x", 
+                            "Sample": "JN79", 
+                            "Value": "15.970"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "70", 
+                            "SE": "x", 
+                            "Sample": "JN81", 
+                            "Value": "12.630"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "71", 
+                            "SE": "x", 
+                            "Sample": "JN82", 
+                            "Value": "11.570"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "72", 
+                            "SE": "x", 
+                            "Sample": "JN85", 
+                            "Value": "13.200"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "73", 
+                            "SE": "x", 
+                            "Sample": "JN86", 
+                            "Value": "6.730"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "74", 
+                            "SE": "x", 
+                            "Sample": "JN87", 
+                            "Value": "6.100"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "75", 
+                            "SE": "x", 
+                            "Sample": "JN88", 
+                            "Value": "12.000"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "76", 
+                            "SE": "x", 
+                            "Sample": "JN89", 
+                            "Value": "11.000"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "77", 
+                            "SE": "x", 
+                            "Sample": "JN90", 
+                            "Value": "11.900"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "78", 
+                            "SE": "x", 
+                            "Sample": "JN91", 
+                            "Value": "12.700"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "79", 
+                            "SE": "x", 
+                            "Sample": "JN92", 
+                            "Value": "12.930"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "80", 
+                            "SE": "x", 
+                            "Sample": "JN93", 
+                            "Value": "7.930"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "81", 
+                            "SE": "x", 
+                            "Sample": "JN94", 
+                            "Value": "10.930"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "82", 
+                            "SE": "x", 
+                            "Sample": "JN95", 
+                            "Value": "14.130"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "83", 
+                            "SE": "x", 
+                            "Sample": "JN96", 
+                            "Value": "7.370"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "84", 
+                            "SE": "x", 
+                            "Sample": "JN98", 
+                            "Value": "11.100"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "85", 
+                            "SE": "x", 
+                            "Sample": "JN99", 
+                            "Value": "11.170"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "86", 
+                            "SE": "x", 
+                            "Sample": "JN100", 
+                            "Value": "9.180"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "87", 
+                            "SE": "x", 
+                            "Sample": "JN102", 
+                            "Value": "9.300"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "88", 
+                            "SE": "x", 
+                            "Sample": "JN103", 
+                            "Value": "9.400"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "89", 
+                            "SE": "x", 
+                            "Sample": "JN104", 
+                            "Value": "9.470"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "90", 
+                            "SE": "x", 
+                            "Sample": "JN106", 
+                            "Value": "9.700"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "91", 
+                            "SE": "x", 
+                            "Sample": "JN107", 
+                            "Value": "10.470"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "92", 
+                            "SE": "x", 
+                            "Sample": "JN108", 
+                            "Value": "10.600"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "93", 
+                            "SE": "x", 
+                            "Sample": "JN109", 
+                            "Value": "11.570"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "94", 
+                            "SE": "x", 
+                            "Sample": "JN110", 
+                            "Value": "18.470"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "95", 
+                            "SE": "x", 
+                            "Sample": "JN111", 
+                            "Value": "24.470"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "96", 
+                            "SE": "x", 
+                            "Sample": "JN112", 
+                            "Value": "13.630"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "97", 
+                            "SE": "x", 
+                            "Sample": "JN115", 
+                            "Value": "8.200"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "98", 
+                            "SE": "x", 
+                            "Sample": "JN116", 
+                            "Value": "16.300"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "99", 
+                            "SE": "x", 
+                            "Sample": "JN117", 
+                            "Value": "8.970"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "100", 
+                            "SE": "x", 
+                            "Sample": "JN118", 
+                            "Value": "10.940"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "101", 
+                            "SE": "41.000", 
+                            "Sample": "JN119", 
+                            "Value": "12.770"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "102", 
+                            "SE": "x", 
+                            "Sample": "JN120", 
+                            "Value": "10.470"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "103", 
+                            "SE": "x", 
+                            "Sample": "JN121", 
+                            "Value": "10.670"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "104", 
+                            "SE": "x", 
+                            "Sample": "JN123", 
+                            "Value": "8.200"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "105", 
+                            "SE": "x", 
+                            "Sample": "JN124", 
+                            "Value": "11.100"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "106", 
+                            "SE": "x", 
+                            "Sample": "JN125", 
+                            "Value": "11.570"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "107", 
+                            "SE": "x", 
+                            "Sample": "JN126", 
+                            "Value": "11.430"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "108", 
+                            "SE": "x", 
+                            "Sample": "JN127", 
+                            "Value": "8.870"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "109", 
+                            "SE": "x", 
+                            "Sample": "JN129", 
+                            "Value": "9.860"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "110", 
+                            "SE": "x", 
+                            "Sample": "JN130", 
+                            "Value": "10.000"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "111", 
+                            "SE": "x", 
+                            "Sample": "JN131", 
+                            "Value": "17.930"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "112", 
+                            "SE": "x", 
+                            "Sample": "JN132", 
+                            "Value": "14.370"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "113", 
+                            "SE": "x", 
+                            "Sample": "JN133", 
+                            "Value": "11.270"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "114", 
+                            "SE": "x", 
+                            "Sample": "JN134", 
+                            "Value": "10.500"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "115", 
+                            "SE": "x", 
+                            "Sample": "JN135", 
+                            "Value": "15.230"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "116", 
+                            "SE": "x", 
+                            "Sample": "JN136", 
+                            "Value": "14.930"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "117", 
+                            "SE": "x", 
+                            "Sample": "JN138", 
+                            "Value": "10.370"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "118", 
+                            "SE": "x", 
+                            "Sample": "JN139", 
+                            "Value": "16.270"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "119", 
+                            "SE": "x", 
+                            "Sample": "JN142", 
+                            "Value": "8.600"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "120", 
+                            "SE": "x", 
+                            "Sample": "JN143", 
+                            "Value": "11.370"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "121", 
+                            "SE": "x", 
+                            "Sample": "JN144", 
+                            "Value": "8.500"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "122", 
+                            "SE": "x", 
+                            "Sample": "JN145", 
+                            "Value": "9.010"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "123", 
+                            "SE": "x", 
+                            "Sample": "JN146", 
+                            "Value": "12.800"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "124", 
+                            "SE": "x", 
+                            "Sample": "JN147", 
+                            "Value": "11.500"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "125", 
+                            "SE": "x", 
+                            "Sample": "JN148", 
+                            "Value": "13.630"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "126", 
+                            "SE": "x", 
+                            "Sample": "JN149", 
+                            "Value": "15.870"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "127", 
+                            "SE": "x", 
+                            "Sample": "JN150", 
+                            "Value": "14.330"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "128", 
+                            "SE": "x", 
+                            "Sample": "JN151", 
+                            "Value": "16.900"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "129", 
+                            "SE": "x", 
+                            "Sample": "JN152", 
+                            "Value": "9.000"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "130", 
+                            "SE": "x", 
+                            "Sample": "JN156", 
+                            "Value": "9.100"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "131", 
+                            "SE": "x", 
+                            "Sample": "JN157", 
+                            "Value": "8.770"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "132", 
+                            "SE": "x", 
+                            "Sample": "JN159", 
+                            "Value": "12.730"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "133", 
+                            "SE": "x", 
+                            "Sample": "JN160", 
+                            "Value": "7.900"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "134", 
+                            "SE": "x", 
+                            "Sample": "JN161", 
+                            "Value": "5.970"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "135", 
+                            "SE": "x", 
+                            "Sample": "JN162", 
+                            "Value": "7.330"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "136", 
+                            "SE": "x", 
+                            "Sample": "JN164", 
+                            "Value": "10.390"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "137", 
+                            "SE": "x", 
+                            "Sample": "JN165", 
+                            "Value": "11.880"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "138", 
+                            "SE": "x", 
+                            "Sample": "JN166", 
+                            "Value": "14.600"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "139", 
+                            "SE": "x", 
+                            "Sample": "JN167", 
+                            "Value": "16.900"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "140", 
+                            "SE": "x", 
+                            "Sample": "JN169", 
+                            "Value": "11.070"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "141", 
+                            "SE": "x", 
+                            "Sample": "JN170", 
+                            "Value": "12.130"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "142", 
+                            "SE": "x", 
+                            "Sample": "JN171", 
+                            "Value": "7.730"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "143", 
+                            "SE": "x", 
+                            "Sample": "JN172", 
+                            "Value": "13.600"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "144", 
+                            "SE": "x", 
+                            "Sample": "JN173", 
+                            "Value": "8.000"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "145", 
+                            "SE": "x", 
+                            "Sample": "JN174", 
+                            "Value": "17.430"
+                        }, 
+                        {
+                            "": "\u00b1", 
+                            "Index": "146", 
+                            "SE": "x", 
+                            "Sample": "JN175", 
+                            "Value": "14.030"
+                        }
+                    ]
+                }
+            }
+        }, 
+        {
+            "AdditiveEffect?": "-0.224", 
+            "Authors": "Shi XL, Yan L, Zhang MC", 
+            "Description": "Branches on stem, June 2011, planted by hand in fields in Hebei province, ten plants per line distributed over three furrows and three replicate fields [n]", 
+            "Index": "4", 
+            "Max LRS Location": "Chr6: 18.690983", 
+            "MaxLRS": "25.0", 
+            "Record": "4", 
+            "Year": "2013", 
+            "details": {
+                "stats": {
+                    "all": [], 
+                    "grouponly": [
+                        {
+                            "name": "Interquartile Range", 
+                            "value": "1.48"
+                        }, 
+                        {
+                            "name": "Maximum", 
+                            "value": "4.77"
+                        }, 
+                        {
+                            "name": "Mean", 
+                            "value": "1.48"
+                        }, 
+                        {
+                            "name": "Median", 
+                            "value": "1.47"
+                        }, 
+                        {
+                            "name": "Minimum", 
+                            "value": "0.27"
+                        }, 
+                        {
+                            "name": "N of Samples", 
+                            "value": "146"
+                        }, 
+                        {
+                            "name": "Range (fold)", 
+                            "value": "22.63"
+                        }, 
+                        {
+                            "name": "Range (log2)", 
+                            "value": "4.50"
+                        }, 
+                        {
+                            "name": "Standard Deviation (SD)", 
+                            "value": "0.56"
+                        }, 
+                        {
+                            "name": "Standard Error (SE)", 
+                            "value": "0.05"
+                        }
+                    ], 
+                    "nongroup": []
+                }, 
+                "traits": {
+                    "other": [], 
+                    "primary": [
+                        {
+                            "Index": "1", 
+                            "Sample": "JN2", 
+                            "Value": "2.370"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "JN3", 
+                            "Value": "0.830"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "JN4", 
+                            "Value": "1.570"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "JN5", 
+                            "Value": "2.270"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "JN6", 
+                            "Value": "2.170"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "JN7", 
+                            "Value": "0.770"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "JN8", 
+                            "Value": "1.800"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "JN9", 
+                            "Value": "1.140"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "JN11", 
+                            "Value": "0.730"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "JN12", 
+                            "Value": "1.930"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "JN13", 
+                            "Value": "1.830"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "JN14", 
+                            "Value": "1.070"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "JN15", 
+                            "Value": "1.570"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "JN16", 
+                            "Value": "1.330"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "JN17", 
+                            "Value": "1.500"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "JN18", 
+                            "Value": "1.370"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "JN19", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "JN20", 
+                            "Value": "1.130"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "JN21", 
+                            "Value": "1.470"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "JN23", 
+                            "Value": "1.370"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "JN24", 
+                            "Value": "1.070"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "JN25", 
+                            "Value": "1.700"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "JN26", 
+                            "Value": "1.100"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "JN27", 
+                            "Value": "1.400"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "JN28", 
+                            "Value": "3.700"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "JN29", 
+                            "Value": "1.130"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "JN30", 
+                            "Value": "1.700"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "JN31", 
+                            "Value": "1.950"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "JN32", 
+                            "Value": "2.800"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "JN33", 
+                            "Value": "1.930"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "JN34", 
+                            "Value": "1.970"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "JN35", 
+                            "Value": "1.030"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "JN36", 
+                            "Value": "1.370"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "JN37", 
+                            "Value": "0.980"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "JN38", 
+                            "Value": "1.990"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "JN39", 
+                            "Value": "3.030"
+                        }, 
+                        {
+                            "Index": "37", 
+                            "Sample": "JN40", 
+                            "Value": "1.730"
+                        }, 
+                        {
+                            "Index": "38", 
+                            "Sample": "JN41", 
+                            "Value": "1.730"
+                        }, 
+                        {
+                            "Index": "39", 
+                            "Sample": "JN42", 
+                            "Value": "1.070"
+                        }, 
+                        {
+                            "Index": "40", 
+                            "Sample": "JN43", 
+                            "Value": "1.530"
+                        }, 
+                        {
+                            "Index": "41", 
+                            "Sample": "JN44", 
+                            "Value": "1.270"
+                        }, 
+                        {
+                            "Index": "42", 
+                            "Sample": "JN45", 
+                            "Value": "1.300"
+                        }, 
+                        {
+                            "Index": "43", 
+                            "Sample": "JN46", 
+                            "Value": "1.170"
+                        }, 
+                        {
+                            "Index": "44", 
+                            "Sample": "JN47", 
+                            "Value": "1.210"
+                        }, 
+                        {
+                            "Index": "45", 
+                            "Sample": "JN48", 
+                            "Value": "1.500"
+                        }, 
+                        {
+                            "Index": "46", 
+                            "Sample": "JN49", 
+                            "Value": "0.270"
+                        }, 
+                        {
+                            "Index": "47", 
+                            "Sample": "JN50", 
+                            "Value": "0.700"
+                        }, 
+                        {
+                            "Index": "48", 
+                            "Sample": "JN51", 
+                            "Value": "1.470"
+                        }, 
+                        {
+                            "Index": "49", 
+                            "Sample": "JN52", 
+                            "Value": "1.570"
+                        }, 
+                        {
+                            "Index": "50", 
+                            "Sample": "JN53", 
+                            "Value": "1.600"
+                        }, 
+                        {
+                            "Index": "51", 
+                            "Sample": "JN54", 
+                            "Value": "1.530"
+                        }, 
+                        {
+                            "Index": "52", 
+                            "Sample": "JN55", 
+                            "Value": "1.200"
+                        }, 
+                        {
+                            "Index": "53", 
+                            "Sample": "JN56", 
+                            "Value": "1.330"
+                        }, 
+                        {
+                            "Index": "54", 
+                            "Sample": "JN60", 
+                            "Value": "1.600"
+                        }, 
+                        {
+                            "Index": "55", 
+                            "Sample": "JN61", 
+                            "Value": "1.300"
+                        }, 
+                        {
+                            "Index": "56", 
+                            "Sample": "JN62", 
+                            "Value": "1.530"
+                        }, 
+                        {
+                            "Index": "57", 
+                            "Sample": "JN63", 
+                            "Value": "1.470"
+                        }, 
+                        {
+                            "Index": "58", 
+                            "Sample": "JN64", 
+                            "Value": "0.700"
+                        }, 
+                        {
+                            "Index": "59", 
+                            "Sample": "JN66", 
+                            "Value": "1.480"
+                        }, 
+                        {
+                            "Index": "60", 
+                            "Sample": "JN68", 
+                            "Value": "1.520"
+                        }, 
+                        {
+                            "Index": "61", 
+                            "Sample": "JN69", 
+                            "Value": "1.330"
+                        }, 
+                        {
+                            "Index": "62", 
+                            "Sample": "JN70", 
+                            "Value": "1.500"
+                        }, 
+                        {
+                            "Index": "63", 
+                            "Sample": "JN72", 
+                            "Value": "1.670"
+                        }, 
+                        {
+                            "Index": "64", 
+                            "Sample": "JN74", 
+                            "Value": "1.070"
+                        }, 
+                        {
+                            "Index": "65", 
+                            "Sample": "JN75", 
+                            "Value": "2.200"
+                        }, 
+                        {
+                            "Index": "66", 
+                            "Sample": "JN76", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "67", 
+                            "Sample": "JN77", 
+                            "Value": "2.250"
+                        }, 
+                        {
+                            "Index": "68", 
+                            "Sample": "JN78", 
+                            "Value": "1.550"
+                        }, 
+                        {
+                            "Index": "69", 
+                            "Sample": "JN79", 
+                            "Value": "1.300"
+                        }, 
+                        {
+                            "Index": "70", 
+                            "Sample": "JN81", 
+                            "Value": "1.200"
+                        }, 
+                        {
+                            "Index": "71", 
+                            "Sample": "JN82", 
+                            "Value": "1.270"
+                        }, 
+                        {
+                            "Index": "72", 
+                            "Sample": "JN85", 
+                            "Value": "0.900"
+                        }, 
+                        {
+                            "Index": "73", 
+                            "Sample": "JN86", 
+                            "Value": "0.830"
+                        }, 
+                        {
+                            "Index": "74", 
+                            "Sample": "JN87", 
+                            "Value": "1.570"
+                        }, 
+                        {
+                            "Index": "75", 
+                            "Sample": "JN88", 
+                            "Value": "1.170"
+                        }, 
+                        {
+                            "Index": "76", 
+                            "Sample": "JN89", 
+                            "Value": "1.530"
+                        }, 
+                        {
+                            "Index": "77", 
+                            "Sample": "JN90", 
+                            "Value": "1.670"
+                        }, 
+                        {
+                            "Index": "78", 
+                            "Sample": "JN91", 
+                            "Value": "1.400"
+                        }, 
+                        {
+                            "Index": "79", 
+                            "Sample": "JN92", 
+                            "Value": "0.870"
+                        }, 
+                        {
+                            "Index": "80", 
+                            "Sample": "JN93", 
+                            "Value": "1.330"
+                        }, 
+                        {
+                            "Index": "81", 
+                            "Sample": "JN94", 
+                            "Value": "1.670"
+                        }, 
+                        {
+                            "Index": "82", 
+                            "Sample": "JN95", 
+                            "Value": "1.770"
+                        }, 
+                        {
+                            "Index": "83", 
+                            "Sample": "JN96", 
+                            "Value": "1.470"
+                        }, 
+                        {
+                            "Index": "84", 
+                            "Sample": "JN98", 
+                            "Value": "1.260"
+                        }, 
+                        {
+                            "Index": "85", 
+                            "Sample": "JN99", 
+                            "Value": "1.100"
+                        }, 
+                        {
+                            "Index": "86", 
+                            "Sample": "JN100", 
+                            "Value": "0.840"
+                        }, 
+                        {
+                            "Index": "87", 
+                            "Sample": "JN102", 
+                            "Value": "2.130"
+                        }, 
+                        {
+                            "Index": "88", 
+                            "Sample": "JN103", 
+                            "Value": "1.370"
+                        }, 
+                        {
+                            "Index": "89", 
+                            "Sample": "JN104", 
+                            "Value": "1.700"
+                        }, 
+                        {
+                            "Index": "90", 
+                            "Sample": "JN106", 
+                            "Value": "0.570"
+                        }, 
+                        {
+                            "Index": "91", 
+                            "Sample": "JN107", 
+                            "Value": "1.830"
+                        }, 
+                        {
+                            "Index": "92", 
+                            "Sample": "JN108", 
+                            "Value": "1.670"
+                        }, 
+                        {
+                            "Index": "93", 
+                            "Sample": "JN109", 
+                            "Value": "1.500"
+                        }, 
+                        {
+                            "Index": "94", 
+                            "Sample": "JN110", 
+                            "Value": "2.170"
+                        }, 
+                        {
+                            "Index": "95", 
+                            "Sample": "JN111", 
+                            "Value": "0.600"
+                        }, 
+                        {
+                            "Index": "96", 
+                            "Sample": "JN112", 
+                            "Value": "1.870"
+                        }, 
+                        {
+                            "Index": "97", 
+                            "Sample": "JN115", 
+                            "Value": "1.530"
+                        }, 
+                        {
+                            "Index": "98", 
+                            "Sample": "JN116", 
+                            "Value": "2.500"
+                        }, 
+                        {
+                            "Index": "99", 
+                            "Sample": "JN117", 
+                            "Value": "1.630"
+                        }, 
+                        {
+                            "Index": "100", 
+                            "Sample": "JN118", 
+                            "Value": "1.890"
+                        }, 
+                        {
+                            "Index": "101", 
+                            "Sample": "JN119", 
+                            "Value": "1.200"
+                        }, 
+                        {
+                            "Index": "102", 
+                            "Sample": "JN120", 
+                            "Value": "1.100"
+                        }, 
+                        {
+                            "Index": "103", 
+                            "Sample": "JN121", 
+                            "Value": "2.600"
+                        }, 
+                        {
+                            "Index": "104", 
+                            "Sample": "JN123", 
+                            "Value": "0.930"
+                        }, 
+                        {
+                            "Index": "105", 
+                            "Sample": "JN124", 
+                            "Value": "1.030"
+                        }, 
+                        {
+                            "Index": "106", 
+                            "Sample": "JN125", 
+                            "Value": "1.670"
+                        }, 
+                        {
+                            "Index": "107", 
+                            "Sample": "JN126", 
+                            "Value": "1.470"
+                        }, 
+                        {
+                            "Index": "108", 
+                            "Sample": "JN127", 
+                            "Value": "1.200"
+                        }, 
+                        {
+                            "Index": "109", 
+                            "Sample": "JN129", 
+                            "Value": "1.260"
+                        }, 
+                        {
+                            "Index": "110", 
+                            "Sample": "JN130", 
+                            "Value": "1.470"
+                        }, 
+                        {
+                            "Index": "111", 
+                            "Sample": "JN131", 
+                            "Value": "1.970"
+                        }, 
+                        {
+                            "Index": "112", 
+                            "Sample": "JN132", 
+                            "Value": "1.970"
+                        }, 
+                        {
+                            "Index": "113", 
+                            "Sample": "JN133", 
+                            "Value": "1.770"
+                        }, 
+                        {
+                            "Index": "114", 
+                            "Sample": "JN134", 
+                            "Value": "1.230"
+                        }, 
+                        {
+                            "Index": "115", 
+                            "Sample": "JN135", 
+                            "Value": "1.030"
+                        }, 
+                        {
+                            "Index": "116", 
+                            "Sample": "JN136", 
+                            "Value": "1.730"
+                        }, 
+                        {
+                            "Index": "117", 
+                            "Sample": "JN138", 
+                            "Value": "1.870"
+                        }, 
+                        {
+                            "Index": "118", 
+                            "Sample": "JN139", 
+                            "Value": "4.770"
+                        }, 
+                        {
+                            "Index": "119", 
+                            "Sample": "JN142", 
+                            "Value": "1.670"
+                        }, 
+                        {
+                            "Index": "120", 
+                            "Sample": "JN143", 
+                            "Value": "1.570"
+                        }, 
+                        {
+                            "Index": "121", 
+                            "Sample": "JN144", 
+                            "Value": "1.070"
+                        }, 
+                        {
+                            "Index": "122", 
+                            "Sample": "JN145", 
+                            "Value": "0.680"
+                        }, 
+                        {
+                            "Index": "123", 
+                            "Sample": "JN146", 
+                            "Value": "1.200"
+                        }, 
+                        {
+                            "Index": "124", 
+                            "Sample": "JN147", 
+                            "Value": "0.900"
+                        }, 
+                        {
+                            "Index": "125", 
+                            "Sample": "JN148", 
+                            "Value": "0.830"
+                        }, 
+                        {
+                            "Index": "126", 
+                            "Sample": "JN149", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "127", 
+                            "Sample": "JN150", 
+                            "Value": "2.030"
+                        }, 
+                        {
+                            "Index": "128", 
+                            "Sample": "JN151", 
+                            "Value": "1.330"
+                        }, 
+                        {
+                            "Index": "129", 
+                            "Sample": "JN152", 
+                            "Value": "1.630"
+                        }, 
+                        {
+                            "Index": "130", 
+                            "Sample": "JN156", 
+                            "Value": "0.660"
+                        }, 
+                        {
+                            "Index": "131", 
+                            "Sample": "JN157", 
+                            "Value": "1.470"
+                        }, 
+                        {
+                            "Index": "132", 
+                            "Sample": "JN159", 
+                            "Value": "1.870"
+                        }, 
+                        {
+                            "Index": "133", 
+                            "Sample": "JN160", 
+                            "Value": "1.800"
+                        }, 
+                        {
+                            "Index": "134", 
+                            "Sample": "JN161", 
+                            "Value": "1.700"
+                        }, 
+                        {
+                            "Index": "135", 
+                            "Sample": "JN162", 
+                            "Value": "1.070"
+                        }, 
+                        {
+                            "Index": "136", 
+                            "Sample": "JN164", 
+                            "Value": "1.260"
+                        }, 
+                        {
+                            "Index": "137", 
+                            "Sample": "JN165", 
+                            "Value": "0.830"
+                        }, 
+                        {
+                            "Index": "138", 
+                            "Sample": "JN166", 
+                            "Value": "1.270"
+                        }, 
+                        {
+                            "Index": "139", 
+                            "Sample": "JN167", 
+                            "Value": "1.530"
+                        }, 
+                        {
+                            "Index": "140", 
+                            "Sample": "JN169", 
+                            "Value": "1.500"
+                        }, 
+                        {
+                            "Index": "141", 
+                            "Sample": "JN170", 
+                            "Value": "1.100"
+                        }, 
+                        {
+                            "Index": "142", 
+                            "Sample": "JN171", 
+                            "Value": "1.300"
+                        }, 
+                        {
+                            "Index": "143", 
+                            "Sample": "JN172", 
+                            "Value": "1.400"
+                        }, 
+                        {
+                            "Index": "144", 
+                            "Sample": "JN173", 
+                            "Value": "1.330"
+                        }, 
+                        {
+                            "Index": "145", 
+                            "Sample": "JN174", 
+                            "Value": "1.070"
+                        }, 
+                        {
+                            "Index": "146", 
+                            "Sample": "JN175", 
+                            "Value": "1.170"
+                        }
+                    ]
+                }
+            }
+        }, 
+        {
+            "AdditiveEffect?": "-3.034", 
+            "Authors": "Shi XL, Yan L, Zhang MC", 
+            "Description": "Node number on main branch, June 2011, planted by hand in fields in Hebei province, ten plants per line distributed over three furrows and three replicate fields [n]", 
+            "Index": "5", 
+            "Max LRS Location": "Chr9: 44.489602", 
+            "MaxLRS": "4.9", 
+            "Record": "5", 
+            "Year": "2013", 
+            "details": {
+                "stats": {
+                    "all": [], 
+                    "grouponly": [
+                        {
+                            "name": "Interquartile Range", 
+                            "value": "41.64"
+                        }, 
+                        {
+                            "name": "Maximum", 
+                            "value": "171.53"
+                        }, 
+                        {
+                            "name": "Mean", 
+                            "value": "13.87"
+                        }, 
+                        {
+                            "name": "Median", 
+                            "value": "11.23"
+                        }, 
+                        {
+                            "name": "Minimum", 
+                            "value": "6.27"
+                        }, 
+                        {
+                            "name": "N of Samples", 
+                            "value": "146"
+                        }, 
+                        {
+                            "name": "Range (fold)", 
+                            "value": "5.600374679902214e+49"
+                        }, 
+                        {
+                            "name": "Range (log2)", 
+                            "value": "165.26"
+                        }, 
+                        {
+                            "name": "Standard Deviation (SD)", 
+                            "value": "16.07"
+                        }, 
+                        {
+                            "name": "Standard Error (SE)", 
+                            "value": "1.33"
+                        }
+                    ], 
+                    "nongroup": []
+                }, 
+                "traits": {
+                    "other": [], 
+                    "primary": [
+                        {
+                            "Index": "1", 
+                            "Sample": "JN2", 
+                            "Value": "11.770"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "JN3", 
+                            "Value": "9.800"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "JN4", 
+                            "Value": "7.200"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "JN5", 
+                            "Value": "13.400"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "JN6", 
+                            "Value": "17.270"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "JN7", 
+                            "Value": "7.470"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "JN8", 
+                            "Value": "15.400"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "JN9", 
+                            "Value": "8.280"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "JN11", 
+                            "Value": "11.270"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "JN12", 
+                            "Value": "14.300"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "JN13", 
+                            "Value": "16.770"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "JN14", 
+                            "Value": "15.730"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "JN15", 
+                            "Value": "16.630"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "JN16", 
+                            "Value": "6.700"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "JN17", 
+                            "Value": "14.770"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "JN18", 
+                            "Value": "10.330"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "JN19", 
+                            "Value": "7.630"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "JN20", 
+                            "Value": "9.430"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "JN21", 
+                            "Value": "12.930"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "JN23", 
+                            "Value": "16.230"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "JN24", 
+                            "Value": "9.670"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "JN25", 
+                            "Value": "15.970"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "JN26", 
+                            "Value": "10.720"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "JN27", 
+                            "Value": "9.230"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "JN28", 
+                            "Value": "16.530"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "JN29", 
+                            "Value": "10.500"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "JN30", 
+                            "Value": "18.400"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "JN31", 
+                            "Value": "10.130"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "JN32", 
+                            "Value": "16.030"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "JN33", 
+                            "Value": "8.830"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "JN34", 
+                            "Value": "14.670"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "JN35", 
+                            "Value": "16.670"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "JN36", 
+                            "Value": "8.770"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "JN37", 
+                            "Value": "9.880"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "JN38", 
+                            "Value": "15.540"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "JN39", 
+                            "Value": "15.200"
+                        }, 
+                        {
+                            "Index": "37", 
+                            "Sample": "JN40", 
+                            "Value": "9.970"
+                        }, 
+                        {
+                            "Index": "38", 
+                            "Sample": "JN41", 
+                            "Value": "8.470"
+                        }, 
+                        {
+                            "Index": "39", 
+                            "Sample": "JN42", 
+                            "Value": "8.870"
+                        }, 
+                        {
+                            "Index": "40", 
+                            "Sample": "JN43", 
+                            "Value": "7.030"
+                        }, 
+                        {
+                            "Index": "41", 
+                            "Sample": "JN44", 
+                            "Value": "15.770"
+                        }, 
+                        {
+                            "Index": "42", 
+                            "Sample": "JN45", 
+                            "Value": "17.270"
+                        }, 
+                        {
+                            "Index": "43", 
+                            "Sample": "JN46", 
+                            "Value": "16.930"
+                        }, 
+                        {
+                            "Index": "44", 
+                            "Sample": "JN47", 
+                            "Value": "11.170"
+                        }, 
+                        {
+                            "Index": "45", 
+                            "Sample": "JN48", 
+                            "Value": "7.300"
+                        }, 
+                        {
+                            "Index": "46", 
+                            "Sample": "JN49", 
+                            "Value": "13.470"
+                        }, 
+                        {
+                            "Index": "47", 
+                            "Sample": "JN50", 
+                            "Value": "11.400"
+                        }, 
+                        {
+                            "Index": "48", 
+                            "Sample": "JN51", 
+                            "Value": "10.430"
+                        }, 
+                        {
+                            "Index": "49", 
+                            "Sample": "JN52", 
+                            "Value": "10.600"
+                        }, 
+                        {
+                            "Index": "50", 
+                            "Sample": "JN53", 
+                            "Value": "9.170"
+                        }, 
+                        {
+                            "Index": "51", 
+                            "Sample": "JN54", 
+                            "Value": "13.570"
+                        }, 
+                        {
+                            "Index": "52", 
+                            "Sample": "JN55", 
+                            "Value": "8.970"
+                        }, 
+                        {
+                            "Index": "53", 
+                            "Sample": "JN56", 
+                            "Value": "14.500"
+                        }, 
+                        {
+                            "Index": "54", 
+                            "Sample": "JN60", 
+                            "Value": "16.200"
+                        }, 
+                        {
+                            "Index": "55", 
+                            "Sample": "JN61", 
+                            "Value": "15.470"
+                        }, 
+                        {
+                            "Index": "56", 
+                            "Sample": "JN62", 
+                            "Value": "9.200"
+                        }, 
+                        {
+                            "Index": "57", 
+                            "Sample": "JN63", 
+                            "Value": "7.600"
+                        }, 
+                        {
+                            "Index": "58", 
+                            "Sample": "JN64", 
+                            "Value": "9.270"
+                        }, 
+                        {
+                            "Index": "59", 
+                            "Sample": "JN66", 
+                            "Value": "11.200"
+                        }, 
+                        {
+                            "Index": "60", 
+                            "Sample": "JN68", 
+                            "Value": "14.520"
+                        }, 
+                        {
+                            "Index": "61", 
+                            "Sample": "JN69", 
+                            "Value": "14.070"
+                        }, 
+                        {
+                            "Index": "62", 
+                            "Sample": "JN70", 
+                            "Value": "8.530"
+                        }, 
+                        {
+                            "Index": "63", 
+                            "Sample": "JN72", 
+                            "Value": "13.130"
+                        }, 
+                        {
+                            "Index": "64", 
+                            "Sample": "JN74", 
+                            "Value": "15.370"
+                        }, 
+                        {
+                            "Index": "65", 
+                            "Sample": "JN75", 
+                            "Value": "17.300"
+                        }, 
+                        {
+                            "Index": "66", 
+                            "Sample": "JN76", 
+                            "Value": "17.170"
+                        }, 
+                        {
+                            "Index": "67", 
+                            "Sample": "JN77", 
+                            "Value": "17.170"
+                        }, 
+                        {
+                            "Index": "68", 
+                            "Sample": "JN78", 
+                            "Value": "14.140"
+                        }, 
+                        {
+                            "Index": "69", 
+                            "Sample": "JN79", 
+                            "Value": "11.930"
+                        }, 
+                        {
+                            "Index": "70", 
+                            "Sample": "JN81", 
+                            "Value": "14.330"
+                        }, 
+                        {
+                            "Index": "71", 
+                            "Sample": "JN82", 
+                            "Value": "10.500"
+                        }, 
+                        {
+                            "Index": "72", 
+                            "Sample": "JN85", 
+                            "Value": "9.030"
+                        }, 
+                        {
+                            "Index": "73", 
+                            "Sample": "JN86", 
+                            "Value": "6.270"
+                        }, 
+                        {
+                            "Index": "74", 
+                            "Sample": "JN87", 
+                            "Value": "7.470"
+                        }, 
+                        {
+                            "Index": "75", 
+                            "Sample": "JN88", 
+                            "Value": "14.700"
+                        }, 
+                        {
+                            "Index": "76", 
+                            "Sample": "JN89", 
+                            "Value": "10.170"
+                        }, 
+                        {
+                            "Index": "77", 
+                            "Sample": "JN90", 
+                            "Value": "13.970"
+                        }, 
+                        {
+                            "Index": "78", 
+                            "Sample": "JN91", 
+                            "Value": "13.200"
+                        }, 
+                        {
+                            "Index": "79", 
+                            "Sample": "JN92", 
+                            "Value": "14.430"
+                        }, 
+                        {
+                            "Index": "80", 
+                            "Sample": "JN93", 
+                            "Value": "10.430"
+                        }, 
+                        {
+                            "Index": "81", 
+                            "Sample": "JN94", 
+                            "Value": "7.370"
+                        }, 
+                        {
+                            "Index": "82", 
+                            "Sample": "JN95", 
+                            "Value": "11.730"
+                        }, 
+                        {
+                            "Index": "83", 
+                            "Sample": "JN96", 
+                            "Value": "7.830"
+                        }, 
+                        {
+                            "Index": "84", 
+                            "Sample": "JN98", 
+                            "Value": "16.620"
+                        }, 
+                        {
+                            "Index": "85", 
+                            "Sample": "JN99", 
+                            "Value": "10.670"
+                        }, 
+                        {
+                            "Index": "86", 
+                            "Sample": "JN100", 
+                            "Value": "9.230"
+                        }, 
+                        {
+                            "Index": "87", 
+                            "Sample": "JN102", 
+                            "Value": "10.470"
+                        }, 
+                        {
+                            "Index": "88", 
+                            "Sample": "JN103", 
+                            "Value": "8.100"
+                        }, 
+                        {
+                            "Index": "89", 
+                            "Sample": "JN104", 
+                            "Value": "9.870"
+                        }, 
+                        {
+                            "Index": "90", 
+                            "Sample": "JN106", 
+                            "Value": "14.430"
+                        }, 
+                        {
+                            "Index": "91", 
+                            "Sample": "JN107", 
+                            "Value": "10.100"
+                        }, 
+                        {
+                            "Index": "92", 
+                            "Sample": "JN108", 
+                            "Value": "9.930"
+                        }, 
+                        {
+                            "Index": "93", 
+                            "Sample": "JN109", 
+                            "Value": "11.570"
+                        }, 
+                        {
+                            "Index": "94", 
+                            "Sample": "JN110", 
+                            "Value": "17.300"
+                        }, 
+                        {
+                            "Index": "95", 
+                            "Sample": "JN111", 
+                            "Value": "11.670"
+                        }, 
+                        {
+                            "Index": "96", 
+                            "Sample": "JN112", 
+                            "Value": "16.600"
+                        }, 
+                        {
+                            "Index": "97", 
+                            "Sample": "JN115", 
+                            "Value": "9.230"
+                        }, 
+                        {
+                            "Index": "98", 
+                            "Sample": "JN116", 
+                            "Value": "11.730"
+                        }, 
+                        {
+                            "Index": "99", 
+                            "Sample": "JN117", 
+                            "Value": "14.070"
+                        }, 
+                        {
+                            "Index": "100", 
+                            "Sample": "JN118", 
+                            "Value": "13.460"
+                        }, 
+                        {
+                            "Index": "101", 
+                            "Sample": "JN119", 
+                            "Value": "16.270"
+                        }, 
+                        {
+                            "Index": "102", 
+                            "Sample": "JN120", 
+                            "Value": "9.630"
+                        }, 
+                        {
+                            "Index": "103", 
+                            "Sample": "JN121", 
+                            "Value": "10.670"
+                        }, 
+                        {
+                            "Index": "104", 
+                            "Sample": "JN123", 
+                            "Value": "8.730"
+                        }, 
+                        {
+                            "Index": "105", 
+                            "Sample": "JN124", 
+                            "Value": "13.900"
+                        }, 
+                        {
+                            "Index": "106", 
+                            "Sample": "JN125", 
+                            "Value": "16.370"
+                        }, 
+                        {
+                            "Index": "107", 
+                            "Sample": "JN126", 
+                            "Value": "15.030"
+                        }, 
+                        {
+                            "Index": "108", 
+                            "Sample": "JN127", 
+                            "Value": "9.170"
+                        }, 
+                        {
+                            "Index": "109", 
+                            "Sample": "JN129", 
+                            "Value": "10.230"
+                        }, 
+                        {
+                            "Index": "110", 
+                            "Sample": "JN130", 
+                            "Value": "10.300"
+                        }, 
+                        {
+                            "Index": "111", 
+                            "Sample": "JN131", 
+                            "Value": "15.030"
+                        }, 
+                        {
+                            "Index": "112", 
+                            "Sample": "JN132", 
+                            "Value": "14.830"
+                        }, 
+                        {
+                            "Index": "113", 
+                            "Sample": "JN133", 
+                            "Value": "10.470"
+                        }, 
+                        {
+                            "Index": "114", 
+                            "Sample": "JN134", 
+                            "Value": "13.800"
+                        }, 
+                        {
+                            "Index": "115", 
+                            "Sample": "JN135", 
+                            "Value": "8.900"
+                        }, 
+                        {
+                            "Index": "116", 
+                            "Sample": "JN136", 
+                            "Value": "14.070"
+                        }, 
+                        {
+                            "Index": "117", 
+                            "Sample": "JN138", 
+                            "Value": "8.570"
+                        }, 
+                        {
+                            "Index": "118", 
+                            "Sample": "JN139", 
+                            "Value": "15.370"
+                        }, 
+                        {
+                            "Index": "119", 
+                            "Sample": "JN142", 
+                            "Value": "9.520"
+                        }, 
+                        {
+                            "Index": "120", 
+                            "Sample": "JN143", 
+                            "Value": "10.130"
+                        }, 
+                        {
+                            "Index": "121", 
+                            "Sample": "JN144", 
+                            "Value": "9.800"
+                        }, 
+                        {
+                            "Index": "122", 
+                            "Sample": "JN145", 
+                            "Value": "10.040"
+                        }, 
+                        {
+                            "Index": "123", 
+                            "Sample": "JN146", 
+                            "Value": "24.630"
+                        }, 
+                        {
+                            "Index": "124", 
+                            "Sample": "JN147", 
+                            "Value": "11.900"
+                        }, 
+                        {
+                            "Index": "125", 
+                            "Sample": "JN148", 
+                            "Value": "11.630"
+                        }, 
+                        {
+                            "Index": "126", 
+                            "Sample": "JN149", 
+                            "Value": "9.330"
+                        }, 
+                        {
+                            "Index": "127", 
+                            "Sample": "JN150", 
+                            "Value": "14.100"
+                        }, 
+                        {
+                            "Index": "128", 
+                            "Sample": "JN151", 
+                            "Value": "7.700"
+                        }, 
+                        {
+                            "Index": "129", 
+                            "Sample": "JN152", 
+                            "Value": "9.970"
+                        }, 
+                        {
+                            "Index": "130", 
+                            "Sample": "JN156", 
+                            "Value": "117.950"
+                        }, 
+                        {
+                            "Index": "131", 
+                            "Sample": "JN157", 
+                            "Value": "9.830"
+                        }, 
+                        {
+                            "Index": "132", 
+                            "Sample": "JN159", 
+                            "Value": "15.470"
+                        }, 
+                        {
+                            "Index": "133", 
+                            "Sample": "JN160", 
+                            "Value": "7.430"
+                        }, 
+                        {
+                            "Index": "134", 
+                            "Sample": "JN161", 
+                            "Value": "7.900"
+                        }, 
+                        {
+                            "Index": "135", 
+                            "Sample": "JN162", 
+                            "Value": "11.200"
+                        }, 
+                        {
+                            "Index": "136", 
+                            "Sample": "JN164", 
+                            "Value": "10.000"
+                        }, 
+                        {
+                            "Index": "137", 
+                            "Sample": "JN165", 
+                            "Value": "11.080"
+                        }, 
+                        {
+                            "Index": "138", 
+                            "Sample": "JN166", 
+                            "Value": "14.900"
+                        }, 
+                        {
+                            "Index": "139", 
+                            "Sample": "JN167", 
+                            "Value": "15.330"
+                        }, 
+                        {
+                            "Index": "140", 
+                            "Sample": "JN169", 
+                            "Value": "10.600"
+                        }, 
+                        {
+                            "Index": "141", 
+                            "Sample": "JN170", 
+                            "Value": "7.200"
+                        }, 
+                        {
+                            "Index": "142", 
+                            "Sample": "JN171", 
+                            "Value": "9.900"
+                        }, 
+                        {
+                            "Index": "143", 
+                            "Sample": "JN172", 
+                            "Value": "13.230"
+                        }, 
+                        {
+                            "Index": "144", 
+                            "Sample": "JN173", 
+                            "Value": "11.200"
+                        }, 
+                        {
+                            "Index": "145", 
+                            "Sample": "JN174", 
+                            "Value": "16.100"
+                        }, 
+                        {
+                            "Index": "146", 
+                            "Sample": "JN175", 
+                            "Value": "171.530"
+                        }
+                    ]
+                }
+            }
+        }, 
+        {
+            "AdditiveEffect?": "-3.652", 
+            "Authors": "Shi XL, Yan L, Zhang MC", 
+            "Description": "Soybean pods with seeds (valid pods), June 2011, planted by hand in fields in Hebei province, days after planting, ten plants per line distributed over three furrows and three replicate fields [n]", 
+            "Index": "6", 
+            "Max LRS Location": "Chr6: 41.150142", 
+            "MaxLRS": "33.5", 
+            "Record": "6", 
+            "Year": "2013", 
+            "details": {
+                "stats": {
+                    "all": [], 
+                    "grouponly": [
+                        {
+                            "name": "Interquartile Range", 
+                            "value": "630.35"
+                        }, 
+                        {
+                            "name": "Maximum", 
+                            "value": "72.93"
+                        }, 
+                        {
+                            "name": "Mean", 
+                            "value": "31.30"
+                        }, 
+                        {
+                            "name": "Median", 
+                            "value": "31.69"
+                        }, 
+                        {
+                            "name": "Minimum", 
+                            "value": "13.30"
+                        }, 
+                        {
+                            "name": "N of Samples", 
+                            "value": "146"
+                        }, 
+                        {
+                            "name": "Range (fold)", 
+                            "value": "892110480415894784.00"
+                        }, 
+                        {
+                            "name": "Range (log2)", 
+                            "value": "59.63"
+                        }, 
+                        {
+                            "name": "Standard Deviation (SD)", 
+                            "value": "7.90"
+                        }, 
+                        {
+                            "name": "Standard Error (SE)", 
+                            "value": "0.65"
+                        }
+                    ], 
+                    "nongroup": []
+                }, 
+                "traits": {
+                    "other": [], 
+                    "primary": [
+                        {
+                            "Index": "1", 
+                            "Sample": "JN2", 
+                            "Value": "37.500"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "JN3", 
+                            "Value": "27.600"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "JN4", 
+                            "Value": "13.300"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "JN5", 
+                            "Value": "33.170"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "JN6", 
+                            "Value": "42.170"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "JN7", 
+                            "Value": "17.800"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "JN8", 
+                            "Value": "44.230"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "JN9", 
+                            "Value": "25.930"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "JN11", 
+                            "Value": "33.830"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "JN12", 
+                            "Value": "36.800"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "JN13", 
+                            "Value": "46.530"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "JN14", 
+                            "Value": "31.770"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "JN15", 
+                            "Value": "33.200"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "JN16", 
+                            "Value": "23.930"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "JN17", 
+                            "Value": "38.670"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "JN18", 
+                            "Value": "29.400"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "JN19", 
+                            "Value": "19.270"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "JN20", 
+                            "Value": "13.570"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "JN21", 
+                            "Value": "39.530"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "JN23", 
+                            "Value": "40.600"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "JN24", 
+                            "Value": "30.630"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "JN25", 
+                            "Value": "37.030"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "JN26", 
+                            "Value": "23.570"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "JN27", 
+                            "Value": "28.100"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "JN28", 
+                            "Value": "50.130"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "JN29", 
+                            "Value": "34.500"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "JN30", 
+                            "Value": "25.570"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "JN31", 
+                            "Value": "38.670"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "JN32", 
+                            "Value": "42.270"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "JN33", 
+                            "Value": "29.660"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "JN34", 
+                            "Value": "35.170"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "JN35", 
+                            "Value": "22.700"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "JN36", 
+                            "Value": "34.300"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "JN37", 
+                            "Value": "22.320"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "JN38", 
+                            "Value": "42.610"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "JN39", 
+                            "Value": "40.670"
+                        }, 
+                        {
+                            "Index": "37", 
+                            "Sample": "JN40", 
+                            "Value": "34.100"
+                        }, 
+                        {
+                            "Index": "38", 
+                            "Sample": "JN41", 
+                            "Value": "29.370"
+                        }, 
+                        {
+                            "Index": "39", 
+                            "Sample": "JN42", 
+                            "Value": "28.130"
+                        }, 
+                        {
+                            "Index": "40", 
+                            "Sample": "JN43", 
+                            "Value": "23.430"
+                        }, 
+                        {
+                            "Index": "41", 
+                            "Sample": "JN44", 
+                            "Value": "38.100"
+                        }, 
+                        {
+                            "Index": "42", 
+                            "Sample": "JN45", 
+                            "Value": "32.270"
+                        }, 
+                        {
+                            "Index": "43", 
+                            "Sample": "JN46", 
+                            "Value": "32.730"
+                        }, 
+                        {
+                            "Index": "44", 
+                            "Sample": "JN47", 
+                            "Value": "21.540"
+                        }, 
+                        {
+                            "Index": "45", 
+                            "Sample": "JN48", 
+                            "Value": "18.200"
+                        }, 
+                        {
+                            "Index": "46", 
+                            "Sample": "JN49", 
+                            "Value": "27.030"
+                        }, 
+                        {
+                            "Index": "47", 
+                            "Sample": "JN50", 
+                            "Value": "23.100"
+                        }, 
+                        {
+                            "Index": "48", 
+                            "Sample": "JN51", 
+                            "Value": "32.970"
+                        }, 
+                        {
+                            "Index": "49", 
+                            "Sample": "JN52", 
+                            "Value": "36.730"
+                        }, 
+                        {
+                            "Index": "50", 
+                            "Sample": "JN53", 
+                            "Value": "31.430"
+                        }, 
+                        {
+                            "Index": "51", 
+                            "Sample": "JN54", 
+                            "Value": "36.470"
+                        }, 
+                        {
+                            "Index": "52", 
+                            "Sample": "JN55", 
+                            "Value": "26.600"
+                        }, 
+                        {
+                            "Index": "53", 
+                            "Sample": "JN56", 
+                            "Value": "35.870"
+                        }, 
+                        {
+                            "Index": "54", 
+                            "Sample": "JN60", 
+                            "Value": "31.000"
+                        }, 
+                        {
+                            "Index": "55", 
+                            "Sample": "JN61", 
+                            "Value": "37.270"
+                        }, 
+                        {
+                            "Index": "56", 
+                            "Sample": "JN62", 
+                            "Value": "22.930"
+                        }, 
+                        {
+                            "Index": "57", 
+                            "Sample": "JN63", 
+                            "Value": "20.930"
+                        }, 
+                        {
+                            "Index": "58", 
+                            "Sample": "JN64", 
+                            "Value": "23.930"
+                        }, 
+                        {
+                            "Index": "59", 
+                            "Sample": "JN66", 
+                            "Value": "31.680"
+                        }, 
+                        {
+                            "Index": "60", 
+                            "Sample": "JN68", 
+                            "Value": "44.450"
+                        }, 
+                        {
+                            "Index": "61", 
+                            "Sample": "JN69", 
+                            "Value": "29.670"
+                        }, 
+                        {
+                            "Index": "62", 
+                            "Sample": "JN70", 
+                            "Value": "26.300"
+                        }, 
+                        {
+                            "Index": "63", 
+                            "Sample": "JN72", 
+                            "Value": "47.070"
+                        }, 
+                        {
+                            "Index": "64", 
+                            "Sample": "JN74", 
+                            "Value": "27.100"
+                        }, 
+                        {
+                            "Index": "65", 
+                            "Sample": "JN75", 
+                            "Value": "35.100"
+                        }, 
+                        {
+                            "Index": "66", 
+                            "Sample": "JN76", 
+                            "Value": "32.900"
+                        }, 
+                        {
+                            "Index": "67", 
+                            "Sample": "JN77", 
+                            "Value": "43.390"
+                        }, 
+                        {
+                            "Index": "68", 
+                            "Sample": "JN78", 
+                            "Value": "26.550"
+                        }, 
+                        {
+                            "Index": "69", 
+                            "Sample": "JN79", 
+                            "Value": "31.700"
+                        }, 
+                        {
+                            "Index": "70", 
+                            "Sample": "JN81", 
+                            "Value": "28.800"
+                        }, 
+                        {
+                            "Index": "71", 
+                            "Sample": "JN82", 
+                            "Value": "33.930"
+                        }, 
+                        {
+                            "Index": "72", 
+                            "Sample": "JN85", 
+                            "Value": "19.570"
+                        }, 
+                        {
+                            "Index": "73", 
+                            "Sample": "JN86", 
+                            "Value": "15.770"
+                        }, 
+                        {
+                            "Index": "74", 
+                            "Sample": "JN87", 
+                            "Value": "22.270"
+                        }, 
+                        {
+                            "Index": "75", 
+                            "Sample": "JN88", 
+                            "Value": "29.870"
+                        }, 
+                        {
+                            "Index": "76", 
+                            "Sample": "JN89", 
+                            "Value": "25.130"
+                        }, 
+                        {
+                            "Index": "77", 
+                            "Sample": "JN90", 
+                            "Value": "35.970"
+                        }, 
+                        {
+                            "Index": "78", 
+                            "Sample": "JN91", 
+                            "Value": "22.000"
+                        }, 
+                        {
+                            "Index": "79", 
+                            "Sample": "JN92", 
+                            "Value": "33.030"
+                        }, 
+                        {
+                            "Index": "80", 
+                            "Sample": "JN93", 
+                            "Value": "31.770"
+                        }, 
+                        {
+                            "Index": "81", 
+                            "Sample": "JN94", 
+                            "Value": "27.400"
+                        }, 
+                        {
+                            "Index": "82", 
+                            "Sample": "JN95", 
+                            "Value": "29.200"
+                        }, 
+                        {
+                            "Index": "83", 
+                            "Sample": "JN96", 
+                            "Value": "23.300"
+                        }, 
+                        {
+                            "Index": "84", 
+                            "Sample": "JN98", 
+                            "Value": "31.670"
+                        }, 
+                        {
+                            "Index": "85", 
+                            "Sample": "JN99", 
+                            "Value": "22.670"
+                        }, 
+                        {
+                            "Index": "86", 
+                            "Sample": "JN100", 
+                            "Value": "26.810"
+                        }, 
+                        {
+                            "Index": "87", 
+                            "Sample": "JN102", 
+                            "Value": "32.600"
+                        }, 
+                        {
+                            "Index": "88", 
+                            "Sample": "JN103", 
+                            "Value": "22.670"
+                        }, 
+                        {
+                            "Index": "89", 
+                            "Sample": "JN104", 
+                            "Value": "22.070"
+                        }, 
+                        {
+                            "Index": "90", 
+                            "Sample": "JN106", 
+                            "Value": "31.970"
+                        }, 
+                        {
+                            "Index": "91", 
+                            "Sample": "JN107", 
+                            "Value": "23.100"
+                        }, 
+                        {
+                            "Index": "92", 
+                            "Sample": "JN108", 
+                            "Value": "29.130"
+                        }, 
+                        {
+                            "Index": "93", 
+                            "Sample": "JN109", 
+                            "Value": "21.570"
+                        }, 
+                        {
+                            "Index": "94", 
+                            "Sample": "JN110", 
+                            "Value": "46.300"
+                        }, 
+                        {
+                            "Index": "95", 
+                            "Sample": "JN111", 
+                            "Value": "34.100"
+                        }, 
+                        {
+                            "Index": "96", 
+                            "Sample": "JN112", 
+                            "Value": "38.130"
+                        }, 
+                        {
+                            "Index": "97", 
+                            "Sample": "JN115", 
+                            "Value": "22.300"
+                        }, 
+                        {
+                            "Index": "98", 
+                            "Sample": "JN116", 
+                            "Value": "31.970"
+                        }, 
+                        {
+                            "Index": "99", 
+                            "Sample": "JN117", 
+                            "Value": "31.630"
+                        }, 
+                        {
+                            "Index": "100", 
+                            "Sample": "JN118", 
+                            "Value": "39.700"
+                        }, 
+                        {
+                            "Index": "101", 
+                            "Sample": "JN119", 
+                            "Value": "31.330"
+                        }, 
+                        {
+                            "Index": "102", 
+                            "Sample": "JN120", 
+                            "Value": "30.930"
+                        }, 
+                        {
+                            "Index": "103", 
+                            "Sample": "JN121", 
+                            "Value": "32.900"
+                        }, 
+                        {
+                            "Index": "104", 
+                            "Sample": "JN123", 
+                            "Value": "23.770"
+                        }, 
+                        {
+                            "Index": "105", 
+                            "Sample": "JN124", 
+                            "Value": "37.530"
+                        }, 
+                        {
+                            "Index": "106", 
+                            "Sample": "JN125", 
+                            "Value": "37.300"
+                        }, 
+                        {
+                            "Index": "107", 
+                            "Sample": "JN126", 
+                            "Value": "36.730"
+                        }, 
+                        {
+                            "Index": "108", 
+                            "Sample": "JN127", 
+                            "Value": "23.070"
+                        }, 
+                        {
+                            "Index": "109", 
+                            "Sample": "JN129", 
+                            "Value": "30.230"
+                        }, 
+                        {
+                            "Index": "110", 
+                            "Sample": "JN130", 
+                            "Value": "32.700"
+                        }, 
+                        {
+                            "Index": "111", 
+                            "Sample": "JN131", 
+                            "Value": "27.930"
+                        }, 
+                        {
+                            "Index": "112", 
+                            "Sample": "JN132", 
+                            "Value": "47.270"
+                        }, 
+                        {
+                            "Index": "113", 
+                            "Sample": "JN133", 
+                            "Value": "30.730"
+                        }, 
+                        {
+                            "Index": "114", 
+                            "Sample": "JN134", 
+                            "Value": "32.330"
+                        }, 
+                        {
+                            "Index": "115", 
+                            "Sample": "JN135", 
+                            "Value": "26.070"
+                        }, 
+                        {
+                            "Index": "116", 
+                            "Sample": "JN136", 
+                            "Value": "35.600"
+                        }, 
+                        {
+                            "Index": "117", 
+                            "Sample": "JN138", 
+                            "Value": "20.830"
+                        }, 
+                        {
+                            "Index": "118", 
+                            "Sample": "JN139", 
+                            "Value": "72.930"
+                        }, 
+                        {
+                            "Index": "119", 
+                            "Sample": "JN142", 
+                            "Value": "35.030"
+                        }, 
+                        {
+                            "Index": "120", 
+                            "Sample": "JN143", 
+                            "Value": "36.070"
+                        }, 
+                        {
+                            "Index": "121", 
+                            "Sample": "JN144", 
+                            "Value": "26.870"
+                        }, 
+                        {
+                            "Index": "122", 
+                            "Sample": "JN145", 
+                            "Value": "32.800"
+                        }, 
+                        {
+                            "Index": "123", 
+                            "Sample": "JN146", 
+                            "Value": "33.770"
+                        }, 
+                        {
+                            "Index": "124", 
+                            "Sample": "JN147", 
+                            "Value": "28.930"
+                        }, 
+                        {
+                            "Index": "125", 
+                            "Sample": "JN148", 
+                            "Value": "34.670"
+                        }, 
+                        {
+                            "Index": "126", 
+                            "Sample": "JN149", 
+                            "Value": "26.600"
+                        }, 
+                        {
+                            "Index": "127", 
+                            "Sample": "JN150", 
+                            "Value": "41.870"
+                        }, 
+                        {
+                            "Index": "128", 
+                            "Sample": "JN151", 
+                            "Value": "21.030"
+                        }, 
+                        {
+                            "Index": "129", 
+                            "Sample": "JN152", 
+                            "Value": "30.600"
+                        }, 
+                        {
+                            "Index": "130", 
+                            "Sample": "JN156", 
+                            "Value": "20.100"
+                        }, 
+                        {
+                            "Index": "131", 
+                            "Sample": "JN157", 
+                            "Value": "35.700"
+                        }, 
+                        {
+                            "Index": "132", 
+                            "Sample": "JN159", 
+                            "Value": "33.560"
+                        }, 
+                        {
+                            "Index": "133", 
+                            "Sample": "JN160", 
+                            "Value": "31.670"
+                        }, 
+                        {
+                            "Index": "134", 
+                            "Sample": "JN161", 
+                            "Value": "32.030"
+                        }, 
+                        {
+                            "Index": "135", 
+                            "Sample": "JN162", 
+                            "Value": "33.630"
+                        }, 
+                        {
+                            "Index": "136", 
+                            "Sample": "JN164", 
+                            "Value": "33.330"
+                        }, 
+                        {
+                            "Index": "137", 
+                            "Sample": "JN165", 
+                            "Value": "27.720"
+                        }, 
+                        {
+                            "Index": "138", 
+                            "Sample": "JN166", 
+                            "Value": "32.670"
+                        }, 
+                        {
+                            "Index": "139", 
+                            "Sample": "JN167", 
+                            "Value": "38.770"
+                        }, 
+                        {
+                            "Index": "140", 
+                            "Sample": "JN169", 
+                            "Value": "35.730"
+                        }, 
+                        {
+                            "Index": "141", 
+                            "Sample": "JN170", 
+                            "Value": "31.470"
+                        }, 
+                        {
+                            "Index": "142", 
+                            "Sample": "JN171", 
+                            "Value": "33.670"
+                        }, 
+                        {
+                            "Index": "143", 
+                            "Sample": "JN172", 
+                            "Value": "29.470"
+                        }, 
+                        {
+                            "Index": "144", 
+                            "Sample": "JN173", 
+                            "Value": "21.170"
+                        }, 
+                        {
+                            "Index": "145", 
+                            "Sample": "JN174", 
+                            "Value": "35.370"
+                        }, 
+                        {
+                            "Index": "146", 
+                            "Sample": "JN175", 
+                            "Value": "32.530"
+                        }
+                    ]
+                }
+            }
+        }
+    ], 
+    "species": "soybean", 
+    "tissue": "Phenotypes"
+}

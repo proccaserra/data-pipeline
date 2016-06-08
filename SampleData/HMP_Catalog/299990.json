@@ -1,0 +1,28 @@
+{
+    "project": {
+        "Current Finishing Level": "N/A",
+        "Domain": "BACTERIAL",
+        "Funding Source": "NIH-HMP Sequencing Center",
+        "GOLD ID": "",
+        "Genbank ID": "",
+        "Genbank URL": "http://www.ncbi.nlm.nih.gov/sites/entrez?Db=genomeprj&cmd=ShowDetailView&TermToSearch=299990",
+        "Gene Count": "0",
+        "Gold URL": "",
+        "HMP ID": "2836",
+        "HMP Isolation Body Site": "airways",
+        "HOMD ID": "",
+        "HOMD URL": "",
+        "IMG/HMP ID": "",
+        "Image URL": "",
+        "NCBI Project ID": "299990",
+        "NCBI Submission Status": "2. project has NCBI project id",
+        "NCBI Superkingdom": "Bacteria",
+        "NCBI URL": "",
+        "Organism Name": "Rothia sp. HMSC065C12",
+        "Organization URL": "",
+        "Project Status": "In Progress",
+        "Sequencing Center": "Washington University Genome Sequencing Center",
+        "Strain Repository ID": "",
+        "Strain Repository URL": ""
+    }
+}

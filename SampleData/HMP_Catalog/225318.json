@@ -1,0 +1,28 @@
+{
+    "project": {
+        "Current Finishing Level": "N/A",
+        "Domain": "",
+        "Funding Source": "NIH-HMP",
+        "GOLD ID": "",
+        "Genbank ID": "",
+        "Genbank URL": "http://www.ncbi.nlm.nih.gov/sites/entrez?Db=genomeprj&cmd=ShowDetailView&TermToSearch=225318",
+        "Gene Count": "0",
+        "Gold URL": "",
+        "HMP ID": "2385",
+        "HMP Isolation Body Site": "unknown",
+        "HOMD ID": "",
+        "HOMD URL": "http://www.hmpdacc-resources.org/cgi-bin/img_hmp/main.cgi?section=TaxonDetail&page=taxonDetail&taxon_oid=0",
+        "IMG/HMP ID": "0",
+        "Image URL": "",
+        "NCBI Project ID": "225318",
+        "NCBI Submission Status": "4. sequence public on NCBI site",
+        "NCBI Superkingdom": "Bacteria",
+        "NCBI URL": "",
+        "Organism Name": "Prevotella shahii HMP_JCVI_SC0182",
+        "Organization URL": "",
+        "Project Status": "In Progress",
+        "Sequencing Center": "J. Craig Venter Institute",
+        "Strain Repository ID": "",
+        "Strain Repository URL": "http://hmp.jcvi.org/"
+    }
+}

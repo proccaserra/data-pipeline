@@ -1,0 +1,28 @@
+{
+    "project": {
+        "Current Finishing Level": "N/A",
+        "Domain": "BACTERIAL",
+        "Funding Source": "NIH-HMP Sequencing Center",
+        "GOLD ID": "Gi23973",
+        "Genbank ID": "",
+        "Genbank URL": "http://www.ncbi.nlm.nih.gov/sites/entrez?Db=genomeprj&cmd=ShowDetailView&TermToSearch=197040",
+        "Gene Count": "0",
+        "Gold URL": "",
+        "HMP ID": "1690",
+        "HMP Isolation Body Site": "gastrointestinal_tract",
+        "HOMD ID": "",
+        "HOMD URL": "http://www.hmpdacc-resources.org/cgi-bin/img_hmp/main.cgi?section=TaxonDetail&page=taxonDetail&taxon_oid=0",
+        "IMG/HMP ID": "0",
+        "Image URL": "",
+        "NCBI Project ID": "197040",
+        "NCBI Submission Status": "4. sequence public on NCBI site",
+        "NCBI Superkingdom": "Bacteria",
+        "NCBI URL": "http://genomesonline.org/cgi-bin/GOLD/bin/GOLDCards.cgi?goldstamp=Gi23973",
+        "Organism Name": "Clostridiales bacterium hmp_mda_pilot_jcvi_0578",
+        "Organization URL": "",
+        "Project Status": "In Progress",
+        "Sequencing Center": "Broad Institute",
+        "Strain Repository ID": "",
+        "Strain Repository URL": "http://www.broad.mit.edu/node/804"
+    }
+}

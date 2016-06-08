@@ -1,0 +1,4425 @@
+{
+    "cross": "CMS", 
+    "database": "CMSPublish", 
+    "records": [
+        {
+            "Authors": "0.000", 
+            "Description": "Jones BC, Lu L, Mormede P, Mulligan MK, Terenina, Williams RW, Zhao W", 
+            "Index": "1", 
+            "Record": "1", 
+            "details": {
+                "traits": {
+                    "other": [
+                        {
+                            "Index": "1", 
+                            "Sample": "B-B-205-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "B-B-206-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "B-B-207-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "B-B-208-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "B-C-100-1", 
+                            "Value": "0.004"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "B-C-101-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "B-C-102-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "B-C-103-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "B-C-104-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "B-C-105-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "B-C-106-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "B-C-350-2", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "B-C-351-2", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "B-C-352-2", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "B-C-99-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "B-CR-107-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "B-CR-108-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "B-CR-109-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "B-CR-110-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "B-CR-111-1", 
+                            "Value": "0.004"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "B-CR-112-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "B-CR-113-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "B-CR-114-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "B-CR-34-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "B-CR-35-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "B-CR-357-2", 
+                            "Value": "0.007"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "B-CR-358-2", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "B-CR-80-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "B-CR-82-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "B-R-139-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "B-R-140-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "B-R-141-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "B-R-142-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "B-R-143-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "B-R-144-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "B-R-145-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "37", 
+                            "Sample": "B-R-146-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "38", 
+                            "Sample": "B-R-36-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "39", 
+                            "Sample": "B-R-362-2", 
+                            "Value": "0.007"
+                        }, 
+                        {
+                            "Index": "40", 
+                            "Sample": "B-R-365-2", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "41", 
+                            "Sample": "B-R-81-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "42", 
+                            "Sample": "D-B-215-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "43", 
+                            "Sample": "D-B-216-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "44", 
+                            "Sample": "D-B-217-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "45", 
+                            "Sample": "D-B-218-1", 
+                            "Value": "0.004"
+                        }, 
+                        {
+                            "Index": "46", 
+                            "Sample": "D-C-381-2", 
+                            "Value": "0.007"
+                        }, 
+                        {
+                            "Index": "47", 
+                            "Sample": "D-C-382-2", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "48", 
+                            "Sample": "D-C-383-2", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "49", 
+                            "Sample": "D-C-83-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "50", 
+                            "Sample": "D-C-84-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "51", 
+                            "Sample": "D-C-85-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "52", 
+                            "Sample": "D-C-86-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "53", 
+                            "Sample": "D-C-87-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "54", 
+                            "Sample": "D-C-88-1", 
+                            "Value": "0.004"
+                        }, 
+                        {
+                            "Index": "55", 
+                            "Sample": "D-C-89-1", 
+                            "Value": "0.003"
+                        }, 
+                        {
+                            "Index": "56", 
+                            "Sample": "D-C-90-1", 
+                            "Value": "0.004"
+                        }, 
+                        {
+                            "Index": "57", 
+                            "Sample": "D-CR-38-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "58", 
+                            "Sample": "D-CR-385-2", 
+                            "Value": "0.008"
+                        }, 
+                        {
+                            "Index": "59", 
+                            "Sample": "D-CR-39-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "60", 
+                            "Sample": "D-CR-91-1", 
+                            "Value": "0.004"
+                        }, 
+                        {
+                            "Index": "61", 
+                            "Sample": "D-CR-92-1", 
+                            "Value": "0.004"
+                        }, 
+                        {
+                            "Index": "62", 
+                            "Sample": "D-CR-93-1", 
+                            "Value": "0.004"
+                        }, 
+                        {
+                            "Index": "63", 
+                            "Sample": "D-CR-94-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "64", 
+                            "Sample": "D-CR-95-1", 
+                            "Value": "0.004"
+                        }, 
+                        {
+                            "Index": "65", 
+                            "Sample": "D-CR-96-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "66", 
+                            "Sample": "D-CR-97-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "67", 
+                            "Sample": "D-CR-98-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "68", 
+                            "Sample": "D-R-131-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "69", 
+                            "Sample": "D-R-132-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "70", 
+                            "Sample": "D-R-133-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "71", 
+                            "Sample": "D-R-134-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "72", 
+                            "Sample": "D-R-135-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "73", 
+                            "Sample": "D-R-136-1", 
+                            "Value": "0.004"
+                        }, 
+                        {
+                            "Index": "74", 
+                            "Sample": "D-R-137-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "75", 
+                            "Sample": "D-R-138-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "76", 
+                            "Sample": "D-R-37-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "77", 
+                            "Sample": "D-R-391-2", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "78", 
+                            "Sample": "D-R-393-2", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "79", 
+                            "Sample": "N-B-209-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "80", 
+                            "Sample": "N-B-210-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "81", 
+                            "Sample": "N-B-211-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "82", 
+                            "Sample": "N-B-212-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "83", 
+                            "Sample": "N-C-115-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "84", 
+                            "Sample": "N-C-116-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "85", 
+                            "Sample": "N-C-117-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "86", 
+                            "Sample": "N-C-118-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "87", 
+                            "Sample": "N-C-119-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "88", 
+                            "Sample": "N-C-120-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "89", 
+                            "Sample": "N-C-121-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "90", 
+                            "Sample": "N-C-122-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "91", 
+                            "Sample": "N-CR-123-1", 
+                            "Value": "0.007"
+                        }, 
+                        {
+                            "Index": "92", 
+                            "Sample": "N-CR-124-1", 
+                            "Value": "0.007"
+                        }, 
+                        {
+                            "Index": "93", 
+                            "Sample": "N-CR-125-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "94", 
+                            "Sample": "N-CR-126-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "95", 
+                            "Sample": "N-CR-127-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "96", 
+                            "Sample": "N-CR-128-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "97", 
+                            "Sample": "N-CR-129-1", 
+                            "Value": "0.007"
+                        }, 
+                        {
+                            "Index": "98", 
+                            "Sample": "N-CR-130-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "99", 
+                            "Sample": "N-R-147-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "100", 
+                            "Sample": "N-R-148-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "101", 
+                            "Sample": "N-R-149-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "102", 
+                            "Sample": "N-R-150-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "103", 
+                            "Sample": "N-R-151-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "104", 
+                            "Sample": "N-R-152-1", 
+                            "Value": "0.006"
+                        }, 
+                        {
+                            "Index": "105", 
+                            "Sample": "N-R-153-1", 
+                            "Value": "0.007"
+                        }, 
+                        {
+                            "Index": "106", 
+                            "Sample": "N-R-154-1", 
+                            "Value": "0.005"
+                        }, 
+                        {
+                            "Index": "107", 
+                            "Sample": "N-R-376-2", 
+                            "Value": "0.009"
+                        }, 
+                        {
+                            "Index": "108", 
+                            "Sample": "N-R-377-2", 
+                            "Value": "0.008"
+                        }
+                    ], 
+                    "primary": []
+                }
+            }
+        }, 
+        {
+            "Authors": "0.000", 
+            "Description": "Jones BC, Lu L, Mormede P, Mulligan MK, Terenina, Williams RW, Zhao W", 
+            "Index": "2", 
+            "Record": "2", 
+            "details": {
+                "traits": {
+                    "other": [
+                        {
+                            "Index": "1", 
+                            "Sample": "B-B-205-1", 
+                            "Value": "21.300"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "B-B-206-1", 
+                            "Value": "21.200"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "B-B-207-1", 
+                            "Value": "20.400"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "B-B-208-1", 
+                            "Value": "21.100"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "B-C-100-1", 
+                            "Value": "21.000"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "B-C-101-1", 
+                            "Value": "17.900"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "B-C-102-1", 
+                            "Value": "18.400"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "B-C-103-1", 
+                            "Value": "20.000"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "B-C-104-1", 
+                            "Value": "18.100"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "B-C-105-1", 
+                            "Value": "19.600"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "B-C-106-1", 
+                            "Value": "19.800"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "B-C-350-2", 
+                            "Value": "22.940"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "B-C-351-2", 
+                            "Value": "22.410"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "B-C-352-2", 
+                            "Value": "20.320"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "B-C-99-1", 
+                            "Value": "22.500"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "B-CR-107-1", 
+                            "Value": "17.700"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "B-CR-108-1", 
+                            "Value": "22.300"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "B-CR-109-1", 
+                            "Value": "18.400"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "B-CR-110-1", 
+                            "Value": "19.900"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "B-CR-111-1", 
+                            "Value": "20.000"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "B-CR-112-1", 
+                            "Value": "21.500"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "B-CR-113-1", 
+                            "Value": "19.400"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "B-CR-114-1", 
+                            "Value": "20.900"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "B-CR-34-1", 
+                            "Value": "20.100"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "B-CR-35-1", 
+                            "Value": "20.500"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "B-CR-357-2", 
+                            "Value": "22.030"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "B-CR-358-2", 
+                            "Value": "27.320"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "B-CR-80-1", 
+                            "Value": "22.800"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "B-CR-82-1", 
+                            "Value": "21.700"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "B-R-139-1", 
+                            "Value": "21.800"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "B-R-140-1", 
+                            "Value": "22.500"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "B-R-141-1", 
+                            "Value": "20.600"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "B-R-142-1", 
+                            "Value": "24.200"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "B-R-143-1", 
+                            "Value": "21.300"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "B-R-144-1", 
+                            "Value": "22.100"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "B-R-145-1", 
+                            "Value": "20.400"
+                        }, 
+                        {
+                            "Index": "37", 
+                            "Sample": "B-R-146-1", 
+                            "Value": "21.900"
+                        }, 
+                        {
+                            "Index": "38", 
+                            "Sample": "B-R-36-1", 
+                            "Value": "23.100"
+                        }, 
+                        {
+                            "Index": "39", 
+                            "Sample": "B-R-362-2", 
+                            "Value": "21.300"
+                        }, 
+                        {
+                            "Index": "40", 
+                            "Sample": "B-R-365-2", 
+                            "Value": "25.270"
+                        }, 
+                        {
+                            "Index": "41", 
+                            "Sample": "B-R-81-1", 
+                            "Value": "23.800"
+                        }, 
+                        {
+                            "Index": "42", 
+                            "Sample": "D-B-215-1", 
+                            "Value": "20.900"
+                        }, 
+                        {
+                            "Index": "43", 
+                            "Sample": "D-B-216-1", 
+                            "Value": "22.800"
+                        }, 
+                        {
+                            "Index": "44", 
+                            "Sample": "D-B-217-1", 
+                            "Value": "20.700"
+                        }, 
+                        {
+                            "Index": "45", 
+                            "Sample": "D-B-218-1", 
+                            "Value": "23.300"
+                        }, 
+                        {
+                            "Index": "46", 
+                            "Sample": "D-C-381-2", 
+                            "Value": "20.990"
+                        }, 
+                        {
+                            "Index": "47", 
+                            "Sample": "D-C-382-2", 
+                            "Value": "23.920"
+                        }, 
+                        {
+                            "Index": "48", 
+                            "Sample": "D-C-383-2", 
+                            "Value": "23.780"
+                        }, 
+                        {
+                            "Index": "49", 
+                            "Sample": "D-C-83-1", 
+                            "Value": "20.700"
+                        }, 
+                        {
+                            "Index": "50", 
+                            "Sample": "D-C-84-1", 
+                            "Value": "20.100"
+                        }, 
+                        {
+                            "Index": "51", 
+                            "Sample": "D-C-85-1", 
+                            "Value": "18.500"
+                        }, 
+                        {
+                            "Index": "52", 
+                            "Sample": "D-C-86-1", 
+                            "Value": "21.000"
+                        }, 
+                        {
+                            "Index": "53", 
+                            "Sample": "D-C-87-1", 
+                            "Value": "22.500"
+                        }, 
+                        {
+                            "Index": "54", 
+                            "Sample": "D-C-88-1", 
+                            "Value": "20.800"
+                        }, 
+                        {
+                            "Index": "55", 
+                            "Sample": "D-C-89-1", 
+                            "Value": "20.600"
+                        }, 
+                        {
+                            "Index": "56", 
+                            "Sample": "D-C-90-1", 
+                            "Value": "20.100"
+                        }, 
+                        {
+                            "Index": "57", 
+                            "Sample": "D-CR-38-1", 
+                            "Value": "20.000"
+                        }, 
+                        {
+                            "Index": "58", 
+                            "Sample": "D-CR-385-2", 
+                            "Value": "24.640"
+                        }, 
+                        {
+                            "Index": "59", 
+                            "Sample": "D-CR-39-1", 
+                            "Value": "19.100"
+                        }, 
+                        {
+                            "Index": "60", 
+                            "Sample": "D-CR-91-1", 
+                            "Value": "21.600"
+                        }, 
+                        {
+                            "Index": "61", 
+                            "Sample": "D-CR-92-1", 
+                            "Value": "20.100"
+                        }, 
+                        {
+                            "Index": "62", 
+                            "Sample": "D-CR-93-1", 
+                            "Value": "20.800"
+                        }, 
+                        {
+                            "Index": "63", 
+                            "Sample": "D-CR-94-1", 
+                            "Value": "19.100"
+                        }, 
+                        {
+                            "Index": "64", 
+                            "Sample": "D-CR-95-1", 
+                            "Value": "20.400"
+                        }, 
+                        {
+                            "Index": "65", 
+                            "Sample": "D-CR-96-1", 
+                            "Value": "21.000"
+                        }, 
+                        {
+                            "Index": "66", 
+                            "Sample": "D-CR-97-1", 
+                            "Value": "19.800"
+                        }, 
+                        {
+                            "Index": "67", 
+                            "Sample": "D-CR-98-1", 
+                            "Value": "19.600"
+                        }, 
+                        {
+                            "Index": "68", 
+                            "Sample": "D-R-131-1", 
+                            "Value": "20.600"
+                        }, 
+                        {
+                            "Index": "69", 
+                            "Sample": "D-R-132-1", 
+                            "Value": "22.800"
+                        }, 
+                        {
+                            "Index": "70", 
+                            "Sample": "D-R-133-1", 
+                            "Value": "20.900"
+                        }, 
+                        {
+                            "Index": "71", 
+                            "Sample": "D-R-134-1", 
+                            "Value": "23.200"
+                        }, 
+                        {
+                            "Index": "72", 
+                            "Sample": "D-R-135-1", 
+                            "Value": "20.000"
+                        }, 
+                        {
+                            "Index": "73", 
+                            "Sample": "D-R-136-1", 
+                            "Value": "20.700"
+                        }, 
+                        {
+                            "Index": "74", 
+                            "Sample": "D-R-137-1", 
+                            "Value": "21.000"
+                        }, 
+                        {
+                            "Index": "75", 
+                            "Sample": "D-R-138-1", 
+                            "Value": "19.800"
+                        }, 
+                        {
+                            "Index": "76", 
+                            "Sample": "D-R-37-1", 
+                            "Value": "21.600"
+                        }, 
+                        {
+                            "Index": "77", 
+                            "Sample": "D-R-391-2", 
+                            "Value": "20.750"
+                        }, 
+                        {
+                            "Index": "78", 
+                            "Sample": "D-R-393-2", 
+                            "Value": "23.430"
+                        }, 
+                        {
+                            "Index": "79", 
+                            "Sample": "N-B-209-1", 
+                            "Value": "21.700"
+                        }, 
+                        {
+                            "Index": "80", 
+                            "Sample": "N-B-210-1", 
+                            "Value": "23.100"
+                        }, 
+                        {
+                            "Index": "81", 
+                            "Sample": "N-B-211-1", 
+                            "Value": "24.300"
+                        }, 
+                        {
+                            "Index": "82", 
+                            "Sample": "N-B-212-1", 
+                            "Value": "24.000"
+                        }, 
+                        {
+                            "Index": "83", 
+                            "Sample": "N-C-115-1", 
+                            "Value": "21.500"
+                        }, 
+                        {
+                            "Index": "84", 
+                            "Sample": "N-C-116-1", 
+                            "Value": "20.500"
+                        }, 
+                        {
+                            "Index": "85", 
+                            "Sample": "N-C-117-1", 
+                            "Value": "21.000"
+                        }, 
+                        {
+                            "Index": "86", 
+                            "Sample": "N-C-118-1", 
+                            "Value": "21.500"
+                        }, 
+                        {
+                            "Index": "87", 
+                            "Sample": "N-C-119-1", 
+                            "Value": "21.800"
+                        }, 
+                        {
+                            "Index": "88", 
+                            "Sample": "N-C-120-1", 
+                            "Value": "22.700"
+                        }, 
+                        {
+                            "Index": "89", 
+                            "Sample": "N-C-121-1", 
+                            "Value": "22.600"
+                        }, 
+                        {
+                            "Index": "90", 
+                            "Sample": "N-C-122-1", 
+                            "Value": "23.400"
+                        }, 
+                        {
+                            "Index": "91", 
+                            "Sample": "N-CR-123-1", 
+                            "Value": "22.700"
+                        }, 
+                        {
+                            "Index": "92", 
+                            "Sample": "N-CR-124-1", 
+                            "Value": "22.400"
+                        }, 
+                        {
+                            "Index": "93", 
+                            "Sample": "N-CR-125-1", 
+                            "Value": "19.900"
+                        }, 
+                        {
+                            "Index": "94", 
+                            "Sample": "N-CR-126-1", 
+                            "Value": "19.600"
+                        }, 
+                        {
+                            "Index": "95", 
+                            "Sample": "N-CR-127-1", 
+                            "Value": "24.200"
+                        }, 
+                        {
+                            "Index": "96", 
+                            "Sample": "N-CR-128-1", 
+                            "Value": "20.200"
+                        }, 
+                        {
+                            "Index": "97", 
+                            "Sample": "N-CR-129-1", 
+                            "Value": "23.600"
+                        }, 
+                        {
+                            "Index": "98", 
+                            "Sample": "N-CR-130-1", 
+                            "Value": "21.100"
+                        }, 
+                        {
+                            "Index": "99", 
+                            "Sample": "N-R-147-1", 
+                            "Value": "21.000"
+                        }, 
+                        {
+                            "Index": "100", 
+                            "Sample": "N-R-148-1", 
+                            "Value": "21.000"
+                        }, 
+                        {
+                            "Index": "101", 
+                            "Sample": "N-R-149-1", 
+                            "Value": "19.300"
+                        }, 
+                        {
+                            "Index": "102", 
+                            "Sample": "N-R-150-1", 
+                            "Value": "23.100"
+                        }, 
+                        {
+                            "Index": "103", 
+                            "Sample": "N-R-151-1", 
+                            "Value": "22.700"
+                        }, 
+                        {
+                            "Index": "104", 
+                            "Sample": "N-R-152-1", 
+                            "Value": "22.600"
+                        }, 
+                        {
+                            "Index": "105", 
+                            "Sample": "N-R-153-1", 
+                            "Value": "21.700"
+                        }, 
+                        {
+                            "Index": "106", 
+                            "Sample": "N-R-154-1", 
+                            "Value": "22.300"
+                        }, 
+                        {
+                            "Index": "107", 
+                            "Sample": "N-R-376-2", 
+                            "Value": "39.760"
+                        }, 
+                        {
+                            "Index": "108", 
+                            "Sample": "N-R-377-2", 
+                            "Value": "26.700"
+                        }
+                    ], 
+                    "primary": []
+                }
+            }
+        }, 
+        {
+            "Authors": "0.000", 
+            "Description": "Jones BC, Lu L, Mormede P, Mulligan MK, Terenina, Williams RW, Zhao W", 
+            "Index": "3", 
+            "Record": "3", 
+            "details": {
+                "traits": {
+                    "other": [
+                        {
+                            "Index": "1", 
+                            "Sample": "B-B-206-1", 
+                            "Value": "0.483"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "B-B-207-1", 
+                            "Value": "0.481"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "B-B-208-1", 
+                            "Value": "0.476"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "B-C-101-1", 
+                            "Value": "0.456"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "B-C-102-1", 
+                            "Value": "0.453"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "B-C-103-1", 
+                            "Value": "0.500"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "B-C-104-1", 
+                            "Value": "0.466"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "B-C-105-1", 
+                            "Value": "0.442"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "B-C-106-1", 
+                            "Value": "0.488"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "B-C-350-2", 
+                            "Value": "0.477"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "B-C-351-2", 
+                            "Value": "0.482"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "B-C-352-2", 
+                            "Value": "0.446"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "B-CR-109-1", 
+                            "Value": "0.482"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "B-CR-110-1", 
+                            "Value": "0.484"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "B-CR-111-1", 
+                            "Value": "0.487"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "B-CR-112-1", 
+                            "Value": "0.541"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "B-CR-113-1", 
+                            "Value": "0.479"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "B-CR-114-1", 
+                            "Value": "0.489"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "B-CR-34-1", 
+                            "Value": "0.492"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "B-CR-35-1", 
+                            "Value": "0.484"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "B-CR-357-2", 
+                            "Value": "0.475"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "B-CR-358-2", 
+                            "Value": "0.511"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "B-CR-80-1", 
+                            "Value": "0.488"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "B-CR-82-1", 
+                            "Value": "0.492"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "B-R-141-1", 
+                            "Value": "0.485"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "B-R-142-1", 
+                            "Value": "0.517"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "B-R-143-1", 
+                            "Value": "0.484"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "B-R-144-1", 
+                            "Value": "0.498"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "B-R-145-1", 
+                            "Value": "0.469"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "B-R-146-1", 
+                            "Value": "0.505"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "B-R-36-1", 
+                            "Value": "0.519"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "B-R-362-2", 
+                            "Value": "0.478"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "B-R-365-2", 
+                            "Value": "0.493"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "B-R-81-1", 
+                            "Value": "0.494"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "D-B-215-1", 
+                            "Value": "0.404"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "D-B-216-1", 
+                            "Value": "0.417"
+                        }, 
+                        {
+                            "Index": "37", 
+                            "Sample": "D-B-217-1", 
+                            "Value": "0.421"
+                        }, 
+                        {
+                            "Index": "38", 
+                            "Sample": "D-B-218-1", 
+                            "Value": "0.429"
+                        }, 
+                        {
+                            "Index": "39", 
+                            "Sample": "D-C-381-2", 
+                            "Value": "0.385"
+                        }, 
+                        {
+                            "Index": "40", 
+                            "Sample": "D-C-382-2", 
+                            "Value": "0.411"
+                        }, 
+                        {
+                            "Index": "41", 
+                            "Sample": "D-C-383-2", 
+                            "Value": "0.412"
+                        }, 
+                        {
+                            "Index": "42", 
+                            "Sample": "D-C-85-1", 
+                            "Value": "0.405"
+                        }, 
+                        {
+                            "Index": "43", 
+                            "Sample": "D-C-86-1", 
+                            "Value": "0.410"
+                        }, 
+                        {
+                            "Index": "44", 
+                            "Sample": "D-C-87-1", 
+                            "Value": "0.456"
+                        }, 
+                        {
+                            "Index": "45", 
+                            "Sample": "D-C-88-1", 
+                            "Value": "0.442"
+                        }, 
+                        {
+                            "Index": "46", 
+                            "Sample": "D-C-89-1", 
+                            "Value": "0.424"
+                        }, 
+                        {
+                            "Index": "47", 
+                            "Sample": "D-C-90-1", 
+                            "Value": "0.425"
+                        }, 
+                        {
+                            "Index": "48", 
+                            "Sample": "D-CR-38-1", 
+                            "Value": "0.392"
+                        }, 
+                        {
+                            "Index": "49", 
+                            "Sample": "D-CR-385-2", 
+                            "Value": "0.410"
+                        }, 
+                        {
+                            "Index": "50", 
+                            "Sample": "D-CR-39-1", 
+                            "Value": "0.423"
+                        }, 
+                        {
+                            "Index": "51", 
+                            "Sample": "D-CR-93-1", 
+                            "Value": "0.426"
+                        }, 
+                        {
+                            "Index": "52", 
+                            "Sample": "D-CR-94-1", 
+                            "Value": "0.425"
+                        }, 
+                        {
+                            "Index": "53", 
+                            "Sample": "D-CR-95-1", 
+                            "Value": "0.424"
+                        }, 
+                        {
+                            "Index": "54", 
+                            "Sample": "D-CR-96-1", 
+                            "Value": "0.429"
+                        }, 
+                        {
+                            "Index": "55", 
+                            "Sample": "D-CR-97-1", 
+                            "Value": "0.415"
+                        }, 
+                        {
+                            "Index": "56", 
+                            "Sample": "D-CR-98-1", 
+                            "Value": "0.420"
+                        }, 
+                        {
+                            "Index": "57", 
+                            "Sample": "D-R-133-1", 
+                            "Value": "0.397"
+                        }, 
+                        {
+                            "Index": "58", 
+                            "Sample": "D-R-134-1", 
+                            "Value": "0.448"
+                        }, 
+                        {
+                            "Index": "59", 
+                            "Sample": "D-R-135-1", 
+                            "Value": "0.434"
+                        }, 
+                        {
+                            "Index": "60", 
+                            "Sample": "D-R-136-1", 
+                            "Value": "0.435"
+                        }, 
+                        {
+                            "Index": "61", 
+                            "Sample": "D-R-137-1", 
+                            "Value": "0.406"
+                        }, 
+                        {
+                            "Index": "62", 
+                            "Sample": "D-R-138-1", 
+                            "Value": "0.415"
+                        }, 
+                        {
+                            "Index": "63", 
+                            "Sample": "D-R-37-1", 
+                            "Value": "0.458"
+                        }, 
+                        {
+                            "Index": "64", 
+                            "Sample": "D-R-391-2", 
+                            "Value": "0.388"
+                        }, 
+                        {
+                            "Index": "65", 
+                            "Sample": "D-R-393-2", 
+                            "Value": "0.401"
+                        }, 
+                        {
+                            "Index": "66", 
+                            "Sample": "N-B-210-1", 
+                            "Value": "0.475"
+                        }, 
+                        {
+                            "Index": "67", 
+                            "Sample": "N-B-211-1", 
+                            "Value": "0.491"
+                        }, 
+                        {
+                            "Index": "68", 
+                            "Sample": "N-B-212-1", 
+                            "Value": "0.520"
+                        }, 
+                        {
+                            "Index": "69", 
+                            "Sample": "N-C-117-1", 
+                            "Value": "0.481"
+                        }, 
+                        {
+                            "Index": "70", 
+                            "Sample": "N-C-118-1", 
+                            "Value": "0.471"
+                        }, 
+                        {
+                            "Index": "71", 
+                            "Sample": "N-C-119-1", 
+                            "Value": "0.492"
+                        }, 
+                        {
+                            "Index": "72", 
+                            "Sample": "N-C-120-1", 
+                            "Value": "0.513"
+                        }, 
+                        {
+                            "Index": "73", 
+                            "Sample": "N-C-121-1", 
+                            "Value": "0.492"
+                        }, 
+                        {
+                            "Index": "74", 
+                            "Sample": "N-C-122-1", 
+                            "Value": "0.470"
+                        }, 
+                        {
+                            "Index": "75", 
+                            "Sample": "N-CR-125-1", 
+                            "Value": "0.493"
+                        }, 
+                        {
+                            "Index": "76", 
+                            "Sample": "N-CR-126-1", 
+                            "Value": "0.480"
+                        }, 
+                        {
+                            "Index": "77", 
+                            "Sample": "N-CR-127-1", 
+                            "Value": "0.521"
+                        }, 
+                        {
+                            "Index": "78", 
+                            "Sample": "N-CR-128-1", 
+                            "Value": "0.494"
+                        }, 
+                        {
+                            "Index": "79", 
+                            "Sample": "N-CR-129-1", 
+                            "Value": "0.476"
+                        }, 
+                        {
+                            "Index": "80", 
+                            "Sample": "N-CR-130-1", 
+                            "Value": "0.450"
+                        }, 
+                        {
+                            "Index": "81", 
+                            "Sample": "N-R-149-1", 
+                            "Value": "0.448"
+                        }, 
+                        {
+                            "Index": "82", 
+                            "Sample": "N-R-150-1", 
+                            "Value": "0.496"
+                        }, 
+                        {
+                            "Index": "83", 
+                            "Sample": "N-R-151-1", 
+                            "Value": "0.490"
+                        }, 
+                        {
+                            "Index": "84", 
+                            "Sample": "N-R-152-1", 
+                            "Value": "0.522"
+                        }, 
+                        {
+                            "Index": "85", 
+                            "Sample": "N-R-153-1", 
+                            "Value": "0.432"
+                        }, 
+                        {
+                            "Index": "86", 
+                            "Sample": "N-R-154-1", 
+                            "Value": "0.489"
+                        }, 
+                        {
+                            "Index": "87", 
+                            "Sample": "N-R-376-2", 
+                            "Value": "0.473"
+                        }, 
+                        {
+                            "Index": "88", 
+                            "Sample": "N-R-377-2", 
+                            "Value": "0.496"
+                        }
+                    ], 
+                    "primary": []
+                }
+            }
+        }, 
+        {
+            "Authors": "0.000", 
+            "Description": "Jones BC, Lu L, Mormede P, Mulligan MK, Terenina, Williams RW, Zhao W", 
+            "Index": "4", 
+            "Record": "4", 
+            "details": {
+                "traits": {
+                    "other": [
+                        {
+                            "Index": "1", 
+                            "Sample": "B-B-205-1", 
+                            "Value": "0.092"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "B-B-206-1", 
+                            "Value": "0.098"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "B-B-207-1", 
+                            "Value": "0.096"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "B-B-208-1", 
+                            "Value": "0.110"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "B-C-100-1", 
+                            "Value": "0.095"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "B-C-101-1", 
+                            "Value": "0.079"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "B-C-102-1", 
+                            "Value": "0.092"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "B-C-103-1", 
+                            "Value": "0.099"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "B-C-104-1", 
+                            "Value": "0.080"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "B-C-105-1", 
+                            "Value": "0.085"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "B-C-106-1", 
+                            "Value": "0.092"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "B-C-350-2", 
+                            "Value": "0.115"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "B-C-351-2", 
+                            "Value": "0.127"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "B-C-352-2", 
+                            "Value": "0.101"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "B-C-99-1", 
+                            "Value": "0.099"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "B-CR-107-1", 
+                            "Value": "0.080"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "B-CR-108-1", 
+                            "Value": "0.096"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "B-CR-109-1", 
+                            "Value": "0.079"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "B-CR-110-1", 
+                            "Value": "0.094"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "B-CR-111-1", 
+                            "Value": "0.091"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "B-CR-112-1", 
+                            "Value": "0.095"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "B-CR-113-1", 
+                            "Value": "0.090"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "B-CR-114-1", 
+                            "Value": "0.097"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "B-CR-34-1", 
+                            "Value": "0.091"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "B-CR-35-1", 
+                            "Value": "0.087"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "B-CR-357-2", 
+                            "Value": "0.114"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "B-CR-358-2", 
+                            "Value": "0.139"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "B-CR-80-1", 
+                            "Value": "0.106"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "B-CR-82-1", 
+                            "Value": "0.097"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "B-R-139-1", 
+                            "Value": "0.101"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "B-R-140-1", 
+                            "Value": "0.100"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "B-R-141-1", 
+                            "Value": "0.104"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "B-R-142-1", 
+                            "Value": "0.112"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "B-R-143-1", 
+                            "Value": "0.120"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "B-R-144-1", 
+                            "Value": "0.109"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "B-R-145-1", 
+                            "Value": "0.102"
+                        }, 
+                        {
+                            "Index": "37", 
+                            "Sample": "B-R-146-1", 
+                            "Value": "0.110"
+                        }, 
+                        {
+                            "Index": "38", 
+                            "Sample": "B-R-36-1", 
+                            "Value": "0.102"
+                        }, 
+                        {
+                            "Index": "39", 
+                            "Sample": "B-R-362-2", 
+                            "Value": "0.117"
+                        }, 
+                        {
+                            "Index": "40", 
+                            "Sample": "B-R-365-2", 
+                            "Value": "0.121"
+                        }, 
+                        {
+                            "Index": "41", 
+                            "Sample": "B-R-81-1", 
+                            "Value": "0.110"
+                        }, 
+                        {
+                            "Index": "42", 
+                            "Sample": "D-B-215-1", 
+                            "Value": "0.118"
+                        }, 
+                        {
+                            "Index": "43", 
+                            "Sample": "D-B-216-1", 
+                            "Value": "0.134"
+                        }, 
+                        {
+                            "Index": "44", 
+                            "Sample": "D-B-217-1", 
+                            "Value": "0.122"
+                        }, 
+                        {
+                            "Index": "45", 
+                            "Sample": "D-B-218-1", 
+                            "Value": "0.126"
+                        }, 
+                        {
+                            "Index": "46", 
+                            "Sample": "D-C-381-2", 
+                            "Value": "0.117"
+                        }, 
+                        {
+                            "Index": "47", 
+                            "Sample": "D-C-382-2", 
+                            "Value": "0.127"
+                        }, 
+                        {
+                            "Index": "48", 
+                            "Sample": "D-C-383-2", 
+                            "Value": "0.121"
+                        }, 
+                        {
+                            "Index": "49", 
+                            "Sample": "D-C-83-1", 
+                            "Value": "0.109"
+                        }, 
+                        {
+                            "Index": "50", 
+                            "Sample": "D-C-84-1", 
+                            "Value": "0.110"
+                        }, 
+                        {
+                            "Index": "51", 
+                            "Sample": "D-C-85-1", 
+                            "Value": "0.112"
+                        }, 
+                        {
+                            "Index": "52", 
+                            "Sample": "D-C-86-1", 
+                            "Value": "0.112"
+                        }, 
+                        {
+                            "Index": "53", 
+                            "Sample": "D-C-87-1", 
+                            "Value": "0.129"
+                        }, 
+                        {
+                            "Index": "54", 
+                            "Sample": "D-C-88-1", 
+                            "Value": "0.125"
+                        }, 
+                        {
+                            "Index": "55", 
+                            "Sample": "D-C-89-1", 
+                            "Value": "0.116"
+                        }, 
+                        {
+                            "Index": "56", 
+                            "Sample": "D-C-90-1", 
+                            "Value": "0.113"
+                        }, 
+                        {
+                            "Index": "57", 
+                            "Sample": "D-CR-38-1", 
+                            "Value": "0.096"
+                        }, 
+                        {
+                            "Index": "58", 
+                            "Sample": "D-CR-385-2", 
+                            "Value": "0.136"
+                        }, 
+                        {
+                            "Index": "59", 
+                            "Sample": "D-CR-39-1", 
+                            "Value": "0.102"
+                        }, 
+                        {
+                            "Index": "60", 
+                            "Sample": "D-CR-91-1", 
+                            "Value": "0.105"
+                        }, 
+                        {
+                            "Index": "61", 
+                            "Sample": "D-CR-92-1", 
+                            "Value": "0.102"
+                        }, 
+                        {
+                            "Index": "62", 
+                            "Sample": "D-CR-93-1", 
+                            "Value": "0.116"
+                        }, 
+                        {
+                            "Index": "63", 
+                            "Sample": "D-CR-94-1", 
+                            "Value": "0.113"
+                        }, 
+                        {
+                            "Index": "64", 
+                            "Sample": "D-CR-95-1", 
+                            "Value": "0.110"
+                        }, 
+                        {
+                            "Index": "65", 
+                            "Sample": "D-CR-96-1", 
+                            "Value": "0.117"
+                        }, 
+                        {
+                            "Index": "66", 
+                            "Sample": "D-CR-97-1", 
+                            "Value": "0.109"
+                        }, 
+                        {
+                            "Index": "67", 
+                            "Sample": "D-CR-98-1", 
+                            "Value": "0.114"
+                        }, 
+                        {
+                            "Index": "68", 
+                            "Sample": "D-R-131-1", 
+                            "Value": "0.120"
+                        }, 
+                        {
+                            "Index": "69", 
+                            "Sample": "D-R-132-1", 
+                            "Value": "0.129"
+                        }, 
+                        {
+                            "Index": "70", 
+                            "Sample": "D-R-133-1", 
+                            "Value": "0.105"
+                        }, 
+                        {
+                            "Index": "71", 
+                            "Sample": "D-R-134-1", 
+                            "Value": "0.127"
+                        }, 
+                        {
+                            "Index": "72", 
+                            "Sample": "D-R-135-1", 
+                            "Value": "0.114"
+                        }, 
+                        {
+                            "Index": "73", 
+                            "Sample": "D-R-136-1", 
+                            "Value": "0.129"
+                        }, 
+                        {
+                            "Index": "74", 
+                            "Sample": "D-R-137-1", 
+                            "Value": "0.124"
+                        }, 
+                        {
+                            "Index": "75", 
+                            "Sample": "D-R-138-1", 
+                            "Value": "0.117"
+                        }, 
+                        {
+                            "Index": "76", 
+                            "Sample": "D-R-37-1", 
+                            "Value": "0.126"
+                        }, 
+                        {
+                            "Index": "77", 
+                            "Sample": "D-R-391-2", 
+                            "Value": "0.129"
+                        }, 
+                        {
+                            "Index": "78", 
+                            "Sample": "D-R-393-2", 
+                            "Value": "0.127"
+                        }, 
+                        {
+                            "Index": "79", 
+                            "Sample": "N-B-209-1", 
+                            "Value": "0.101"
+                        }, 
+                        {
+                            "Index": "80", 
+                            "Sample": "N-B-210-1", 
+                            "Value": "0.105"
+                        }, 
+                        {
+                            "Index": "81", 
+                            "Sample": "N-B-211-1", 
+                            "Value": "0.116"
+                        }, 
+                        {
+                            "Index": "82", 
+                            "Sample": "N-B-212-1", 
+                            "Value": "0.107"
+                        }, 
+                        {
+                            "Index": "83", 
+                            "Sample": "N-C-115-1", 
+                            "Value": "0.095"
+                        }, 
+                        {
+                            "Index": "84", 
+                            "Sample": "N-C-116-1", 
+                            "Value": "0.104"
+                        }, 
+                        {
+                            "Index": "85", 
+                            "Sample": "N-C-117-1", 
+                            "Value": "0.093"
+                        }, 
+                        {
+                            "Index": "86", 
+                            "Sample": "N-C-118-1", 
+                            "Value": "0.091"
+                        }, 
+                        {
+                            "Index": "87", 
+                            "Sample": "N-C-119-1", 
+                            "Value": "0.108"
+                        }, 
+                        {
+                            "Index": "88", 
+                            "Sample": "N-C-120-1", 
+                            "Value": "0.099"
+                        }, 
+                        {
+                            "Index": "89", 
+                            "Sample": "N-C-121-1", 
+                            "Value": "0.104"
+                        }, 
+                        {
+                            "Index": "90", 
+                            "Sample": "N-C-122-1", 
+                            "Value": "0.105"
+                        }, 
+                        {
+                            "Index": "91", 
+                            "Sample": "N-CR-123-1", 
+                            "Value": "0.094"
+                        }, 
+                        {
+                            "Index": "92", 
+                            "Sample": "N-CR-124-1", 
+                            "Value": "0.099"
+                        }, 
+                        {
+                            "Index": "93", 
+                            "Sample": "N-CR-125-1", 
+                            "Value": "0.094"
+                        }, 
+                        {
+                            "Index": "94", 
+                            "Sample": "N-CR-126-1", 
+                            "Value": "0.087"
+                        }, 
+                        {
+                            "Index": "95", 
+                            "Sample": "N-CR-127-1", 
+                            "Value": "0.099"
+                        }, 
+                        {
+                            "Index": "96", 
+                            "Sample": "N-CR-128-1", 
+                            "Value": "0.096"
+                        }, 
+                        {
+                            "Index": "97", 
+                            "Sample": "N-CR-129-1", 
+                            "Value": "0.108"
+                        }, 
+                        {
+                            "Index": "98", 
+                            "Sample": "N-CR-130-1", 
+                            "Value": "0.097"
+                        }, 
+                        {
+                            "Index": "99", 
+                            "Sample": "N-R-147-1", 
+                            "Value": "0.100"
+                        }, 
+                        {
+                            "Index": "100", 
+                            "Sample": "N-R-148-1", 
+                            "Value": "0.102"
+                        }, 
+                        {
+                            "Index": "101", 
+                            "Sample": "N-R-149-1", 
+                            "Value": "0.104"
+                        }, 
+                        {
+                            "Index": "102", 
+                            "Sample": "N-R-150-1", 
+                            "Value": "0.106"
+                        }, 
+                        {
+                            "Index": "103", 
+                            "Sample": "N-R-151-1", 
+                            "Value": "0.105"
+                        }, 
+                        {
+                            "Index": "104", 
+                            "Sample": "N-R-152-1", 
+                            "Value": "0.100"
+                        }, 
+                        {
+                            "Index": "105", 
+                            "Sample": "N-R-153-1", 
+                            "Value": "0.112"
+                        }, 
+                        {
+                            "Index": "106", 
+                            "Sample": "N-R-154-1", 
+                            "Value": "0.098"
+                        }, 
+                        {
+                            "Index": "107", 
+                            "Sample": "N-R-376-2", 
+                            "Value": "0.168"
+                        }, 
+                        {
+                            "Index": "108", 
+                            "Sample": "N-R-377-2", 
+                            "Value": "0.139"
+                        }
+                    ], 
+                    "primary": []
+                }
+            }
+        }, 
+        {
+            "Authors": "0.000", 
+            "Description": "Jones BC, Lu L, Mormede P, Mulligan MK, Terenina, Williams RW, Zhao W", 
+            "Index": "5", 
+            "Record": "5", 
+            "details": {
+                "traits": {
+                    "other": [
+                        {
+                            "Index": "1", 
+                            "Sample": "B-B-205-1", 
+                            "Value": "0.040"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "B-B-206-1", 
+                            "Value": "0.041"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "B-B-207-1", 
+                            "Value": "0.039"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "B-B-208-1", 
+                            "Value": "0.037"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "B-C-100-1", 
+                            "Value": "0.037"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "B-C-101-1", 
+                            "Value": "0.041"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "B-C-102-1", 
+                            "Value": "0.044"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "B-C-103-1", 
+                            "Value": "0.045"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "B-C-104-1", 
+                            "Value": "0.037"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "B-C-105-1", 
+                            "Value": "0.044"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "B-C-106-1", 
+                            "Value": "0.047"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "B-C-350-2", 
+                            "Value": "0.041"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "B-C-351-2", 
+                            "Value": "0.034"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "B-C-352-2", 
+                            "Value": "0.038"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "B-C-99-1", 
+                            "Value": "0.045"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "B-CR-107-1", 
+                            "Value": "0.041"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "B-CR-108-1", 
+                            "Value": "0.050"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "B-CR-109-1", 
+                            "Value": "0.040"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "B-CR-110-1", 
+                            "Value": "0.043"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "B-CR-111-1", 
+                            "Value": "0.048"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "B-CR-112-1", 
+                            "Value": "0.047"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "B-CR-113-1", 
+                            "Value": "0.042"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "B-CR-114-1", 
+                            "Value": "0.042"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "B-CR-34-1", 
+                            "Value": "0.043"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "B-CR-35-1", 
+                            "Value": "0.036"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "B-CR-357-2", 
+                            "Value": "0.047"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "B-CR-358-2", 
+                            "Value": "0.064"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "B-CR-80-1", 
+                            "Value": "0.045"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "B-CR-82-1", 
+                            "Value": "0.039"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "B-R-139-1", 
+                            "Value": "0.046"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "B-R-140-1", 
+                            "Value": "0.037"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "B-R-141-1", 
+                            "Value": "0.041"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "B-R-142-1", 
+                            "Value": "0.046"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "B-R-143-1", 
+                            "Value": "0.043"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "B-R-144-1", 
+                            "Value": "0.042"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "B-R-145-1", 
+                            "Value": "0.039"
+                        }, 
+                        {
+                            "Index": "37", 
+                            "Sample": "B-R-146-1", 
+                            "Value": "0.048"
+                        }, 
+                        {
+                            "Index": "38", 
+                            "Sample": "B-R-36-1", 
+                            "Value": "0.039"
+                        }, 
+                        {
+                            "Index": "39", 
+                            "Sample": "B-R-362-2", 
+                            "Value": "0.047"
+                        }, 
+                        {
+                            "Index": "40", 
+                            "Sample": "B-R-365-2", 
+                            "Value": "0.050"
+                        }, 
+                        {
+                            "Index": "41", 
+                            "Sample": "B-R-81-1", 
+                            "Value": "0.040"
+                        }, 
+                        {
+                            "Index": "42", 
+                            "Sample": "D-B-215-1", 
+                            "Value": "0.025"
+                        }, 
+                        {
+                            "Index": "43", 
+                            "Sample": "D-B-216-1", 
+                            "Value": "0.029"
+                        }, 
+                        {
+                            "Index": "44", 
+                            "Sample": "D-B-217-1", 
+                            "Value": "0.021"
+                        }, 
+                        {
+                            "Index": "45", 
+                            "Sample": "D-B-218-1", 
+                            "Value": "0.023"
+                        }, 
+                        {
+                            "Index": "46", 
+                            "Sample": "D-C-381-2", 
+                            "Value": "0.024"
+                        }, 
+                        {
+                            "Index": "47", 
+                            "Sample": "D-C-382-2", 
+                            "Value": "0.024"
+                        }, 
+                        {
+                            "Index": "48", 
+                            "Sample": "D-C-383-2", 
+                            "Value": "0.020"
+                        }, 
+                        {
+                            "Index": "49", 
+                            "Sample": "D-C-83-1", 
+                            "Value": "0.024"
+                        }, 
+                        {
+                            "Index": "50", 
+                            "Sample": "D-C-84-1", 
+                            "Value": "0.022"
+                        }, 
+                        {
+                            "Index": "51", 
+                            "Sample": "D-C-85-1", 
+                            "Value": "0.024"
+                        }, 
+                        {
+                            "Index": "52", 
+                            "Sample": "D-C-86-1", 
+                            "Value": "0.024"
+                        }, 
+                        {
+                            "Index": "53", 
+                            "Sample": "D-C-87-1", 
+                            "Value": "0.018"
+                        }, 
+                        {
+                            "Index": "54", 
+                            "Sample": "D-C-88-1", 
+                            "Value": "0.024"
+                        }, 
+                        {
+                            "Index": "55", 
+                            "Sample": "D-C-89-1", 
+                            "Value": "0.029"
+                        }, 
+                        {
+                            "Index": "56", 
+                            "Sample": "D-C-90-1", 
+                            "Value": "0.022"
+                        }, 
+                        {
+                            "Index": "57", 
+                            "Sample": "D-CR-38-1", 
+                            "Value": "0.023"
+                        }, 
+                        {
+                            "Index": "58", 
+                            "Sample": "D-CR-385-2", 
+                            "Value": "0.026"
+                        }, 
+                        {
+                            "Index": "59", 
+                            "Sample": "D-CR-39-1", 
+                            "Value": "0.022"
+                        }, 
+                        {
+                            "Index": "60", 
+                            "Sample": "D-CR-91-1", 
+                            "Value": "0.027"
+                        }, 
+                        {
+                            "Index": "61", 
+                            "Sample": "D-CR-92-1", 
+                            "Value": "0.031"
+                        }, 
+                        {
+                            "Index": "62", 
+                            "Sample": "D-CR-93-1", 
+                            "Value": "0.022"
+                        }, 
+                        {
+                            "Index": "63", 
+                            "Sample": "D-CR-94-1", 
+                            "Value": "0.021"
+                        }, 
+                        {
+                            "Index": "64", 
+                            "Sample": "D-CR-95-1", 
+                            "Value": "0.023"
+                        }, 
+                        {
+                            "Index": "65", 
+                            "Sample": "D-CR-96-1", 
+                            "Value": "0.023"
+                        }, 
+                        {
+                            "Index": "66", 
+                            "Sample": "D-CR-97-1", 
+                            "Value": "0.027"
+                        }, 
+                        {
+                            "Index": "67", 
+                            "Sample": "D-CR-98-1", 
+                            "Value": "0.026"
+                        }, 
+                        {
+                            "Index": "68", 
+                            "Sample": "D-R-131-1", 
+                            "Value": "0.023"
+                        }, 
+                        {
+                            "Index": "69", 
+                            "Sample": "D-R-132-1", 
+                            "Value": "0.029"
+                        }, 
+                        {
+                            "Index": "70", 
+                            "Sample": "D-R-133-1", 
+                            "Value": "0.022"
+                        }, 
+                        {
+                            "Index": "71", 
+                            "Sample": "D-R-134-1", 
+                            "Value": "0.025"
+                        }, 
+                        {
+                            "Index": "72", 
+                            "Sample": "D-R-135-1", 
+                            "Value": "0.020"
+                        }, 
+                        {
+                            "Index": "73", 
+                            "Sample": "D-R-136-1", 
+                            "Value": "0.026"
+                        }, 
+                        {
+                            "Index": "74", 
+                            "Sample": "D-R-137-1", 
+                            "Value": "0.023"
+                        }, 
+                        {
+                            "Index": "75", 
+                            "Sample": "D-R-138-1", 
+                            "Value": "0.024"
+                        }, 
+                        {
+                            "Index": "76", 
+                            "Sample": "D-R-37-1", 
+                            "Value": "0.024"
+                        }, 
+                        {
+                            "Index": "77", 
+                            "Sample": "D-R-391-2", 
+                            "Value": "0.021"
+                        }, 
+                        {
+                            "Index": "78", 
+                            "Sample": "D-R-393-2", 
+                            "Value": "0.025"
+                        }, 
+                        {
+                            "Index": "79", 
+                            "Sample": "N-B-209-1", 
+                            "Value": "0.062"
+                        }, 
+                        {
+                            "Index": "80", 
+                            "Sample": "N-B-210-1", 
+                            "Value": "0.069"
+                        }, 
+                        {
+                            "Index": "81", 
+                            "Sample": "N-B-211-1", 
+                            "Value": "0.073"
+                        }, 
+                        {
+                            "Index": "82", 
+                            "Sample": "N-B-212-1", 
+                            "Value": "0.073"
+                        }, 
+                        {
+                            "Index": "83", 
+                            "Sample": "N-C-115-1", 
+                            "Value": "0.052"
+                        }, 
+                        {
+                            "Index": "84", 
+                            "Sample": "N-C-116-1", 
+                            "Value": "0.061"
+                        }, 
+                        {
+                            "Index": "85", 
+                            "Sample": "N-C-117-1", 
+                            "Value": "0.056"
+                        }, 
+                        {
+                            "Index": "86", 
+                            "Sample": "N-C-118-1", 
+                            "Value": "0.062"
+                        }, 
+                        {
+                            "Index": "87", 
+                            "Sample": "N-C-119-1", 
+                            "Value": "0.047"
+                        }, 
+                        {
+                            "Index": "88", 
+                            "Sample": "N-C-120-1", 
+                            "Value": "0.065"
+                        }, 
+                        {
+                            "Index": "89", 
+                            "Sample": "N-C-121-1", 
+                            "Value": "0.062"
+                        }, 
+                        {
+                            "Index": "90", 
+                            "Sample": "N-C-122-1", 
+                            "Value": "0.053"
+                        }, 
+                        {
+                            "Index": "91", 
+                            "Sample": "N-CR-123-1", 
+                            "Value": "0.065"
+                        }, 
+                        {
+                            "Index": "92", 
+                            "Sample": "N-CR-124-1", 
+                            "Value": "0.062"
+                        }, 
+                        {
+                            "Index": "93", 
+                            "Sample": "N-CR-125-1", 
+                            "Value": "0.055"
+                        }, 
+                        {
+                            "Index": "94", 
+                            "Sample": "N-CR-126-1", 
+                            "Value": "0.018"
+                        }, 
+                        {
+                            "Index": "95", 
+                            "Sample": "N-CR-127-1", 
+                            "Value": "0.050"
+                        }, 
+                        {
+                            "Index": "96", 
+                            "Sample": "N-CR-128-1", 
+                            "Value": "0.051"
+                        }, 
+                        {
+                            "Index": "97", 
+                            "Sample": "N-CR-129-1", 
+                            "Value": "0.060"
+                        }, 
+                        {
+                            "Index": "98", 
+                            "Sample": "N-CR-130-1", 
+                            "Value": "0.056"
+                        }, 
+                        {
+                            "Index": "99", 
+                            "Sample": "N-R-147-1", 
+                            "Value": "0.056"
+                        }, 
+                        {
+                            "Index": "100", 
+                            "Sample": "N-R-148-1", 
+                            "Value": "0.043"
+                        }, 
+                        {
+                            "Index": "101", 
+                            "Sample": "N-R-149-1", 
+                            "Value": "0.052"
+                        }, 
+                        {
+                            "Index": "102", 
+                            "Sample": "N-R-150-1", 
+                            "Value": "0.064"
+                        }, 
+                        {
+                            "Index": "103", 
+                            "Sample": "N-R-151-1", 
+                            "Value": "0.047"
+                        }, 
+                        {
+                            "Index": "104", 
+                            "Sample": "N-R-152-1", 
+                            "Value": "0.064"
+                        }, 
+                        {
+                            "Index": "105", 
+                            "Sample": "N-R-153-1", 
+                            "Value": "0.055"
+                        }, 
+                        {
+                            "Index": "106", 
+                            "Sample": "N-R-154-1", 
+                            "Value": "0.059"
+                        }, 
+                        {
+                            "Index": "107", 
+                            "Sample": "N-R-376-2", 
+                            "Value": "0.054"
+                        }, 
+                        {
+                            "Index": "108", 
+                            "Sample": "N-R-377-2", 
+                            "Value": "0.053"
+                        }
+                    ], 
+                    "primary": []
+                }
+            }
+        }, 
+        {
+            "Authors": "0.000", 
+            "Description": "Jones BC, Lu L, Mormede P, Mulligan MK, Terenina, Williams RW, Zhao W", 
+            "Index": "6", 
+            "Record": "6", 
+            "details": {
+                "traits": {
+                    "other": [
+                        {
+                            "Index": "1", 
+                            "Sample": "B-CR-107-1", 
+                            "Value": "330.000"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "B-CR-108-1", 
+                            "Value": "230.000"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "B-CR-109-1", 
+                            "Value": "635.000"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "B-CR-110-1", 
+                            "Value": "360.000"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "B-CR-111-1", 
+                            "Value": "372.500"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "B-CR-112-1", 
+                            "Value": "270.000"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "B-CR-113-1", 
+                            "Value": "470.000"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "B-CR-114-1", 
+                            "Value": "340.000"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "B-CR-34-1", 
+                            "Value": "257.500"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "B-CR-35-1", 
+                            "Value": "197.500"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "B-CR-80-1", 
+                            "Value": "285.000"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "B-CR-82-1", 
+                            "Value": "347.500"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "B-R-139-1", 
+                            "Value": "327.500"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "B-R-140-1", 
+                            "Value": "500.000"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "B-R-141-1", 
+                            "Value": "562.500"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "B-R-142-1", 
+                            "Value": "260.000"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "B-R-143-1", 
+                            "Value": "295.000"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "B-R-144-1", 
+                            "Value": "300.000"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "B-R-145-1", 
+                            "Value": "310.000"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "B-R-146-1", 
+                            "Value": "225.000"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "B-R-36-1", 
+                            "Value": "327.500"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "B-R-81-1", 
+                            "Value": "260.000"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "D-CR-38-1", 
+                            "Value": "1425.000"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "D-CR-39-1", 
+                            "Value": "437.500"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "D-CR-91-1", 
+                            "Value": "490.000"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "D-CR-92-1", 
+                            "Value": "515.000"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "D-CR-93-1", 
+                            "Value": "442.500"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "D-CR-94-1", 
+                            "Value": "487.500"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "D-CR-95-1", 
+                            "Value": "567.500"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "D-CR-96-1", 
+                            "Value": "407.500"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "D-CR-97-1", 
+                            "Value": "420.000"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "D-CR-98-1", 
+                            "Value": "317.500"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "D-R-131-1", 
+                            "Value": "465.000"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "D-R-132-1", 
+                            "Value": "397.500"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "D-R-133-1", 
+                            "Value": "620.000"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "D-R-134-1", 
+                            "Value": "657.500"
+                        }, 
+                        {
+                            "Index": "37", 
+                            "Sample": "D-R-135-1", 
+                            "Value": "482.500"
+                        }, 
+                        {
+                            "Index": "38", 
+                            "Sample": "D-R-136-1", 
+                            "Value": "590.000"
+                        }, 
+                        {
+                            "Index": "39", 
+                            "Sample": "D-R-137-1", 
+                            "Value": "367.500"
+                        }, 
+                        {
+                            "Index": "40", 
+                            "Sample": "D-R-138-1", 
+                            "Value": "402.500"
+                        }, 
+                        {
+                            "Index": "41", 
+                            "Sample": "D-R-37-1", 
+                            "Value": "470.000"
+                        }, 
+                        {
+                            "Index": "42", 
+                            "Sample": "N-CR-123-1", 
+                            "Value": "492.500"
+                        }, 
+                        {
+                            "Index": "43", 
+                            "Sample": "N-CR-124-1", 
+                            "Value": "610.000"
+                        }, 
+                        {
+                            "Index": "44", 
+                            "Sample": "N-CR-125-1", 
+                            "Value": "425.000"
+                        }, 
+                        {
+                            "Index": "45", 
+                            "Sample": "N-CR-126-1", 
+                            "Value": "1020.000"
+                        }, 
+                        {
+                            "Index": "46", 
+                            "Sample": "N-CR-127-1", 
+                            "Value": "582.500"
+                        }, 
+                        {
+                            "Index": "47", 
+                            "Sample": "N-CR-128-1", 
+                            "Value": "430.000"
+                        }, 
+                        {
+                            "Index": "48", 
+                            "Sample": "N-CR-129-1", 
+                            "Value": "615.000"
+                        }, 
+                        {
+                            "Index": "49", 
+                            "Sample": "N-CR-130-1", 
+                            "Value": "647.500"
+                        }, 
+                        {
+                            "Index": "50", 
+                            "Sample": "N-R-147-1", 
+                            "Value": "490.000"
+                        }, 
+                        {
+                            "Index": "51", 
+                            "Sample": "N-R-148-1", 
+                            "Value": "500.000"
+                        }, 
+                        {
+                            "Index": "52", 
+                            "Sample": "N-R-149-1", 
+                            "Value": "437.500"
+                        }, 
+                        {
+                            "Index": "53", 
+                            "Sample": "N-R-150-1", 
+                            "Value": "497.500"
+                        }, 
+                        {
+                            "Index": "54", 
+                            "Sample": "N-R-151-1", 
+                            "Value": "462.500"
+                        }, 
+                        {
+                            "Index": "55", 
+                            "Sample": "N-R-152-1", 
+                            "Value": "430.000"
+                        }, 
+                        {
+                            "Index": "56", 
+                            "Sample": "N-R-153-1", 
+                            "Value": "357.500"
+                        }, 
+                        {
+                            "Index": "57", 
+                            "Sample": "N-R-154-1", 
+                            "Value": "365.000"
+                        }
+                    ], 
+                    "primary": []
+                }
+            }
+        }, 
+        {
+            "Authors": "0.000", 
+            "Description": "Jones BC, Lu L, Mormede P, Mulligan MK, Terenina, Williams RW, Zhao W", 
+            "Index": "7", 
+            "Record": "7", 
+            "details": {
+                "traits": {
+                    "other": [
+                        {
+                            "Index": "1", 
+                            "Sample": "B-B-205-1", 
+                            "Value": "277.500"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "B-B-206-1", 
+                            "Value": "437.500"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "B-B-207-1", 
+                            "Value": "300.000"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "B-B-208-1", 
+                            "Value": "185.000"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "B-C-100-1", 
+                            "Value": "710.000"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "B-C-101-1", 
+                            "Value": "367.500"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "B-C-102-1", 
+                            "Value": "277.500"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "B-C-104-1", 
+                            "Value": "642.500"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "B-C-105-1", 
+                            "Value": "500.000"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "B-C-106-1", 
+                            "Value": "342.500"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "B-C-99-1", 
+                            "Value": "860.000"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "B-CR-107-1", 
+                            "Value": "552.500"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "B-CR-108-1", 
+                            "Value": "912.500"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "B-CR-109-1", 
+                            "Value": "475.000"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "B-CR-110-1", 
+                            "Value": "287.500"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "B-CR-111-1", 
+                            "Value": "450.000"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "B-CR-112-1", 
+                            "Value": "477.500"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "B-CR-113-1", 
+                            "Value": "450.000"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "B-CR-114-1", 
+                            "Value": "495.000"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "B-CR-34-1", 
+                            "Value": "822.500"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "B-CR-35-1", 
+                            "Value": "765.000"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "B-CR-80-1", 
+                            "Value": "515.000"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "B-CR-82-1", 
+                            "Value": "480.000"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "B-R-139-1", 
+                            "Value": "375.000"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "B-R-140-1", 
+                            "Value": "465.000"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "B-R-141-1", 
+                            "Value": "500.000"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "B-R-142-1", 
+                            "Value": "320.000"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "B-R-143-1", 
+                            "Value": "377.500"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "B-R-144-1", 
+                            "Value": "682.500"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "B-R-145-1", 
+                            "Value": "650.000"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "B-R-146-1", 
+                            "Value": "432.500"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "B-R-36-1", 
+                            "Value": "492.500"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "B-R-81-1", 
+                            "Value": "545.000"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "D-B-215-1", 
+                            "Value": "392.500"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "D-B-216-1", 
+                            "Value": "597.500"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "D-B-217-1", 
+                            "Value": "257.500"
+                        }, 
+                        {
+                            "Index": "37", 
+                            "Sample": "D-B-218-1", 
+                            "Value": "410.000"
+                        }, 
+                        {
+                            "Index": "38", 
+                            "Sample": "D-C-83-1", 
+                            "Value": "887.500"
+                        }, 
+                        {
+                            "Index": "39", 
+                            "Sample": "D-C-84-1", 
+                            "Value": "902.500"
+                        }, 
+                        {
+                            "Index": "40", 
+                            "Sample": "D-C-85-1", 
+                            "Value": "287.500"
+                        }, 
+                        {
+                            "Index": "41", 
+                            "Sample": "D-C-86-1", 
+                            "Value": "510.000"
+                        }, 
+                        {
+                            "Index": "42", 
+                            "Sample": "D-C-87-1", 
+                            "Value": "567.500"
+                        }, 
+                        {
+                            "Index": "43", 
+                            "Sample": "D-C-88-1", 
+                            "Value": "812.500"
+                        }, 
+                        {
+                            "Index": "44", 
+                            "Sample": "D-C-89-1", 
+                            "Value": "610.000"
+                        }, 
+                        {
+                            "Index": "45", 
+                            "Sample": "D-C-90-1", 
+                            "Value": "525.000"
+                        }, 
+                        {
+                            "Index": "46", 
+                            "Sample": "D-CR-38-1", 
+                            "Value": "750.000"
+                        }, 
+                        {
+                            "Index": "47", 
+                            "Sample": "D-CR-39-1", 
+                            "Value": "755.000"
+                        }, 
+                        {
+                            "Index": "48", 
+                            "Sample": "D-CR-91-1", 
+                            "Value": "1100.000"
+                        }, 
+                        {
+                            "Index": "49", 
+                            "Sample": "D-CR-92-1", 
+                            "Value": "662.500"
+                        }, 
+                        {
+                            "Index": "50", 
+                            "Sample": "D-CR-93-1", 
+                            "Value": "757.500"
+                        }, 
+                        {
+                            "Index": "51", 
+                            "Sample": "D-CR-94-1", 
+                            "Value": "745.000"
+                        }, 
+                        {
+                            "Index": "52", 
+                            "Sample": "D-CR-95-1", 
+                            "Value": "732.500"
+                        }, 
+                        {
+                            "Index": "53", 
+                            "Sample": "D-CR-96-1", 
+                            "Value": "765.000"
+                        }, 
+                        {
+                            "Index": "54", 
+                            "Sample": "D-CR-97-1", 
+                            "Value": "747.500"
+                        }, 
+                        {
+                            "Index": "55", 
+                            "Sample": "D-CR-98-1", 
+                            "Value": "627.500"
+                        }, 
+                        {
+                            "Index": "56", 
+                            "Sample": "D-R-131-1", 
+                            "Value": "887.500"
+                        }, 
+                        {
+                            "Index": "57", 
+                            "Sample": "D-R-132-1", 
+                            "Value": "642.500"
+                        }, 
+                        {
+                            "Index": "58", 
+                            "Sample": "D-R-133-1", 
+                            "Value": "627.500"
+                        }, 
+                        {
+                            "Index": "59", 
+                            "Sample": "D-R-134-1", 
+                            "Value": "640.000"
+                        }, 
+                        {
+                            "Index": "60", 
+                            "Sample": "D-R-135-1", 
+                            "Value": "742.500"
+                        }, 
+                        {
+                            "Index": "61", 
+                            "Sample": "D-R-136-1", 
+                            "Value": "640.000"
+                        }, 
+                        {
+                            "Index": "62", 
+                            "Sample": "D-R-137-1", 
+                            "Value": "950.000"
+                        }, 
+                        {
+                            "Index": "63", 
+                            "Sample": "D-R-138-1", 
+                            "Value": "885.000"
+                        }, 
+                        {
+                            "Index": "64", 
+                            "Sample": "D-R-37-1", 
+                            "Value": "1145.000"
+                        }, 
+                        {
+                            "Index": "65", 
+                            "Sample": "N-B-209-1", 
+                            "Value": "277.500"
+                        }, 
+                        {
+                            "Index": "66", 
+                            "Sample": "N-B-210-1", 
+                            "Value": "632.500"
+                        }, 
+                        {
+                            "Index": "67", 
+                            "Sample": "N-B-211-1", 
+                            "Value": "410.000"
+                        }, 
+                        {
+                            "Index": "68", 
+                            "Sample": "N-B-212-1", 
+                            "Value": "505.000"
+                        }, 
+                        {
+                            "Index": "69", 
+                            "Sample": "N-C-115-1", 
+                            "Value": "757.500"
+                        }, 
+                        {
+                            "Index": "70", 
+                            "Sample": "N-C-116-1", 
+                            "Value": "445.000"
+                        }, 
+                        {
+                            "Index": "71", 
+                            "Sample": "N-C-117-1", 
+                            "Value": "547.500"
+                        }, 
+                        {
+                            "Index": "72", 
+                            "Sample": "N-C-118-1", 
+                            "Value": "395.000"
+                        }, 
+                        {
+                            "Index": "73", 
+                            "Sample": "N-C-119-1", 
+                            "Value": "935.000"
+                        }, 
+                        {
+                            "Index": "74", 
+                            "Sample": "N-C-120-1", 
+                            "Value": "702.500"
+                        }, 
+                        {
+                            "Index": "75", 
+                            "Sample": "N-C-121-1", 
+                            "Value": "215.000"
+                        }, 
+                        {
+                            "Index": "76", 
+                            "Sample": "N-C-122-1", 
+                            "Value": "370.000"
+                        }, 
+                        {
+                            "Index": "77", 
+                            "Sample": "N-CR-123-1", 
+                            "Value": "820.000"
+                        }, 
+                        {
+                            "Index": "78", 
+                            "Sample": "N-CR-124-1", 
+                            "Value": "865.000"
+                        }, 
+                        {
+                            "Index": "79", 
+                            "Sample": "N-CR-125-1", 
+                            "Value": "830.000"
+                        }, 
+                        {
+                            "Index": "80", 
+                            "Sample": "N-CR-126-1", 
+                            "Value": "952.500"
+                        }, 
+                        {
+                            "Index": "81", 
+                            "Sample": "N-CR-127-1", 
+                            "Value": "775.000"
+                        }, 
+                        {
+                            "Index": "82", 
+                            "Sample": "N-CR-128-1", 
+                            "Value": "455.000"
+                        }, 
+                        {
+                            "Index": "83", 
+                            "Sample": "N-CR-129-1", 
+                            "Value": "752.500"
+                        }, 
+                        {
+                            "Index": "84", 
+                            "Sample": "N-CR-130-1", 
+                            "Value": "797.500"
+                        }, 
+                        {
+                            "Index": "85", 
+                            "Sample": "N-R-147-1", 
+                            "Value": "807.500"
+                        }, 
+                        {
+                            "Index": "86", 
+                            "Sample": "N-R-148-1", 
+                            "Value": "832.500"
+                        }, 
+                        {
+                            "Index": "87", 
+                            "Sample": "N-R-149-1", 
+                            "Value": "717.500"
+                        }, 
+                        {
+                            "Index": "88", 
+                            "Sample": "N-R-150-1", 
+                            "Value": "785.000"
+                        }, 
+                        {
+                            "Index": "89", 
+                            "Sample": "N-R-151-1", 
+                            "Value": "360.000"
+                        }, 
+                        {
+                            "Index": "90", 
+                            "Sample": "N-R-152-1", 
+                            "Value": "867.500"
+                        }, 
+                        {
+                            "Index": "91", 
+                            "Sample": "N-R-153-1", 
+                            "Value": "612.500"
+                        }, 
+                        {
+                            "Index": "92", 
+                            "Sample": "N-R-154-1", 
+                            "Value": "780.000"
+                        }
+                    ], 
+                    "primary": []
+                }
+            }
+        }, 
+        {
+            "Authors": "0.000", 
+            "Description": "Jones BC, Lu L, Mormede P, Mulligan MK, Terenina, Williams RW, Zhao W", 
+            "Index": "8", 
+            "Record": "8", 
+            "details": {
+                "traits": {
+                    "other": [
+                        {
+                            "Index": "1", 
+                            "Sample": "B-C-100-1", 
+                            "Value": "161.700"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "B-C-101-1", 
+                            "Value": "455.795"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "B-C-102-1", 
+                            "Value": "257.250"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "B-C-103-1", 
+                            "Value": "429.450"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "B-C-104-1", 
+                            "Value": "93.450"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "B-C-105-1", 
+                            "Value": "518.700"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "B-C-106-1", 
+                            "Value": "333.900"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "B-C-99-1", 
+                            "Value": "258.300"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "D-C-83-1", 
+                            "Value": "73.500"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "D-C-84-1", 
+                            "Value": "257.250"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "D-C-85-1", 
+                            "Value": "182.700"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "D-C-86-1", 
+                            "Value": "131.250"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "D-C-87-1", 
+                            "Value": "50.400"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "D-C-88-1", 
+                            "Value": "178.500"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "D-C-89-1", 
+                            "Value": "157.500"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "D-C-90-1", 
+                            "Value": "265.338"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "N-C-115-1", 
+                            "Value": "715.050"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "N-C-116-1", 
+                            "Value": "263.550"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "N-C-117-1", 
+                            "Value": "825.300"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "N-C-118-1", 
+                            "Value": "598.500"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "N-C-119-1", 
+                            "Value": "220.500"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "N-C-120-1", 
+                            "Value": "143.850"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "N-C-121-1", 
+                            "Value": "292.950"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "N-C-122-1", 
+                            "Value": "791.538"
+                        }
+                    ], 
+                    "primary": []
+                }
+            }
+        }, 
+        {
+            "Authors": "0.000", 
+            "Description": "Jones BC, Lu L, Mormede P, Mulligan MK, Terenina, Williams RW, Zhao W", 
+            "Index": "9", 
+            "Record": "9", 
+            "details": {
+                "traits": {
+                    "other": [
+                        {
+                            "Index": "1", 
+                            "Sample": "B-C-100-1", 
+                            "Value": "45.769"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "B-C-101-1", 
+                            "Value": "54.600"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "B-C-102-1", 
+                            "Value": "67.941"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "B-C-103-1", 
+                            "Value": "255.000"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "B-C-104-1", 
+                            "Value": "155.000"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "B-C-105-1", 
+                            "Value": "87.973"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "B-C-106-1", 
+                            "Value": "77.609"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "B-C-99-1", 
+                            "Value": "109.200"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "D-C-83-1", 
+                            "Value": "53.550"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "D-C-84-1", 
+                            "Value": "169.050"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "D-C-85-1", 
+                            "Value": "171.150"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "D-C-86-1", 
+                            "Value": "50.400"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "D-C-87-1", 
+                            "Value": "171.150"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "D-C-88-1", 
+                            "Value": "91.350"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "D-C-89-1", 
+                            "Value": "102.900"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "D-C-90-1", 
+                            "Value": "229.950"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "N-C-115-1", 
+                            "Value": "75.600"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "N-C-116-1", 
+                            "Value": "447.300"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "N-C-117-1", 
+                            "Value": "600.600"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "N-C-118-1", 
+                            "Value": "200.550"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "N-C-119-1", 
+                            "Value": "97.650"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "N-C-120-1", 
+                            "Value": "58.800"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "N-C-121-1", 
+                            "Value": "190.050"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "N-C-122-1", 
+                            "Value": "76.875"
+                        }
+                    ], 
+                    "primary": []
+                }
+            }
+        }, 
+        {
+            "Authors": "0.000", 
+            "Description": "Jones BC, Lu L, Mormede P, Mulligan MK, Terenina, Williams RW, Zhao W", 
+            "Index": "10", 
+            "Record": "10", 
+            "details": {
+                "traits": {
+                    "other": [
+                        {
+                            "Index": "1", 
+                            "Sample": "B-C-100-1", 
+                            "Value": "29.400"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "B-C-101-1", 
+                            "Value": "216.300"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "B-C-102-1", 
+                            "Value": "73.500"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "B-C-103-1", 
+                            "Value": "159.600"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "B-C-104-1", 
+                            "Value": "71.129"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "B-C-105-1", 
+                            "Value": "94.500"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "B-C-106-1", 
+                            "Value": "15.750"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "B-C-99-1", 
+                            "Value": "17.850"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "D-C-83-1", 
+                            "Value": "103.950"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "D-C-84-1", 
+                            "Value": "112.350"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "D-C-85-1", 
+                            "Value": "38.850"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "D-C-86-1", 
+                            "Value": "36.750"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "D-C-87-1", 
+                            "Value": "34.650"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "D-C-88-1", 
+                            "Value": "70.350"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "D-C-89-1", 
+                            "Value": "100.800"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "D-C-90-1", 
+                            "Value": "103.950"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "N-C-115-1", 
+                            "Value": "266.700"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "N-C-116-1", 
+                            "Value": "240.450"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "N-C-117-1", 
+                            "Value": "108.150"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "N-C-118-1", 
+                            "Value": "148.050"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "N-C-119-1", 
+                            "Value": "18.900"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "N-C-120-1", 
+                            "Value": "86.821"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "N-C-121-1", 
+                            "Value": "50.400"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "N-C-122-1", 
+                            "Value": "32.550"
+                        }
+                    ], 
+                    "primary": []
+                }
+            }
+        }, 
+        {
+            "Authors": "0.000", 
+            "Description": "Jones BC, Lu L, Mormede P, Mulligan MK, Terenina, Williams RW, Zhao W", 
+            "Index": "11", 
+            "Record": "11", 
+            "details": {
+                "traits": {
+                    "other": [
+                        {
+                            "Index": "1", 
+                            "Sample": "B-C-100-1", 
+                            "Value": "39.375"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "B-C-101-1", 
+                            "Value": "92.400"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "B-C-102-1", 
+                            "Value": "13.430"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "B-C-103-1", 
+                            "Value": "63.000"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "B-C-104-1", 
+                            "Value": "130.057"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "B-C-105-1", 
+                            "Value": "101.850"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "B-C-106-1", 
+                            "Value": "31.500"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "B-C-99-1", 
+                            "Value": "38.850"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "D-C-83-1", 
+                            "Value": "25.200"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "D-C-84-1", 
+                            "Value": "94.500"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "D-C-85-1", 
+                            "Value": "64.050"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "D-C-86-1", 
+                            "Value": "23.100"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "D-C-87-1", 
+                            "Value": "23.100"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "D-C-88-1", 
+                            "Value": "55.650"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "D-C-89-1", 
+                            "Value": "135.450"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "D-C-90-1", 
+                            "Value": "110.250"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "N-C-115-1", 
+                            "Value": "16.800"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "N-C-116-1", 
+                            "Value": "58.864"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "N-C-117-1", 
+                            "Value": "111.300"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "N-C-118-1", 
+                            "Value": "73.500"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "N-C-119-1", 
+                            "Value": "33.600"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "N-C-120-1", 
+                            "Value": "103.779"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "N-C-121-1", 
+                            "Value": "42.000"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "N-C-122-1", 
+                            "Value": "28.350"
+                        }
+                    ], 
+                    "primary": []
+                }
+            }
+        }, 
+        {
+            "Authors": "0.000", 
+            "Description": "Jones BC, Lu L, Mormede P, Mulligan MK, Terenina, Williams RW, Zhao W", 
+            "Index": "12", 
+            "Record": "12", 
+            "details": {
+                "traits": {
+                    "other": [
+                        {
+                            "Index": "1", 
+                            "Sample": "B-C-100-1", 
+                            "Value": "254.100"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "B-C-101-1", 
+                            "Value": "79.361"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "B-C-102-1", 
+                            "Value": "30.732"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "B-C-103-1", 
+                            "Value": "45.938"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "B-C-104-1", 
+                            "Value": "321.300"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "B-C-105-1", 
+                            "Value": "160.650"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "B-C-106-1", 
+                            "Value": "19.950"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "B-C-99-1", 
+                            "Value": "132.300"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "D-C-83-1", 
+                            "Value": "49.350"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "D-C-84-1", 
+                            "Value": "115.500"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "D-C-85-1", 
+                            "Value": "56.700"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "D-C-86-1", 
+                            "Value": "34.650"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "D-C-87-1", 
+                            "Value": "67.200"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "D-C-88-1", 
+                            "Value": "78.750"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "D-C-89-1", 
+                            "Value": "132.300"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "D-C-90-1", 
+                            "Value": "85.050"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "N-C-115-1", 
+                            "Value": "117.600"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "N-C-116-1", 
+                            "Value": "37.800"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "N-C-117-1", 
+                            "Value": "42.000"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "N-C-118-1", 
+                            "Value": "96.600"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "N-C-119-1", 
+                            "Value": "31.500"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "N-C-120-1", 
+                            "Value": "260.750"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "N-C-121-1", 
+                            "Value": "85.050"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "N-C-122-1", 
+                            "Value": "43.050"
+                        }
+                    ], 
+                    "primary": []
+                }
+            }
+        }, 
+        {
+            "Authors": "0.000", 
+            "Description": "Jones BC, Lu L, Mormede P, Mulligan MK, Terenina, Williams RW, Zhao W", 
+            "Index": "13", 
+            "Record": "13", 
+            "details": {
+                "traits": {
+                    "other": [
+                        {
+                            "Index": "1", 
+                            "Sample": "B-C-101-1", 
+                            "Value": "102.900"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "B-C-102-1", 
+                            "Value": "34.650"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "B-C-103-1", 
+                            "Value": "79.800"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "B-C-104-1", 
+                            "Value": "437.500"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "B-C-105-1", 
+                            "Value": "81.483"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "B-C-106-1", 
+                            "Value": "99.432"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "D-C-83-1", 
+                            "Value": "74.253"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "D-C-84-1", 
+                            "Value": "34.670"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "D-C-85-1", 
+                            "Value": "52.295"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "D-C-86-1", 
+                            "Value": "70.693"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "D-C-87-1", 
+                            "Value": "67.441"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "D-C-88-1", 
+                            "Value": "52.601"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "D-C-89-1", 
+                            "Value": "153.041"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "D-C-90-1", 
+                            "Value": "78.082"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "N-C-115-1", 
+                            "Value": "9.868"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "N-C-116-1", 
+                            "Value": "147.754"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "N-C-117-1", 
+                            "Value": "252.000"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "N-C-118-1", 
+                            "Value": "18.885"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "N-C-119-1", 
+                            "Value": "78.255"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "N-C-120-1", 
+                            "Value": "18.617"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "N-C-121-1", 
+                            "Value": "39.322"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "N-C-122-1", 
+                            "Value": "8.983"
+                        }
+                    ], 
+                    "primary": []
+                }
+            }
+        }, 
+        {
+            "Authors": "0.000", 
+            "Description": "Jones BC, Lu L, Mormede P, Mulligan MK, Terenina, Williams RW, Zhao W", 
+            "Index": "14", 
+            "Record": "14", 
+            "details": {
+                "traits": {
+                    "other": [
+                        {
+                            "Index": "1", 
+                            "Sample": "B-B-205-1", 
+                            "Value": "19.950"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "B-B-206-1", 
+                            "Value": "28.350"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "B-B-207-1", 
+                            "Value": "74.550"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "B-B-208-1", 
+                            "Value": "67.200"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "B-C-100-1", 
+                            "Value": "42.000"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "B-C-101-1", 
+                            "Value": "91.350"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "B-C-102-1", 
+                            "Value": "35.700"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "B-C-103-1", 
+                            "Value": "197.400"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "B-C-104-1", 
+                            "Value": "185.850"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "B-C-105-1", 
+                            "Value": "19.950"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "B-C-106-1", 
+                            "Value": "131.250"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "B-C-99-1", 
+                            "Value": "114.450"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "D-B-215-1", 
+                            "Value": "71.400"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "D-B-216-1", 
+                            "Value": "212.100"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "D-B-217-1", 
+                            "Value": "94.500"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "D-B-218-1", 
+                            "Value": "72.450"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "D-C-83-1", 
+                            "Value": "30.450"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "D-C-84-1", 
+                            "Value": "162.750"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "D-C-85-1", 
+                            "Value": "95.550"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "D-C-86-1", 
+                            "Value": "36.750"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "D-C-87-1", 
+                            "Value": "43.050"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "D-C-88-1", 
+                            "Value": "29.400"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "D-C-89-1", 
+                            "Value": "161.700"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "D-C-90-1", 
+                            "Value": "91.350"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "N-B-209-1", 
+                            "Value": "42.000"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "N-B-210-1", 
+                            "Value": "75.600"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "N-B-211-1", 
+                            "Value": "59.850"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "N-B-212-1", 
+                            "Value": "10.500"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "N-C-115-1", 
+                            "Value": "27.300"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "N-C-116-1", 
+                            "Value": "154.350"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "N-C-117-1", 
+                            "Value": "35.700"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "N-C-118-1", 
+                            "Value": "37.800"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "N-C-119-1", 
+                            "Value": "66.150"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "N-C-120-1", 
+                            "Value": "54.600"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "N-C-121-1", 
+                            "Value": "17.850"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "N-C-122-1", 
+                            "Value": "18.900"
+                        }
+                    ], 
+                    "primary": []
+                }
+            }
+        }
+    ], 
+    "species": "mouse", 
+    "tissue": "Phenotypes"
+}

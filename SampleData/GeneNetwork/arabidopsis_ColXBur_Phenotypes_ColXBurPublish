@@ -1,0 +1,80 @@
+{
+    "cross": "ColXBur", 
+    "database": "ColXBurPublish", 
+    "records": [
+        {
+            "AdditiveEffect?": "840.357", 
+            "Authors": "Loudet", 
+            "Description": "Shoot growth (leaf area) in vitro 10 days after germination on Col x Bur Core-Pop164", 
+            "Index": "1", 
+            "Max LRS Location": "Chr5: 4.010649", 
+            "MaxLRS": "58.6", 
+            "Record": "10001", 
+            "Year": "2006", 
+            "details": {
+                "stats": {
+                    "all": [], 
+                    "grouponly": [
+                        {
+                            "name": "Interquartile Range", 
+                            "value": "Infinity"
+                        }, 
+                        {
+                            "name": "Maximum", 
+                            "value": "9098.80"
+                        }, 
+                        {
+                            "name": "Mean", 
+                            "value": "5741.55"
+                        }, 
+                        {
+                            "name": "Median", 
+                            "value": "5922.84"
+                        }, 
+                        {
+                            "name": "Minimum", 
+                            "value": "2028.00"
+                        }, 
+                        {
+                            "name": "N of Samples", 
+                            "value": "164"
+                        }, 
+                        {
+                            "name": "Range (fold)", 
+                            "value": "Infinity"
+                        }, 
+                        {
+                            "name": "Range (log2)", 
+                            "value": "7070.80"
+                        }, 
+                        {
+                            "name": "Standard Deviation (SD)", 
+                            "value": "1491.12"
+                        }, 
+                        {
+                            "name": "Standard Error (SE)", 
+                            "value": "116.44"
+                        }
+                    ], 
+                    "nongroup": []
+                }, 
+                "traits": {
+                    "other": [], 
+                    "primary": [
+                        {
+                            "Index": "1", 
+                            "Sample": "Col-0", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "Bur-0", 
+                            "Value": "x"
+                        }]
+                }
+            }
+        }
+    ], 
+    "species": "arabidopsis", 
+    "tissue": "Phenotypes"
+}

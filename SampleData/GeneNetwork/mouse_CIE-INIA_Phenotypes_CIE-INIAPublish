@@ -1,0 +1,4133 @@
+{
+    "cross": "CIE-INIA", 
+    "database": "CIE-INIAPublish", 
+    "records": [
+        {
+            "Authors": "0.000", 
+            "Description": "Mulligan MK, Williams R, Lu L, Lopez M, Miles M, Gong S, Pandey A, Ingels J", 
+            "Index": "1", 
+            "Record": "1", 
+            "details": {
+                "traits": {
+                    "other": [
+                        {
+                            "Index": "1", 
+                            "Sample": "AIR.B.M.14.BLA.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "AIR.B.M.14.BST.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "AIR.B.M.14.CA1.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "AIR.B.M.14.CA3.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "AIR.B.M.14.CeA.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "AIR.B.M.14.DLS.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "AIR.B.M.14.DMS.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "AIR.B.M.14.ILC.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "AIR.B.M.14.NAc.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "AIR.B.M.14.NAs.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "AIR.B.M.14.PrL.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "AIR.B.M.14.VCX.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "AIR.B.M.14.VTA.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "AIR.B.M.26.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "AIR.B.M.26.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "AIR.B.M.26.CA1.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "AIR.B.M.26.CA3.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "AIR.B.M.26.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "AIR.B.M.26.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "AIR.B.M.26.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "AIR.B.M.26.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "AIR.B.M.26.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "AIR.B.M.26.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "AIR.B.M.26.PrL.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "AIR.B.M.26.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "AIR.B.M.26.VTA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "AIR.D.M.03.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "AIR.D.M.03.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "AIR.D.M.03.CA1.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "AIR.D.M.03.CA3.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "AIR.D.M.03.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "AIR.D.M.03.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "AIR.D.M.03.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "AIR.D.M.03.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "AIR.D.M.03.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "AIR.D.M.03.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "37", 
+                            "Sample": "AIR.D.M.03.PrL.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "38", 
+                            "Sample": "AIR.D.M.03.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "39", 
+                            "Sample": "AIR.D.M.03.VTA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "40", 
+                            "Sample": "AIR.D.M.08.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "41", 
+                            "Sample": "AIR.D.M.08.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "42", 
+                            "Sample": "AIR.D.M.08.CA1.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "43", 
+                            "Sample": "AIR.D.M.08.CA3.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "44", 
+                            "Sample": "AIR.D.M.08.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "45", 
+                            "Sample": "AIR.D.M.08.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "46", 
+                            "Sample": "AIR.D.M.08.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "47", 
+                            "Sample": "AIR.D.M.08.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "48", 
+                            "Sample": "AIR.D.M.08.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "49", 
+                            "Sample": "AIR.D.M.08.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "50", 
+                            "Sample": "AIR.D.M.08.PrL.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "51", 
+                            "Sample": "AIR.D.M.08.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "52", 
+                            "Sample": "AIR.D.M.08.VTA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "53", 
+                            "Sample": "BAS.B.F.05.BLA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "54", 
+                            "Sample": "BAS.B.F.05.BST.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "55", 
+                            "Sample": "BAS.B.F.05.CeA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "56", 
+                            "Sample": "BAS.B.F.05.DLS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "57", 
+                            "Sample": "BAS.B.F.05.DMS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "58", 
+                            "Sample": "BAS.B.F.05.ILC.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "59", 
+                            "Sample": "BAS.B.F.05.NAc.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "60", 
+                            "Sample": "BAS.B.F.05.NAs.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "61", 
+                            "Sample": "BAS.B.F.05.PrL.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "62", 
+                            "Sample": "BAS.B.F.05.VCX.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "63", 
+                            "Sample": "BAS.B.F.05.VTA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "64", 
+                            "Sample": "BAS.B.F.06.BLA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "65", 
+                            "Sample": "BAS.B.F.06.BST.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "66", 
+                            "Sample": "BAS.B.F.06.CeA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "67", 
+                            "Sample": "BAS.B.F.06.DLS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "68", 
+                            "Sample": "BAS.B.F.06.DMS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "69", 
+                            "Sample": "BAS.B.F.06.ILC.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "70", 
+                            "Sample": "BAS.B.F.06.NAc.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "71", 
+                            "Sample": "BAS.B.F.06.NAs.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "72", 
+                            "Sample": "BAS.B.F.06.PrL.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "73", 
+                            "Sample": "BAS.B.F.06.VCX.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "74", 
+                            "Sample": "BAS.B.F.06.VTA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "75", 
+                            "Sample": "BAS.B.M.07.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "76", 
+                            "Sample": "BAS.B.M.07.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "77", 
+                            "Sample": "BAS.B.M.07.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "78", 
+                            "Sample": "BAS.B.M.07.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "79", 
+                            "Sample": "BAS.B.M.07.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "80", 
+                            "Sample": "BAS.B.M.07.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "81", 
+                            "Sample": "BAS.B.M.07.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "82", 
+                            "Sample": "BAS.B.M.07.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "83", 
+                            "Sample": "BAS.B.M.07.PrL.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "84", 
+                            "Sample": "BAS.B.M.07.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "85", 
+                            "Sample": "BAS.B.M.07.VTA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "86", 
+                            "Sample": "BAS.B.M.08.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "87", 
+                            "Sample": "BAS.B.M.08.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "88", 
+                            "Sample": "BAS.B.M.08.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "89", 
+                            "Sample": "BAS.B.M.08.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "90", 
+                            "Sample": "BAS.B.M.08.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "91", 
+                            "Sample": "BAS.B.M.08.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "92", 
+                            "Sample": "BAS.B.M.08.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "93", 
+                            "Sample": "BAS.B.M.08.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "94", 
+                            "Sample": "BAS.B.M.08.PrL.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "95", 
+                            "Sample": "BAS.B.M.08.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "96", 
+                            "Sample": "BAS.B.M.08.VTA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "97", 
+                            "Sample": "BAS.D.F.01.BLA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "98", 
+                            "Sample": "BAS.D.F.01.BST.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "99", 
+                            "Sample": "BAS.D.F.01.CeA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "100", 
+                            "Sample": "BAS.D.F.01.DLS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "101", 
+                            "Sample": "BAS.D.F.01.DMS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "102", 
+                            "Sample": "BAS.D.F.01.ILC.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "103", 
+                            "Sample": "BAS.D.F.01.NAc.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "104", 
+                            "Sample": "BAS.D.F.01.NAs.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "105", 
+                            "Sample": "BAS.D.F.01.PrL.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "106", 
+                            "Sample": "BAS.D.F.01.VCX.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "107", 
+                            "Sample": "BAS.D.F.01.VTA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "108", 
+                            "Sample": "BAS.D.F.02.BLA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "109", 
+                            "Sample": "BAS.D.F.02.BST.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "110", 
+                            "Sample": "BAS.D.F.02.CeA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "111", 
+                            "Sample": "BAS.D.F.02.DLS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "112", 
+                            "Sample": "BAS.D.F.02.DMS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "113", 
+                            "Sample": "BAS.D.F.02.ILC.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "114", 
+                            "Sample": "BAS.D.F.02.NAc.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "115", 
+                            "Sample": "BAS.D.F.02.NAs.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "116", 
+                            "Sample": "BAS.D.F.02.PrL.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "117", 
+                            "Sample": "BAS.D.F.02.VCX.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "118", 
+                            "Sample": "BAS.D.F.02.VTA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "119", 
+                            "Sample": "BAS.D.M.03.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "120", 
+                            "Sample": "BAS.D.M.03.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "121", 
+                            "Sample": "BAS.D.M.03.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "122", 
+                            "Sample": "BAS.D.M.03.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "123", 
+                            "Sample": "BAS.D.M.03.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "124", 
+                            "Sample": "BAS.D.M.03.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "125", 
+                            "Sample": "BAS.D.M.03.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "126", 
+                            "Sample": "BAS.D.M.03.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "127", 
+                            "Sample": "BAS.D.M.03.PrL.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "128", 
+                            "Sample": "BAS.D.M.03.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "129", 
+                            "Sample": "BAS.D.M.03.VTA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "130", 
+                            "Sample": "BAS.D.M.04.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "131", 
+                            "Sample": "BAS.D.M.04.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "132", 
+                            "Sample": "BAS.D.M.04.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "133", 
+                            "Sample": "BAS.D.M.04.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "134", 
+                            "Sample": "BAS.D.M.04.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "135", 
+                            "Sample": "BAS.D.M.04.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "136", 
+                            "Sample": "BAS.D.M.04.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "137", 
+                            "Sample": "BAS.D.M.04.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "138", 
+                            "Sample": "BAS.D.M.04.PrL.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "139", 
+                            "Sample": "BAS.D.M.04.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "140", 
+                            "Sample": "BAS.D.M.04.VTA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "141", 
+                            "Sample": "CIE.B.M.22.BST.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "142", 
+                            "Sample": "CIE.B.M.22.CA1.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "143", 
+                            "Sample": "CIE.B.M.22.CA3.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "144", 
+                            "Sample": "CIE.B.M.22.CeA.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "145", 
+                            "Sample": "CIE.B.M.22.DLS.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "146", 
+                            "Sample": "CIE.B.M.22.DMS.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "147", 
+                            "Sample": "CIE.B.M.22.ILC.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "148", 
+                            "Sample": "CIE.B.M.22.NAc.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "149", 
+                            "Sample": "CIE.B.M.22.NAs.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "150", 
+                            "Sample": "CIE.B.M.22.PrL.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "151", 
+                            "Sample": "CIE.B.M.22.VCX.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "152", 
+                            "Sample": "CIE.B.M.22.VTA.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "153", 
+                            "Sample": "CIE.B.M.34.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "154", 
+                            "Sample": "CIE.B.M.34.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "155", 
+                            "Sample": "CIE.B.M.34.CA1.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "156", 
+                            "Sample": "CIE.B.M.34.CA3.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "157", 
+                            "Sample": "CIE.B.M.34.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "158", 
+                            "Sample": "CIE.B.M.34.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "159", 
+                            "Sample": "CIE.B.M.34.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "160", 
+                            "Sample": "CIE.B.M.34.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "161", 
+                            "Sample": "CIE.B.M.34.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "162", 
+                            "Sample": "CIE.B.M.34.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "163", 
+                            "Sample": "CIE.B.M.34.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "164", 
+                            "Sample": "CIE.B.M.34.VTA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "165", 
+                            "Sample": "CIE.D.M.01.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "166", 
+                            "Sample": "CIE.D.M.01.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "167", 
+                            "Sample": "CIE.D.M.01.CA1.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "168", 
+                            "Sample": "CIE.D.M.01.CA3.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "169", 
+                            "Sample": "CIE.D.M.01.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "170", 
+                            "Sample": "CIE.D.M.01.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "171", 
+                            "Sample": "CIE.D.M.01.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "172", 
+                            "Sample": "CIE.D.M.01.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "173", 
+                            "Sample": "CIE.D.M.01.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "174", 
+                            "Sample": "CIE.D.M.01.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "175", 
+                            "Sample": "CIE.D.M.01.PrL.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "176", 
+                            "Sample": "CIE.D.M.01.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "177", 
+                            "Sample": "CIE.D.M.01.VTA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "178", 
+                            "Sample": "CIE.D.M.09.BLA.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "179", 
+                            "Sample": "CIE.D.M.09.BST.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "180", 
+                            "Sample": "CIE.D.M.09.CA1.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "181", 
+                            "Sample": "CIE.D.M.09.CA3.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "182", 
+                            "Sample": "CIE.D.M.09.CeA.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "183", 
+                            "Sample": "CIE.D.M.09.DLS.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "184", 
+                            "Sample": "CIE.D.M.09.DMS.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "185", 
+                            "Sample": "CIE.D.M.09.ILC.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "186", 
+                            "Sample": "CIE.D.M.09.NAc.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "187", 
+                            "Sample": "CIE.D.M.09.NAs.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "188", 
+                            "Sample": "CIE.D.M.09.PrL.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "189", 
+                            "Sample": "CIE.D.M.09.VCX.P", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "190", 
+                            "Sample": "CIE.D.M.09.VTA.P", 
+                            "Value": "x"
+                        }
+                    ], 
+                    "primary": []
+                }
+            }
+        }, 
+        {
+            "Authors": "0.000", 
+            "Description": "Mulligan MK, Williams R, Lu L, Lopez M, Miles M, Gong S, Pandey A, Ingels J", 
+            "Index": "2", 
+            "Record": "2", 
+            "details": {
+                "traits": {
+                    "other": [
+                        {
+                            "Index": "1", 
+                            "Sample": "AIR.B.M.14.BLA.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "AIR.B.M.14.BST.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "AIR.B.M.14.CA1.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "AIR.B.M.14.CA3.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "AIR.B.M.14.CeA.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "AIR.B.M.14.DLS.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "AIR.B.M.14.DMS.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "AIR.B.M.14.ILC.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "AIR.B.M.14.NAc.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "AIR.B.M.14.NAs.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "AIR.B.M.14.PrL.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "AIR.B.M.14.VCX.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "AIR.B.M.14.VTA.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "AIR.B.M.26.BLA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "AIR.B.M.26.BST.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "AIR.B.M.26.CA1.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "AIR.B.M.26.CA3.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "AIR.B.M.26.CeA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "AIR.B.M.26.DLS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "AIR.B.M.26.DMS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "AIR.B.M.26.ILC.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "AIR.B.M.26.NAc.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "AIR.B.M.26.NAs.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "AIR.B.M.26.PrL.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "AIR.B.M.26.VCX.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "AIR.B.M.26.VTA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "AIR.D.M.03.BLA.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "AIR.D.M.03.BST.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "AIR.D.M.03.CA1.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "AIR.D.M.03.CA3.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "AIR.D.M.03.CeA.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "AIR.D.M.03.DLS.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "AIR.D.M.03.DMS.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "AIR.D.M.03.ILC.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "AIR.D.M.03.NAc.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "AIR.D.M.03.NAs.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "37", 
+                            "Sample": "AIR.D.M.03.PrL.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "38", 
+                            "Sample": "AIR.D.M.03.VCX.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "39", 
+                            "Sample": "AIR.D.M.03.VTA.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "40", 
+                            "Sample": "AIR.D.M.08.BLA.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "41", 
+                            "Sample": "AIR.D.M.08.BST.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "42", 
+                            "Sample": "AIR.D.M.08.CA1.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "43", 
+                            "Sample": "AIR.D.M.08.CA3.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "44", 
+                            "Sample": "AIR.D.M.08.CeA.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "45", 
+                            "Sample": "AIR.D.M.08.DLS.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "46", 
+                            "Sample": "AIR.D.M.08.DMS.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "47", 
+                            "Sample": "AIR.D.M.08.ILC.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "48", 
+                            "Sample": "AIR.D.M.08.NAc.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "49", 
+                            "Sample": "AIR.D.M.08.NAs.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "50", 
+                            "Sample": "AIR.D.M.08.PrL.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "51", 
+                            "Sample": "AIR.D.M.08.VCX.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "52", 
+                            "Sample": "AIR.D.M.08.VTA.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "53", 
+                            "Sample": "BAS.B.F.05.BLA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "54", 
+                            "Sample": "BAS.B.F.05.BST.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "55", 
+                            "Sample": "BAS.B.F.05.CeA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "56", 
+                            "Sample": "BAS.B.F.05.DLS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "57", 
+                            "Sample": "BAS.B.F.05.DMS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "58", 
+                            "Sample": "BAS.B.F.05.ILC.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "59", 
+                            "Sample": "BAS.B.F.05.NAc.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "60", 
+                            "Sample": "BAS.B.F.05.NAs.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "61", 
+                            "Sample": "BAS.B.F.05.PrL.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "62", 
+                            "Sample": "BAS.B.F.05.VCX.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "63", 
+                            "Sample": "BAS.B.F.05.VTA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "64", 
+                            "Sample": "BAS.B.F.06.BLA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "65", 
+                            "Sample": "BAS.B.F.06.BST.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "66", 
+                            "Sample": "BAS.B.F.06.CeA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "67", 
+                            "Sample": "BAS.B.F.06.DLS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "68", 
+                            "Sample": "BAS.B.F.06.DMS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "69", 
+                            "Sample": "BAS.B.F.06.ILC.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "70", 
+                            "Sample": "BAS.B.F.06.NAc.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "71", 
+                            "Sample": "BAS.B.F.06.NAs.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "72", 
+                            "Sample": "BAS.B.F.06.PrL.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "73", 
+                            "Sample": "BAS.B.F.06.VCX.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "74", 
+                            "Sample": "BAS.B.F.06.VTA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "75", 
+                            "Sample": "BAS.B.M.07.BLA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "76", 
+                            "Sample": "BAS.B.M.07.BST.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "77", 
+                            "Sample": "BAS.B.M.07.CeA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "78", 
+                            "Sample": "BAS.B.M.07.DLS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "79", 
+                            "Sample": "BAS.B.M.07.DMS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "80", 
+                            "Sample": "BAS.B.M.07.ILC.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "81", 
+                            "Sample": "BAS.B.M.07.NAc.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "82", 
+                            "Sample": "BAS.B.M.07.NAs.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "83", 
+                            "Sample": "BAS.B.M.07.PrL.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "84", 
+                            "Sample": "BAS.B.M.07.VCX.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "85", 
+                            "Sample": "BAS.B.M.07.VTA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "86", 
+                            "Sample": "BAS.B.M.08.BLA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "87", 
+                            "Sample": "BAS.B.M.08.BST.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "88", 
+                            "Sample": "BAS.B.M.08.CeA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "89", 
+                            "Sample": "BAS.B.M.08.DLS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "90", 
+                            "Sample": "BAS.B.M.08.DMS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "91", 
+                            "Sample": "BAS.B.M.08.ILC.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "92", 
+                            "Sample": "BAS.B.M.08.NAc.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "93", 
+                            "Sample": "BAS.B.M.08.NAs.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "94", 
+                            "Sample": "BAS.B.M.08.PrL.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "95", 
+                            "Sample": "BAS.B.M.08.VCX.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "96", 
+                            "Sample": "BAS.B.M.08.VTA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "97", 
+                            "Sample": "BAS.D.F.01.BLA.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "98", 
+                            "Sample": "BAS.D.F.01.BST.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "99", 
+                            "Sample": "BAS.D.F.01.CeA.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "100", 
+                            "Sample": "BAS.D.F.01.DLS.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "101", 
+                            "Sample": "BAS.D.F.01.DMS.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "102", 
+                            "Sample": "BAS.D.F.01.ILC.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "103", 
+                            "Sample": "BAS.D.F.01.NAc.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "104", 
+                            "Sample": "BAS.D.F.01.NAs.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "105", 
+                            "Sample": "BAS.D.F.01.PrL.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "106", 
+                            "Sample": "BAS.D.F.01.VCX.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "107", 
+                            "Sample": "BAS.D.F.01.VTA.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "108", 
+                            "Sample": "BAS.D.F.02.BLA.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "109", 
+                            "Sample": "BAS.D.F.02.BST.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "110", 
+                            "Sample": "BAS.D.F.02.CeA.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "111", 
+                            "Sample": "BAS.D.F.02.DLS.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "112", 
+                            "Sample": "BAS.D.F.02.DMS.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "113", 
+                            "Sample": "BAS.D.F.02.ILC.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "114", 
+                            "Sample": "BAS.D.F.02.NAc.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "115", 
+                            "Sample": "BAS.D.F.02.NAs.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "116", 
+                            "Sample": "BAS.D.F.02.PrL.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "117", 
+                            "Sample": "BAS.D.F.02.VCX.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "118", 
+                            "Sample": "BAS.D.F.02.VTA.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "119", 
+                            "Sample": "BAS.D.M.03.BLA.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "120", 
+                            "Sample": "BAS.D.M.03.BST.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "121", 
+                            "Sample": "BAS.D.M.03.CeA.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "122", 
+                            "Sample": "BAS.D.M.03.DLS.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "123", 
+                            "Sample": "BAS.D.M.03.DMS.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "124", 
+                            "Sample": "BAS.D.M.03.ILC.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "125", 
+                            "Sample": "BAS.D.M.03.NAc.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "126", 
+                            "Sample": "BAS.D.M.03.NAs.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "127", 
+                            "Sample": "BAS.D.M.03.PrL.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "128", 
+                            "Sample": "BAS.D.M.03.VCX.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "129", 
+                            "Sample": "BAS.D.M.03.VTA.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "130", 
+                            "Sample": "BAS.D.M.04.BLA.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "131", 
+                            "Sample": "BAS.D.M.04.BST.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "132", 
+                            "Sample": "BAS.D.M.04.CeA.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "133", 
+                            "Sample": "BAS.D.M.04.DLS.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "134", 
+                            "Sample": "BAS.D.M.04.DMS.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "135", 
+                            "Sample": "BAS.D.M.04.ILC.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "136", 
+                            "Sample": "BAS.D.M.04.NAc.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "137", 
+                            "Sample": "BAS.D.M.04.NAs.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "138", 
+                            "Sample": "BAS.D.M.04.PrL.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "139", 
+                            "Sample": "BAS.D.M.04.VCX.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "140", 
+                            "Sample": "BAS.D.M.04.VTA.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "141", 
+                            "Sample": "CIE.B.M.22.BST.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "142", 
+                            "Sample": "CIE.B.M.22.CA1.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "143", 
+                            "Sample": "CIE.B.M.22.CA3.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "144", 
+                            "Sample": "CIE.B.M.22.CeA.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "145", 
+                            "Sample": "CIE.B.M.22.DLS.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "146", 
+                            "Sample": "CIE.B.M.22.DMS.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "147", 
+                            "Sample": "CIE.B.M.22.ILC.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "148", 
+                            "Sample": "CIE.B.M.22.NAc.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "149", 
+                            "Sample": "CIE.B.M.22.NAs.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "150", 
+                            "Sample": "CIE.B.M.22.PrL.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "151", 
+                            "Sample": "CIE.B.M.22.VCX.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "152", 
+                            "Sample": "CIE.B.M.22.VTA.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "153", 
+                            "Sample": "CIE.B.M.34.BLA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "154", 
+                            "Sample": "CIE.B.M.34.BST.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "155", 
+                            "Sample": "CIE.B.M.34.CA1.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "156", 
+                            "Sample": "CIE.B.M.34.CA3.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "157", 
+                            "Sample": "CIE.B.M.34.CeA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "158", 
+                            "Sample": "CIE.B.M.34.DLS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "159", 
+                            "Sample": "CIE.B.M.34.DMS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "160", 
+                            "Sample": "CIE.B.M.34.ILC.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "161", 
+                            "Sample": "CIE.B.M.34.NAc.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "162", 
+                            "Sample": "CIE.B.M.34.NAs.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "163", 
+                            "Sample": "CIE.B.M.34.VCX.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "164", 
+                            "Sample": "CIE.B.M.34.VTA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "165", 
+                            "Sample": "CIE.D.M.01.BLA.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "166", 
+                            "Sample": "CIE.D.M.01.BST.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "167", 
+                            "Sample": "CIE.D.M.01.CA1.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "168", 
+                            "Sample": "CIE.D.M.01.CA3.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "169", 
+                            "Sample": "CIE.D.M.01.CeA.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "170", 
+                            "Sample": "CIE.D.M.01.DLS.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "171", 
+                            "Sample": "CIE.D.M.01.DMS.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "172", 
+                            "Sample": "CIE.D.M.01.ILC.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "173", 
+                            "Sample": "CIE.D.M.01.NAc.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "174", 
+                            "Sample": "CIE.D.M.01.NAs.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "175", 
+                            "Sample": "CIE.D.M.01.PrL.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "176", 
+                            "Sample": "CIE.D.M.01.VCX.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "177", 
+                            "Sample": "CIE.D.M.01.VTA.S", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "178", 
+                            "Sample": "CIE.D.M.09.BLA.P", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "179", 
+                            "Sample": "CIE.D.M.09.BST.P", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "180", 
+                            "Sample": "CIE.D.M.09.CA1.P", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "181", 
+                            "Sample": "CIE.D.M.09.CA3.P", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "182", 
+                            "Sample": "CIE.D.M.09.CeA.P", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "183", 
+                            "Sample": "CIE.D.M.09.DLS.P", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "184", 
+                            "Sample": "CIE.D.M.09.DMS.P", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "185", 
+                            "Sample": "CIE.D.M.09.ILC.P", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "186", 
+                            "Sample": "CIE.D.M.09.NAc.P", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "187", 
+                            "Sample": "CIE.D.M.09.NAs.P", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "188", 
+                            "Sample": "CIE.D.M.09.PrL.P", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "189", 
+                            "Sample": "CIE.D.M.09.VCX.P", 
+                            "Value": "2.000"
+                        }, 
+                        {
+                            "Index": "190", 
+                            "Sample": "CIE.D.M.09.VTA.P", 
+                            "Value": "2.000"
+                        }
+                    ], 
+                    "primary": []
+                }
+            }
+        }, 
+        {
+            "Authors": "0.000", 
+            "Description": "Mulligan MK, Williams R, Lu L, Lopez M, Miles M, Gong S, Pandey A, Ingels J", 
+            "Index": "3", 
+            "Record": "3", 
+            "details": {
+                "traits": {
+                    "other": [
+                        {
+                            "Index": "1", 
+                            "Sample": "AIR.B.M.14.BLA.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "AIR.B.M.14.BST.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "AIR.B.M.14.CA1.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "AIR.B.M.14.CA3.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "AIR.B.M.14.CeA.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "AIR.B.M.14.DLS.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "AIR.B.M.14.DMS.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "AIR.B.M.14.ILC.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "AIR.B.M.14.NAc.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "AIR.B.M.14.NAs.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "AIR.B.M.14.PrL.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "AIR.B.M.14.VCX.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "AIR.B.M.14.VTA.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "AIR.B.M.26.BLA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "AIR.B.M.26.BST.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "AIR.B.M.26.CA1.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "AIR.B.M.26.CA3.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "AIR.B.M.26.CeA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "AIR.B.M.26.DLS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "AIR.B.M.26.DMS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "AIR.B.M.26.ILC.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "AIR.B.M.26.NAc.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "AIR.B.M.26.NAs.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "AIR.B.M.26.PrL.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "AIR.B.M.26.VCX.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "AIR.B.M.26.VTA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "AIR.D.M.03.BLA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "AIR.D.M.03.BST.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "AIR.D.M.03.CA1.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "AIR.D.M.03.CA3.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "AIR.D.M.03.CeA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "AIR.D.M.03.DLS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "AIR.D.M.03.DMS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "AIR.D.M.03.ILC.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "AIR.D.M.03.NAc.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "AIR.D.M.03.NAs.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "37", 
+                            "Sample": "AIR.D.M.03.PrL.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "38", 
+                            "Sample": "AIR.D.M.03.VCX.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "39", 
+                            "Sample": "AIR.D.M.03.VTA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "40", 
+                            "Sample": "AIR.D.M.08.BLA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "41", 
+                            "Sample": "AIR.D.M.08.BST.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "42", 
+                            "Sample": "AIR.D.M.08.CA1.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "43", 
+                            "Sample": "AIR.D.M.08.CA3.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "44", 
+                            "Sample": "AIR.D.M.08.CeA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "45", 
+                            "Sample": "AIR.D.M.08.DLS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "46", 
+                            "Sample": "AIR.D.M.08.DMS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "47", 
+                            "Sample": "AIR.D.M.08.ILC.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "48", 
+                            "Sample": "AIR.D.M.08.NAc.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "49", 
+                            "Sample": "AIR.D.M.08.NAs.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "50", 
+                            "Sample": "AIR.D.M.08.PrL.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "51", 
+                            "Sample": "AIR.D.M.08.VCX.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "52", 
+                            "Sample": "AIR.D.M.08.VTA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "53", 
+                            "Sample": "BAS.B.F.05.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "54", 
+                            "Sample": "BAS.B.F.05.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "55", 
+                            "Sample": "BAS.B.F.05.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "56", 
+                            "Sample": "BAS.B.F.05.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "57", 
+                            "Sample": "BAS.B.F.05.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "58", 
+                            "Sample": "BAS.B.F.05.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "59", 
+                            "Sample": "BAS.B.F.05.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "60", 
+                            "Sample": "BAS.B.F.05.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "61", 
+                            "Sample": "BAS.B.F.05.PrL.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "62", 
+                            "Sample": "BAS.B.F.05.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "63", 
+                            "Sample": "BAS.B.F.05.VTA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "64", 
+                            "Sample": "BAS.B.F.06.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "65", 
+                            "Sample": "BAS.B.F.06.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "66", 
+                            "Sample": "BAS.B.F.06.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "67", 
+                            "Sample": "BAS.B.F.06.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "68", 
+                            "Sample": "BAS.B.F.06.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "69", 
+                            "Sample": "BAS.B.F.06.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "70", 
+                            "Sample": "BAS.B.F.06.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "71", 
+                            "Sample": "BAS.B.F.06.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "72", 
+                            "Sample": "BAS.B.F.06.PrL.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "73", 
+                            "Sample": "BAS.B.F.06.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "74", 
+                            "Sample": "BAS.B.F.06.VTA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "75", 
+                            "Sample": "BAS.B.M.07.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "76", 
+                            "Sample": "BAS.B.M.07.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "77", 
+                            "Sample": "BAS.B.M.07.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "78", 
+                            "Sample": "BAS.B.M.07.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "79", 
+                            "Sample": "BAS.B.M.07.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "80", 
+                            "Sample": "BAS.B.M.07.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "81", 
+                            "Sample": "BAS.B.M.07.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "82", 
+                            "Sample": "BAS.B.M.07.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "83", 
+                            "Sample": "BAS.B.M.07.PrL.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "84", 
+                            "Sample": "BAS.B.M.07.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "85", 
+                            "Sample": "BAS.B.M.07.VTA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "86", 
+                            "Sample": "BAS.B.M.08.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "87", 
+                            "Sample": "BAS.B.M.08.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "88", 
+                            "Sample": "BAS.B.M.08.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "89", 
+                            "Sample": "BAS.B.M.08.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "90", 
+                            "Sample": "BAS.B.M.08.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "91", 
+                            "Sample": "BAS.B.M.08.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "92", 
+                            "Sample": "BAS.B.M.08.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "93", 
+                            "Sample": "BAS.B.M.08.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "94", 
+                            "Sample": "BAS.B.M.08.PrL.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "95", 
+                            "Sample": "BAS.B.M.08.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "96", 
+                            "Sample": "BAS.B.M.08.VTA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "97", 
+                            "Sample": "BAS.D.F.01.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "98", 
+                            "Sample": "BAS.D.F.01.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "99", 
+                            "Sample": "BAS.D.F.01.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "100", 
+                            "Sample": "BAS.D.F.01.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "101", 
+                            "Sample": "BAS.D.F.01.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "102", 
+                            "Sample": "BAS.D.F.01.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "103", 
+                            "Sample": "BAS.D.F.01.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "104", 
+                            "Sample": "BAS.D.F.01.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "105", 
+                            "Sample": "BAS.D.F.01.PrL.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "106", 
+                            "Sample": "BAS.D.F.01.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "107", 
+                            "Sample": "BAS.D.F.01.VTA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "108", 
+                            "Sample": "BAS.D.F.02.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "109", 
+                            "Sample": "BAS.D.F.02.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "110", 
+                            "Sample": "BAS.D.F.02.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "111", 
+                            "Sample": "BAS.D.F.02.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "112", 
+                            "Sample": "BAS.D.F.02.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "113", 
+                            "Sample": "BAS.D.F.02.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "114", 
+                            "Sample": "BAS.D.F.02.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "115", 
+                            "Sample": "BAS.D.F.02.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "116", 
+                            "Sample": "BAS.D.F.02.PrL.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "117", 
+                            "Sample": "BAS.D.F.02.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "118", 
+                            "Sample": "BAS.D.F.02.VTA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "119", 
+                            "Sample": "BAS.D.M.03.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "120", 
+                            "Sample": "BAS.D.M.03.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "121", 
+                            "Sample": "BAS.D.M.03.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "122", 
+                            "Sample": "BAS.D.M.03.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "123", 
+                            "Sample": "BAS.D.M.03.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "124", 
+                            "Sample": "BAS.D.M.03.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "125", 
+                            "Sample": "BAS.D.M.03.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "126", 
+                            "Sample": "BAS.D.M.03.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "127", 
+                            "Sample": "BAS.D.M.03.PrL.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "128", 
+                            "Sample": "BAS.D.M.03.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "129", 
+                            "Sample": "BAS.D.M.03.VTA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "130", 
+                            "Sample": "BAS.D.M.04.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "131", 
+                            "Sample": "BAS.D.M.04.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "132", 
+                            "Sample": "BAS.D.M.04.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "133", 
+                            "Sample": "BAS.D.M.04.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "134", 
+                            "Sample": "BAS.D.M.04.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "135", 
+                            "Sample": "BAS.D.M.04.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "136", 
+                            "Sample": "BAS.D.M.04.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "137", 
+                            "Sample": "BAS.D.M.04.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "138", 
+                            "Sample": "BAS.D.M.04.PrL.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "139", 
+                            "Sample": "BAS.D.M.04.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "140", 
+                            "Sample": "BAS.D.M.04.VTA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "141", 
+                            "Sample": "CIE.B.M.22.BST.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "142", 
+                            "Sample": "CIE.B.M.22.CA1.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "143", 
+                            "Sample": "CIE.B.M.22.CA3.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "144", 
+                            "Sample": "CIE.B.M.22.CeA.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "145", 
+                            "Sample": "CIE.B.M.22.DLS.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "146", 
+                            "Sample": "CIE.B.M.22.DMS.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "147", 
+                            "Sample": "CIE.B.M.22.ILC.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "148", 
+                            "Sample": "CIE.B.M.22.NAc.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "149", 
+                            "Sample": "CIE.B.M.22.NAs.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "150", 
+                            "Sample": "CIE.B.M.22.PrL.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "151", 
+                            "Sample": "CIE.B.M.22.VCX.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "152", 
+                            "Sample": "CIE.B.M.22.VTA.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "153", 
+                            "Sample": "CIE.B.M.34.BLA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "154", 
+                            "Sample": "CIE.B.M.34.BST.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "155", 
+                            "Sample": "CIE.B.M.34.CA1.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "156", 
+                            "Sample": "CIE.B.M.34.CA3.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "157", 
+                            "Sample": "CIE.B.M.34.CeA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "158", 
+                            "Sample": "CIE.B.M.34.DLS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "159", 
+                            "Sample": "CIE.B.M.34.DMS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "160", 
+                            "Sample": "CIE.B.M.34.ILC.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "161", 
+                            "Sample": "CIE.B.M.34.NAc.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "162", 
+                            "Sample": "CIE.B.M.34.NAs.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "163", 
+                            "Sample": "CIE.B.M.34.VCX.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "164", 
+                            "Sample": "CIE.B.M.34.VTA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "165", 
+                            "Sample": "CIE.D.M.01.BLA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "166", 
+                            "Sample": "CIE.D.M.01.BST.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "167", 
+                            "Sample": "CIE.D.M.01.CA1.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "168", 
+                            "Sample": "CIE.D.M.01.CA3.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "169", 
+                            "Sample": "CIE.D.M.01.CeA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "170", 
+                            "Sample": "CIE.D.M.01.DLS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "171", 
+                            "Sample": "CIE.D.M.01.DMS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "172", 
+                            "Sample": "CIE.D.M.01.ILC.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "173", 
+                            "Sample": "CIE.D.M.01.NAc.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "174", 
+                            "Sample": "CIE.D.M.01.NAs.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "175", 
+                            "Sample": "CIE.D.M.01.PrL.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "176", 
+                            "Sample": "CIE.D.M.01.VCX.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "177", 
+                            "Sample": "CIE.D.M.01.VTA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "178", 
+                            "Sample": "CIE.D.M.09.BLA.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "179", 
+                            "Sample": "CIE.D.M.09.BST.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "180", 
+                            "Sample": "CIE.D.M.09.CA1.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "181", 
+                            "Sample": "CIE.D.M.09.CA3.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "182", 
+                            "Sample": "CIE.D.M.09.CeA.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "183", 
+                            "Sample": "CIE.D.M.09.DLS.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "184", 
+                            "Sample": "CIE.D.M.09.DMS.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "185", 
+                            "Sample": "CIE.D.M.09.ILC.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "186", 
+                            "Sample": "CIE.D.M.09.NAc.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "187", 
+                            "Sample": "CIE.D.M.09.NAs.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "188", 
+                            "Sample": "CIE.D.M.09.PrL.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "189", 
+                            "Sample": "CIE.D.M.09.VCX.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "190", 
+                            "Sample": "CIE.D.M.09.VTA.P", 
+                            "Value": "1.000"
+                        }
+                    ], 
+                    "primary": []
+                }
+            }
+        }, 
+        {
+            "Authors": "0.000", 
+            "Description": "Mulligan MK, Williams R, Lu L, Lopez M, Miles M, Gong S, Pandey A, Ingels J", 
+            "Index": "4", 
+            "Record": "4", 
+            "details": {
+                "traits": {
+                    "other": [
+                        {
+                            "Index": "1", 
+                            "Sample": "AIR.B.M.14.BLA.P", 
+                            "Value": "29.400"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "AIR.B.M.14.BST.P", 
+                            "Value": "29.400"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "AIR.B.M.14.CA1.P", 
+                            "Value": "29.400"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "AIR.B.M.14.CA3.P", 
+                            "Value": "29.400"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "AIR.B.M.14.CeA.P", 
+                            "Value": "29.400"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "AIR.B.M.14.DLS.P", 
+                            "Value": "29.400"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "AIR.B.M.14.DMS.P", 
+                            "Value": "29.400"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "AIR.B.M.14.ILC.P", 
+                            "Value": "29.400"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "AIR.B.M.14.NAc.P", 
+                            "Value": "29.400"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "AIR.B.M.14.NAs.P", 
+                            "Value": "29.400"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "AIR.B.M.14.PrL.P", 
+                            "Value": "29.400"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "AIR.B.M.14.VCX.P", 
+                            "Value": "29.400"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "AIR.B.M.14.VTA.P", 
+                            "Value": "29.400"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "AIR.B.M.26.BLA.S", 
+                            "Value": "33.300"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "AIR.B.M.26.BST.S", 
+                            "Value": "33.300"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "AIR.B.M.26.CA1.S", 
+                            "Value": "33.300"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "AIR.B.M.26.CA3.S", 
+                            "Value": "33.300"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "AIR.B.M.26.CeA.S", 
+                            "Value": "33.300"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "AIR.B.M.26.DLS.S", 
+                            "Value": "33.300"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "AIR.B.M.26.DMS.S", 
+                            "Value": "33.300"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "AIR.B.M.26.ILC.S", 
+                            "Value": "33.300"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "AIR.B.M.26.NAc.S", 
+                            "Value": "33.300"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "AIR.B.M.26.NAs.S", 
+                            "Value": "33.300"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "AIR.B.M.26.PrL.S", 
+                            "Value": "33.300"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "AIR.B.M.26.VCX.S", 
+                            "Value": "33.300"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "AIR.B.M.26.VTA.S", 
+                            "Value": "33.300"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "AIR.D.M.03.BLA.S", 
+                            "Value": "31.200"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "AIR.D.M.03.BST.S", 
+                            "Value": "31.200"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "AIR.D.M.03.CA1.S", 
+                            "Value": "31.200"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "AIR.D.M.03.CA3.S", 
+                            "Value": "31.200"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "AIR.D.M.03.CeA.S", 
+                            "Value": "31.200"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "AIR.D.M.03.DLS.S", 
+                            "Value": "31.200"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "AIR.D.M.03.DMS.S", 
+                            "Value": "31.200"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "AIR.D.M.03.ILC.S", 
+                            "Value": "31.200"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "AIR.D.M.03.NAc.S", 
+                            "Value": "31.200"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "AIR.D.M.03.NAs.S", 
+                            "Value": "31.200"
+                        }, 
+                        {
+                            "Index": "37", 
+                            "Sample": "AIR.D.M.03.PrL.S", 
+                            "Value": "31.200"
+                        }, 
+                        {
+                            "Index": "38", 
+                            "Sample": "AIR.D.M.03.VCX.S", 
+                            "Value": "31.200"
+                        }, 
+                        {
+                            "Index": "39", 
+                            "Sample": "AIR.D.M.03.VTA.S", 
+                            "Value": "33.500"
+                        }, 
+                        {
+                            "Index": "40", 
+                            "Sample": "AIR.D.M.08.BLA.S", 
+                            "Value": "33.500"
+                        }, 
+                        {
+                            "Index": "41", 
+                            "Sample": "AIR.D.M.08.BST.S", 
+                            "Value": "33.500"
+                        }, 
+                        {
+                            "Index": "42", 
+                            "Sample": "AIR.D.M.08.CA1.S", 
+                            "Value": "33.500"
+                        }, 
+                        {
+                            "Index": "43", 
+                            "Sample": "AIR.D.M.08.CA3.S", 
+                            "Value": "33.500"
+                        }, 
+                        {
+                            "Index": "44", 
+                            "Sample": "AIR.D.M.08.CeA.S", 
+                            "Value": "33.500"
+                        }, 
+                        {
+                            "Index": "45", 
+                            "Sample": "AIR.D.M.08.DLS.S", 
+                            "Value": "33.500"
+                        }, 
+                        {
+                            "Index": "46", 
+                            "Sample": "AIR.D.M.08.DMS.S", 
+                            "Value": "33.500"
+                        }, 
+                        {
+                            "Index": "47", 
+                            "Sample": "AIR.D.M.08.ILC.S", 
+                            "Value": "33.500"
+                        }, 
+                        {
+                            "Index": "48", 
+                            "Sample": "AIR.D.M.08.NAc.S", 
+                            "Value": "33.500"
+                        }, 
+                        {
+                            "Index": "49", 
+                            "Sample": "AIR.D.M.08.NAs.S", 
+                            "Value": "33.500"
+                        }, 
+                        {
+                            "Index": "50", 
+                            "Sample": "AIR.D.M.08.PrL.S", 
+                            "Value": "33.500"
+                        }, 
+                        {
+                            "Index": "51", 
+                            "Sample": "AIR.D.M.08.VCX.S", 
+                            "Value": "33.500"
+                        }, 
+                        {
+                            "Index": "52", 
+                            "Sample": "AIR.D.M.08.VTA.S", 
+                            "Value": "33.500"
+                        }, 
+                        {
+                            "Index": "53", 
+                            "Sample": "CIE.B.M.22.BST.P", 
+                            "Value": "31.300"
+                        }, 
+                        {
+                            "Index": "54", 
+                            "Sample": "CIE.B.M.22.CA1.P", 
+                            "Value": "31.300"
+                        }, 
+                        {
+                            "Index": "55", 
+                            "Sample": "CIE.B.M.22.CA3.P", 
+                            "Value": "31.300"
+                        }, 
+                        {
+                            "Index": "56", 
+                            "Sample": "CIE.B.M.22.CeA.P", 
+                            "Value": "31.300"
+                        }, 
+                        {
+                            "Index": "57", 
+                            "Sample": "CIE.B.M.22.DLS.P", 
+                            "Value": "31.300"
+                        }, 
+                        {
+                            "Index": "58", 
+                            "Sample": "CIE.B.M.22.DMS.P", 
+                            "Value": "31.300"
+                        }, 
+                        {
+                            "Index": "59", 
+                            "Sample": "CIE.B.M.22.ILC.P", 
+                            "Value": "31.300"
+                        }, 
+                        {
+                            "Index": "60", 
+                            "Sample": "CIE.B.M.22.NAc.P", 
+                            "Value": "31.300"
+                        }, 
+                        {
+                            "Index": "61", 
+                            "Sample": "CIE.B.M.22.NAs.P", 
+                            "Value": "31.300"
+                        }, 
+                        {
+                            "Index": "62", 
+                            "Sample": "CIE.B.M.22.PrL.P", 
+                            "Value": "31.300"
+                        }, 
+                        {
+                            "Index": "63", 
+                            "Sample": "CIE.B.M.22.VCX.P", 
+                            "Value": "31.300"
+                        }, 
+                        {
+                            "Index": "64", 
+                            "Sample": "CIE.B.M.22.VTA.P", 
+                            "Value": "31.300"
+                        }, 
+                        {
+                            "Index": "65", 
+                            "Sample": "CIE.B.M.34.BLA.S", 
+                            "Value": "33.100"
+                        }, 
+                        {
+                            "Index": "66", 
+                            "Sample": "CIE.B.M.34.BST.S", 
+                            "Value": "33.100"
+                        }, 
+                        {
+                            "Index": "67", 
+                            "Sample": "CIE.B.M.34.CA1.S", 
+                            "Value": "33.100"
+                        }, 
+                        {
+                            "Index": "68", 
+                            "Sample": "CIE.B.M.34.CA3.S", 
+                            "Value": "33.100"
+                        }, 
+                        {
+                            "Index": "69", 
+                            "Sample": "CIE.B.M.34.CeA.S", 
+                            "Value": "33.100"
+                        }, 
+                        {
+                            "Index": "70", 
+                            "Sample": "CIE.B.M.34.DLS.S", 
+                            "Value": "33.100"
+                        }, 
+                        {
+                            "Index": "71", 
+                            "Sample": "CIE.B.M.34.DMS.S", 
+                            "Value": "33.100"
+                        }, 
+                        {
+                            "Index": "72", 
+                            "Sample": "CIE.B.M.34.ILC.S", 
+                            "Value": "33.100"
+                        }, 
+                        {
+                            "Index": "73", 
+                            "Sample": "CIE.B.M.34.NAc.S", 
+                            "Value": "33.100"
+                        }, 
+                        {
+                            "Index": "74", 
+                            "Sample": "CIE.B.M.34.NAs.S", 
+                            "Value": "33.100"
+                        }, 
+                        {
+                            "Index": "75", 
+                            "Sample": "CIE.B.M.34.VCX.S", 
+                            "Value": "33.100"
+                        }, 
+                        {
+                            "Index": "76", 
+                            "Sample": "CIE.B.M.34.VTA.S", 
+                            "Value": "33.100"
+                        }, 
+                        {
+                            "Index": "77", 
+                            "Sample": "CIE.D.M.01.BLA.S", 
+                            "Value": "36.700"
+                        }, 
+                        {
+                            "Index": "78", 
+                            "Sample": "CIE.D.M.01.BST.S", 
+                            "Value": "36.700"
+                        }, 
+                        {
+                            "Index": "79", 
+                            "Sample": "CIE.D.M.01.CA1.S", 
+                            "Value": "36.700"
+                        }, 
+                        {
+                            "Index": "80", 
+                            "Sample": "CIE.D.M.01.CA3.S", 
+                            "Value": "36.700"
+                        }, 
+                        {
+                            "Index": "81", 
+                            "Sample": "CIE.D.M.01.CeA.S", 
+                            "Value": "36.700"
+                        }, 
+                        {
+                            "Index": "82", 
+                            "Sample": "CIE.D.M.01.DLS.S", 
+                            "Value": "36.700"
+                        }, 
+                        {
+                            "Index": "83", 
+                            "Sample": "CIE.D.M.01.DMS.S", 
+                            "Value": "36.700"
+                        }, 
+                        {
+                            "Index": "84", 
+                            "Sample": "CIE.D.M.01.ILC.S", 
+                            "Value": "36.700"
+                        }, 
+                        {
+                            "Index": "85", 
+                            "Sample": "CIE.D.M.01.NAc.S", 
+                            "Value": "36.700"
+                        }, 
+                        {
+                            "Index": "86", 
+                            "Sample": "CIE.D.M.01.NAs.S", 
+                            "Value": "36.700"
+                        }, 
+                        {
+                            "Index": "87", 
+                            "Sample": "CIE.D.M.01.PrL.S", 
+                            "Value": "36.700"
+                        }, 
+                        {
+                            "Index": "88", 
+                            "Sample": "CIE.D.M.01.VCX.S", 
+                            "Value": "36.700"
+                        }, 
+                        {
+                            "Index": "89", 
+                            "Sample": "CIE.D.M.01.VTA.S", 
+                            "Value": "36.700"
+                        }, 
+                        {
+                            "Index": "90", 
+                            "Sample": "CIE.D.M.09.BLA.P", 
+                            "Value": "35.900"
+                        }, 
+                        {
+                            "Index": "91", 
+                            "Sample": "CIE.D.M.09.BST.P", 
+                            "Value": "35.900"
+                        }, 
+                        {
+                            "Index": "92", 
+                            "Sample": "CIE.D.M.09.CA1.P", 
+                            "Value": "35.900"
+                        }, 
+                        {
+                            "Index": "93", 
+                            "Sample": "CIE.D.M.09.CA3.P", 
+                            "Value": "35.900"
+                        }, 
+                        {
+                            "Index": "94", 
+                            "Sample": "CIE.D.M.09.CeA.P", 
+                            "Value": "35.900"
+                        }, 
+                        {
+                            "Index": "95", 
+                            "Sample": "CIE.D.M.09.DLS.P", 
+                            "Value": "35.900"
+                        }, 
+                        {
+                            "Index": "96", 
+                            "Sample": "CIE.D.M.09.DMS.P", 
+                            "Value": "35.900"
+                        }, 
+                        {
+                            "Index": "97", 
+                            "Sample": "CIE.D.M.09.ILC.P", 
+                            "Value": "35.900"
+                        }, 
+                        {
+                            "Index": "98", 
+                            "Sample": "CIE.D.M.09.NAc.P", 
+                            "Value": "35.900"
+                        }, 
+                        {
+                            "Index": "99", 
+                            "Sample": "CIE.D.M.09.NAs.P", 
+                            "Value": "35.900"
+                        }, 
+                        {
+                            "Index": "100", 
+                            "Sample": "CIE.D.M.09.PrL.P", 
+                            "Value": "35.900"
+                        }, 
+                        {
+                            "Index": "101", 
+                            "Sample": "CIE.D.M.09.VCX.P", 
+                            "Value": "35.900"
+                        }, 
+                        {
+                            "Index": "102", 
+                            "Sample": "CIE.D.M.09.VTA.P", 
+                            "Value": "35.900"
+                        }
+                    ], 
+                    "primary": []
+                }
+            }
+        }, 
+        {
+            "Authors": "0.000", 
+            "Description": "Mulligan MK, Williams R, Lu L, Lopez M, Miles M, Gong S, Pandey A, Ingels J", 
+            "Index": "5", 
+            "Record": "5", 
+            "details": {
+                "traits": {
+                    "other": [
+                        {
+                            "Index": "1", 
+                            "Sample": "AIR.B.M.14.BLA.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "2", 
+                            "Sample": "AIR.B.M.14.BST.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "3", 
+                            "Sample": "AIR.B.M.14.CA1.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "4", 
+                            "Sample": "AIR.B.M.14.CA3.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "5", 
+                            "Sample": "AIR.B.M.14.CeA.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "6", 
+                            "Sample": "AIR.B.M.14.DLS.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "7", 
+                            "Sample": "AIR.B.M.14.DMS.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "8", 
+                            "Sample": "AIR.B.M.14.ILC.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "9", 
+                            "Sample": "AIR.B.M.14.NAc.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "10", 
+                            "Sample": "AIR.B.M.14.NAs.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "11", 
+                            "Sample": "AIR.B.M.14.PrL.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "12", 
+                            "Sample": "AIR.B.M.14.VCX.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "13", 
+                            "Sample": "AIR.B.M.14.VTA.P", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "14", 
+                            "Sample": "AIR.B.M.26.BLA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "15", 
+                            "Sample": "AIR.B.M.26.BST.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "16", 
+                            "Sample": "AIR.B.M.26.CA1.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "17", 
+                            "Sample": "AIR.B.M.26.CA3.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "18", 
+                            "Sample": "AIR.B.M.26.CeA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "19", 
+                            "Sample": "AIR.B.M.26.DLS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "20", 
+                            "Sample": "AIR.B.M.26.DMS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "21", 
+                            "Sample": "AIR.B.M.26.ILC.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "22", 
+                            "Sample": "AIR.B.M.26.NAc.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "23", 
+                            "Sample": "AIR.B.M.26.NAs.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "24", 
+                            "Sample": "AIR.B.M.26.PrL.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "25", 
+                            "Sample": "AIR.B.M.26.VCX.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "26", 
+                            "Sample": "AIR.B.M.26.VTA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "27", 
+                            "Sample": "AIR.D.M.03.BLA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "28", 
+                            "Sample": "AIR.D.M.03.BST.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "29", 
+                            "Sample": "AIR.D.M.03.CA1.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "30", 
+                            "Sample": "AIR.D.M.03.CA3.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "31", 
+                            "Sample": "AIR.D.M.03.CeA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "32", 
+                            "Sample": "AIR.D.M.03.DLS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "33", 
+                            "Sample": "AIR.D.M.03.DMS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "34", 
+                            "Sample": "AIR.D.M.03.ILC.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "35", 
+                            "Sample": "AIR.D.M.03.NAc.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "36", 
+                            "Sample": "AIR.D.M.03.NAs.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "37", 
+                            "Sample": "AIR.D.M.03.PrL.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "38", 
+                            "Sample": "AIR.D.M.03.VCX.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "39", 
+                            "Sample": "AIR.D.M.03.VTA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "40", 
+                            "Sample": "AIR.D.M.08.BLA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "41", 
+                            "Sample": "AIR.D.M.08.BST.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "42", 
+                            "Sample": "AIR.D.M.08.CA1.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "43", 
+                            "Sample": "AIR.D.M.08.CA3.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "44", 
+                            "Sample": "AIR.D.M.08.CeA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "45", 
+                            "Sample": "AIR.D.M.08.DLS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "46", 
+                            "Sample": "AIR.D.M.08.DMS.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "47", 
+                            "Sample": "AIR.D.M.08.ILC.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "48", 
+                            "Sample": "AIR.D.M.08.NAc.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "49", 
+                            "Sample": "AIR.D.M.08.NAs.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "50", 
+                            "Sample": "AIR.D.M.08.PrL.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "51", 
+                            "Sample": "AIR.D.M.08.VCX.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "52", 
+                            "Sample": "AIR.D.M.08.VTA.S", 
+                            "Value": "1.000"
+                        }, 
+                        {
+                            "Index": "53", 
+                            "Sample": "BAS.B.F.05.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "54", 
+                            "Sample": "BAS.B.F.05.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "55", 
+                            "Sample": "BAS.B.F.05.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "56", 
+                            "Sample": "BAS.B.F.05.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "57", 
+                            "Sample": "BAS.B.F.05.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "58", 
+                            "Sample": "BAS.B.F.05.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "59", 
+                            "Sample": "BAS.B.F.05.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "60", 
+                            "Sample": "BAS.B.F.05.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "61", 
+                            "Sample": "BAS.B.F.05.PrL.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "62", 
+                            "Sample": "BAS.B.F.05.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "63", 
+                            "Sample": "BAS.B.F.05.VTA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "64", 
+                            "Sample": "BAS.B.F.06.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "65", 
+                            "Sample": "BAS.B.F.06.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "66", 
+                            "Sample": "BAS.B.F.06.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "67", 
+                            "Sample": "BAS.B.F.06.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "68", 
+                            "Sample": "BAS.B.F.06.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "69", 
+                            "Sample": "BAS.B.F.06.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "70", 
+                            "Sample": "BAS.B.F.06.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "71", 
+                            "Sample": "BAS.B.F.06.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "72", 
+                            "Sample": "BAS.B.F.06.PrL.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "73", 
+                            "Sample": "BAS.B.F.06.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "74", 
+                            "Sample": "BAS.B.F.06.VTA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "75", 
+                            "Sample": "BAS.B.M.07.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "76", 
+                            "Sample": "BAS.B.M.07.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "77", 
+                            "Sample": "BAS.B.M.07.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "78", 
+                            "Sample": "BAS.B.M.07.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "79", 
+                            "Sample": "BAS.B.M.07.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "80", 
+                            "Sample": "BAS.B.M.07.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "81", 
+                            "Sample": "BAS.B.M.07.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "82", 
+                            "Sample": "BAS.B.M.07.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "83", 
+                            "Sample": "BAS.B.M.07.PrL.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "84", 
+                            "Sample": "BAS.B.M.07.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "85", 
+                            "Sample": "BAS.B.M.07.VTA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "86", 
+                            "Sample": "BAS.B.M.08.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "87", 
+                            "Sample": "BAS.B.M.08.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "88", 
+                            "Sample": "BAS.B.M.08.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "89", 
+                            "Sample": "BAS.B.M.08.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "90", 
+                            "Sample": "BAS.B.M.08.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "91", 
+                            "Sample": "BAS.B.M.08.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "92", 
+                            "Sample": "BAS.B.M.08.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "93", 
+                            "Sample": "BAS.B.M.08.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "94", 
+                            "Sample": "BAS.B.M.08.PrL.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "95", 
+                            "Sample": "BAS.B.M.08.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "96", 
+                            "Sample": "BAS.B.M.08.VTA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "97", 
+                            "Sample": "BAS.D.F.01.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "98", 
+                            "Sample": "BAS.D.F.01.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "99", 
+                            "Sample": "BAS.D.F.01.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "100", 
+                            "Sample": "BAS.D.F.01.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "101", 
+                            "Sample": "BAS.D.F.01.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "102", 
+                            "Sample": "BAS.D.F.01.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "103", 
+                            "Sample": "BAS.D.F.01.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "104", 
+                            "Sample": "BAS.D.F.01.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "105", 
+                            "Sample": "BAS.D.F.01.PrL.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "106", 
+                            "Sample": "BAS.D.F.01.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "107", 
+                            "Sample": "BAS.D.F.01.VTA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "108", 
+                            "Sample": "BAS.D.F.02.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "109", 
+                            "Sample": "BAS.D.F.02.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "110", 
+                            "Sample": "BAS.D.F.02.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "111", 
+                            "Sample": "BAS.D.F.02.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "112", 
+                            "Sample": "BAS.D.F.02.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "113", 
+                            "Sample": "BAS.D.F.02.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "114", 
+                            "Sample": "BAS.D.F.02.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "115", 
+                            "Sample": "BAS.D.F.02.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "116", 
+                            "Sample": "BAS.D.F.02.PrL.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "117", 
+                            "Sample": "BAS.D.F.02.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "118", 
+                            "Sample": "BAS.D.F.02.VTA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "119", 
+                            "Sample": "BAS.D.M.03.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "120", 
+                            "Sample": "BAS.D.M.03.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "121", 
+                            "Sample": "BAS.D.M.03.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "122", 
+                            "Sample": "BAS.D.M.03.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "123", 
+                            "Sample": "BAS.D.M.03.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "124", 
+                            "Sample": "BAS.D.M.03.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "125", 
+                            "Sample": "BAS.D.M.03.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "126", 
+                            "Sample": "BAS.D.M.03.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "127", 
+                            "Sample": "BAS.D.M.03.PrL.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "128", 
+                            "Sample": "BAS.D.M.03.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "129", 
+                            "Sample": "BAS.D.M.03.VTA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "130", 
+                            "Sample": "BAS.D.M.04.BLA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "131", 
+                            "Sample": "BAS.D.M.04.BST.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "132", 
+                            "Sample": "BAS.D.M.04.CeA.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "133", 
+                            "Sample": "BAS.D.M.04.DLS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "134", 
+                            "Sample": "BAS.D.M.04.DMS.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "135", 
+                            "Sample": "BAS.D.M.04.ILC.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "136", 
+                            "Sample": "BAS.D.M.04.NAc.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "137", 
+                            "Sample": "BAS.D.M.04.NAs.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "138", 
+                            "Sample": "BAS.D.M.04.PrL.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "139", 
+                            "Sample": "BAS.D.M.04.VCX.S", 
+                            "Value": "x"
+                        }, 
+                        {
+                            "Index": "140", 
+                            "Sample": "BAS.D.M.04.VTA.S", 
+                            "Value": "x"
+                        }
+                    ], 
+                    "primary": []
+                }
+            }
+        }
+    ], 
+    "species": "mouse", 
+    "tissue": "Phenotypes"
+}

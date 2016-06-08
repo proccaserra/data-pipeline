@@ -1,0 +1,28 @@
+{
+    "project": {
+        "Current Finishing Level": "Level 3: Improved-High-Quality Draft",
+        "Domain": "BACTERIAL",
+        "Funding Source": "NIH-HMP Jumpstart Supplement",
+        "GOLD ID": "Gi03551",
+        "Genbank ID": "ACIN00000000",
+        "Genbank URL": "http://www.ncbi.nlm.nih.gov/sites/entrez?Db=genomeprj&cmd=ShowDetailView&TermToSearch=33011",
+        "Gene Count": "1950",
+        "Gold URL": "",
+        "HMP ID": "1",
+        "HMP Isolation Body Site": "oral",
+        "HOMD ID": "HOMD: tax_389",
+        "HOMD URL": "http://www.hmpdacc-resources.org/cgi-bin/img_hmp/main.cgi?section=TaxonDetail&page=taxonDetail&taxon_oid=643886181",
+        "IMG/HMP ID": "643886181",
+        "Image URL": "http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?db=nucleotide&val=ACIN00000000",
+        "NCBI Project ID": "33011",
+        "NCBI Submission Status": "6. annotation (and sequence) public on NCBI site",
+        "NCBI Superkingdom": "Bacteria",
+        "NCBI URL": "http://genomesonline.org/cgi-bin/GOLD/bin/GOLDCards.cgi?goldstamp=Gi03551",
+        "Organism Name": "Abiotrophia defectiva ATCC 49176",
+        "Organization URL": "http://www.homd.org/taxon=389",
+        "Project Status": "Complete",
+        "Sequencing Center": "Washington University Genome Sequencing Center",
+        "Strain Repository ID": "ATCC 49176",
+        "Strain Repository URL": ""
+    }
+}

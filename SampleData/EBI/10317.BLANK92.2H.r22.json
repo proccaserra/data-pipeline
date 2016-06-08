@@ -1,0 +1,63 @@
+{
+    "run":{
+        "Downloads":{
+            "Sequence Data":{
+                "Predicted CDS":"www.ebi.ac.uk/metagenomics/projects/ERP012803/samples/ERS994374/runs/ERR1160857/results/versions/2.0/sequences/PredictedCDS/chunks/1;jsessionid=BD656ABE3BF755E81EE0CE2A8CC35763",
+                "Predicted CDS without annotation":"www.ebi.ac.uk/metagenomics/projects/ERP012803/samples/ERS994374/runs/ERR1160857/results/versions/2.0/sequences/PredictedCDSWithoutAnnotation/chunks/1;jsessionid=BD656ABE3BF755E81EE0CE2A8CC35763",
+                "Predicted ORF without annotation":"www.ebi.ac.uk/metagenomics/projects/ERP012803/samples/ERS994374/runs/ERR1160857/results/versions/2.0/sequences/PredictedORFWithoutAnnotation/chunks/1;jsessionid=BD656ABE3BF755E81EE0CE2A8CC35763",
+                "Processed nucleotide reads":"www.ebi.ac.uk/metagenomics/projects/ERP012803/samples/ERS994374/runs/ERR1160857/results/versions/2.0/sequences/ProcessedReads/chunks/1;jsessionid=BD656ABE3BF755E81EE0CE2A8CC35763",
+                "Processed reads with annotation":"www.ebi.ac.uk/metagenomics/projects/ERP012803/samples/ERS994374/runs/ERR1160857/results/versions/2.0/sequences/ReadsWithMatches/chunks/1;jsessionid=BD656ABE3BF755E81EE0CE2A8CC35763",
+                "Processed reads with pCDS":"www.ebi.ac.uk/metagenomics/projects/ERP012803/samples/ERS994374/runs/ERR1160857/results/versions/2.0/sequences/ReadsWithPredictedCDS/chunks/1;jsessionid=BD656ABE3BF755E81EE0CE2A8CC35763",
+                "Processed reads without annotation":"www.ebi.ac.uk/metagenomics/projects/ERP012803/samples/ERS994374/runs/ERR1160857/results/versions/2.0/sequences/ReadsWithoutMatches/chunks/1;jsessionid=BD656ABE3BF755E81EE0CE2A8CC35763",
+                "Submitted nucleotide reads":"https://www.ebi.ac.uk/ena/data/view/ERR1160857"
+            },
+            "Taxonomic Analysis":{
+                " OTUs, reads and taxonomic assignments":"www.ebi.ac.uk/metagenomics//projects/ERP012803/samples/ERS994374/runs/ERR1160857/results/versions/2.0/taxonomy/OTU-table-JSON-BIOM;jsessionid=BD656ABE3BF755E81EE0CE2A8CC35763",
+                " Phylogenetic tree":"www.ebi.ac.uk/metagenomics//projects/ERP012803/samples/ERS994374/runs/ERR1160857/results/versions/2.0/taxonomy/NewickPrunedTree;jsessionid=BD656ABE3BF755E81EE0CE2A8CC35763",
+                " Reads encoding 16S rRNA":"www.ebi.ac.uk/metagenomics//projects/ERP012803/samples/ERS994374/runs/ERR1160857/results/versions/2.0/taxonomy/16S-rRNA-FASTA;jsessionid=BD656ABE3BF755E81EE0CE2A8CC35763"
+            }
+        },
+        "Overview":{
+            "Data Analysis":{
+                "Analysis date:":"15/01/2016",
+                "Experiment type:":" amplicon",
+                "Pipeline version:":"2.0"
+            },
+            "Description":{
+                "Classification:":"Host-associated > Human",
+                "Project name:":"American Gut Project (ERP012803)",
+                "Sample name:":"10317.BLANK92.2H.r22 (ERS994374)"
+            },
+            "Host Associated":{
+                "Species:":"Homo sapiens"
+            },
+            "Other Information":{
+                "ENA checklist":"ENA default sample checklist (ERC000011) ",
+                "NCBI sample classification":"408169 ",
+                "altitude":"0 ",
+                "anonymized name":"BLANK92.2H.r22 ",
+                "body habitat":"Unknown ",
+                "body product":"Unknown ",
+                "body site":"Unknown ",
+                "collection date":"Unknown ",
+                "collection time":"Unknown ",
+                "common name":"unclassified metagenome ",
+                "dominant hand":"Unknown ",
+                "elevation":"193.0 ",
+                "environment (biome)":"ENVO:aquatic biome ",
+                "environment (feature)":"ENVO:water ",
+                "environment (material)":"ENVO:sterile water ",
+                "geographic location (country and/or sea,region)":"USA ",
+                "geographic location (depth)":"Unknown ",
+                "geographic location (latitude)":"32.8 ",
+                "geographic location (longitude)":"-117.2 ",
+                "host common name":"Unknown ",
+                "host subject id":"BLANK92.2H.r22 ",
+                "host taxid":"408169 ",
+                "instrument model":"Illumina HiSeq 2000 ",
+                "sex":"Unknown "
+            },
+            "Title":"American Gut control"
+        }
+    }
+}

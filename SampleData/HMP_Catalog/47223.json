@@ -1,0 +1,28 @@
+{
+    "project": {
+        "Current Finishing Level": "Level 2: High-Quality Draft",
+        "Domain": "BACTERIAL",
+        "Funding Source": "NIH-HMP Demo Projects",
+        "GOLD ID": "Gi06419",
+        "Genbank ID": "AFBO00000000",
+        "Genbank URL": "http://www.ncbi.nlm.nih.gov/sites/entrez?Db=genomeprj&cmd=ShowDetailView&TermToSearch=47223",
+        "Gene Count": "6126",
+        "Gold URL": "",
+        "HMP ID": "9538",
+        "HMP Isolation Body Site": "gastrointestinal_tract",
+        "HOMD ID": "",
+        "HOMD URL": "http://www.hmpdacc-resources.org/cgi-bin/img_hmp/main.cgi?section=TaxonDetail&page=taxonDetail&taxon_oid=651324045",
+        "IMG/HMP ID": "651324045",
+        "Image URL": "http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?db=nucleotide&val=AFBO00000000",
+        "NCBI Project ID": "47223",
+        "NCBI Submission Status": "6. annotation (and sequence) public on NCBI site",
+        "NCBI Superkingdom": "Bacteria",
+        "NCBI URL": "http://genomesonline.org/cgi-bin/GOLD/bin/GOLDCards.cgi?goldstamp=Gi06419",
+        "Organism Name": "Klebsiella sp. MS 92-3",
+        "Organization URL": "",
+        "Project Status": "Complete",
+        "Sequencing Center": "Washington University Genome Sequencing Center",
+        "Strain Repository ID": "BEI HM-354",
+        "Strain Repository URL": ""
+    }
+}
