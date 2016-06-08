@@ -2,11 +2,12 @@
 transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:identifier'.'_$'" to "dataset.ID";
 transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:title'.'_$'" to "dataset.title";
 transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_description'.'_$'" to "dataset.description";
-transform column "$.'record'.'header'.'fetchURL'.'_$'" to "dataset.downloadURL";
 
-let "dataset.accesstypes"  = "download";
-let "dataset.authorization"  = "none";
-let "dataset.authentication" = "none";
+/* Access Information */
+transform column "$.'record'.'header'.'fetchURL'.'_$'" to "access.accessURL";
+let "access.accesstypes"  = "download";
+let "access.authorization"  = "none";
+let "access.authentication" = "none";
 
 /* Other Dataset Information */
 transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_accessrestrictions'.'_$'" to "license.name";
