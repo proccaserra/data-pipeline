@@ -7,9 +7,9 @@ transform column "$.'Package'.'Project'.'Project'.'ProjectType'.'ProjectTypeSubm
 
 /* Access information */
 transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "access.accessURL" apply {{ result = 'http://www.ncbi.nlm.nih.gov/bioproject/' + value }};
-let "dataset.accesstypes"  = "download";
-let "dataset.authorization"  = "none";
-let "dataset.authentication" = "none";
+let "access.accesstypes"  = "download";
+let "access.authorization"  = "none";
+let "access.authentication" = "none";
 
 /* Publication Information */
 transform column "$.'Package'.'Project'.'Project'.'ProjectDescr'.'Publication'.'@id'" to "publication.ID" apply {{ result = 'pmid:' + value }};
