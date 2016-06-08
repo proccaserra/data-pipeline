@@ -2,11 +2,12 @@
 transform column "$.'global_id'" to "dataset.ID";
 transform column "$.'name'" to "dataset.title";
 transform column "$.'description'" to "dataset.description";
-transform column "$.'url'" to "dataset.downloadURL";
 
-let "dataset.accesstypes"  = "download";
-let "dataset.authorization"  = "clicklicense";
-let "dataset.authentication" = "none";
+/* Access Information */
+transform column "$.'url'" to "access.accessURL";
+let "access.accesstypes"  = "download";
+let "access.authorization"  = "clicklicense";
+let "access.authentication" = "none";
 
 /* Other Dataset Information */
 transform column "$.'published_at'" to "dataset.dateReleased" apply toStandardDateTime("yyyy-MM-dd'T'HH:mm:ssZ");
