@@ -6,11 +6,12 @@ transform column "$.'datereleased'" to "dataset.dateReleased" apply toStandardDa
 transform column "$.'_version_'" to "dataset.version";
 transform column "$.'biologicalbucket'" to "dataset.dataType[0]";
 transform column "$.'endpointcategorization'" to "dataset.dataType[1]";
-transform column "$.'centerdatasetid'" to "dataset.downloadURL";
 
-let "dataset.accesstypes" = "download";
-let "dataset.authorization" = "none";
-let "dataset.authentication" = "none";
+/* Access Information */
+transform column "$.'centerdatasetid'" to "access.downloadURL";
+let "access.accesstypes" = "download";
+let "access.authorization" = "none";
+let "access.authentication" = "none";
 
 /* Data Repository Information */
 transform column "$.'datasetid'" to "dataRepository.name" apply {{ result = 'Library of Integrated Network-Based Cellular Signatures' }};
