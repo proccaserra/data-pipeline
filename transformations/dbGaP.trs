@@ -9,9 +9,9 @@ transform column "$.'Study'.'@modDate'" to "dataset.dateModified";
 transform column "$.'Study'.'Configuration'.'Description'.'_$'" to "dataset.keywords";
 
 /* Access Information */
-let "dataset.accesstypes" = "download";
-let "dataset.authorization" = "none";
-let "dataset.authentication" = "none";
+let "access.accesstypes" = "download";
+let "access.authorization" = "none";
+let "access.authentication" = "none";
 
 /* Study Information */
 
