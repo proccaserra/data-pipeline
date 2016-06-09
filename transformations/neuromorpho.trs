@@ -1,12 +1,13 @@
 /* Dataset Information */
 transform column "$.'neuron_id'" to "dataset.ID";
 transform column "$.'neuron_name'" to "dataset.title";
-transform column "$.'neuron_name'" to "dataset.downloadURL" apply {{ result = 'http://neuromorpho.org/neuron_info.jsp?neuron_name=' + value }};
 transform column "$.'note'" to "dataset.note";
 
-let "dataset.accesstypes" = "download";
-let "dataset.authorization" = "none";
-let "dataset.authentication" = "none";
+/* Access Information */
+transform column "$.'neuron_name'" to "access.accessURL" apply {{ result = 'http://neuromorpho.org/neuron_info.jsp?neuron_name=' + value }};
+let "access.accesstypes" = "download";
+let "access.authorization" = "none";
+let "access.authentication" = "none";
 
 /* Other Dataset Information */
 transform column "$.'article'.'pmid'" to "publication.ID";
