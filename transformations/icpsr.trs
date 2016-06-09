@@ -73,6 +73,6 @@ transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'rel
 transform column "$.'record'.'metadata'.'codeBook'.'fileDscr'[*].'fileTxt'.'fileName'.'_$'" to "record.metadata.codeBook.fileDscr[].fileTxt.fileName";
 
 /* Access Information */
-let "dataset.accesstypes" = "download";
-let "dataset.authorization" = "duaInstitution";
-let "dataset.authentication" = "simpleLogin";
+let "access.accesstypes" = "download";
+let "access.authorization" = "duaInstitution";
+let "access.authentication" = "simpleLogin";
