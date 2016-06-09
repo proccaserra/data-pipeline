@@ -2,14 +2,15 @@
 transform column "$.'dataset_id'" to "dataset.ID";
 transform column "$.'title'" to "dataset.title";
 transform column "$.'datasettype'" to "dataset.dataType";
-transform column "$.'dataset_symbol'" to "dataset.downloadURL" apply {{ result = 'http://phenome.jax.org/db/q?rtn=projects/details&sym=' + value }};
 transform column "$.'description'" to "dataset.description";
 transform column "$.'nstrains'" to "dataset.size";
 transform column "$.'gender'" to "dataset.gender";
 
-let "dataset.accesstypes" = "download";
-let "dataset.authorization" = "none";
-let "dataset.authentication" = "none";
+/* Access Information */
+transform column "$.'dataset_symbol'" to "access.accessURL" apply {{ result = 'http://phenome.jax.org/db/q?rtn=projects/details&sym=' + value }};
+let "access.accesstypes" = "download";
+let "access.authorization" = "none";
+let "access.authentication" = "none";
 
 /* Dimension Information */
 transform column "$.'dataset_measurements'" to "dimension[].name" apply {{
