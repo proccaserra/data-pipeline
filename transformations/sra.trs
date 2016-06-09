@@ -1,6 +1,8 @@
-let "dataset.accesstypes" = "download";
-let "dataset.authorization" = "none";
-let "dataset.authentication" = "none";
+/* Access Information */
+transform column "$.'SRA'.'STUDY_SET'.'STUDY'.'STUDY_LINKS'.'STUDY_LINK'.'URL_LINK'.'URL'.'_$'" to "access.accessURL";
+let "access.accesstypes" = "download";
+let "access.authorization" = "none";
+let "access.authentication" = "none";
 
 
 transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'@broker_name'" to "Dataset.storedIn";
@@ -43,7 +45,6 @@ transform column "$.'SRA'.'STUDY_SET'.'STUDY'.'IDENTIFIERS'.'PRIMARY_ID'.'_$'" t
 transform column "$.'SRA'.'STUDY_SET'.'STUDY'.'IDENTIFIERS'.'SUBMITTER_ID'.'@namespace'" to "Dataset.creator.@namespace";
 transform column "$.'SRA'.'STUDY_SET'.'STUDY'.'IDENTIFIERS'.'SUBMITTER_ID'.'_$'" to " Dataset.creator.value";
 transform column "$.'SRA'.'STUDY_SET'.'STUDY'.'STUDY_LINKS'.'STUDY_LINK'.'URL_LINK'.'LABEL'.'_$'" to "Dataset. downloadURL.label";
-transform column "$.'SRA'.'STUDY_SET'.'STUDY'.'STUDY_LINKS'.'STUDY_LINK'.'URL_LINK'.'URL'.'_$'" to "Dataset.downloadURL";
 
 
 transform column "$.'SRA'.'SUBMISSION'.'@accession'" to "Dataset.identifier";
