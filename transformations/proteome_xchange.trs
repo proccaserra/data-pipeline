@@ -3,7 +3,6 @@ transform column "$.'dataset_identifier'" to "dataset.ID";
 transform column "$.'title'" to "dataset.title";
 transform column "$.'repos'" to "dataset.storedIn";
 
-transform column "$.'dataset_url'" to "dataset.downloadURL";
 
 transform column "$.'keywords'" to "keywords[]" apply {{
 arr=re.split("\s*;\s*",value,)
@@ -12,9 +11,11 @@ result=arr
 
 transform column "$.'announcement_date'" to "dataset.dateReleased" apply toStandardDateTime("yyyy-MM-dd");
 
-let "dataset.accesstypes" = "download";
-let "dataset.authorization" = "none";
-let "dataset.authentication" = "none";
+/* Access Information */
+transform column "$.'dataset_url'" to "access.accessURL";
+let "access.accesstypes" = "download";
+let "access.authorization" = "none";
+let "access.authentication" = "none";
 
 
 /* Publication Information */
