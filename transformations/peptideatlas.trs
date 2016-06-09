@@ -1,13 +1,15 @@
 /* Dataset Information */
 transform column "$.'acc'" to "dataset.id";
 transform column "$.'title'" to "dataset.title";
-transform column "$.'acc'" to "dataset.downloadURL" apply {{ 
+transform column "$.'summary'" to "dataset.description";
+
+/* Access Information */
+transform column "$.'acc'" to "access.accessURL" apply {{ 
 result = 'ftp://ftp.peptideatlas.org/pub/PeptideAtlas/Repository/' + value 
 }};
-transform column "$.'summary'" to "dataset.description";
-let "dataset.accesstypes" = "download";
-let "dataset.authorization" = "none";
-let "dataset.authentication" = "none";
+let "access.accesstypes" = "download";
+let "access.authorization" = "none";
+let "access.authentication" = "none";
 
 /* Publication Information */
 transform column "$.'pmid'" to "pmid" apply {{ result = 'pmid:' + value }};
