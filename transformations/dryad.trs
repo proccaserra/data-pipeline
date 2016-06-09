@@ -5,7 +5,6 @@ transform column "$.'record'.'header'.'repository'.'_$'" to "dataRepository.name
 transform column "$.'record'.'header'.'fetchURL'.'_$'" to "dataRepository.ID" apply {{ result = 'SCR:005910' }};
 transform column "$.'record'.'header'.'fetchURL'.'_$'" to "dataRepository.homepage" apply {{ result = 'http://www.datadryad.org' }};
 transform column "$.'record'.'header'.'setName'.'_$'" to "internal.setName";
-transform column "$.'record'.'header'.'fetchURL'.'_$'" to "dataset.downloadURL";
 transform column "$.'record'.'header'.'recNum'.'_$'" to "internal.recNum";
 transform column "$.'record'.'metadata'.'oai_dc:dc'.'dc:title'.'_$'" to "dataset.title";
 transform column "$.'record'.'metadata'.'oai_dc:dc'.'dc:subject'[*].'_$'" to "dataset.keywords[]";
@@ -25,6 +24,8 @@ transform column "$.'record'.'header'.'fetchURL'.'_$'" to "datastandard.name" ap
 transform column "$.'record'.'header'.'fetchURL'.'_$'" to "datastandard.homepage" apply {{ result = 'dublincore.org' }};
 transform column "$.'record'.'header'.'fetchURL'.'_$'" to "datastandard.license" apply {{ result = 'http://dublincore.org/about/copyright/' }};
 
+/* Access Information */
+transform column "$.'record'.'header'.'fetchURL'.'_$'" to "access.accessURL";
 let "dataset.accesstypes" = "download";
 let "dataset.authorization" = "none";
 let "dataset.authentication" = "none";
