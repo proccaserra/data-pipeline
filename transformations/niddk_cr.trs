@@ -1,11 +1,12 @@
 /* initial identity transformation */
 transform column "$.'acronym'" to "dataset.ID";
 transform column "$.'name'" to "dataset.title";
-transform column "$.'acronym'" to "dataset.downloadURL" apply {{ result = 'https://www.niddkrepository.org/studies/icdb/' + value }};
 
-let "dataset.accesstypes" = "download";
-let "dataset.authorization" = "registration";
-let "dataset.authentication" = "simpleLogin";
+/* Access Information */
+transform column "$.'acronym'" to "access.accessURL" apply {{ result = 'https://www.niddkrepository.org/studies/icdb/' + value }};
+let "access.accesstypes" = "download";
+let "access.authorization" = "registration";
+let "access.authentication" = "simpleLogin";
 
 /* Disease Information */
 transform column "$.'conditions'" to "disease[].name" apply {{
