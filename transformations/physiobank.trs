@@ -1,13 +1,15 @@
 /* Dataset Information */
 transform column "$.'name'" to "dataset.title";
-transform column "$.'url'" to "dataset.downloadURL";
 transform column "$.'description'" to "dataset.description";
 transform column "$.'class'" to "dataset.dataType";
 
 transform column "$.'reference_name'" to "publication.name";
-let "dataset.accesstypes" = "download";
-let "dataset.authorization" = "none";
-let "dataset.authentication" = "none";
+
+/* Access Information */
+transform column "$.'url'" to "access.accessURL";
+let "access.accesstypes" = "download";
+let "access.authorization" = "none";
+let "access.authentication" = "none";
 
 /* Data Repository Information */
 transform column "$.'name'" to "dataRepository.name" apply {{ result = 'Physiobank' }};
