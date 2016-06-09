@@ -26,6 +26,6 @@ transform column "$.'record'.'header'.'fetchURL'.'_$'" to "datastandard.license"
 
 /* Access Information */
 transform column "$.'record'.'header'.'fetchURL'.'_$'" to "access.accessURL";
-let "dataset.accesstypes" = "download";
-let "dataset.authorization" = "none";
-let "dataset.authentication" = "none";
+let "access.accesstypes" = "download";
+let "access.authorization" = "none";
+let "access.authentication" = "none";
