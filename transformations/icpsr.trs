@@ -72,6 +72,7 @@ transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'rel
 transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'relPubl'[*].'citation'.'prodStmt'.'prodDate'.'_$'" to "record.metadata.codeBook.stdyDscr.othrStdyMat.relPubl[].citation.prodStmt.prodDate";
 transform column "$.'record'.'metadata'.'codeBook'.'fileDscr'[*].'fileTxt'.'fileName'.'_$'" to "record.metadata.codeBook.fileDscr[].fileTxt.fileName";
 
+/* Access Information */
 let "dataset.accesstypes" = "download";
 let "dataset.authorization" = "duaInstitution";
 let "dataset.authentication" = "simpleLogin";
