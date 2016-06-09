@@ -8,7 +8,7 @@ transform column "$.'biologicalbucket'" to "dataset.dataType[0]";
 transform column "$.'endpointcategorization'" to "dataset.dataType[1]";
 
 /* Access Information */
-transform column "$.'centerdatasetid'" to "access.downloadURL";
+transform column "$.'centerdatasetid'" to "access.accessURL";
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
 let "access.authentication" = "none";
