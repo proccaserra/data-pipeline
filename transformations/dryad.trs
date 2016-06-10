@@ -39,7 +39,6 @@ transform column "$.'record'.'header'.'fetchURL'.'_$'" to "organization.name" ap
 transform column "$.'record'.'header'.'fetchURL'.'_$'" to "organization.abbreviation" apply {{ result = 'Dryad' }};
 transform column "$.'record'.'header'.'fetchURL'.'_$'" to "organization.ID" apply {{ result = 'SCR:005910' }};
 
-
 /* items not included in the model */
 transform column "$.'record'.'header'.'setSpec'.'_$'" to "internal.setID";
 transform column "$.'record'.'header'.'setName'.'_$'" to "internal.setName";
