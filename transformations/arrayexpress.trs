@@ -4,9 +4,16 @@ transform column "$.'experiment'.'name'.'_$'" to "dataset.title";
 transform column "$.'experiment'.'experimenttype'.'_$'" to "dataset.types";
 transform column "$.'experiment'.'description'.'text'.'_$'" to "dataset.description";
 transform column "$.'experiment'.'experimenttype'.'_$'" to "dataset.keywords[0]" apply {{ result = 'functional genomics' }};
-transform column "$.'experiment'.'releasedate'.'_$'" to "dataset.dateReleased";
-transform column "$.'experiment'.'submissiondate'.'_$'" to "dataset.dateSubmitted";
-transform column "$.'experiment'.'lastupdatedate'.'_$'" to "dataset.dateModified";
+
+/* Dataset distribution */
+transform column "$.'experiment'.'releasedate'.'_$'" to "datadistribution.dateReleased";
+transform column "$.'experiment'.'submissiondate'.'_$'" to "datadistribution.dateSubmitted";
+transform column "$.'experiment'.'lastupdatedate'.'_$'" to "datadistribution.dateModified";
+
+/* Data Repository Information */
+transform column "$.'experiment'.'id'.'_$'" to "dataRepository.ID" apply {{ result = 'SCR:002964' }};
+transform column "$.'experiment'.'id'.'_$'" to "dataRepository.name" apply {{ result = 'ArrayExpress' }};
+transform column "$.'experiment'.'id'.'_$'" to "dataRepository.homePage" apply {{ result = 'https://www.ebi.ac.uk/arrayexpress/' }};
 
 /* Access information */
 transform column "$.'experiment'.'accession'.'_$'" to "access.accessURL" apply {{ result = 'https://www.ebi.ac.uk/arrayexpress/experiments/' + value }};
@@ -14,28 +21,24 @@ let "access.accesstypes"  = "download";
 let "access.authorization"  = "none";
 let "access.authentication" = "none";
 
-/* Data Collection Information */
-transform column "$.'experiment'.'experimentdesign'.'_$'" to "treatment.title";
-transform column "$.'experiment'.'arraydesign'.'name'.'_$'" to "dataAcquisition.title";
-transform column "$.'experiment'.'arraydesign'.'accession'.'_$'" to "dataAcquisition.ID";
-
-/* Organism Information */
-transform column "$.'experiment'.'species'.'_$'" to "organism[0].name";
-
-/* Citation Count Information */
-/* Will be updated by enhancer that pulls in mentions */
-transform column "$.'experiment'.'id'.'_$'" to "citation.count" apply {{ result = '0' }};
-
-/* Provider Information */
-transform column "$.'experiment'.'provider'.'contact'.'_$'" to "dataset.provider";
-
-/* Data Repository Information */
-transform column "$.'experiment'.'id'.'_$'" to "dataRepository.name" apply {{ result = 'ArrayExpress' }};
-transform column "$.'experiment'.'id'.'_$'" to "dataRepository.ID" apply {{ result = 'SCR:002964' }};
-transform column "$.'experiment'.'id'.'_$'" to "dataRepository.homePage" apply {{ result = 'https://www.ebi.ac.uk/arrayexpress/' }};
-
 /* Organization Information */
+transform column "$.'experiment'.'id'.'_$'" to "organization.ID" apply {{ result = 'SCR:004727' }};
 transform column "$.'experiment'.'id'.'_$'" to "organization.name" apply {{ result = 'European Bioinformatics Institute' }};
 transform column "$.'experiment'.'id'.'_$'" to "organization.abbreviation" apply {{ result = 'EBI' }};
-transform column "$.'experiment'.'id'.'_$'" to "organization.ID" apply {{ result = 'SCR:004727' }};
 transform column "$.'experiment'.'id'.'_$'" to "organization.homePage" apply {{ result = 'http://www.ebi.ac.uk/' }};
+
+/* Treatment */
+transform column "$.'experiment'.'experimentdesign'.'_$'" to "treatment.name";
+
+/* Data Acquisition Information */
+transform column "$.'experiment'.'arraydesign'.'accession'.'_$'" to "dataAcquisition.ID";
+transform column "$.'experiment'.'arraydesign'.'name'.'_$'" to "dataAcquisition.name";
+
+/* TaxonomicInformation */
+transform column "$.'experiment'.'species'.'_$'" to "organism[0].name";
+
+/* Items not included */
+
+transform column "$.'experiment'.'provider'.'contact'.'_$'" to "dataset.provider";
+/* Will be updated by enhancer that pulls in mentions */
+transform column "$.'experiment'.'id'.'_$'" to "citation.count" apply {{ result = '0' }};
