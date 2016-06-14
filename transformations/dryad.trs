@@ -26,7 +26,7 @@ transform column "$.'record'.'header'.'fetchURL'.'_$'" to "dataRepository.homepa
 transform columns "$.'record'.'metadata'.'oai_dc:dc'.'dc:identifier'[*].'_$'" to "identifiers.ID[]";
 
 /* Access Information */
-transform column "$.'record'.'header'.'fetchURL'.'_$'" to "access.accessURL";
+transform column "$.'record'.'header'.'fetchURL'.'_$'" to "access.landingPage";
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
 let "access.authentication" = "none";
