@@ -2,31 +2,34 @@
 transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "dataset.ID";
 transform columns "$.'Package'.'Project'.'Project'.'ProjectDescr'.'Name'.'_$'", "$.'Package'.'Project'.'Project'.'ProjectDescr'.'Title'.'_$'"  to "dataset.title" apply {{ result = value1 + ' : ' + value2; }};
 transform column "$.'Package'.'Project'.'Project'.'ProjectDescr'.'Description'.'_$'" to "dataset.description" apply {{ result = re.compile(r'<.*?>').sub('',value) }};
-transform column "$.'Package'.'Project'.'Project'.'ProjectDescr'.'ProjectReleaseDate'.'_$'" to "dataset.dateReleased";
 transform column "$.'Package'.'Project'.'Project'.'ProjectType'.'ProjectTypeSubmission'.'ProjectDataTypeSet'.'DataType'.'_$'" to "dataset.keywords[0]";
 
-/* Access information */
-transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "access.accessURL" apply {{ result = 'http://www.ncbi.nlm.nih.gov/bioproject/' + value }};
-let "access.accesstypes"  = "download";
-let "access.authorization"  = "none";
-let "access.authentication" = "none";
+/* Dataset Distribution Information */
+transform column "$.'Package'.'Project'.'Project'.'ProjectDescr'.'ProjectReleaseDate'.'_$'" to "datasetDistribution.dateReleased";
+
+/* Data Repository Information */
+let "dataRepository.name" = "NCBI BioProject";
+let "dataRepository.ID" = "SCR:004801";
+let "dataRepository.homePage" = "http://www.ncbi.nlm.nih.gov/bioproject";
 
 /* Publication Information */
 transform column "$.'Package'.'Project'.'Project'.'ProjectDescr'.'Publication'.'@id'" to "publication.ID" apply {{ result = 'pmid:' + value }};
 
-/* Organism Information */
-transform column "$.'Package'.'Project'.'Project'.'ProjectType'.'ProjectTypeSubmission'.'Target'.'Organism'.'OrganismName'.'_$'" to "organism[0].name";
-transform column "$.'Package'.'Project'.'Project'.'ProjectType'.'ProjectTypeSubmission'.'Target'.'Organism'.'Strain'.'_$'" to "organism[0].strain";
-transform column "$.'Package'.'Project'.'Project'.'ProjectType'.'ProjectTypeSubmission'.'Target'.'Organism'.'@taxID'" to "organism[0].ncbiID" apply {{ result = 'ncbitax:' + value }}; 
-
-/* Data Repository Information */
-transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "dataRepository.name" apply {{ result = 'NCBI BioProject' }};
-transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "dataRepository.ID" apply {{ result = 'SCR:004801' }};
-transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "dataRepository.homePage" apply {{ result = 'http://www.ncbi.nlm.nih.gov/bioproject' }};
+/* Access information */
+transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "access.landingpage" apply {{ result = 'http://www.ncbi.nlm.nih.gov/bioproject/' + value }};
+let "access.accesstypes"  = "download";
+let "access.authorization"  = "none";
+let "access.authentication" = "none";
 
 /* Organization Information */
-transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "organization.name" apply {{ result = 'National Center for Biotechnology Information' }};
-transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "organization.abbreviation" apply {{ result = 'NCBI' }};
-transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "organization.ID" apply {{ result = 'SCR:006472' }};
-transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "organization.homePage" apply {{ result = 'http://www.ncbi.nlm.nih.gov' }};
+let "organization.name" = "National Center for Biotechnology Information";
+let "organization.abbreviation" = "NCBI";
+let "organization.ID" = "SCR:006472";
+let "organization.homePage" = "http://www.ncbi.nlm.nih.gov";
 
+/* Taxonomic Information */
+transform column "$.'Package'.'Project'.'Project'.'ProjectType'.'ProjectTypeSubmission'.'Target'.'Organism'.'@taxID'" to "taxonomicinformation[0].ncbiID" apply {{ result = 'ncbitax:' + value }}; 
+transform column "$.'Package'.'Project'.'Project'.'ProjectType'.'ProjectTypeSubmission'.'Target'.'Organism'.'OrganismName'.'_$'" to "taxonomicinformation[0].name";
+
+/* Items not included */
+transform column "$.'Package'.'Project'.'Project'.'ProjectType'.'ProjectTypeSubmission'.'Target'.'Organism'.'Strain'.'_$'" to "organism[0].strain";
