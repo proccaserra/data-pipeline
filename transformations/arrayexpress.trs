@@ -3,7 +3,7 @@ transform column "$.'experiment'.'accession'.'_$'" to "dataset.ID";
 transform column "$.'experiment'.'name'.'_$'" to "dataset.title";
 transform column "$.'experiment'.'experimenttype'.'_$'" to "dataset.types";
 transform column "$.'experiment'.'description'.'text'.'_$'" to "dataset.description";
-transform column "$.'experiment'.'experimenttype'.'_$'" to "dataset.keywords[0]" apply {{ result = 'functional genomics' }};
+let "dataset.keywords[0]" = "functional genomics";
 
 /* Dataset distribution */
 transform column "$.'experiment'.'releasedate'.'_$'" to "datadistribution.dateReleased";
@@ -11,21 +11,21 @@ transform column "$.'experiment'.'submissiondate'.'_$'" to "datadistribution.dat
 transform column "$.'experiment'.'lastupdatedate'.'_$'" to "datadistribution.dateModified";
 
 /* Data Repository Information */
-transform column "$.'experiment'.'id'.'_$'" to "dataRepository.ID" apply {{ result = 'SCR:002964' }};
-transform column "$.'experiment'.'id'.'_$'" to "dataRepository.name" apply {{ result = 'ArrayExpress' }};
-transform column "$.'experiment'.'id'.'_$'" to "dataRepository.homePage" apply {{ result = 'https://www.ebi.ac.uk/arrayexpress/' }};
+let "dataRepository.ID" = "SCR:002964";
+let "dataRepository.name" = "ArrayExpress";
+let "dataRepository.homePage" = "https://www.ebi.ac.uk/arrayexpress/";
 
 /* Access information */
-transform column "$.'experiment'.'accession'.'_$'" to "access.accessURL" apply {{ result = 'https://www.ebi.ac.uk/arrayexpress/experiments/' + value }};
+transform column "$.'experiment'.'accession'.'_$'" to "access.landingpage" apply {{ result = 'https://www.ebi.ac.uk/arrayexpress/experiments/' + value }};
 let "access.accesstypes"  = "download";
 let "access.authorization"  = "none";
 let "access.authentication" = "none";
 
 /* Organization Information */
-transform column "$.'experiment'.'id'.'_$'" to "organization.ID" apply {{ result = 'SCR:004727' }};
-transform column "$.'experiment'.'id'.'_$'" to "organization.name" apply {{ result = 'European Bioinformatics Institute' }};
-transform column "$.'experiment'.'id'.'_$'" to "organization.abbreviation" apply {{ result = 'EBI' }};
-transform column "$.'experiment'.'id'.'_$'" to "organization.homePage" apply {{ result = 'http://www.ebi.ac.uk/' }};
+let "organization.ID" = "SCR:004727";
+let "organization.name" = "European Bioinformatics Institute";
+let "organization.abbreviation" = "EBI";
+let "organization.homePage" = "http://www.ebi.ac.uk/";
 
 /* Treatment */
 transform column "$.'experiment'.'experimentdesign'.'_$'" to "treatment.name";
@@ -35,10 +35,8 @@ transform column "$.'experiment'.'arraydesign'.'accession'.'_$'" to "dataAcquisi
 transform column "$.'experiment'.'arraydesign'.'name'.'_$'" to "dataAcquisition.name";
 
 /* TaxonomicInformation */
-transform column "$.'experiment'.'species'.'_$'" to "organism[0].name";
+transform column "$.'experiment'.'species'.'_$'" to "taxonomicinformation[0].name";
 
 /* Items not included */
-
 transform column "$.'experiment'.'provider'.'contact'.'_$'" to "dataset.provider";
-/* Will be updated by enhancer that pulls in mentions */
-transform column "$.'experiment'.'id'.'_$'" to "citation.count" apply {{ result = '0' }};
+let "citation.count"  = "0";
