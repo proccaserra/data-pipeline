@@ -6,10 +6,10 @@ transform column "$.'parameterimaged'" to "dataset.dimensions";
 transform column "$.'itemtype'" to "dataset.types";
 
 /* Data Repository Information */
-transform column "$.'id'" to "dataRepository.name" apply {{ result = 'Cell Image Library' }};
-transform column "$.'id'" to "dataRepository.abbreviation" apply {{ result = 'CIL' }};
-transform column "$.'id'" to "dataRepository.ID" apply {{ result = 'SCR:003510' }};
-transform column "$.'id'" to "dataRepository.homePage" apply {{ result = 'http://www.cellimagelibrary.org/' }};
+let "dataRepository.name" = "Cell Image Library";
+let "dataRepository.abbreviation" = "CIL";
+let "dataRepository.ID" = "SCR:003510";
+let "dataRepository.homePage" = "http://www.cellimagelibrary.org/";
 
 /* Access Information */
 transform column "$.'id'" to "access.accessURL" apply {{ result = 'http://www.cellimagelibrary.org/images/' + value }};
@@ -44,10 +44,10 @@ result=arr
 }};
 
 /* Organization Information */
-transform column "$.'id'" to "organization.name" apply {{ result = 'American Society for Cell Biology' }};
-transform column "$.'id'" to "organization.abbreviation" apply {{ result = 'ASCB' }};
-transform column "$.'id'" to "organization.ID" apply {{ result = 'SCR:010600' }};
-transform column "$.'id'" to "organization.homePage" apply {{ result = 'http://ascb.org/' }};
+let "organization.name" = "American Society for Cell Biology";
+let "organization.abbreviation" = "ASCB";
+let "organization.ID" = "SCR:010600";
+let "organization.homePage" = "http://ascb.org/";
 
 /* Taxonomic Information */
 transform column "$.'ncbiorganismalclassification'" to "taxonomicinforamtion.name[]" apply {{
