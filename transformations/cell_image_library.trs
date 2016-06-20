@@ -3,7 +3,7 @@ transform column "$.'id'" to "dataset.ID";
 transform column "$.'id'" to "dataset.title" apply {{ result = 'Cell Image Library Dataset CIL:' + value }};
 transform column "$.'imagedescription'" to "dataset.description";
 transform column "$.'parameterimaged'" to "dataset.dimensions";
-transform column "$.'itemtype'" to "dataset.dataType";
+transform column "$.'itemtype'" to "dataset.types";
 
 /* Data Repository Information */
 transform column "$.'id'" to "dataRepository.name" apply {{ result = 'Cell Image Library' }};
