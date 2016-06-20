@@ -2,24 +2,26 @@
 transform column "$.'GemmaDsId'" to "dataset.ID";
 transform column "$.'Name'" to "dataset.title";
 transform column "$.'Description'" to "dataset.description";
-transform column "$.'taxon'" to "organism[0].name";
-transform columns "$.'Source'" , "$.'SourceAccession'" to "identifiers[0].ID" apply {{ result = value1 + ':' + value2 }};
+let "dataset.keywords[0]"  = "functional genomics";
 
-transform column "$.'GemmaDsId'" to "dataset.keywords[0]" apply {{ result = 'functional genomics' }};
+/* Data Repository Information */
+let "dataRepository.name" = "Gemma";
+let "dataRepository.ID" = "SCR:008007";
+let "dataRepository.homePage" = 'http://www.chibi.ubc.ca/Gemma";
+
+/* Identifiers Information */
+transform columns "$.'Source'" , "$.'SourceAccession'" to "identifiers[0].ID" apply {{ result = value1 + ':' + value2 }};
 
 /* Access Information */
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
 let "access.authentication" = "none";
 
-/* Data Repository Information */
-transform column "$.'GemmaDsId'" to "dataRepository.name" apply {{ result = 'Gemma' }};
-transform column "$.'GemmaDsId'" to "dataRepository.ID" apply {{ result = 'SCR:008007' }};
-transform column "$.'GemmaDsId'" to "dataRepository.homePage" apply {{ result = 'http://www.chibi.ubc.ca/Gemma' }};
-
 /* Organization Information */
-transform column "$.'GemmaDsId'" to "organization.name" apply {{ result = 'University of British Columbia' }};
-transform column "$.'GemmaDsId'" to "organization.abbreviation" apply {{ result = 'UBC' }};
-transform column "$.'GemmaDsId'" to "organization.ID" apply {{ result = 'SCR:011614' }};
-transform column "$.'GemmaDsId'" to "organization.homePage" apply {{ result = 'http://www.ubc.ca/' }};
+let "organization.name" = "University of British Columbia";
+let "organization.abbreviation" = "UBC";
+let "organization.ID"= "SCR:011614";
+let "organization.homePage" = "http://www.ubc.ca/";
 
+/* Taxonomic Information */
+transform column "$.'taxon'" to "taxonomicinformation[0].name";
