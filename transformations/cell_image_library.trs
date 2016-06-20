@@ -2,7 +2,14 @@
 transform column "$.'id'" to "dataset.ID";
 transform column "$.'id'" to "dataset.title" apply {{ result = 'Cell Image Library Dataset CIL:' + value }};
 transform column "$.'imagedescription'" to "dataset.description";
+transform column "$.'parameterimaged'" to "dataset.dimensions";
 transform column "$.'itemtype'" to "dataset.dataType";
+
+/* Data Repository Information */
+transform column "$.'id'" to "dataRepository.name" apply {{ result = 'Cell Image Library' }};
+transform column "$.'id'" to "dataRepository.abbreviation" apply {{ result = 'CIL' }};
+transform column "$.'id'" to "dataRepository.ID" apply {{ result = 'SCR:003510' }};
+transform column "$.'id'" to "dataRepository.homePage" apply {{ result = 'http://www.cellimagelibrary.org/' }};
 
 /* Access Information */
 transform column "$.'id'" to "access.accessURL" apply {{ result = 'http://www.cellimagelibrary.org/images/' + value }};
@@ -10,13 +17,7 @@ let "access.accesstypes"  = "download";
 let "access.authorization"  = "none";
 let "access.authentication" = "none";
 
-/* Individual Entity Information */
-transform column "$.'ncbiorganismalclassification'" to "organism[]" apply {{
-arr=re.split("\s*,\s*",value1,)
-arr.extend(re.split("\s*,\s*",value2))
-result=arr
-}};
-
+/* Material */
 transform column "$.'celltype'" to "cell[].name" apply {{
 arr=re.split("\s*,\s*",value1,)
 arr.extend(re.split("\s*,\s*",value2))
@@ -42,27 +43,25 @@ arr.extend(re.split("\s*,\s*",value2))
 result=arr
 }};
 
-/* Protocol and Acquisition Information */
-transform column "$.'parameterimaged'" to "dimension.name";
-
-transform column "$.'imagingmode'" to "dataAcquisition.title";
-
-transform column "$.'preparation'" to "treatment.title";
-transform column "$.'visualizationmethods'" to "treatment.agent";
-
-
-/* Data Repository Information */
-transform column "$.'id'" to "dataRepository.name" apply {{ result = 'Cell Image Library' }};
-transform column "$.'id'" to "dataRepository.abbreviation" apply {{ result = 'CIL' }};
-transform column "$.'id'" to "dataRepository.ID" apply {{ result = 'SCR:003510' }};
-transform column "$.'id'" to "dataRepository.homePage" apply {{ result = 'http://www.cellimagelibrary.org/' }};
-
 /* Organization Information */
 transform column "$.'id'" to "organization.name" apply {{ result = 'American Society for Cell Biology' }};
 transform column "$.'id'" to "organization.abbreviation" apply {{ result = 'ASCB' }};
 transform column "$.'id'" to "organization.ID" apply {{ result = 'SCR:010600' }};
 transform column "$.'id'" to "organization.homePage" apply {{ result = 'http://ascb.org/' }};
 
+/* Taxonomic Information */
+transform column "$.'ncbiorganismalclassification'" to "taxonomicinforamtion.name[]" apply {{
+arr=re.split("\s*,\s*",value1,)
+arr.extend(re.split("\s*,\s*",value2))
+result=arr
+}};
+
+/* Treatment */
+transform column "$.'preparation'" to "treatment.name";
+transform column "$.'visualizationmethods'" to "treatment.agent";
+
+/* Data Acquisition Information */
+transform column "$.'imagingmode'" to "dataAcquisition.name";
 
 /* Data import needs to be fixed */
 /*
@@ -86,7 +85,6 @@ transform column "$.'parameterimaged_id'" to "parameterimaged_id";
 transform column "$.'ncbiorganismalclassification_id'" to "ncbiorganismalclassification_id";
 transform column "$.'celltype_id'" to "celltype_id";
 transform column "$.'cellularcomponent_id'" to "cellularcomponent_id";
-transform column "$.'dimension'" to "dimension";
 transform column "$.'processinghistory'" to "processinghistory";
 transform column "$.'speciestaxaspecific'" to "speciestaxaspecific";
 transform column "$.'technicaldetails'" to "technicaldetails";
