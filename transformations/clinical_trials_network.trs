@@ -18,16 +18,16 @@ let "access.authorization"  = "registration";
 let "access.authentication" = "simpleLogin";
 
 /* Data Repository Information */
-transform column "$.'neuron_id'" to "dataRepository.name" apply {{ result = 'Clinical Trials Network Data Share' }};
-transform column "$.'neuron_id'" to "dataRepository.abbreviation" apply {{ result = 'CTN' }};
-transform column "$.'neuron_id'" to "dataRepository.ID" apply {{ result = 'SCR:002002' }};
-transform column "$.'neuron_id'" to "dataRepository.homePage" apply {{ result = 'http://datashare.nida.nih.gov/' }};
+let "dataRepository.name" = "Clinical Trials Network Data Share";
+let "dataRepository.abbreviation" = "CTN";
+let "dataRepository.ID" = "SCR:002002";
+let "dataRepository.homePage" = "http://datashare.nida.nih.gov/";
 
 /* Organization Information */
-transform column "$.'neuron_id'" to "organization.name" apply {{ result = 'National Institute on Drug Abuse ' }};
-transform column "$.'neuron_id'" to "organization.abbreviation" apply {{ result = 'NIDA' }};
-transform column "$.'neuron_id'" to "organization.ID" apply {{ result = 'SCR:011440' }};
-transform column "$.'neuron_id'" to "organization.homePage" apply {{ result = 'http://www.nida.nih.gov/' }};
+let "organization.name" = "National Institute on Drug Abuse";
+let "organization.abbreviation"  = "NIDA";
+let "organization.ID" = "SCR:011440";
+let "organization.homePage" = "http://www.nida.nih.gov/";
 
 /* Taxonomic Information */
 let "organism[0].scientificName"  = "Homo sapiens";
