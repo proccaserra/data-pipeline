@@ -13,10 +13,10 @@ let "dataRepository.homepage" = "https://clinicaltrials.gov";
 /* Publication */
 transform column "$.'clinical_study'.'results_reference'.'citation'.'_$'" to "publication.title"; 
 
-/* Date */
-transform column "$.'clinical_study'.'verification_date'.'_$'" to "dataset.verificationDate";
-transform column "$.'clinical_study'.'lastchanged_date'.'_$'" to "dataset.releaseDate";
-transform column "$.'clinical_study'.'firstreceived_date'.'_$'" to "dataset.createDate";
+/* Dataset Distribution */
+transform column "$.'clinical_study'.'verification_date'.'_$'" to "datasetdistribution.dateVerified";
+transform column "$.'clinical_study'.'lastchanged_date'.'_$'" to "datasetdistribution.dateReleased";
+transform column "$.'clinical_study'.'firstreceived_date'.'_$'" to "datasetdistribution.dateCreated";
 
 /* Access Information */
 transform column "$.'clinical_study'.'id_info'.'nct_id'.'_$'" to "access.accessURL" apply {{ result = 'https://clinicaltrials.gov/ct2/show/' + value }};
