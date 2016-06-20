@@ -6,8 +6,8 @@ arr=re.split("\s*,\s*",value,)
 result=arr
 }};
 
-/* Dataset Distribution Information */
-transform column "$.'last_update'" to "datasetdistribution.releaseDate" apply toStandardDateTime("yyyy/MM/dd");
+/* Dataset Distribution */
+transform column "$.'last_update'" to "datasetdistribution.dateReleased" apply toStandardDateTime("yyyy/MM/dd");
 
 /* Data Repository Information */
 let "dataRepository.name"  = "The Cancer Imaging Archive";
