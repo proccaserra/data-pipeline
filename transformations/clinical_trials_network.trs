@@ -8,8 +8,8 @@ arr=re.split("\s*,\s*",value,)
 result=arr
 }};
 
-/* Date */
-transform column "$.'release_date'" to "date.releasedate";
+/* Dataset Distribution */
+transform column "$.'release_date'" to "datasetdistribution.dateReleased";
 
 /* Access Information */
 transform column "$.'studynum'" to "access.accessURL" apply {{ result = 'http://ctndisseminationlibrary.org/protocols/' + value }};
