@@ -1,49 +1,35 @@
 /* Dataset Information */
 transform column "$.'Study'.'@parentStudy'" to "dataset.ID";
 transform column "$.'Study'.'Configuration'.'StudyNameEntrez'.'_$'" to "dataset.title";
-transform column "$.'Study'.'@accession'" to "dataset.version";
-
-transform column "$.'Study'.'@createDate'" to "dataset.dateDeposited";
-transform column "$.'Study'.'@modDate'" to "dataset.dateModified"; 
-
 transform column "$.'Study'.'Configuration'.'Description'.'_$'" to "dataset.keywords";
 
-/* Access Information */
-let "access.accesstypes" = "download";
-let "access.authorization" = "none";
-let "access.authentication" = "none";
-
-/* Study Information */
-
-transform column "$.'Study'.'Configuration'.'StudyTypes'.'StudyType'.'_$'" to "study.studyType";
-
-transform column "$.'Study'.'Configuration'.'StudyHistory'.'_$'" to "study.scheduledActivity";
-
-/* Study Group Information */
-transform column "$.'Study'.'Configuration'.'StudyInEx'.'_$'" to "studyGroup.selectionCriteria";
-transform column "$.'Study'.'Configuration'.'ConsentGroups'.'ConsentGroup'[*].'@groupNum'" to "studyGroup.identifier[]";
-transform column "$.'Study'.'Configuration'.'ConsentGroups'.'ConsentGroup'[*].'@shortName'" to "studyGroup.abbreviation[]";
-transform column "$.'Study'.'Configuration'.'ConsentGroups'.'ConsentGroup'[*].'@longName'" to "studyGroup.name[]";
-
-/* Data Acquisition Information */
-transform column "$.'Study'.'Configuration'.'Data_Provider'.'_$'" to "dataAcquisition.performedBy";
+/* Dataset Distribution */
+transform column "$.'Study'.'@createDate'" to "datadistribution.dateCreated";
+transform column "$.'Study'.'@modDate'" to "datadistribution.dateModified"; 
 
 /* Data Repository Information */
 transform column "$.'Study'.'@source'" to "dataRepository.name";
-
-/* Disease Information */
-transform column "$.'Study'.'Configuration'.'Diseases'.'Disease'[*].'@vocab_term'" to "disease.name[]";
-
-/* Contributor Information */
-transform column "$.'Study'.'Configuration'.'Attributions'.'Header'[*].'@title'" to "person.role[]";
-transform column "$.'Study'.'Configuration'.'Attributions'.'Header'[*].'AttName'.'_$'" to "person.name[]";
-transform column "$.'Study'.'Configuration'.'Attributions'.'Header'[*].'Institution'.'_$'" to "person.affiliation[]";
 
 /* Publication Information */
 transform column "$.'Study'.'Configuration'.'Publications'.'Publication'[*].'Pubmed'.'@pmid'" to "publication.ID[]";
 transform column "$.'Study'.'Configuration'.'Publications'.'Publication'[*].'Journal'.'@authors'" to "publication.author[]";
 transform column "$.'Study'.'Configuration'.'Publications'.'Publication'[*].'Journal'.'@title'" to "publication.title[]";
 transform column "$.'Study'.'Configuration'.'Publications'.'Publication'[*].'Journal'.'@journal'" to "publication.cites[]";
+
+/* Access Information */
+let "access.accesstypes" = "download";
+let "access.authorization" = "none";
+let "access.authentication" = "none";
+
+/* License Information */
+transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'@Policy_ID'" to "license.ID";
+transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'DocumentSet'.'DataUseCertificate'.'@Label'" to "license.name";
+transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'DocumentSet'.'DataUseCertificate'.'@FilePath'" to "license.downloadURL";
+
+/* Person */
+transform column "$.'Study'.'Configuration'.'Attributions'.'Header'[*].'AttName'.'_$'" to "person.name[]";
+transform column "$.'Study'.'Configuration'.'Attributions'.'Header'[*].'@title'" to "person.role[]";
+transform column "$.'Study'.'Configuration'.'Attributions'.'Header'[*].'Institution'.'_$'" to "person.affiliations[]";
 
 /* Organization Information */
 transform column "$.'Study'.'Configuration'.'StudyURLs'.'Url'[*].'@name'" to "organization.name[]";
@@ -52,17 +38,30 @@ transform column "$.'Study'.'AuthorizedAccess'.'DacInfo'.'DacName'.'_$'" to "org
 transform column "$.'Study'.'AuthorizedAccess'.'DacInfo'.'DacFullName'.'_$'" to "organization.name";
 transform column "$.'Study'.'AuthorizedAccess'.'DacInfo'.'DacUrl'.'_$'" to "organization.downloadURL";
 
-/* License Information */
-transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'@Policy_ID'" to "license.ID";
-transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'DocumentSet'.'DataUseCertificate'.'@Label'" to "license.name";
-transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'DocumentSet'.'DataUseCertificate'.'@FilePath'" to "license.downloadURL";
+/* Study Information */
+transform column "$.'Study'.'Configuration'.'StudyTypes'.'StudyType'.'_$'" to "study.studyType";
+transform column "$.'Study'.'Configuration'.'StudyHistory'.'_$'" to "study.scheduledActivity";
 
-/* Other Information */
+/* Study Information */
+transform column "$.'Study'.'Configuration'.'StudyInEx'.'_$'" to "study.selectionCriteria";
+
+/* Data Acquisition Information */
+transform column "$.'Study'.'Configuration'.'Data_Provider'.'_$'" to "dataAcquisition.performedBy";
+
+/* Data Analysis */
 transform column "$.'Study'.'Analyses'.'Analysis'[*].'@pha'" to "dataAnalysis.identifier[]";
 
+/* Study Group Information */
+transform column "$.'Study'.'Configuration'.'ConsentGroups'.'ConsentGroup'[*].'@groupNum'" to "studyGroup.identifier[]";
+transform column "$.'Study'.'Configuration'.'ConsentGroups'.'ConsentGroup'[*].'@longName'" to "studyGroup.name[]";
+
+/* Disease Information */
+transform column "$.'Study'.'Configuration'.'Diseases'.'Disease'[*].'@vocab_term'" to "disease.name[]";
 
 /* Items not included */
 /*
+transform column "$.'Study'.'@accession'" to "dataset.version";
+transform column "$.'Study'.'Configuration'.'ConsentGroups'.'ConsentGroup'[*].'@shortName'" to "studyGroup.abbreviation[]";
 
 transform column "$.'Study'.'Configuration'.'StudyNameReportPage'.'_$'" to "Study.Configuration.StudyNameReportPage";
     unable to find metadata model
