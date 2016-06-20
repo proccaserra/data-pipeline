@@ -9,8 +9,8 @@ let "dataRepository.abbreviation" = "CVRG";
 let "dataRepository.ID" = "SCR:004472";
 let "dataRepository.homePage" "http://www.cvrgrid.org/";
 
-/* Date */
-transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:date_published'.'_$'" to "date.dataReleased" apply toStandardDateTime("yyyy-MM-dd'T'HH:mm:ssZ");
+/* Dataset Distribution */
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:date_published'.'_$'" to "datasetdistribution.dateReleased" apply toStandardDateTime("yyyy-MM-dd'T'HH:mm:ssZ");
 
 /* Access Information */
 transform column "$.'record'.'header'.'fetchURL'.'_$'" to "access.accessURL";
