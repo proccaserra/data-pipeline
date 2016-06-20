@@ -3,31 +3,34 @@ transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:identifier'.'_$'" t
 transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:title'.'_$'" to "dataset.title";
 transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_description'.'_$'" to "dataset.description";
 
+/* Data Repository Information */
+let "dataRepository.name" = "CardioVascular Research Grid";
+let "dataRepository.abbreviation" = "CVRG";
+let "dataRepository.ID" = "SCR:004472";
+let "dataRepository.homePage" "http://www.cvrgrid.org/";
+
+/* Date */
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:date_published'.'_$'" to "date.dataReleased" apply toStandardDateTime("yyyy-MM-dd'T'HH:mm:ssZ");
+
 /* Access Information */
 transform column "$.'record'.'header'.'fetchURL'.'_$'" to "access.accessURL";
 let "access.accesstypes"  = "download";
 let "access.authorization"  = "none";
 let "access.authentication" = "none";
 
-/* Other Dataset Information */
+/* License Information */
 transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_accessrestrictions'.'_$'" to "license.name";
 
-transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:date_published'.'_$'" to "dataset.dataReleased" apply toStandardDateTime("yyyy-MM-dd'T'HH:mm:ssZ");
 
+/* Person */
 transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_piname'.'_$'" to "person.name";
-transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_piaffiliation'.'_$'" to "person.affiliation";
-
-/* Data Repository Information */
-transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:title'.'_$'" to "dataRepository.name" apply {{ result = 'CardioVascular Research Grid' }};
-transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:title'.'_$'" to "dataRepository.abbreviation" apply {{ result = 'CVRG' }};
-transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:title'.'_$'" to "dataRepository.ID" apply {{ result = 'SCR:004472' }};
-transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:title'.'_$'" to "dataRepository.homePage" apply {{ result = 'http://www.cvrgrid.org/' }};
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_piaffiliation'.'_$'" to "person.affiliations";
 
 /* Organization Information */
-transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:title'.'_$'" to "organization.name" apply {{ result = 'Johns Hopkins University' }};
-transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:title'.'_$'" to "organization.abbreviation" apply {{ result = 'JHU' }};
-transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:title'.'_$'" to "organization.ID" apply {{ result = 'SCR:010247' }};
-transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:title'.'_$'" to "organization.homePage" apply {{ result = 'http://www.jhu.edu/' }};
+let "organization.name" = "Johns Hopkins University";
+let "organization.abbreviation" = "JHU";
+let "organization.ID" = "SCR:010247";
+let "organization.homePage" = "http://www.jhu.edu/";
 
 /* Items requiring some special formatting/review */
 /*
