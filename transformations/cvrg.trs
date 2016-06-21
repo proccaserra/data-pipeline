@@ -13,7 +13,7 @@ let "dataRepository.homePage" "http://www.cvrgrid.org/";
 transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:date_published'.'_$'" to "datasetdistribution.dateReleased" apply toStandardDateTime("yyyy-MM-dd'T'HH:mm:ssZ");
 
 /* Access Information */
-transform column "$.'record'.'header'.'fetchURL'.'_$'" to "access.accessURL";
+transform column "$.'record'.'header'.'fetchURL'.'_$'" to "access.landingPage";
 let "access.accesstypes"  = "download";
 let "access.authorization"  = "none";
 let "access.authentication" = "none";
