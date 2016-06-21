@@ -5,8 +5,8 @@ transform column "$.'Description'" to "dataset.description";
 let "dataset.keywords[0]"  = "functional genomics";
 
 /* Data Repository Information */
-let "dataRepository.name" = "Gemma";
 let "dataRepository.ID" = "SCR:008007";
+let "dataRepository.name" = "Gemma";
 let "dataRepository.homePage" = 'http://www.chibi.ubc.ca/Gemma";
 
 /* Identifiers Information */
@@ -18,9 +18,9 @@ let "access.authorization" = "none";
 let "access.authentication" = "none";
 
 /* Organization Information */
+let "organization.ID"= "SCR:011614";
 let "organization.name" = "University of British Columbia";
 let "organization.abbreviation" = "UBC";
-let "organization.ID"= "SCR:011614";
 let "organization.homePage" = "http://www.ubc.ca/";
 
 /* Taxonomic Information */
