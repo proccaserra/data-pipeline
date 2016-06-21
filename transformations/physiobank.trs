@@ -14,7 +14,7 @@ transform column "$.'pmid'" to "publication.ID";
 transform column "$.'reference_name'" to "publication.title";
 
 /* Access Information */
-transform column "$.'url'" to "access.accessURL";
+transform column "$.'url'" to "access.landingPage";
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
 let "access.authentication" = "none";
