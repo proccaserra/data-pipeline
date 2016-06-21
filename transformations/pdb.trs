@@ -13,9 +13,9 @@ transform column "$..'PDBx:database_PDB_revCategory'.'PDBx:database_PDB_rev'[?(@
 transform column "$..'PDBx:database_PDB_revCategory'.'PDBx:database_PDB_rev'[?(@.'@num' = '1')].'PDBx:date_original'.'_$'" to "datasetdistribution.dateCreated";
 
 /* Data Repository Information */
+let "dataRepository.ID" apply = "SCR:012820";
 let "dataRepository.name" = "Protein Data Bank";
 let "dataRepository.abbreviation" = "PDB";
-let "dataRepository.ID" apply = "SCR:012820";
 let "dataRepository.homePage"= "http://www.rcsb.org/pdb/";
 
 /* Publication Information */
@@ -41,9 +41,9 @@ transform column "$.'PDBx:datablock'.'PDBx:chem_compCategory'.'PDBx:chem_comp'[*
 transform column "$.'PDBx:datablock'.'PDBx:chem_compCategory'.'PDBx:chem_comp'[*].'PDBx:name'.'_$'" to "material[].roles" apply {{ result = 'chemical component' }};
 
 /* Organization Information */
+let "organization.ID" = "SCR:006555";
 let "organization.name" = "Worldwide Protein Data Bank";
 let "organization.abbreviation" = "wwPDB";
-let "organization.ID" = "SCR:006555";
 let "organization.homePage" = "http://www.wwpdb.org";
 
 /* Taxonomic Information */
