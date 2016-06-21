@@ -6,8 +6,8 @@ transform column "$.'clinical_study'.'brief_summary'.'textblock'.'_$'" to "datas
 transform column "$.'clinical_study'.'keyword'[*].'_$'" to "dataset.keywords[]";
 
 /* Data repository Information */
-let "dataRepository.name" = "ClinicalTrials.gov";
 let "dataRepository.ID" = "SCR:002309";
+let "dataRepository.name" = "ClinicalTrials.gov";
 let "dataRepository.homepage" = "https://clinicaltrials.gov";
 
 /* Publication */
