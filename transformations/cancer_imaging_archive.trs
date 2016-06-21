@@ -1,13 +1,13 @@
 /* Dataset Information */
-transform column "$.'collection_name'" to "dataset.ID";
-transform column "$.'collection_name'" to "dataset.title";
-transform column "$.'site_names'" to "dataset.creator[]" apply {{
+transform column "$.'pr_nlx_151749_1'.'collection_name'" to "dataset.ID";
+transform column "$.'pr_nlx_151749_1'.'collection_name'" to "dataset.title";
+transform column "$.'pr_nlx_151749_1'.'site_names'" to "dataset.creator[]" apply {{
 arr=re.split("\s*,\s*",value,)
 result=arr
 }};
 
 /* Dataset Distribution */
-transform column "$.'last_update'" to "datasetdistribution.dateReleased" apply toStandardDateTime("yyyy/MM/dd");
+transform column "$.'pr_nlx_151749_1'.'last_update'" to "datasetdistribution.dateReleased" apply toStandardDateTime("yyyy/MM/dd");
 
 /* Data Repository Information */
 let "dataRepository.ID" = "SCR:008927";
@@ -16,13 +16,13 @@ let "dataRepository.abbreviation" = "TCIA";
 let "dataRepository.homePage" = "http://www.cancerimagingarchive.net";
 
 /* Access Information */
-transform column "$.'collection_name'" to "access.landingpage" apply {{ result = 'https://wiki.cancerimagingarchive.net/display/Public/' + value }};
+transform column "$.'pr_nlx_151749_1'.'collection_name'" to "access.landingpage" apply {{ result = 'https://wiki.cancerimagingarchive.net/display/Public/' + value }};
 let "dataset.accesstypes"  = "download";
 let "dataset.authorization"  = "none";
 let "dataset.authentication" = "none";
 
 /* Licenses Information */
-transform column "$.'access'" to "license.name";
+transform column "$.'pr_nlx_151749_1'.'access'" to "license.name";
 
 /* Organization Information */
 let "organization.name" = "Frederick National Laboratory for Cancer Research";
@@ -35,13 +35,13 @@ let "taxonomicinformation[0].name" = "human";
 let "taxonomicinformation[0].scientificName" = "Homo sapiens";
 
 /* Data Acquisition */
-transform column "$.'modalities'" to "dataAcquisition[].name" apply {{
+transform column "$.'pr_nlx_151749_1'.'modalities'" to "dataAcquisition[].name" apply {{
 arr=re.split("\s*,\s*",value,)
 result=arr
 }};
 
 /* Anatomical Part */
-transform column "$.'anatomical_sites'" to "anatomicalPart[].name" apply {{
+transform column "$.'pr_nlx_151749_1'.'anatomical_sites'" to "anatomicalPart[].name" apply {{
 arr=re.split("\s*,\s*",value,)
 result=arr
 }};
@@ -50,10 +50,10 @@ result=arr
 let "disease[0].name" = "cancer";
 
 /* Items not included */
-transform column "$.'submission_status'" to "dataset.status";
-transform column "$.'subjects_available'" to "dataset.size";
-transform column "$.'supporting_data_available'" to "dataset.relatedDataset";
-transform column "$.'e_uid'" to "e_uid";
-transform column "$.'v_uid'" to "v_uid";
-transform column "$.'v_uuid'" to "v_uuid";
-transform column "$.'v_lastmodified'" to "v_lastmodified";
+transform column "$.'pr_nlx_151749_1'.'submission_status'" to "dataset.status";
+transform column "$.'pr_nlx_151749_1'.'subjects_available'" to "dataset.size";
+transform column "$.'pr_nlx_151749_1'.'supporting_data_available'" to "dataset.relatedDataset";
+transform column "$.'pr_nlx_151749_1'.'e_uid'" to "e_uid";
+transform column "$.'pr_nlx_151749_1'.'v_uid'" to "v_uid";
+transform column "$.'pr_nlx_151749_1'.'v_uuid'" to "v_uuid";
+transform column "$.'pr_nlx_151749_1'.'v_lastmodified'" to "v_lastmodified";
