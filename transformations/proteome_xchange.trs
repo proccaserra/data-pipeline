@@ -19,7 +19,7 @@ let "dataRepository.homePage" = "http://www.proteomexchange.org/";
 transform column "$.'publication'" to "publication.title";
 
 /* Access Information */
-transform column "$.'dataset_url'" to "access.accessURL";
+transform column "$.'dataset_url'" to "access.landingPage";
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
 let "access.authentication" = "none";
