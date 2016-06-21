@@ -10,9 +10,9 @@ result=arr
 transform column "$.'last_update'" to "datasetdistribution.dateReleased" apply toStandardDateTime("yyyy/MM/dd");
 
 /* Data Repository Information */
+let "dataRepository.ID" = "SCR:008927";
 let "dataRepository.name"  = "The Cancer Imaging Archive";
 let "dataRepository.abbreviation" = "TCIA";
-let "dataRepository.ID" = "SCR:008927";
 let "dataRepository.homePage" = "http://www.cancerimagingarchive.net";
 
 /* Access Information */
@@ -34,8 +34,8 @@ let "organization.homePage" = "http://frederick.cancer.gov/";
 let "taxonomicinformation[0].name" = "human";
 let "taxonomicinformation[0].scientificName" = "Homo sapiens";
 
-/* Data Acquisition Modalities */
-transform column "$.'modalities'" to "dataAcquisition[].title" apply {{
+/* Data Acquisition */
+transform column "$.'modalities'" to "dataAcquisition[].name" apply {{
 arr=re.split("\s*,\s*",value,)
 result=arr
 }};
@@ -47,7 +47,7 @@ result=arr
 }};
 
 /* Disease */
-transform column "$.'collection_name'" to "disease[0].name" apply {{ result = 'cancer' }};
+let "disease[0].name" = "cancer";
 
 /* Items not included */
 transform column "$.'submission_status'" to "dataset.status";
