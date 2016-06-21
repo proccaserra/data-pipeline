@@ -4,9 +4,9 @@ transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:title'.'_$'" to "da
 transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_description'.'_$'" to "dataset.description";
 
 /* Data Repository Information */
+let "dataRepository.ID" = "SCR:004472";
 let "dataRepository.name" = "CardioVascular Research Grid";
 let "dataRepository.abbreviation" = "CVRG";
-let "dataRepository.ID" = "SCR:004472";
 let "dataRepository.homePage" "http://www.cvrgrid.org/";
 
 /* Dataset Distribution */
@@ -27,9 +27,9 @@ transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_piname'.'_$'" 
 transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_piaffiliation'.'_$'" to "person.affiliations";
 
 /* Organization Information */
+let "organization.ID" = "SCR:010247";
 let "organization.name" = "Johns Hopkins University";
 let "organization.abbreviation" = "JHU";
-let "organization.ID" = "SCR:010247";
 let "organization.homePage" = "http://www.jhu.edu/";
 
 /* Items requiring some special formatting/review */
