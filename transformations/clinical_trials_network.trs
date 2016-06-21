@@ -18,19 +18,19 @@ let "access.authorization"  = "registration";
 let "access.authentication" = "simpleLogin";
 
 /* Data Repository Information */
+let "dataRepository.ID" = "SCR:002002";
 let "dataRepository.name" = "Clinical Trials Network Data Share";
 let "dataRepository.abbreviation" = "CTN";
-let "dataRepository.ID" = "SCR:002002";
 let "dataRepository.homePage" = "http://datashare.nida.nih.gov/";
 
 /* Organization Information */
+let "organization.ID" = "SCR:011440";
 let "organization.name" = "National Institute on Drug Abuse";
 let "organization.abbreviation"  = "NIDA";
-let "organization.ID" = "SCR:011440";
 let "organization.homePage" = "http://www.nida.nih.gov/";
 
 /* Taxonomic Information */
-let "organism[0].scientificName"  = "Homo sapiens";
+let "organism[0].name"  = "Homo sapiens";
 
 /* Items not included */
 /*
