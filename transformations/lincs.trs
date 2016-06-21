@@ -1,40 +1,33 @@
 /* Dataset Information */
 transform column "$.'datasetid'" to "dataset.ID";
 transform column "$.'datasetname'" to "dataset.title";
-transform column "$.'datemodified'" to "dataset.dateModified" apply toStandardDateTime("yyyy-MM-dd'T'HH:mm:ssZ");
-transform column "$.'datereleased'" to "dataset.dateReleased" apply toStandardDateTime("yyyy-MM-dd'T'HH:mm:ssZ");
+transform column "$.'biologicalbucket'" to "dataset.types[0]";
+transform column "$.'endpointcategorization'" to "dataset.types[1]";
+
+/* Dataset Distribution */
+transform column "$.'datemodified'" to "datasetdistribution.dateModified" apply toStandardDateTime("yyyy-MM-dd'T'HH:mm:ssZ");
+transform column "$.'datereleased'" to "datasetdistribution.dateReleased" apply toStandardDateTime("yyyy-MM-dd'T'HH:mm:ssZ");
 transform column "$.'_version_'" to "dataset.version";
-transform column "$.'biologicalbucket'" to "dataset.dataType[0]";
-transform column "$.'endpointcategorization'" to "dataset.dataType[1]";
+
+/* Data Repository Information */
+let "dataRepository.ID"= "SCR:006454";
+let "dataRepository.name" = "Library of Integrated Network-Based Cellular Signatures";
+let "dataRepository.homePage" = "http://www.lincsproject.org";
 
 /* Access Information */
-transform column "$.'centerdatasetid'" to "access.accessURL";
+transform column "$.'centerdatasetid'" to "access.landingPage";
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
 let "access.authentication" = "none";
-
-/* Data Repository Information */
-transform column "$.'datasetid'" to "dataRepository.name" apply {{ result = 'Library of Integrated Network-Based Cellular Signatures' }};
-transform column "$.'datasetid'" to "dataRepository.ID" apply {{ result = 'SCR:006454' }};
-transform column "$.'datasetid'" to "dataRepository.homePage" apply {{ result = 'http://www.lincsproject.org' }};
 
 /* Organization Information */
 transform column "$.'centerfullname'" to "organization.name";
 transform column "$.'centername'" to "organization.abbreviation";
 
-/* Entity Information */
+/* MolecularEntity Information */
 transform column "$.'smallmolecule'[*]" to "molecularEntity.name[]";
-transform column "$.'primarycell'[*]'" to "primaryCell.name[]";
-transform column "$.'protein'[*]'" to "protein.name[]";
-transform column "$.'phosphoprotein'" to "phosphoProtein.name[]";
-transform column "$.'cellline'[*]'" to "cellLine.name[]";
-transform column "$.'antibody'[*]'" to "antibody.name[]";
-transform column "$.'iPSC'[*]'" to "iPSC.name[]";
 
-/* Biological Process Information */
-transform column "$.'biologicalprocess'" to "biologicalProcess.name";
-
-/* Investigator Information */
+/* Person Information */
 transform columns "$.'principalinvestigator'", "$.'screeninglabinvestigator'" to "person.name[]" apply {{
 arr=re.split("\s*,\s*",value1,)
 arr.extend(re.split("\s*,\s*",value2))
@@ -55,4 +48,12 @@ transform column "$.'centerletter'" to "centerletter";
 transform column "$.'assaydesignmethod'" to "assaydesignmethod";
 transform column "$.'technologies'" to "technologies";
 transform column "$.'assayformat'" to "assayformat";
+transform column "$.'primarycell'[*]'" to "primaryCell.name[]";
+transform column "$.'protein'[*]'" to "protein.name[]";
+transform column "$.'phosphoprotein'" to "phosphoProtein.name[]";
+transform column "$.'cellline'[*]'" to "cellLine.name[]";
+transform column "$.'antibody'[*]'" to "antibody.name[]";
+transform column "$.'iPSC'[*]'" to "iPSC.name[]";
+transform column "$.'biologicalprocess'" to "biologicalProcess.name";
+
 */
