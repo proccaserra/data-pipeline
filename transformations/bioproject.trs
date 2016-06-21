@@ -8,8 +8,8 @@ transform column "$.'Package'.'Project'.'Project'.'ProjectType'.'ProjectTypeSubm
 transform column "$.'Package'.'Project'.'Project'.'ProjectDescr'.'ProjectReleaseDate'.'_$'" to "datasetDistribution.dateReleased";
 
 /* Data Repository Information */
-let "dataRepository.name" = "NCBI BioProject";
 let "dataRepository.ID" = "SCR:004801";
+let "dataRepository.name" = "NCBI BioProject";
 let "dataRepository.homePage" = "http://www.ncbi.nlm.nih.gov/bioproject";
 
 /* Publication Information */
@@ -22,9 +22,9 @@ let "access.authorization"  = "none";
 let "access.authentication" = "none";
 
 /* Organization Information */
+let "organization.ID" = "SCR:006472";
 let "organization.name" = "National Center for Biotechnology Information";
 let "organization.abbreviation" = "NCBI";
-let "organization.ID" = "SCR:006472";
 let "organization.homePage" = "http://www.ncbi.nlm.nih.gov";
 
 /* Taxonomic Information */
