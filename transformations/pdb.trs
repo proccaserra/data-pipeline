@@ -32,6 +32,7 @@ result = value1.lower() + ':' + value2
 }};
 
 /* Access Information */
+transform column "$.'PDBx:datablock'.'@datablockName'.'PDBx:atom_sites'.'@entry_id'" to "access.landingPage" apply {{ result='http://www.rcsb.org/pdb/explore/explore.do?structureId=' + value}}
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
 let "access.authentication" = "none";
