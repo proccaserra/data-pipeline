@@ -1,24 +1,6 @@
-/* initial identity transformation */
+/* Dataset Information */
 transform column "$.'acronym'" to "dataset.ID";
 transform column "$.'name'" to "dataset.title";
-
-/* Access Information */
-transform column "$.'acronym'" to "access.accessURL" apply {{ result = 'https://www.niddkrepository.org/studies/icdb/' + value }};
-let "access.accesstypes" = "download";
-let "access.authorization" = "registration";
-let "access.authentication" = "simpleLogin";
-
-/* Disease Information */
-transform column "$.'conditions'" to "disease[].name" apply {{
-arr=re.split("\s*,\s*",value,)
-result=arr
-}};
-
-transform column "$.'dialysis_studies'" to "treatment.title" apply {{result='dialysis' if value.lower() == 'yes' else '' }};
-
-/* Organism Information */
-transform column "$.'name'" to "organism[0].name" apply {{ result = 'human' }};
-transform column "$.'name'" to "organism[0].scientificName" apply {{ result = 'Homo sapiens' }};
 
 /* Data Repository Information */
 transform column "$.'name'" to "dataRepository.name" apply {{ result = 'NIDDK Central Repository' }};
@@ -26,13 +8,29 @@ transform column "$.'name'" to "dataRepository.abbreviation" apply {{ result = '
 transform column "$.'name'" to "dataRepository.ID" apply {{ result = 'SCR:006542' }};
 transform column "$.'name'" to "dataRepository.homePage" apply {{ result = 'https://www.niddkrepository.org/' }};
 
+/* Access Information */
+transform column "$.'acronym'" to "access.accessURL" apply {{ result = 'https://www.niddkrepository.org/studies/icdb/' + value }};
+let "access.accesstypes" = "download";
+let "access.authorization" = "registration";
+let "access.authentication" = "simpleLogin";
+
 /* Organization Information */
 transform column "$.'name'" to "organization.name" apply {{ result = 'National Institute of Diabetes and Digestive and Kidney Diseases' }};
 transform column "$.'name'" to "organization.abbreviation" apply {{ result = 'NIDDK' }};
 transform column "$.'name'" to "organization.ID" apply {{ result = 'SCR:012895' }};
 transform column "$.'name'" to "organization.homePage" apply {{ result = 'http://niddk.nih.gov/' }};
 
+/* Taxonomic Information */
+let "organism[0].scientificName" = "Homo sapiens";
 
+/* Treatment */
+transform column "$.'dialysis_studies'" to "treatment.name" apply {{result='dialysis' if value.lower() == 'yes' else '' }};
+
+/* Disease Information */
+transform column "$.'conditions'" to "disease[].name" apply {{
+arr=re.split("\s*,\s*",value,)
+result=arr
+}};
 /* Items not included */
 /*
 transform column "$.'e_uid'" to "e_uid";
@@ -46,4 +44,5 @@ transform column "$.'has_genotype_data_in_dbgap'" to "has_genotype_data_in_dbgap
 transform column "$.'has_image_data'" to "has_image_data";
 transform column "$.'has_specimens'" to "has_specimens";
 transform column "$.'has_study_datasets'" to "has_study_datasets";
+transform column "$.'name'" to "organism[0].name" apply {{ result = 'human' }};
 */
