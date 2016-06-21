@@ -19,7 +19,7 @@ transform column "$.'clinical_study'.'lastchanged_date'.'_$'" to "datasetdistrib
 transform column "$.'clinical_study'.'firstreceived_date'.'_$'" to "datasetdistribution.dateCreated";
 
 /* Access Information */
-transform column "$.'clinical_study'.'id_info'.'nct_id'.'_$'" to "access.accessURL" apply {{ result = 'https://clinicaltrials.gov/ct2/show/' + value }};
+transform column "$.'clinical_study'.'id_info'.'nct_id'.'_$'" to "access.landingPage" apply {{ result = 'https://clinicaltrials.gov/ct2/show/' + value }};
 let "access.accesstypes"  = "download";
 let "access.authorization"  = "none";
 let "access.authentication" = "none";
