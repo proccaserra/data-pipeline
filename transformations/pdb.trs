@@ -8,27 +8,22 @@ arr.extend(re.split("\s*,\s*",value2))
 result=arr
 }};
 
-/Dataset Distribution */
+/* Dataset Distribution */
 transform column "$..'PDBx:database_PDB_revCategory'.'PDBx:database_PDB_rev'[?(@.'@num' = '1')].'PDBx:date'.'_$'" to "datasetdistribution.dateReleased";
 transform column "$..'PDBx:database_PDB_revCategory'.'PDBx:database_PDB_rev'[?(@.'@num' = '1')].'PDBx:date_original'.'_$'" to "datasetdistribution.dateCreated";
 
 /* Data Repository Information */
-transform column "$..'PDBx:entryCategory'.'PDBx:entry'.'@id'" to "dataRepository.name" apply {{ result = 'Protein Data Bank' }};
-transform column "$..'PDBx:entryCategory'.'PDBx:entry'.'@id'" to "dataRepository.abbreviation" apply {{ result = 'PDB' }};
-transform column "$..'PDBx:entryCategory'.'PDBx:entry'.'@id'" to "dataRepository.ID" apply {{ result = 'SCR:012820' }};
-transform column "$..'PDBx:entryCategory'.'PDBx:entry'.'@id'" to "dataRepository.homePage" apply {{ result = 'http://www.rcsb.org/pdb/' }};
+let "dataRepository.name" = "Protein Data Bank";
+let "dataRepository.abbreviation" = "PDB";
+let "dataRepository.ID" apply = "SCR:012820";
+let "dataRepository.homePage"= "http://www.rcsb.org/pdb/";
 
 /* Publication Information */
+transform column "$..'PDBx:citation'[?(@.'@id' = 'primary')].'PDBx:pdbx_database_id_PubMed'.'_$'" to "publication.ID" apply {{ result = 'pmid:' + value }};
+transform column "$..'PDBx:citation'[?(@.'@id' = 'primary')].'PDBx:pdbx_database_id_DOI'.'_$'" to "publication.alternateID" apply {{ result = 'doi:' + value }};
 transform column "$..'PDBx:citation'[?(@.'@id' = 'primary')].'PDBx:title'.'_$'" to "publication.title";
-transform column "$..'PDBx:citation'[?(@.'@id' = 'primary')].'PDBx:year'.'_$'" to "publication.year";
-transform column "$..'PDBx:citation'[?(@.'@id' = 'primary')].'PDBx:journal_abbrev'.'_$'" to "publication.journal";
-transform column "$..'PDBx:citation'[?(@.'@id' = 'primary')].'PDBx:journal_id_ISSN'.'_$'" to "publication.journalISSN";
-transform column "$..'PDBx:citation'[?(@.'@id' = 'primary')].'PDBx:page_first'.'_$'" to "publication.firstPage";
-transform column "$..'PDBx:citation'[?(@.'@id' = 'primary')].'PDBx:page_last'.'_$'" to "publication.lastPage";
-transform column "$.'PDBx:datablock'.'PDBx:citation_authorCategory'.'PDBx:citation_author'[?(@.'@citation_id'='primary')].'@name'" to "publication.author.name[]";
-transform column "$..'PDBx:citation'[?(@.'@id' = 'primary')].'PDBx:pdbx_database_id_PubMed'.'_$'" to "publication.PMID" apply {{ result = 'pmid:' + value }};
-transform column "$..'PDBx:citation'[?(@.'@id' = 'primary')].'PDBx:pdbx_database_id_DOI'.'_$'" to "publication.DOI" apply {{ result = 'doi:' + value }};
-transform column "$..'PDBx:citation'[?(@.'@id' = 'primary')].'PDBx:pdbx_database_id_DOI'.'_$'" to "citation.count" apply {{ result = '0' }};
+transform column "$..'PDBx:citation'[?(@.'@id' = 'primary')].'PDBx:year'.'_$'" to "publication.dates";
+transform column "$.'PDBx:datablock'.'PDBx:citation_authorCategory'.'PDBx:citation_author'[?(@.'@citation_id'='primary')].'@name'" to "publication.authorlist[]";
 
 /* Identifier Information */
 transform columns "$.'PDBx:datablock'.'PDBx:database_2Category'.'PDBx:database_2'[*].'@database_id'",
@@ -42,27 +37,18 @@ let "access.authorization" = "none";
 let "access.authentication" = "none";
 
 /* Material Information */
-transform column "$.'PDBx:datablock'.'PDBx:chem_compCategory'.'PDBx:chem_comp'[*].'PDBx:formula'.'_$'" to "material[].formula";
-transform column "$.'PDBx:datablock'.'PDBx:chem_compCategory'.'PDBx:chem_comp'[*].'PDBx:formula_weight'.'_$'" to "material[].weight";
 transform column "$.'PDBx:datablock'.'PDBx:chem_compCategory'.'PDBx:chem_comp'[*].'PDBx:name'.'_$'" to "material[].name";
-transform column "$.'PDBx:datablock'.'PDBx:chem_compCategory'.'PDBx:chem_comp'[*].'PDBx:type'.'_$'" to "material[].type";
-transform column "$.'PDBx:datablock'.'PDBx:chem_compCategory'.'PDBx:chem_comp'[*].'PDBx:name'.'_$'" to "material[].role" apply {{ result = 'chemical component' }};
-transform column "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_gene_src_gene'.'_$'" to "gene[].name";
+transform column "$.'PDBx:datablock'.'PDBx:chem_compCategory'.'PDBx:chem_comp'[*].'PDBx:name'.'_$'" to "material[].roles" apply {{ result = 'chemical component' }};
 
 /* Organization Information */
-transform column "$..'PDBx:entryCategory'.'PDBx:entry'.'@id'" to "organization.name" apply {{ result = 'Worldwide Protein Data Bank ' }};
-transform column "$..'PDBx:entryCategory'.'PDBx:entry'.'@id'" to "organization.abbreviation" apply {{ result = 'wwPDB' }};
-transform column "$..'PDBx:entryCategory'.'PDBx:entry'.'@id'" to "organization.ID" apply {{ result = 'SCR:006555' }};
-transform column "$..'PDBx:entryCategory'.'PDBx:entry'.'@id'" to "organization.homePage" apply {{ result = 'http://www.wwpdb.org' }};
+let "organization.name" = "Worldwide Protein Data Bank";
+let "organization.abbreviation" = "wwPDB";
+let "organization.ID" = "SCR:006555";
+let "organization.homePage" = "http://www.wwpdb.org";
 
 /* Taxonomic Information */
-transform union "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:gene_src_genus'.'_$'", "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:host_org_genus'.'_$'" to "organism[].genus";
-transform union "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:gene_src_species'.'_$'", "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:host_org_species'.'_$'" to "organism[].species";
-transform union "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:gene_src_strain'.'_$'", "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_host_org_strain'.'_$'" to "organism[].strain";
-transform union "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_gene_src_ncbi_taxonomy_id'.'_$'", "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_host_org_ncbi_taxonomy_id'.'_$'" to "organism[].ncbiID" apply {{ result = 'ncbitax:' + value }};
-transform union "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_gene_src_scientific_name'.'_$'", "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_host_org_scientific_name'.'_$'" to "organism[].scientificName";
-transform union "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_gene_src_common_name'.'_$'", "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_host_org_common_name'.'_$'" to "organism[].name";
-
+transform union "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_gene_src_ncbi_taxonomy_id'.'_$'", "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_host_org_ncbi_taxonomy_id'.'_$'" to "organism[].ID" apply {{ result = 'ncbitax:' + value }};
+transform union "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_gene_src_scientific_name'.'_$'", "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_host_org_scientific_name'.'_$'" to "organism[].names";
 
 /* Old Style Organism */
 /*
@@ -81,3 +67,18 @@ transform column "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_
 transform column "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_host_org_scientific_name'.'_$'" to "organism.host[].scientificName";
 transform column "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_host_org_common_name'.'_$'" to "organism.host[].commonName";
 */
+
+/* Items not included */
+transform column "$..'PDBx:citation'[?(@.'@id' = 'primary')].'PDBx:journal_abbrev'.'_$'" to "publication.journal";
+transform column "$..'PDBx:citation'[?(@.'@id' = 'primary')].'PDBx:journal_id_ISSN'.'_$'" to "publication.journalISSN";
+transform column "$..'PDBx:citation'[?(@.'@id' = 'primary')].'PDBx:page_first'.'_$'" to "publication.firstPage";
+transform column "$..'PDBx:citation'[?(@.'@id' = 'primary')].'PDBx:page_last'.'_$'" to "publication.lastPage";
+transform column "$..'PDBx:citation'[?(@.'@id' = 'primary')].'PDBx:pdbx_database_id_DOI'.'_$'" to "citation.count" apply {{ result = '0' }};
+transform column "$.'PDBx:datablock'.'PDBx:chem_compCategory'.'PDBx:chem_comp'[*].'PDBx:formula'.'_$'" to "material[].formula";
+transform column "$.'PDBx:datablock'.'PDBx:chem_compCategory'.'PDBx:chem_comp'[*].'PDBx:formula_weight'.'_$'" to "material[].weight";
+transform column "$.'PDBx:datablock'.'PDBx:chem_compCategory'.'PDBx:chem_comp'[*].'PDBx:type'.'_$'" to "material[].type";
+transform column "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_gene_src_gene'.'_$'" to "gene[].name";
+transform union "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:gene_src_genus'.'_$'", "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:host_org_genus'.'_$'" to "organism[].genus";
+transform union "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:gene_src_species'.'_$'", "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:host_org_species'.'_$'" to "organism[].species";
+transform union "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:gene_src_strain'.'_$'", "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_host_org_strain'.'_$'" to "organism[].strain";
+transform union "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_gene_src_common_name'.'_$'", "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_host_org_common_name'.'_$'" to "organism[].name";
