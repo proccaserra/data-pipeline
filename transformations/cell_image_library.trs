@@ -6,9 +6,9 @@ transform column "$.'parameterimaged'" to "dataset.dimensions";
 transform column "$.'itemtype'" to "dataset.types";
 
 /* Data Repository Information */
+let "dataRepository.ID" = "SCR:003510";
 let "dataRepository.name" = "Cell Image Library";
 let "dataRepository.abbreviation" = "CIL";
-let "dataRepository.ID" = "SCR:003510";
 let "dataRepository.homePage" = "http://www.cellimagelibrary.org/";
 
 /* Access Information */
@@ -17,36 +17,10 @@ let "access.accesstypes"  = "download";
 let "access.authorization"  = "none";
 let "access.authentication" = "none";
 
-/* Material */
-transform column "$.'celltype'" to "cell[].name" apply {{
-arr=re.split("\s*,\s*",value1,)
-arr.extend(re.split("\s*,\s*",value2))
-result=arr
-}};
-
-transform column "$.'cellline'" to "cellline[].name" apply {{
-arr=re.split("\s*,\s*",value1,)
-arr.extend(re.split("\s*,\s*",value2))
-result=arr
-}};
-
-transform column "$.'cellularcomponent'" to "cellularcomponent[].name" apply {{
-arr=re.split("\s*,\s*",value1,)
-arr.extend(re.split("\s*,\s*",value2))
-result=arr
-}};
-
-
-transform columns "$.'biologicalprocess'", "$.'pathologicalprocess'"to "biologicalProcess[].name" apply {{
-arr=re.split("\s*,\s*",value1,)
-arr.extend(re.split("\s*,\s*",value2))
-result=arr
-}};
-
 /* Organization Information */
+let "organization.ID" = "SCR:010600";
 let "organization.name" = "American Society for Cell Biology";
 let "organization.abbreviation" = "ASCB";
-let "organization.ID" = "SCR:010600";
 let "organization.homePage" = "http://ascb.org/";
 
 /* Taxonomic Information */
@@ -62,6 +36,13 @@ transform column "$.'visualizationmethods'" to "treatment.agent";
 
 /* Data Acquisition Information */
 transform column "$.'imagingmode'" to "dataAcquisition.name";
+
+/* Biological Entity */
+transform column "$.'celltype'" to "BiologicalEntity[].name" apply {{
+arr=re.split("\s*,\s*",value1,)
+arr.extend(re.split("\s*,\s*",value2))
+result=arr
+}};
 
 /* Data import needs to be fixed */
 /*
@@ -90,4 +71,19 @@ transform column "$.'speciestaxaspecific'" to "speciestaxaspecific";
 transform column "$.'technicaldetails'" to "technicaldetails";
 transform column "$.'dataqualification'" to "dataqualification";
 transform column "$.'relationtointactcell'" to "relationtointactcell";
+transform column "$.'cellline'" to "cellline[].name" apply {{
+arr=re.split("\s*,\s*",value1,)
+arr.extend(re.split("\s*,\s*",value2))
+result=arr
+}};
+transform column "$.'cellularcomponent'" to "cellularcomponent[].name" apply {{
+arr=re.split("\s*,\s*",value1,)
+arr.extend(re.split("\s*,\s*",value2))
+result=arr
+}};
+transform columns "$.'biologicalprocess'", "$.'pathologicalprocess'"to "biologicalProcess[].name" apply {{
+arr=re.split("\s*,\s*",value1,)
+arr.extend(re.split("\s*,\s*",value2))
+result=arr
+}};
 */
