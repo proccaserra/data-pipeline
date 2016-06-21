@@ -5,7 +5,7 @@ transform column "$.'description'" to "dataset.description";
 
 /* Access Information */
 transform column "$.'link'" to "access.accessURL";
-let "access.accesstypes" = "remoteService";
+let "access.accesstypes" = "download";
 let "access.authorization" = "none";
 let "access.authentication" = "simpleLogin";
 
