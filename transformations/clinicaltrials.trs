@@ -28,7 +28,7 @@ let "access.authentication" = "none";
 transform column "$.'clinical_study'.'sponsors'.'lead_sponsor'.'agency'.'_$'" to "grant.funders";
 
 /* Study */
-transform column "$.'clinical_study'.'id_info'.'org_study_id'.'_$'" to "study.identifier";
+transform column "$.'clinical_study'.'id_info'.'org_study_id'.'_$'" to "study.ID";
 transform column "$.'clinical_study'.'required_header'.'url'.'_$'" to "study.homepage";
 transform column "$.'clinical_study'.'study_type'.'_$'" to "study.types";
 transform column "$.'clinical_study'.'eligibility'.'criteria'.'textblock'.'_$'" to "study.selectioncriteria";
