@@ -1,9 +1,17 @@
 /* Dataset Information */
 transform column "$.'name'" to "dataset.title";
 transform column "$.'description'" to "dataset.description";
-transform column "$.'class'" to "dataset.dataType";
+transform column "$.'class'" to "dataset.types";
 
-transform column "$.'reference_name'" to "publication.name";
+/* Data Repository Information */
+let "dataRepository.ID" = "SCR:006949";
+let "dataRepository.name" = "Physiobank";
+let "dataRepository.abbreviation" = "Physiobank";
+let "dataRepository.homePage" = "http://physionet.org/physiobank/";
+
+/* Publication Information */
+transform column "$.'pmid'" to "publication.ID";
+transform column "$.'reference_name'" to "publication.title";
 
 /* Access Information */
 transform column "$.'url'" to "access.accessURL";
@@ -11,26 +19,16 @@ let "access.accesstypes" = "download";
 let "access.authorization" = "none";
 let "access.authentication" = "none";
 
-/* Data Repository Information */
-transform column "$.'name'" to "dataRepository.name" apply {{ result = 'Physiobank' }};
-transform column "$.'name'" to "dataRepository.abbreviation" apply {{ result = 'Physiobank' }};
-transform column "$.'name'" to "dataRepository.ID" apply {{ result = 'SCR:006949' }};
-transform column "$.'name'" to "dataRepository.homePage" apply {{ result = 'http://physionet.org/physiobank/' }};
-
 /* Organization Information */
-transform column "$.'name'" to "organization.name" apply {{ result = 'PhysioNet' }};
-transform column "$.'name'" to "organization.abbreviation" apply {{ result = 'PhysioNet' }};
-transform column "$.'name'" to "organization.ID" apply {{ result = 'SCR:007345' }};
-transform column "$.'name'" to "organization.homePage" apply {{ result = 'http://www.physionet.org/' }};
+let "organization.ID" = "SCR:007345";
+let "organization.name" = "PhysioNet";
+let "organization.abbreviation" = "PhysioNet";
+let "organization.homePage" = "http://www.physionet.org/";
 
-/* Items requiring some special formatting/review */
-/*
-transform column "$.'reference_link'" to "reference_link";
-transform column "$.'pmid'" to "pmid";
-*/
 
 /* Items not included */
 /*
+transform column "$.'reference_link'" to "reference_link";
 transform column "$.'e_uid'" to "e_uid";
 transform column "$.'v_uid'" to "v_uid";
 transform column "$.'v_uuid'" to "v_uuid";
