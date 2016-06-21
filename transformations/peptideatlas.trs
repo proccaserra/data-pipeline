@@ -3,6 +3,14 @@ transform column "$.'acc'" to "dataset.id";
 transform column "$.'title'" to "dataset.title";
 transform column "$.'summary'" to "dataset.description";
 
+/* Data Repository Information */
+let "dataRepository.ID" = "SCR:006783";
+let "dataRepository.name" = "PeptideAtlas";
+let "dataRepository.homePage" = "http://www.peptideatlas.org/";
+
+/* Publication Information */
+transform column "$.'pmid'" to "pmid" apply {{ result = 'pmid:' + value }};
+
 /* Access Information */
 transform column "$.'acc'" to "access.accessURL" apply {{ 
 result = 'ftp://ftp.peptideatlas.org/pub/PeptideAtlas/Repository/' + value 
@@ -11,40 +19,30 @@ let "access.accesstypes" = "download";
 let "access.authorization" = "none";
 let "access.authentication" = "none";
 
-/* Publication Information */
-transform column "$.'pmid'" to "pmid" apply {{ result = 'pmid:' + value }};
+/* Organization Information */
+let "organization.ID" = "SCR:011305";
+let "organization.name" = "Institute for Systems Biology";
+let "organization.abbreviation" = "ISB";
+let "organization.homePage" = "http://www.systemsbiology.org/";
 
-/* Organism Information */
-transform column "$.'name'" to "organism[0].name";
-transform column "$.'char'" to "organism[0].strain";
-
+/* Taxonomic Information */
+transform column "$.'name'" to "taxonomicinformation[0].name";
 
 /* Instrument Information */
 transform column "$.'instrument'" to "instrument.name";
 
+
+/* Items not included */
+/*
 /* Protocol Information */
 transform columns "$.'treatment'" , "$.'growth'" , "$.'digestion'" , "$.'extract'" , "$.'separation'" to "treatment.description" apply {{ 
 result = 'Treatment: ' + value1 + '; Growth: ' + value2 + '; Digestion: ' + value3 + '; Extraction: ' + value4 + '; Separation: ' + value5 
 }};
-
-/* Data Repository Information */
-transform column "$.'acc'" to "dataRepository.name" apply {{ result = 'PeptideAtlas' }};
-transform column "$.'acc'" to "dataRepository.ID" apply {{ result = 'SCR:006783' }};
-transform column "$.'acc'" to "dataRepository.homePage" apply {{ result = 'http://www.peptideatlas.org/' }};
-
-/* Organization Information */
-transform column "$.'acc'" to "organization.name" apply {{ result = 'Institute for Systems Biology' }};
-transform column "$.'acc'" to "organization.abbreviation" apply {{ result = 'ISB' }};
-transform column "$.'acc'" to "organization.ID" apply {{ result = 'SCR:011305' }};
-transform column "$.'acc'" to "organization.homePage" apply {{ result = 'http://www.systemsbiology.org/' }};
-
-
-/* Items not included */
-/*
 transform column "$.'e_uid'" to "e_uid";
 transform column "$.'v_uid'" to "v_uid";
 transform column "$.'v_uuid'" to "v_uuid";
 transform column "$.'v_lastmodified'" to "v_lastmodified";
 transform column "$.'pmid_display'" to "pmid_display";
 transform column "$.'tag'" to "tag";
+transform column "$.'char'" to "organism[0].strain";
 */
