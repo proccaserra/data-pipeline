@@ -1,29 +1,37 @@
 /* Dataset Information */
 transform column "$.'neuron_id'" to "dataset.ID";
 transform column "$.'neuron_name'" to "dataset.title";
-transform column "$.'note'" to "dataset.note";
+
+/* Data Repository Information */
+let "dataRepository.ID" = "SCR:002145";
+let "dataRepository.name" = "NeuroMorpho.Org";
+let "dataRepository.abbreviation" = "NeuroMorpho";
+let "dataRepository.homePage" = "http://neuromorpho.org/";
+
+/* Publication Information */
+transform column "$.'article'.'pmid'" to "publication.ID";
 
 /* Access Information */
-transform column "$.'neuron_name'" to "access.accessURL" apply {{ result = 'http://neuromorpho.org/neuron_info.jsp?neuron_name=' + value }};
+transform column "$.'neuron_name'" to "access.landingPage" apply {{ result = 'http://neuromorpho.org/neuron_info.jsp?neuron_name=' + value }};
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
 let "access.authentication" = "none";
 
-/* Other Dataset Information */
-transform column "$.'article'.'pmid'" to "publication.ID";
-
-/* Organism Information */
-transform column "$.'species'" to "organism.name";
-transform column "$.'gender'" to "organism.gender";
-transform column "$.'strain_name'" to "organism.strain";
-transform column "$.'scientific_name'" to "organism.scientificName";
-
 /* Dimension Information */
-transform column "$.'neuron_id'" to "dimension[0].name" apply {{ result = 'age' }};
-transform column "$.'neuron_id'" to "dimension[1].name" apply {{ result = 'weight' }};
-transform column "$.'neuron_id'" to "dimension[2].name" apply {{ result = 'soma surface area' }};
-transform column "$.'neuron_id'" to "dimension[3].name" apply {{ result = 'surface area' }};
-transform column "$.'neuron_id'" to "dimension[4].name" apply {{ result = 'volume' }};
+let "dimension[0].name" = "age";
+let "dimension[1].name" = "weight";
+let "dimension[2].name" = "soma surface area";
+let "dimension[3].name" = "surface area";
+let "dimension[4].name" = "volume";
+
+/* Organization Information */
+let "organization.ID" = "SCR:011213";
+let "organization.name" = "George Mason University";
+let "organization.abbreviation" = "GMU";
+let "organization.homePage" = "http://www.gmu.edu/";
+
+/* Taxonomic Information */
+transform column "$.'scientific_name'" to "taxonomicinformation.name";
 
 /* Cell Information */
 transform column "$.'cell_class'" to "cell.name[]" apply {{
@@ -31,30 +39,17 @@ arr=re.split("\s*,\s*",value,)
 result=arr
 }};
 
-/* Anatomical Information */
+/* Anatomical Paart */
 transform column "$.'brain_region'" to "anatomicalPart.name[]" apply {{
 arr=re.split("\s*,\s*",value,)
 result=arr
 }};
 
-/* Protocol Information */ 
+/* Study Group Information */ 
 transform column "$.'expercond'" to "studyGroup.name";
 
-transform column "$.'stain'" to "treatment.title";
-
-
-/* Data Repository Information */
-transform column "$.'neuron_id'" to "dataRepository.name" apply {{ result = 'NeuroMorpho.Org' }};
-transform column "$.'neuron_id'" to "dataRepository.abbreviation" apply {{ result = 'NeuroMorpho' }};
-transform column "$.'neuron_id'" to "dataRepository.ID" apply {{ result = 'SCR:002145' }};
-transform column "$.'neuron_id'" to "dataRepository.homePage" apply {{ result = 'http://neuromorpho.org/' }};
-
-/* Organization Information */
-transform column "$.'neuron_id'" to "organization.name" apply {{ result = 'George Mason University' }};
-transform column "$.'neuron_id'" to "organization.abbreviation" apply {{ result = 'GMU' }};
-transform column "$.'neuron_id'" to "organization.ID" apply {{ result = 'SCR:011213' }};
-transform column "$.'neuron_id'" to "organization.homePage" apply {{ result = 'http://www.gmu.edu/' }};
-
+/* Treatment information */
+transform column "$.'stain'" to "treatment.name";
 
 /* Items not included */
 /*
@@ -69,4 +64,9 @@ transform column "$.'age_class'" to "age_class";
 transform column "$.'url_reference'" to "url_reference";
 transform column "$.'article'.'neuron_id'" to "article.neuron_id";
 transform column "$.'scientific_name'" to "scientific_name";
+transform column "$.'note'" to "dataset.note";
+transform column "$.'species'" to "organism.name";
+transform column "$.'gender'" to "organism.gender";
+transform column "$.'strain_name'" to "organism.strain";
+
 */
