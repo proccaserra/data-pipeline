@@ -16,8 +16,8 @@ let "datastandard.homepage" = "dublincore.org";
 let "datastandard.license" = "http://dublincore.org/about/copyright/";
 
 /* Data Repository Information */
-transform column "$.'record'.'header'.'repository'.'_$'" to "dataRepository.name";
 let "dataRepository.ID" = "SCR:005910";
+transform column "$.'record'.'header'.'repository'.'_$'" to "dataRepository.name";
 let "dataRepository.homepage" = "http://www.datadryad.org";
 
 /* Identifiers Information */
@@ -33,9 +33,9 @@ let "access.authentication" = "none";
 transform column "$.'record'.'metadata'.'oai_dc:dc'.'dc:rights'.'_$'" to "license.name";
 
 /* Organization Information */
+let "organization.ID" = "SCR:005910";
 let "organization.name" = "Dryad Digital Repository";
 let "organization.abbreviation" = "Dryad";
-let "organization.ID" = "SCR:005910";
 
 /* items not included in the model */
 transform column "$.'record'.'header'.'setSpec'.'_$'" to "internal.setID";
