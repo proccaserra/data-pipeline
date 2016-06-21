@@ -12,7 +12,7 @@ let "dataRepository.abbreviation" = "CIL";
 let "dataRepository.homePage" = "http://www.cellimagelibrary.org/";
 
 /* Access Information */
-transform column "$.'id'" to "access.accessURL" apply {{ result = 'http://www.cellimagelibrary.org/images/' + value }};
+transform column "$.'id'" to "access.landingPage" apply {{ result = 'http://www.cellimagelibrary.org/images/' + value }};
 let "access.accesstypes"  = "download";
 let "access.authorization"  = "none";
 let "access.authentication" = "none";
