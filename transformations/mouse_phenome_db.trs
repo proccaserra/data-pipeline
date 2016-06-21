@@ -3,11 +3,18 @@ transform column "$.'dataset_id'" to "dataset.ID";
 transform column "$.'title'" to "dataset.title";
 transform column "$.'datasettype'" to "dataset.dataType";
 transform column "$.'description'" to "dataset.description";
+
+/* Dataset Distribution */
 transform column "$.'nstrains'" to "dataset.size";
-transform column "$.'gender'" to "dataset.gender";
+
+/* Data Repository Information */
+let "dataRepository.name" = "Mouse Phenome Database";
+let "dataRepository.abbreviation" = "MPD";
+let "dataRepository.ID" = "SCR:003212";
+let "dataRepository.homePage" = "http://phenome.jax.org/";
 
 /* Access Information */
-transform column "$.'dataset_symbol'" to "access.accessURL" apply {{ result = 'http://phenome.jax.org/db/q?rtn=projects/details&sym=' + value }};
+transform column "$.'dataset_symbol'" to "access.landingPage" apply {{ result = 'http://phenome.jax.org/db/q?rtn=projects/details&sym=' + value }};
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
 let "access.authentication" = "none";
@@ -18,24 +25,14 @@ arr=re.split("\s*,\s*",value,)
 result=arr
 }};
 
-
-/* Organism Information */
-transform column "$.'strainpanel'" to "organism[0].name" apply {{ result = 'mouse' }};
-transform column "$.'strainpanel'" to "organism[0].scientificName" apply {{ result = 'mus musculus' }};
-transform column "$.'strainpanel'" to "organism[0].strain";
-
-/* Data Repository Information */
-transform column "$.'title'" to "dataRepository.name" apply {{ result = 'Mouse Phenome Database' }};
-transform column "$.'title'" to "dataRepository.abbreviation" apply {{ result = 'MPD' }};
-transform column "$.'title'" to "dataRepository.ID" apply {{ result = 'SCR:003212' }};
-transform column "$.'title'" to "dataRepository.homePage" apply {{ result = 'http://phenome.jax.org/' }};
-
 /* Organization Information */
-transform column "$.'title'" to "organization.name" apply {{ result = 'Jackson Laboratory' }};
-transform column "$.'title'" to "organization.abbreviation" apply {{ result = 'JAX' }};
-transform column "$.'title'" to "organization.ID" apply {{ result = 'SCR:004633' }};
-transform column "$.'title'" to "organization.homePage" apply {{ result = 'http://www.jax.org/index.html' }};
+let "organization.ID" = "SCR:004633";
+let "organization.name" = "Jackson Laboratory";
+let "organization.abbreviation" = "JAX";
+let "organization.homePage" = "http://www.jax.org/index.html";
 
+/* Taxonomic Information */
+let "taxonomicinformation[0].name" = "mus musculus";
 
 /* Items not included */
 /*
@@ -44,9 +41,12 @@ transform column "$.'v_uid'" to "v_uid";
 transform column "$.'v_uuid'" to "v_uuid";
 transform column "$.'v_lastmodified'" to "v_lastmodified";
 transform column "$.'url'" to "url";
+transform column "$.'gender'" to "dataset.gender";
 
 transform column "$.'specific_categories'" to "specific_categories";
 transform column "$.'broad_categories'" to "broad_categories";
 transform column "$.'reference'" to "reference";
 transform column "$.'dataset_granularity'" to "dataset_granularity";
+transform column "$.'strainpanel'" to "organism[0].name" apply {{ result = 'mouse' }};
+transform column "$.'strainpanel'" to "organism[0].strain";
 */
