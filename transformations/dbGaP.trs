@@ -12,9 +12,8 @@ transform column "$.'Study'.'@source'" to "dataRepository.name";
 
 /* Publication Information */
 transform column "$.'Study'.'Configuration'.'Publications'.'Publication'[*].'Pubmed'.'@pmid'" to "publication.ID[]";
-transform column "$.'Study'.'Configuration'.'Publications'.'Publication'[*].'Journal'.'@authors'" to "publication.author[]";
 transform column "$.'Study'.'Configuration'.'Publications'.'Publication'[*].'Journal'.'@title'" to "publication.title[]";
-transform column "$.'Study'.'Configuration'.'Publications'.'Publication'[*].'Journal'.'@journal'" to "publication.cites[]";
+transform column "$.'Study'.'Configuration'.'Publications'.'Publication'[*].'Journal'.'@authors'" to "publication.authors[]";
 
 /* Access Information */
 let "access.accesstypes" = "download";
@@ -28,27 +27,24 @@ transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'DocumentSet'.'DataUseCe
 
 /* Person */
 transform column "$.'Study'.'Configuration'.'Attributions'.'Header'[*].'AttName'.'_$'" to "person.name[]";
-transform column "$.'Study'.'Configuration'.'Attributions'.'Header'[*].'@title'" to "person.role[]";
+transform column "$.'Study'.'Configuration'.'Attributions'.'Header'[*].'@title'" to "person.roles[]";
 transform column "$.'Study'.'Configuration'.'Attributions'.'Header'[*].'Institution'.'_$'" to "person.affiliations[]";
 
 /* Organization Information */
-transform column "$.'Study'.'Configuration'.'StudyURLs'.'Url'[*].'@name'" to "organization.name[]";
 transform column "$.'Study'.'AuthorizedAccess'.'DacInfo'.'@ssDacId'" to "organization.ID";
-transform column "$.'Study'.'AuthorizedAccess'.'DacInfo'.'DacName'.'_$'" to "organization.abbreviation";
 transform column "$.'Study'.'AuthorizedAccess'.'DacInfo'.'DacFullName'.'_$'" to "organization.name";
+transform column "$.'Study'.'AuthorizedAccess'.'DacInfo'.'DacName'.'_$'" to "organization.abbreviation";
 transform column "$.'Study'.'AuthorizedAccess'.'DacInfo'.'DacUrl'.'_$'" to "organization.downloadURL";
 
 /* Study Information */
 transform column "$.'Study'.'Configuration'.'StudyTypes'.'StudyType'.'_$'" to "study.studyType";
 transform column "$.'Study'.'Configuration'.'StudyHistory'.'_$'" to "study.scheduledActivity";
-
-/* Study Information */
 transform column "$.'Study'.'Configuration'.'StudyInEx'.'_$'" to "study.selectionCriteria";
 
 /* Data Acquisition Information */
 transform column "$.'Study'.'Configuration'.'Data_Provider'.'_$'" to "dataAcquisition.performedBy";
 
-/* Data Analysis */
+/* Data Analysis */s
 transform column "$.'Study'.'Analyses'.'Analysis'[*].'@pha'" to "dataAnalysis.identifier[]";
 
 /* Study Group Information */
@@ -169,6 +165,9 @@ transform column "$.'Study'.'Analyses'.'Analysis'[*].'@snpBuild'" to "Study.Anal
 transform column "$.'Study'.'Analyses'.'Analysis'[*].'@analysisType'" to "Study.Analyses.Analysis[].@analysisType";
 transform column "$.'Study'.'Analyses'.'Analysis'[*].'Description'.'_$'" to "DataAnalyses.description[]".@analysis;
 transform column "$.'Study'.'Analyses'.'Analysis'[*].'Method'.'_$'" to "Study.Analyses.Analysis[].Method";
+transform column "$.'Study'.'Configuration'.'Publications'.'Publication'[*].'Journal'.'@journal'" to "publication.cites[]";
+transform column "$.'Study'.'Configuration'.'StudyURLs'.'Url'[*].'@name'" to "organization.name[]";
+
 transform column "$.'Study'.'Analyses'.'Analysis'[*].'GtyPlatform'.'@probeNum'" to "Study.Analyses.Analysis[].GtyPlatform.@probeNum";
     Unsure what GtyPlatform is referring to
 transform column "$.'Study'.'Analyses'.'Analysis'[*].'GtyPlatform'.'@snpBatchId'" to "Study.Analyses.Analysis[].GtyPlatform.@snpBatchId";
@@ -187,4 +186,6 @@ transform column "$.'_@default'" to "_@default";
     unsure of what this is
 transform column "$.'_@xml'" to "_@xml";
     unsure of what this is - unable to access link given in sample record
+    transform column "$.'Study'.'Configuration'.'Publications'.'Publication'[*].'Journal'.'@journal'" to "publication.cites[]";
+
  */
