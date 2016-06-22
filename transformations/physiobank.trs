@@ -1,7 +1,7 @@
 /* Dataset Information */
-transform column "$.'name'" to "dataset.title";
-transform column "$.'description'" to "dataset.description";
-transform column "$.'class'" to "dataset.types";
+transform column "$.'pr_nlx_48903_1'.'name'" to "dataset.title";
+transform column "$.'pr_nlx_48903_1'.'description'" to "dataset.description";
+transform column "$.'pr_nlx_48903_1'.'class'" to "dataset.types";
 
 /* Data Repository Information */
 let "dataRepository.ID" = "SCR:006949";
@@ -10,11 +10,11 @@ let "dataRepository.abbreviation" = "Physiobank";
 let "dataRepository.homePage" = "http://physionet.org/physiobank/";
 
 /* Publication Information */
-transform column "$.'pmid'" to "publication.ID";
-transform column "$.'reference_name'" to "publication.title";
+transform column "$.'pr_nlx_48903_1'.'pmid'" to "publication.ID";
+transform column "$.'pr_nlx_48903_1'.'reference_name'" to "publication.title";
 
 /* Access Information */
-transform column "$.'url'" to "access.landingPage";
+transform column "$.'pr_nlx_48903_1'.'url'" to "access.landingPage";
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
 let "access.authentication" = "none";
@@ -28,10 +28,10 @@ let "organization.homePage" = "http://www.physionet.org/";
 
 /* Items not included */
 /*
-transform column "$.'reference_link'" to "reference_link";
-transform column "$.'e_uid'" to "e_uid";
-transform column "$.'v_uid'" to "v_uid";
-transform column "$.'v_uuid'" to "v_uuid";
-transform column "$.'v_lastmodified'" to "v_lastmodified";
-transform column "$.'section'" to "section";
+transform column "$.'pr_nlx_48903_1'.'reference_link'" to "reference_link";
+transform column "$.'pr_nlx_48903_1'.'e_uid'" to "e_uid";
+transform column "$.'pr_nlx_48903_1'.'v_uid'" to "v_uid";
+transform column "$.'pr_nlx_48903_1'.'v_uuid'" to "v_uuid";
+transform column "$.'pr_nlx_48903_1'.'v_lastmodified'" to "v_lastmodified";
+transform column "$.'pr_nlx_48903_1'.'section'" to "section";
 */
