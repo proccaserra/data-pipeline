@@ -40,7 +40,10 @@ transform column "$.'citation'.'fields'[*].'relatedDatasets'[*]" to "Dataset[].r
 transform column "$.'citation'.'fields'[*].'otherId'[*].'otherIdValue'" to "Dataset[].otherId[].identifier";  /* new created */
 transform column "$.'citation'.'fields'[*].'otherId'[*].'otherIdAgency'" to "Dataset[].otherId[].agency"; /* new created */
 
-
+/*=============================Access=========================================*/
+let "access.accesstypes"  = "download"; 
+let "access.authorization"  = "none,registration"; 
+let "access.authentication" = "none,simplelogin"; 
 
 /*=============================Person=========================================*/
 
