@@ -1,13 +1,13 @@
 /* Dataset Information */
-transform column "$.'dataset_identifier'" to "dataset.ID";
-transform column "$.'title'" to "dataset.title";
-transform column "$.'keywords'" to "dataset.keywords[]" apply {{
+transform column "$.'pr_nlx_158620_1'.'dataset_identifier'" to "dataset.ID";
+transform column "$.'pr_nlx_158620_1'.'title'" to "dataset.title";
+transform column "$.'pr_nlx_158620_1'.'keywords'" to "dataset.keywords[]" apply {{
 arr=re.split("\s*;\s*",value,)
 result=arr
 }};
 
 /* Dataset Distribution */
-transform column "$.'announcement_date'" to "datasetdistribution.dateReleased" apply toStandardDateTime("yyyy-MM-dd");
+transform column "$.'pr_nlx_158620_1'.'announcement_date'" to "datasetdistribution.dateReleased" apply toStandardDateTime("yyyy-MM-dd");
 
 /* Data Repository Information */
 let "dataRepository.ID" = "SCR:004055";
@@ -16,17 +16,17 @@ let "dataRepository.abbreviation" = "ProteomeXchange";
 let "dataRepository.homePage" = "http://www.proteomexchange.org/";
 
 /* Publication Information */
-transform column "$.'publication'" to "publication.title";
+transform column "$.'pr_nlx_158620_1'.'publication'" to "publication.title";
 
 /* Access Information */
-transform column "$.'dataset_url'" to "access.landingPage";
+transform column "$.'pr_nlx_158620_1'.'dataset_url'" to "access.landingPage";
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
 let "access.authentication" = "none";
 
 /* Person Information */
-transform column "$.'primary_submitter'" to "person[0].name";
-transform column "$.'labhead'" to "person[1].name";
+transform column "$.'pr_nlx_158620_1'.'primary_submitter'" to "person[0].name";
+transform column "$.'pr_nlx_158620_1'.'labhead'" to "person[1].name";
 
 /* Organization Information */
 let "organization.ID"  = "SCR:004727";
@@ -35,18 +35,18 @@ let "organization.abbreviation" = "EBI";
 let "organization.homePage" = "http://www.ebi.ac.uk/";
 
 /* Taxonomic Information */
-transform column "$.'species'" to "taxonomicInformation[0].name";
+transform column "$.'pr_nlx_158620_1'.'species'" to "taxonomicInformation[0].name";
 
 /* Instrument information */
-transform column "$.'instrument'" to "instrument.name";
+transform column "$.'pr_nlx_158620_1'.'instrument'" to "instrument.name";
 
 /* Items not included */
 /*
-transform column "$.'e_uid'" to "e_uid";
-transform column "$.'v_uid'" to "v_uid";
-transform column "$.'v_uuid'" to "v_uuid";
-transform column "$.'v_lastmodified'" to "v_lastmodified";
-transform column "$.'repos'" to "dataset.storedIn";
-transform column "$.'publication_link'" to "publication_link";
+transform column "$.'pr_nlx_158620_1'.'e_uid'" to "e_uid";
+transform column "$.'pr_nlx_158620_1'.'v_uid'" to "v_uid";
+transform column "$.'pr_nlx_158620_1'.'v_uuid'" to "v_uuid";
+transform column "$.'pr_nlx_158620_1'.'v_lastmodified'" to "v_lastmodified";
+transform column "$.'pr_nlx_158620_1'.'repos'" to "dataset.storedIn";
+transform column "$.'pr_nlx_158620_1'.'publication_link'" to "publication_link";
 
 */
