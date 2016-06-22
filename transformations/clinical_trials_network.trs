@@ -1,18 +1,18 @@
 /* Dataset Information */
-transform column "$.'studynum'" to "dataset.ID";
-transform column "$.'study_title'" to "dataset.title";
-transform column "$.'investigator'" to "dataset.creator";
-transform column "$.'study_description'" to "dataset.description";
-transform column "$.'keywords'" to "dataset.keywords[]" apply {{
+transform column "$.'pr_nif_0000_21981_1'.'studynum'" to "dataset.ID";
+transform column "$.'pr_nif_0000_21981_1'.'study_title'" to "dataset.title";
+transform column "$.'pr_nif_0000_21981_1'.'investigator'" to "dataset.creator";
+transform column "$.'pr_nif_0000_21981_1'.'study_description'" to "dataset.description";
+transform column "$.'pr_nif_0000_21981_1'.'keywords'" to "dataset.keywords[]" apply {{
 arr=re.split("\s*,\s*",value,)
 result=arr
 }};
 
 /* Dataset Distribution */
-transform column "$.'release_date'" to "datasetdistribution.dateReleased";
+transform column "$.'pr_nif_0000_21981_1'.'release_date'" to "datasetdistribution.dateReleased";
 
 /* Access Information */
-transform column "$.'studynum'" to "access.landingPage" apply {{ result = 'http://ctndisseminationlibrary.org/protocols/' + value }};
+transform column "$.'pr_nif_0000_21981_1'.'studynum'" to "access.landingPage" apply {{ result = 'http://ctndisseminationlibrary.org/protocols/' + value }};
 let "access.accesstypes"  = "download";
 let "access.authorization"  = "registration";
 let "access.authentication" = "simpleLogin";
@@ -34,8 +34,8 @@ let "organism[0].name"  = "Homo sapiens";
 
 /* Items not included */
 /*
-transform column "$.'e_uid'" to "e_uid";
-transform column "$.'v_uid'" to "v_uid";
+transform column "$.'pr_nif_0000_21981_1'.'e_uid'" to "e_uid";
+transform column "$.'pr_nif_0000_21981_1'.'v_uid'" to "v_uid";
 transform column "$.'v_uuid'" to "v_uuid";
 transform column "$.'v_lastmodified'" to "v_lastmodified";
 */
