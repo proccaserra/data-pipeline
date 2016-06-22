@@ -39,6 +39,14 @@ transform column "$.'projectname'" to "internal.projectName";
 transform column "$.'assayname'" to "assay.name";
 transform column "$.'physicaldetection'" to "dimension.name";
 
+/* Additional elements */
+transform column "$.'primarycell'[*]'" to "primaryCell.name[]";
+transform column "$.'protein'[*]'" to "protein.name[]";
+transform column "$.'phosphoprotein'" to "phosphoProtein.name[]";
+transform column "$.'cellline'[*]'" to "cellLine.name[]";
+transform column "$.'antibody'[*]'" to "antibody.name[]";
+transform column "$.'iPSC'[*]'" to "iPSC.name[]";
+transform column "$.'biologicalprocess'" to "biologicalProcess.name";
 
 /* Unused elements */
 /* 
@@ -48,12 +56,4 @@ transform column "$.'centerletter'" to "centerletter";
 transform column "$.'assaydesignmethod'" to "assaydesignmethod";
 transform column "$.'technologies'" to "technologies";
 transform column "$.'assayformat'" to "assayformat";
-transform column "$.'primarycell'[*]'" to "primaryCell.name[]";
-transform column "$.'protein'[*]'" to "protein.name[]";
-transform column "$.'phosphoprotein'" to "phosphoProtein.name[]";
-transform column "$.'cellline'[*]'" to "cellLine.name[]";
-transform column "$.'antibody'[*]'" to "antibody.name[]";
-transform column "$.'iPSC'[*]'" to "iPSC.name[]";
-transform column "$.'biologicalprocess'" to "biologicalProcess.name";
-
 */

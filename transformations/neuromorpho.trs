@@ -32,6 +32,7 @@ let "organization.homePage" = "http://www.gmu.edu/";
 
 /* Taxonomic Information */
 transform column "$.'scientific_name'" to "taxonomicinformation.name";
+transform column "$.'strain_name'" to "taxonomicinformation.strain";
 
 /* Cell Information */
 transform column "$.'cell_class'" to "cell.name[]" apply {{
@@ -67,6 +68,4 @@ transform column "$.'scientific_name'" to "scientific_name";
 transform column "$.'note'" to "dataset.note";
 transform column "$.'species'" to "organism.name";
 transform column "$.'gender'" to "organism.gender";
-transform column "$.'strain_name'" to "organism.strain";
-
 */
