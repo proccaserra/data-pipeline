@@ -7,7 +7,7 @@ transform column "$.'description'" to "dataset.description";
 transform column "$.'link'" to "access.landingPage";
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
-let "access.authentication" = "simpleLogin";
+let "access.authentication" = "none,simpleLogin";
 
 /* Additional Information */
 transform column "$.'organism'" to "organism[0].name";
