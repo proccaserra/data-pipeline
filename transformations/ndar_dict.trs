@@ -5,7 +5,7 @@ transform column "$.'shortName'" to "DataAcquisition.identifierScheme" apply {{ 
 
 /* Access Information */
 let "access.accesstypes" = "download";
-let "access.authorization" = "registration";
+let "access.authorization" = "duaindividual/duainstitution";
 let "access.authentication" = "simpleLogin";
 
 /* Organization section */ 
