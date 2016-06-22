@@ -34,6 +34,9 @@ let "organization.homePage" = "http://www.jax.org/index.html";
 /* Taxonomic Information */
 let "taxonomicinformation[0].name" = "mus musculus";
 
+/* Additional Taxonomic Information */
+transform column "$.'strainpanel'" to "taxonomicinformation[0].strain";
+
 /* Items not included */
 /*
 transform column "$.'e_uid'" to "e_uid";
@@ -48,5 +51,4 @@ transform column "$.'broad_categories'" to "broad_categories";
 transform column "$.'reference'" to "reference";
 transform column "$.'dataset_granularity'" to "dataset_granularity";
 transform column "$.'strainpanel'" to "organism[0].name" apply {{ result = 'mouse' }};
-transform column "$.'strainpanel'" to "organism[0].strain";
 */
