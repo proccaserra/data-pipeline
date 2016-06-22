@@ -1,18 +1,20 @@
-{
-  "e_uid": "PXD000098",
-  "dataset_identifier": "PXD000098",
-  "title": "Label-free quantification of Leptospira (Ludwig et al.)",
-  "repos": "PeptideAtlas",
-  "species": "Leptospira interrogans",
-  "instrument": "TSQ Vantage",
-  "publication": "Ludwig et al. (2012)",
-  "publication_link": "<a class=\"external\" target=\"_blank\" href=\"http://www.ncbi.nlm.nih.gov/pubmed/22101334\">Ludwig et al. (2012)<\/a>",
-  "primary_submitter": "Christina Ludwig",
-  "labhead": "Ruedi Aebersold",
-  "announcement_date": "2012-12-11",
-  "dataset_url": "http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD000098",
-  "keywords": "selected reaction monitoring; SRM; targeted",
-  "v_uid": "",
-  "v_uuid": "",
-  "v_lastmodified": ""
-}
+{"pr_nlx_158620_1": {
+  "e_uid": "PXD000722",
+  "dataset_identifier": "PXD000722",
+  "title": "pTyr-CoIP HP/AGS",
+  "repos": "PRIDE",
+  "species": "Homo sapiens",
+  "instrument": "LTQ Orbitrap",
+  "publication": "Pending",
+  "publication_link": "Pending",
+  "primary_submitter": "Christian Koehler",
+  "labhead": "Bernd Thiede",
+  "announcement_date": "2014-07-09",
+  "dataset_url": "http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD000722",
+  "keywords": "Human; Helicobacter; pTyr; Biomedical",
+  "v_uid": "PXD000722",
+  "v_uuid": "cec505f8-0f29-5806-ba71-14aae86363bc",
+  "v_lastmodified": "2016-03-21 10:56:56.233094",
+  "v_status": "E",
+  "v_lastmodified_epoch": 1.458557816233094E9
+}}

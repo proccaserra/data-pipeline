@@ -1,18 +1,20 @@
-{
-  "e_uid": "PXD002383",
-  "dataset_identifier": "PXD002383",
-  "title": "Human Proteome Dataset Hek293, k652 and HeLa cell lines",
+{"pr_nlx_158620_1": {
+  "e_uid": "PXD000691",
+  "dataset_identifier": "PXD000691",
+  "title": "Human Breast Cell Index",
   "repos": "PRIDE",
   "species": "Homo sapiens",
-  "instrument": "Q Exactive",
+  "instrument": "LTQ Orbitrap",
   "publication": "Pending",
   "publication_link": "Pending",
-  "primary_submitter": "Henrik Zauber",
-  "labhead": "Prof. Dr. Matthias Selbach",
-  "announcement_date": "2015-07-08",
-  "dataset_url": "http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD002383",
-  "keywords": "Hek293; k652; HeLa; Biomedical; Biological",
-  "v_uid": "",
-  "v_uuid": "",
-  "v_lastmodified": ""
-}
+  "primary_submitter": "Paolo Cifani",
+  "labhead": "Peter James",
+  "announcement_date": "2015-05-06",
+  "dataset_url": "http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD000691",
+  "keywords": "Human cell-lines breast cancer SILAC; Biomedical",
+  "v_uid": "PXD000691",
+  "v_uuid": "750b7c8b-4526-5c6e-b806-0a3b1c6b40d1",
+  "v_lastmodified": "2016-03-21 10:56:56.233094",
+  "v_status": "E",
+  "v_lastmodified_epoch": 1.458557816233094E9
+}}

@@ -1,18 +1,20 @@
-{
-  "e_uid": "PXD001565",
-  "dataset_identifier": "PXD001565",
-  "title": "Evaluation of phospho-tyrosine antibodies for label-free phosphoproteomics",
-  "repos": "PRIDE",
+{"pr_nlx_158620_1": {
+  "e_uid": "PXD001752",
+  "dataset_identifier": "PXD001752",
+  "title": "Dengue Fever (Brazil) biomarkers - Qualification",
+  "repos": "PeptideAtlas",
   "species": "Homo sapiens",
-  "instrument": "Q Exactive",
-  "publication": "van der Mijn et al. (2015)",
-  "publication_link": "<a class=\"external\" target=\"_blank\" href=\"http://www.ncbi.nlm.nih.gov/pubmed/25890253\">van der Mijn et al. (2015)<\/a>",
-  "primary_submitter": "Sander Piersma",
-  "labhead": "Connie Ramona Jimenez",
-  "announcement_date": "2015-12-09",
-  "dataset_url": "http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD001565",
-  "keywords": "Human; label-free; single-shot; phosphoproteomics; phosphotyrosine; pTyr IP; glioblastoma; U87; Technical",
-  "v_uid": "",
-  "v_uuid": "",
-  "v_lastmodified": ""
-}
+  "instrument": "TSQ Vantage",
+  "publication": "",
+  "publication_link": "",
+  "primary_submitter": "Kizhake Soman",
+  "labhead": "Allan R. Brasier",
+  "announcement_date": "2015-01-29",
+  "dataset_url": "http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD001752",
+  "keywords": "selected reaction monitoring; SRM; targeted",
+  "v_uid": "PXD001752",
+  "v_uuid": "2edabdda-4b64-5d0a-bebc-8f38e149f08d",
+  "v_lastmodified": "2016-03-21 10:56:56.233094",
+  "v_status": "E",
+  "v_lastmodified_epoch": 1.458557816233094E9
+}}
