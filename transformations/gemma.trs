@@ -7,13 +7,13 @@ let "dataset.keywords[0]"  = "functional genomics";
 /* Data Repository Information */
 let "dataRepository.ID" = "SCR:008007";
 let "dataRepository.name" = "Gemma";
-let "dataRepository.homePage" = 'http://www.chibi.ubc.ca/Gemma";
+let "dataRepository.homePage" = "http://www.chibi.ubc.ca/Gemma";
 
 /* Identifiers Information */
 transform columns "$.'Source'" , "$.'SourceAccession'" to "identifiers[0].ID" apply {{ result = value1 + ':' + value2 }};
 
 /* Access Information */
-transform column "$.'GemmaDsId'" to "access.landingPage" apply {{ result='http://www.chibi.ubc.ca/Gemma/gene/showGene.html?id=' + value}}
+transform column "$.'GemmaDsId'" to "access.landingPage" apply {{ result='http://www.chibi.ubc.ca/Gemma/gene/showGene.html?id=' + value}};
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
 let "access.authentication" = "none";
