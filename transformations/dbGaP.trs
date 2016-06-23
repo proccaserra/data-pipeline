@@ -6,6 +6,7 @@ transform column "$.'Study'.'Configuration'.'Description'.'_$'" to "dataset.keyw
 /* Dataset Distribution */
 transform column "$.'Study'.'@createDate'" to "datadistribution.dateCreated";
 transform column "$.'Study'.'@modDate'" to "datadistribution.dateModified"; 
+transform column "$.'Study'.'@accession'" to "datadistribution.version";
 
 /* Data Repository Information */
 transform column "$.'Study'.'@source'" to "dataRepository.name";
@@ -59,7 +60,6 @@ transform column "$.'Study'.'Configuration'.'Diseases'.'Disease'[*].'@vocab_term
 
 /* Items not included */
 /*
-transform column "$.'Study'.'@accession'" to "dataset.version";
 transform column "$.'Study'.'Configuration'.'ConsentGroups'.'ConsentGroup'[*].'@shortName'" to "studyGroup.abbreviation[]";
 
 transform column "$.'Study'.'Configuration'.'StudyNameReportPage'.'_$'" to "Study.Configuration.StudyNameReportPage";
