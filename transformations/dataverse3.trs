@@ -42,9 +42,10 @@ transform column "$.'citation'.'fields'[*].'otherId'[*].'otherIdAgency'" to "Dat
 
 /*=============================Access=========================================*/
 let "access.accesstypes"  = "download"; 
-let "access.authorization"  = "none,registration"; 
-let "access.authentication" = "none,simplelogin"; 
-
+let "access[0].authorization"  = "none"; 
+let "access[1].authorization"  = "registration"; 
+let "access[0].authentication" = "none"; 
+let "access[1].authentication" = "simplelogin"; 
 /*=============================Person=========================================*/
 
 /* Citation Field 1 */ 
