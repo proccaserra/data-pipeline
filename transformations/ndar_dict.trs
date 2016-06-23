@@ -1,6 +1,7 @@
 /* Access Information */
 let "access.accesstypes" = "download";
-let "access.authorization" = "duaindividual/duainstitution";
+let "access[0].authorization" = "duaIndividual";
+let "access[1].authorization" = "duaInstitution";
 let "access.authentication" = "simpleLogin";
 
 /* Dimension section */ 
