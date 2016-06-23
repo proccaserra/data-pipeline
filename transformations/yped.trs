@@ -1,10 +1,10 @@
 /* Dataset Information */
-transform column "$.'project_name'" to "dataset.id";
-transform column "$.'project_name'" to "dataset.title";
-transform column "$.'description'" to "dataset.description";
+transform column "$."pr_nlx_152660_1".'project_name'" to "dataset.id";
+transform column "$."pr_nlx_152660_1".'project_name'" to "dataset.title";
+transform column "$."pr_nlx_152660_1".'description'" to "dataset.description";
 
 /* Dataset Distribution */
-transform column "$.'samples'" to "datasetdistribution.size";
+transform column "$."pr_nlx_152660_1".'samples'" to "datasetdistribution.size";
 
 /* Data Repository Information */
 let "dataRepository.ID" = "SCR:001436";
@@ -13,16 +13,16 @@ let "dataRepository.abbreviation" = "YPED";
 let "dataRepository.homePage" = "http://medicine.yale.edu/keck/nida/yped.aspx";
 
 /* Publication Information */
-transform column "$.'pubmedid'" to "publication.ID" apply {{ result = 'pmid:' + value }};
+transform column "$."pr_nlx_152660_1".'pubmedid'" to "publication.ID" apply {{ result = 'pmid:' + value }};
 
 /* Access Information */
-transform column "$.'project_url'" to "access.landingPage" apply {{ result = 'http://yped.med.yale.edu/repository/' + value }};
+transform column "$."pr_nlx_152660_1".'project_url'" to "access.landingPage" apply {{ result = 'http://yped.med.yale.edu/repository/' + value }};
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
 let "access.authentication" = "none";
 
 /* Person Information */
-transform column "$.'pi'" to "person.name";
+transform column "$."pr_nlx_152660_1".'pi'" to "person.name";
 
 /* Organization Information */
 let "organization.ID" = "SCR:006339";
@@ -31,17 +31,17 @@ let "organization.abbreviation" = "Yale";
 let "organization.homePage" = "http://medicine.yale.edu/index.aspx";
 
 /* Taxonomic Information */
-transform column "$.'organisms'" to "taxonomicinformation.name";
+transform column "$."pr_nlx_152660_1".'organisms'" to "taxonomicinformation.name";
 
 /* Data Acquisition */
-transform column "$.'analysis_type'" to "dataAcquisition.name";
+transform column "$."pr_nlx_152660_1".'analysis_type'" to "dataAcquisition.name";
 
 /* Items not included */
 /*
-transform column "$.'e_uid'" to "e_uid";
-transform column "$.'v_uid'" to "v_uid";
-transform column "$.'v_uuid'" to "v_uuid";
-transform column "$.'v_lastmodified'" to "v_lastmodified";
-transform column "$.'displaypmid'" to "displaypmid";
-transform column "$.'project_link_url'" to "project_link_url";
+transform column "$."pr_nlx_152660_1".'e_uid'" to "e_uid";
+transform column "$."pr_nlx_152660_1".'v_uid'" to "v_uid";
+transform column "$."pr_nlx_152660_1".'v_uuid'" to "v_uuid";
+transform column "$."pr_nlx_152660_1".'v_lastmodified'" to "v_lastmodified";
+transform column "$."pr_nlx_152660_1".'displaypmid'" to "displaypmid";
+transform column "$."pr_nlx_152660_1".'project_link_url'" to "project_link_url";
 */
