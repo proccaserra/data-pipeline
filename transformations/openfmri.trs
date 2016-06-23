@@ -13,7 +13,8 @@ let "dataRepository.homePage" = "http://openfmri.org/";
 transform column "$.'link'" to "access.landingPage";
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
-let "access.authentication" = "none,simpleLogin";
+let "access[0].authentication" = "none"; 
+let "access[1].authentication" = "simpleLogin"; 
 
 /* Organization Information */
 let "organization.name" = "Stanford University";
