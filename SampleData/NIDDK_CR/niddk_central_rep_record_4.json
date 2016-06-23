@@ -1,17 +1,19 @@
-{
-  "e_uid": "TODAY",
-  "name": "Treatment Options for Type 2 Diabetes in Adolescents & Youth",
-  "url": "https://www.niddkrepository.org/studies/today/",
-  "acronym": "TODAY",
-  "conditions": "Diabetes Mellits, Type 2",
+{"pr_nlx_152673_1": {
+  "e_uid": "TrialNet",
+  "name": "TrialNet",
+  "url": "https://www.niddkrepository.org/studies/trialnet/",
+  "acronym": "TrialNet",
+  "conditions": "Diabetes Mellits, Diabetes Mellits, Type 1",
   "dialysis_studies": "No",
-  "duration": "2004 \u2013 2012",
+  "duration": "",
   "has_genotype_data": "No",
   "has_genotype_data_in_dbgap": "None",
   "has_image_data": "No",
-  "has_specimens": "Specimens Available for Request",
-  "has_study_datasets": "Yes",
-  "v_uid": "",
-  "v_uuid": "",
-  "v_lastmodified": ""
-}
+  "has_specimens": "Internal Use Only",
+  "has_study_datasets": "No",
+  "v_uid": "TrialNet",
+  "v_uuid": "f04a6f9a-209a-5685-bdf2-8e7ab1ab3446",
+  "v_lastmodified": "2016-03-03 10:13:39.154349",
+  "v_status": "E",
+  "v_lastmodified_epoch": 1.457000019154349E9
+}}

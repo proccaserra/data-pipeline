@@ -1,17 +1,19 @@
-{
-  "e_uid": "HEMO",
-  "name": "Hemodialysis Study",
-  "url": "https://www.niddkrepository.org/studies/hemo/",
-  "acronym": "HEMO",
-  "conditions": "Kidney Diseases, Renal Insfficiency, Chronic",
+{"pr_nlx_152673_1": {
+  "e_uid": "PRESERVE",
+  "name": "Prevention of Serious Adverse Events Following Angiography",
+  "url": "https://www.niddkrepository.org/studies/preserve/",
+  "acronym": "PRESERVE",
+  "conditions": "",
   "dialysis_studies": "No",
-  "duration": "1993 - 1994 for pilot, 03/1995 - 12/2001 for trial",
+  "duration": "",
   "has_genotype_data": "No",
   "has_genotype_data_in_dbgap": "None",
   "has_image_data": "No",
-  "has_specimens": "Specimens Available for Request",
-  "has_study_datasets": "Yes",
-  "v_uid": "",
-  "v_uuid": "",
-  "v_lastmodified": ""
-}
+  "has_specimens": "Internal Use Only",
+  "has_study_datasets": "No",
+  "v_uid": "PRESERVE",
+  "v_uuid": "ec4ae8df-9426-50bf-aad5-734d1ab0e988",
+  "v_lastmodified": "2016-03-03 10:13:39.154349",
+  "v_status": "E",
+  "v_lastmodified_epoch": 1.457000019154349E9
+}}

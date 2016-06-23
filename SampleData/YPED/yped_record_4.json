@@ -1,16 +1,18 @@
-{
-  "e_uid": "VEGFR3::YFP-Proteomic",
-  "project_name": "VEGFR3::YFP-Proteomic",
-  "description": "These are protein identifications from various experimental conditions of SVZ cells.  Proteomics analyses were carried out on a LTQ-Orbitrap mass spectrometer.",
+{"pr_nlx_152660_1": {
+  "e_uid": "MMK3 Deletion in MEFs",
+  "project_name": "MMK3 Deletion in MEFs",
+  "description": "SILAC analysis of Phospho and total proteome of MKK3 knock out (MKK3-/-) mouse embryonic fibroblasts (MEFs).",
   "pubmedid": "",
   "displaypmid": "",
-  "project_url": "ViewSeriesMenu.do?series_id=805&series_name=VEGFR3%3a%3aYFP-Proteomic",
-  "project_link_url": "ViewSeriesMenu.do;jsessionid=E572188F197DEAC8E91FE0B2ACF1C7A5?series_id=805&series_name=VEGFR3%3a%3aYFP-Proteomic",
-  "samples": 12,
+  "project_url": "ViewSeriesMenu.do?series_id=5044&series_name=MMK3+Deletion+in+MEFs",
+  "project_link_url": "ViewSeriesMenu.do;jsessionid=DA089355996494DDBC29C925035BF5E6?series_id=5044&series_name=MMK3+Deletion+in+MEFs",
+  "samples": 4,
   "analysis_type": "LCMS",
-  "organisms": "Other",
-  "pi": "Jean Leon Thomas",
-  "v_uid": "VEGFR3::YFP-Proteomic",
-  "v_uuid": "afbb19a9-42f4-51e8-91f5-5081bbc23b89",
-  "v_lastmodified": ""
-}
+  "organisms": "Mus musculus",
+  "pi": "Praveen Mannam_Yale",
+  "v_uid": "MMK3 Deletion in MEFs",
+  "v_uuid": "bf2fc8e2-8e34-547b-9957-6962e4792c0e",
+  "v_lastmodified": "2016-05-24 13:49:00.388874",
+  "v_status": "C",
+  "v_lastmodified_epoch": 1.464097740388874E9
+}}

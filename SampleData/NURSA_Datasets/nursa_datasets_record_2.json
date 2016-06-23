@@ -1,14 +1,15 @@
 {"nif_0000_03208_2": {
-  "e_uid": "10.1621/yKltg4k8br",
-  "name": "Analysis of the dexamethasone (Dex)-regulated transcriptome in SaOS2 osteoblasts",
+  "e_uid": "10.1621/Wm28paxSgf",
+  "name": "Analysis of the steroid receptor coactivator-1 (SRC-1/NCOA1)-regulated transcriptome in Tamoxifen (Tam)-treated LY2 cells",
   "type": "Transcriptomic",
   "species": "Human",
-  "doi": "10.1621/yKltg4k8br",
-  "description": "Human osteoblastic SaOS2 cells were treated with and without 10 nM Dex for 6 h.",
-  "tissue_cell_lines": "Skeletal, bone, osteoblasts, SaOS2 cells",
-  "contributors": "Azuma K, Urano T, Ouchi Y and Inoue S ",
-  "reference": "Azuma K, Urano T, Ouchi Y and Inoue S (2010) Analysis of the dexamethasone (Dex)-regulated transcriptome in SaOS2 osteoblasts, v1.0. NURSA Datasets. dx.doi.org/10.1621/yKltg4k8br",
-  "v_uid": "10.1621/yKltg4k8br",
-  "v_uuid": "38768af6-f79a-5f9f-8b14-ec7eb8277e10",
-  "v_lastmodified": "2016-03-17 14:24:54.977035"
+  "doi": "10.1621/Wm28paxSgf",
+  "description": "",
+  "tissue_cell_lines": "",
+  "contributors": "",
+  "v_uid": "10.1621/Wm28paxSgf",
+  "v_uuid": "a6b27ec6-1e4f-52ed-ad4e-4ed93afc2200",
+  "v_lastmodified": "2016-05-18 13:04:10.494315",
+  "v_status": "C",
+  "v_lastmodified_epoch": 1.463576650494315E9
 }}

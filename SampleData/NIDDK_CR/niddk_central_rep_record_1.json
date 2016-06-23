@@ -1,17 +1,19 @@
-{
-  "e_uid": "ICDB",
-  "name": "Interstitial Cystitis cohort study",
-  "url": "https://www.niddkrepository.org/studies/icdb/",
-  "acronym": "ICDB",
-  "conditions": "Cystitis, Interstitial, Urinary Bladder Diseases, Urogenital Diseases",
-  "dialysis_studies": "No",
-  "duration": "1993 \u2014 1997",
-  "has_genotype_data": "No",
+{"pr_nlx_152673_1": {
+  "e_uid": "NAFLD GOALS",
+  "name": "NAFLD GOALS",
+  "url": "https://www.niddkrepository.org/studies/nafld-goals/",
+  "acronym": "NAFLD GOALS",
+  "conditions": "Fatty Liver, Liver Diseases",
+  "dialysis_studies": "None",
+  "duration": "None",
+  "has_genotype_data": "None",
   "has_genotype_data_in_dbgap": "None",
-  "has_image_data": "Yes",
-  "has_specimens": "Specimens Available for Request",
-  "has_study_datasets": "Yes",
-  "v_uid": "",
-  "v_uuid": "",
-  "v_lastmodified": ""
-}
+  "has_image_data": "None",
+  "has_specimens": "No Specimens",
+  "has_study_datasets": "No",
+  "v_uid": "NAFLD GOALS",
+  "v_uuid": "35d046e4-2be1-5ad9-be98-a0c61b288bf6",
+  "v_lastmodified": "2016-03-03 10:13:39.154349",
+  "v_status": "E",
+  "v_lastmodified_epoch": 1.457000019154349E9
+}}

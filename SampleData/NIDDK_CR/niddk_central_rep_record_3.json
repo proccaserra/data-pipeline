@@ -1,17 +1,19 @@
-{
-  "e_uid": "CPCRN",
-  "name": "Chronic Prostatitis Collaborative Research Network Cohort Study",
-  "url": "https://www.niddkrepository.org/studies/cpcrn/",
-  "acronym": "CPCRN",
-  "conditions": "Prostatic Diseases, Urogenital Diseases",
+{"pr_nlx_152673_1": {
+  "e_uid": "HEALTHY",
+  "name": "HEALTHY",
+  "url": "https://www.niddkrepository.org/studies/healthy/",
+  "acronym": "HEALTHY",
+  "conditions": "Diabetes Mellits, Type 2, Obesity, Prediabetic State",
   "dialysis_studies": "No",
-  "duration": "1997 \u2013 2002",
+  "duration": "2006 \u2013 2009",
   "has_genotype_data": "No",
   "has_genotype_data_in_dbgap": "None",
   "has_image_data": "No",
-  "has_specimens": "No Specimens",
+  "has_specimens": "Specimens Available for Request",
   "has_study_datasets": "Yes",
-  "v_uid": "",
-  "v_uuid": "",
-  "v_lastmodified": ""
-}
+  "v_uid": "HEALTHY",
+  "v_uuid": "2a1fc67d-d2b0-578a-8748-11703989fdf3",
+  "v_lastmodified": "2016-03-03 10:13:39.154349",
+  "v_status": "E",
+  "v_lastmodified_epoch": 1.457000019154349E9
+}}

@@ -1,6 +1,6 @@
 /* Dataset Information */
-transform column "$.'neuron_id'" to "dataset.ID";
-transform column "$.'neuron_name'" to "dataset.title";
+transform column "$.'pr_nif_0000_00006_1'.'neuron_id'" to "dataset.ID";
+transform column "$.'pr_nif_0000_00006_1'.'neuron_name'" to "dataset.title";
 
 /* Data Repository Information */
 let "dataRepository.ID" = "SCR:002145";
@@ -9,7 +9,7 @@ let "dataRepository.abbreviation" = "NeuroMorpho";
 let "dataRepository.homePage" = "http://neuromorpho.org/";
 
 /* Publication Information */
-transform column "$.'article'.'pmid'" to "publication.ID";
+transform column "$.'pr_nif_0000_00006_1'.'article'.'pmid'" to "publication.ID";
 
 /* Access Information */
 transform column "$.'neuron_name'" to "access.landingPage" apply {{ result = 'http://neuromorpho.org/neuron_info.jsp?neuron_name=' + value }};
@@ -31,26 +31,26 @@ let "organization.abbreviation" = "GMU";
 let "organization.homePage" = "http://www.gmu.edu/";
 
 /* Taxonomic Information */
-transform column "$.'scientific_name'" to "taxonomicinformation.name";
-transform column "$.'strain_name'" to "taxonomicinformation.strain";
+transform column "$.'pr_nif_0000_00006_1'.'scientific_name'" to "taxonomicinformation.name";
+transform column "$.'pr_nif_0000_00006_1'.'strain_name'" to "taxonomicinformation.strain";
 
 /* Cell Information */
-transform column "$.'cell_class'" to "cell.name[]" apply {{
+transform column "$.'pr_nif_0000_00006_1'.'cell_class'" to "cell.name[]" apply {{
 arr=re.split("\s*,\s*",value,)
 result=arr
 }};
 
 /* Anatomical Paart */
-transform column "$.'brain_region'" to "anatomicalPart.name[]" apply {{
+transform column "$.'pr_nif_0000_00006_1'.'brain_region'" to "anatomicalPart.name[]" apply {{
 arr=re.split("\s*,\s*",value,)
 result=arr
 }};
 
 /* Study Group Information */ 
-transform column "$.'expercond'" to "studyGroup.name";
+transform column "$.'pr_nif_0000_00006_1'.'expercond'" to "studyGroup.name";
 
 /* Treatment information */
-transform column "$.'stain'" to "treatment.name";
+transform column "$.'pr_nif_0000_00006_1'.'stain'" to "treatment.name";
 
 /* Items not included */
 /*

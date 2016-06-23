@@ -1,14 +1,15 @@
 {"nif_0000_03208_2": {
-  "e_uid": "10.1621/241XZp6Eex",
-  "name": "Analysis of the Nur77/Nr4a1-NOR1/Nr4a3-regulated transcriptome in hematopoietic stem cells",
+  "e_uid": "10.1621/S1nGVq5bt5",
+  "name": "Time course analysis of the diethylhexylphthalate (DEHP)-regulated hepatic transcriptome in male mice",
   "type": "Transcriptomic",
   "species": "House Mouse",
-  "doi": "10.1621/241XZp6Eex",
-  "description": "Lin-Sca1+ hematopoietic stem cells were isolated from Nur77/Nr4a1-NOR1/Nr4a3 double knockout and wildtype mice.",
-  "tissue_cell_lines": "Other, stem cells, hematopoietic, bone marrow",
-  "contributors": "Not Available",
-  "reference": "Not Available",
-  "v_uid": "10.1621/241XZp6Eex",
-  "v_uuid": "cefeb606-2ac6-5ea5-9f35-640626c36197",
-  "v_lastmodified": "2016-03-17 14:24:54.977035"
+  "doi": "10.1621/S1nGVq5bt5",
+  "description": "Liver was isolated from male B6C3F1 mice treated with 1150 mg/kg/d DEHP or vehicle for 2 h - 72 h.",
+  "tissue_cell_lines": "Metabolic, liver, whole",
+  "contributors": "Currie R ",
+  "v_uid": "10.1621/S1nGVq5bt5",
+  "v_uuid": "c29892ab-edbe-58e3-a9f6-db677c3e46ad",
+  "v_lastmodified": "2016-05-18 13:04:10.494315",
+  "v_status": "C",
+  "v_lastmodified_epoch": 1.463576650494315E9
 }}

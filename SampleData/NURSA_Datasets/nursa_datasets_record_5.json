@@ -1,14 +1,15 @@
 {"nif_0000_03208_2": {
-  "e_uid": "10.1621/datasets.04011",
-  "name": "Quantitative mRNA Expression Profile of Nuclear Receptor Superfamily in HepG2 and HeLa Cells",
-  "type": "Q-PCR",
+  "e_uid": "10.1621/E6nnvDcx1D",
+  "name": "Transcriptomic profiling of dexamethasone (Dex)-treated human female synovial fibroblasts",
+  "type": "Transcriptomic",
   "species": "Human",
-  "doi": "10.1621/datasets.04011",
-  "description": "In HepG2 and HeLa cells, we profiled mRNA expression of NR superfamily using TaqMan-based qRT-PCR assays",
-  "tissue_cell_lines": "HepG2, HeLa",
-  "contributors": "Bookout AL, Jeong Y, Downes M, Yu RT, Evans RM and Mangelsdorf DJ ",
-  "reference": "Bookout AL, Jeong Y, Downes M, Yu RT, Evans RM and Mangelsdorf DJ (2006) Anatomical profiling of nuclear receptor expression reveals a hierarchical transcriptional network. Cell 126 789-99\n",
-  "v_uid": "10.1621/datasets.04011",
-  "v_uuid": "05219951-9f27-5b86-9858-d798b771946f",
-  "v_lastmodified": "2016-03-17 14:24:54.977035"
+  "doi": "10.1621/E6nnvDcx1D",
+  "description": "Cultured primary synovial fibroblasts from females with rheumatoid arthritis were treated with 100 nM Dex for 16 h.",
+  "tissue_cell_lines": "Skeletal, bone, fibroblasts, synovial",
+  "contributors": "Hardy RS,  Hardy RS,  Cooper MS ",
+  "v_uid": "10.1621/E6nnvDcx1D",
+  "v_uuid": "3c18050f-4f29-5a12-af09-2e3a7fe0a07a",
+  "v_lastmodified": "2016-05-18 13:04:10.494315",
+  "v_status": "C",
+  "v_lastmodified_epoch": 1.463576650494315E9
 }}

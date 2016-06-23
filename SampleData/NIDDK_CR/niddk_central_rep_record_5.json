@@ -1,17 +1,19 @@
-{
-  "e_uid": "DAC",
-  "name": "Dialysis Access Consortium (DAC)",
-  "url": "https://www.niddkrepository.org/studies/dac/",
-  "acronym": "DAC",
+{"pr_nlx_152673_1": {
+  "e_uid": "BASE",
+  "name": "Bicarbonate Administration to Stabilize Estimated Glomerular Filtration Rate (eGFR)",
+  "url": "https://www.niddkrepository.org/studies/base/",
+  "acronym": "BASE",
   "conditions": "Kidney Diseases",
-  "dialysis_studies": "None",
-  "duration": "None",
-  "has_genotype_data": "None",
+  "dialysis_studies": "No",
+  "duration": "",
+  "has_genotype_data": "No",
   "has_genotype_data_in_dbgap": "None",
-  "has_image_data": "None",
+  "has_image_data": "No",
   "has_specimens": "Internal Use Only",
   "has_study_datasets": "No",
-  "v_uid": "",
-  "v_uuid": "",
-  "v_lastmodified": ""
-}
+  "v_uid": "BASE",
+  "v_uuid": "4ba0d2d4-fb7a-533d-8173-782fc810f8cd",
+  "v_lastmodified": "2016-06-03 15:27:23.449445",
+  "v_status": "N",
+  "v_lastmodified_epoch": 1.464967643449445E9
+}}

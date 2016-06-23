@@ -1,16 +1,18 @@
-{
-  "e_uid": "ABRF 2011 sPRG - Round One",
-  "project_name": "ABRF 2011 sPRG - Round One",
-  "description": "51 phospho, nitro, methyl, sulfo synthetic peptides from ABRF  Proteomics Standards Research Group 2011-2012 Study.",
-  "pubmedid": "",
-  "displaypmid": "",
-  "project_url": "ViewSeriesMenu.do?series_id=921&series_name=ABRF+2011+sPRG+-+Round+One",
-  "project_link_url": "ViewSeriesMenu.do;jsessionid=874C0CE9BA3D2207E991DE23A47012D9?series_id=921&series_name=ABRF+2011+sPRG+-+Round+One",
-  "samples": 1,
-  "analysis_type": "TargetedProteomics",
-  "organisms": "",
-  "pi": "ABRF Colangelo",
-  "v_uid": "ABRF 2011 sPRG - Round One",
-  "v_uuid": "f6d947c8-bc54-5638-8148-b74048226f3f",
-  "v_lastmodified": ""
-}
+{"pr_nlx_152660_1": {
+  "e_uid": "Choroid Plexus 2012",
+  "project_name": "Choroid Plexus 2012",
+  "description": "The role of the choroid plexus (CP) in brain homeostasis is being increasingly recognized and recent studies suggest that the CP has a more important role in physiological and pathological brain functions than currently appreciated. To obtain additional insight on the CP function, we performed a proteomics and transcriptomics characterization employing a combination of high resolution tandem mass spectrometry and gene expression analyses in normal rodent brain. Using multiple protein fractionation approaches, we identified 1400 CP proteins in adult CP. Microarray-based comparison of CP gene expression with the kidney, cortex and hippocampus showed significant overlap between the CP and the kidney. CP gene profiles were validated by in situ hybridization analysis of several target genes including klotho, CLIC 6, OATP 14 and Ezrin. Immunohistochemical analyses were performed for CP and enpendyma detection of several target proteins including cytokeratin, Rab7, klotho, tissue inhibitor of metalloprotease 1 (TIMP1), MMP9 and glial fibrillary acidic protein (GFAP). The molecular functions associated with various proteins of the CP proteome indicate that it is a blood-cerebrospinal fluid (CSF) barrier that exhibits high levels of metabolic activity. We also analyzed the gene expression changes induced by stress, an exacerbating factor for many illnesses, particularly mood disorders. Chronic stress altered the expression of several genes, downregulating 5HT2C, glucocorticoid receptor and the cilia genes IFT88 and smoothened while upregulating 5HT2A, BDNF, TNF&#945; and IL-1b. The data presented here attach additional significance to the emerging importance of CP function in brain health and CNS disease states.",
+  "pubmedid": "22781172",
+  "displaypmid": "PMID:22781172",
+  "project_url": "ViewSeriesMenu.do?series_id=61&series_name=Choroid+Plexus+2012",
+  "project_link_url": "ViewSeriesMenu.do;jsessionid=EC93368B2218775F3AB0C8F0D27A2F9B?series_id=61&series_name=Choroid+Plexus+2012",
+  "samples": 282,
+  "analysis_type": "LCMS",
+  "organisms": "Rattus norvegicus",
+  "pi": "Samuel Sathyanesan",
+  "v_uid": "Choroid Plexus 2012",
+  "v_uuid": "e222c25b-fb46-5a5b-883f-2837c99b5872",
+  "v_lastmodified": "2016-05-24 13:49:00.388874",
+  "v_status": "C",
+  "v_lastmodified_epoch": 1.464097740388874E9
+}}

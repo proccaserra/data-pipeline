@@ -1,16 +1,18 @@
-{
-  "e_uid": "Synaptic protein changes in alpha-beta-gamma synuclein knockout mice",
-  "project_name": "Synaptic protein changes in alpha-beta-gamma synuclein knockout mice",
-  "description": "Synaptic proteome analysis on brains of wild-type and alpha-beta-gamma synuclein knock-out mice. Samples were analyzed by DIGE and iTRAQ.",
-  "pubmedid": "23184946",
-  "displaypmid": "PMID:23184946",
-  "project_url": "ViewSeriesMenu.do?series_id=4265&series_name=Synaptic+protein+changes+in+alpha-beta-gamma+synuclein+knockout+mice",
-  "project_link_url": "ViewSeriesMenu.do;jsessionid=E572188F197DEAC8E91FE0B2ACF1C7A5?series_id=4265&series_name=Synaptic+protein+changes+in+alpha-beta-gamma+synuclein+knockout+mice",
-  "samples": 11,
-  "analysis_type": "DIGE, ITRAQ4plex",
-  "organisms": "Mus musculus",
-  "pi": "Sreeganga Chandra",
-  "v_uid": "Synaptic protein changes in alpha-beta-gamma synuclein knockout mice",
-  "v_uuid": "30fdb04a-15c4-58fe-b5b7-ecca3774c4c3",
-  "v_lastmodified": ""
-}
+{"pr_nlx_152660_1": {
+  "e_uid": "Recombinant RAGE Binding",
+  "project_name": "Recombinant RAGE Binding",
+  "description": "Identification of serum proteins that bind recombinant RAGE.",
+  "pubmedid": "",
+  "displaypmid": "",
+  "project_url": "ViewSeriesMenu.do?series_id=4881&series_name=Recombinant+RAGE+Binding",
+  "project_link_url": "ViewSeriesMenu.do;jsessionid=DA089355996494DDBC29C925035BF5E6?series_id=4881&series_name=Recombinant+RAGE+Binding",
+  "samples": 2,
+  "analysis_type": "GEL_LCMS",
+  "organisms": "Homo sapiens",
+  "pi": "Kevan Herold",
+  "v_uid": "Recombinant RAGE Binding",
+  "v_uuid": "c920fff2-e068-5a08-887c-89ab91071273",
+  "v_lastmodified": "2016-05-24 13:49:00.388874",
+  "v_status": "C",
+  "v_lastmodified_epoch": 1.464097740388874E9
+}}
