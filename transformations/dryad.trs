@@ -27,7 +27,8 @@ transform columns "$.'record'.'metadata'.'oai_dc:dc'.'dc:identifier'[*].'_$'" to
 transform column "$.'record'.'header'.'fetchURL'.'_$'" to "access.landingPage";
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
-let "access.authentication" = "none";
+let "access[0].authentication" = "none"; 
+let "access[1].authentication" = "simpleLogin";
 
 /* License Information */
 transform column "$.'record'.'metadata'.'oai_dc:dc'.'dc:rights'.'_$'" to "license.name";
