@@ -10,9 +10,6 @@ transform column "$.'project'.'NCBI Project ID'" to "Dataset.identifier[5]";
 transform column "$.'project'.'Sequencing Center'" to "Dataset.creators[0]";
 transform column "$.'project'.'Organization URL'" to "Dataset.creators[1]";
 
-/* Grant */
-transform column "$.'project'.'Funding Source'" to "'Grant.funders'";
-
 /* Data Repository */
 transform column "$.'project'.'HOMD URL'" to "DataRepository.homepage[0]";
 transform column "$.'project'.'Strain Repository URL'" to "DataRepository.homepage[1]";
@@ -20,6 +17,9 @@ transform column "$.'project'.'Genbank URL'" to "DataRepository.homepage[2]";
 transform column "$.'project'.'Gold URL'" to "DataRepository.homepage[3]";
 transform column "$.'project'.'NCBI URL'" to "DataRepository.homepage[4]";
 transform column "$.'project'.'Image URL'" to "DataRepository.homepage[5]";
+
+/* Grant */
+transform column "$.'project'.'Funding Source'" to "'Grant.funders'";
 
 /* Items not included */
 transform column "$.'project'.'NCBI Superkingdom'" to "Dataset.isAboutBiologicalProcess[0]";
