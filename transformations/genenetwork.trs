@@ -1,21 +1,25 @@
 /* Dataset Information */
-transform column "$.'species'" to "organism.name";
+transform column "$.'database'" to "dataset.title";
+transform column "$.'tissue'" to "dataset.description";
+
+/* Publication Inforamtion */
+transform column "$.'records'[*].Index" to "publication.identifier";
+transform column "$.'records'[*].Year" to "publication.dates";
+transform column "$.'records'[*].Description" to "publication.type";
+transform column "$.'records'[*].Authors" to "publication.authors";
+
+/* Material */
 transform column "$.'group'" to "material.name";
 
-transform column "$.'tissue'" to "dataset.description";
-transform column "$.'database'" to "dataset.title";
+/* Taxonomic Information */
+transform column "$.'species'" to "taxonomicinformation.name";
 
-
-/* Records of the dataset */
-transform column "$.'records'[*].Index" to "dataset.records[].publication.identifier";
-transform column "$.'records'[*].Description" to "dataset.records[].publication.publicationType";
-transform column "$.'records'[*].Authors" to "dataset.records[].publication.author";
-transform column "$.'records'[*].Year" to "dataset.records[].publication.date";
+/* Items not included */
+/* Traits details of each record present in the dataset. */
 transform column "$.'records'[*].MaxLRS" to "dataset.records[].dimension.maxLRS";
 transform column "$.'records'[*].'Max LRS Location'" to "dataset.records[].dimension.maxLRSLocation";
 transform column "$.'records'[*].'AdditiveEffect?'" to "dataset.records[].dimension.additiveEffect";
 
-/* Traits details of each record present in the dataset. */
 transform column "$.'records'[*].'details'.'traits'.'primary'[*].Sample" to "dataset.records[].traits.grouponly[].molecularentity.name";
 transform column "$.'records'[*].'details'.'traits'.'primary'[*].Value" to "dataset.records[].traits.grouponly[].dimension.value";
 transform column "$.'records'[*].'details'.'traits'.'primary'[*].Sex" to "dataset.records[].traits.grouponly[].dimension.name";
