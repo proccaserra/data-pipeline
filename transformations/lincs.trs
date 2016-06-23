@@ -18,7 +18,8 @@ let "dataRepository.homePage" = "http://www.lincsproject.org";
 transform column "$.'centerdatasetid'" to "access.landingPage";
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
-let "access.authentication" = "none";
+let "access[0].authentication" = "none"; 
+let "access[1].authentication" = "simpleLogin";
 
 /* Organization Information */
 transform column "$.'centerfullname'" to "organization.name";
