@@ -35,7 +35,8 @@ result = value1.lower() + ':' + value2
 transform column "$.'PDBx:datablock'.'@datablockName'.'PDBx:atom_sites'.'@entry_id'" to "access.landingPage" apply {{ result='http://www.rcsb.org/pdb/explore/explore.do?structureId=' + value}}
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
-let "access.authentication" = "none";
+let "access[0].authentication" = "none"; 
+let "access[1].authentication" = "simpleLogin";
 
 /* Material Information */
 transform column "$.'PDBx:datablock'.'PDBx:chem_compCategory'.'PDBx:chem_comp'[*].'PDBx:name'.'_$'" to "material[].name";
