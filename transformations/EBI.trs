@@ -1,7 +1,8 @@
-﻿/* Dataset */
+/* Data Repository */ 
+transform column "$.'run'.'Overview'.'Other Information'.'ENA checklist'" to "DataRepository.name";
 
-
-transform column "$.'run'.'Downloads'.'Sequence Data'.'Predicted CDS'" to "Dataset.downloadURL[0].URL";
+﻿/* Access */
+transform column "$.'run'.'Downloads'.'Sequence Data'.'Predicted CDS'" to "access.downloadURL[0].URL";
 transform column "$.'run'" to "Dataset.downloadURL[0].name" apply {{
 result = 'Predicted CDS'
 }};
@@ -46,26 +47,9 @@ transform column "$.'run'" to "Dataset.downloadURL[10].name" apply {{
 result = 'Reads encoding 16S rRNA'
 }};
 
-
-
-
-/* Data Analysis */
-
-
-transform column "$.'run'.'Overview'.'Data Analysis'.'Analysis date:'" to "Data Analysis.startDate";
-
-
-transform column "$.'run'.'Overview'.'Data Analysis'.'Experiment type:'" to "Study.studyType";
-
-
-transform column "$.'run'.'Overview'.'Data Analysis'.'Pipeline version:'" to "Data Analysis.uses";
-
-
-
-
 /* Material */
-
-
+transform column "$.'run'.'Overview'.'Other Information'.'NCBI sample classification'" to "Material.identifier";
+transform column "$.'run'.'Overview'.'Other Information'.'common name'" to "Material.name";
 transform column "$.'run'.'Overview'.'Description'.'Classification:'" to "Material.derivesFrom[0].value";
 transform column "$.'run'" to "Material.derivesFrom[0].name" apply {{
 result = 'classification'
@@ -87,123 +71,77 @@ transform column "$.'run'" to "Material.derivesFrom[4].name" apply {{
 result = 'body site'
 }};
 transform column "$.'run'.'Overview'.'Host Associated'.'Species:'" to 
-"Material.derivesFromOrganism";
-
-
-transform column "$.'run'.'Overview'.'Other Information'.'common name'" to "Material.name";
+"Material.taxonomicInformation";
 
 
 transform column "$.'run'.'Overview'.'Other Information'.'environment (biome)'" to "Material.hasCharacteristic[0].value";
-transform column "$.'run''" to "Material.hasCharacteristic[0].name" apply {{
+transform column "$.'run''" to "Material.characteristics[0].name" apply {{
 result = 'biome'
 }};
 transform column "$.'run'.'Overview'.'Other Information'.'environment (feature)'" to "Material.hasCharacteristic[1].value";
-transform column "$.'run''" to "Material.hasCharacteristic[1].name" apply {{
+transform column "$.'run''" to "Material.characteristics[1].name" apply {{
 result = 'feature'
 }};
 transform column "$.'run'.'Overview'.'Other Information'.'environment (material)'" to "Material.hasCharacteristic[2].value";
-transform column "$.'run''" to "Material.hasCharacteristic[2].name" apply {{
+transform column "$.'run''" to "Material.characteristics[2].name" apply {{
 result = 'material'
 }};
-transform column "$.'run'.'Overview'.'Other Information'.'NCBI sample classification'" to "Material.identifier";
 
+/* Taxonomic Information */
 
-
-
-/* Study */
-
-
-transform column "$.'run'.'Overview'.'Description'.'Project name:'" to "Study.title";
-
-
-
+transform column "$.'run'.'Overview'.'Other Information'.'anonymized name'" to "taxonomicInformation.identifier[0].value";
+transform column "$.'run'" to "Organism.identifier[0].type" apply {{
+result = 'anonymized name'
+}};
+transform column "$.'run'.'Overview'.'Other Information'.'host subject id'" to "taxonomicInformation.identifier[1].value";
+transform column "$.'run'" to "Organism.identifier[1].type" apply {{
+result = 'host subject id'
+}};
+transform column "$.'run'.'Overview'.'Other Information'.'host taxid'" to "taxonomicInformation.identifier[2].value";
+transform column "$.'run'" to "Organism.identifier[2].type" apply {{
+result = 'host taxid'
+}};
+transform column "$.'run'.'Overview'.'Other Information'.'host common name'" to "taxonomicInformation.name";
 
 /* Activity */ 
-
-
-transform column "$.'run'.'Overview'.'Title'" to "Activity.title";
-
-
+transform column "$.'run'.'Overview'.'Title'" to "Activity.name";
 transform column "$.'run'.'Overview'.'Other Information'.'altitude'" to "Activity.location[0].value";
 transform column "$.'run'" to "Activity.location[0].name" apply {{
 result = 'altitude'
 }};
 
-
 transform column "$.'run'.'Overview'.'Other Information'.'elevation'" to "Activity.location[1].value";
 transform column "$.'run'" to "Activity.location[1].name" apply {{
 result = 'elevation'
 }};
-
-
 transform column "$.'run'.'Overview'.'Other Information'.'geographic location (country and/or sea,region)'" to "Activity.location[2].value";
 transform column "$.'run'" to "Activity.location[2].name" apply {{
 result = 'country and/or sea, region'
 }};
-
-
 transform column "$.'run'.'Overview'.'Other Information'.'geographic location (depth)'" to "Activity.location[3].value";
 transform column "$.'run'" to "Activity.location[3].name" apply {{
 result = 'depth'
 }};
-
-
 transform column "$.'run'.'Overview'.'Other Information'.'geographic location (latitude)'" to "Activity.location[4].value";
 transform column "$.'run'" to "Activity.location[4].name" apply {{
 result = 'latitude'
 }};
-
-
 transform column "$.'run'.'Overview'.'Other Information'.'geographic location (longitude)'" to "Activity.location[5].value";
 transform column "$.'run'" to "Activity.location[5].name" apply {{
 result = 'longitude'
 }};
 
-
-
-
-
-
-
-
-/* Organism */
-
-
-transform column "$.'run'.'Overview'.'Other Information'.'host common name'" to "Organism.name";
-
-
-transform column "$.'run'.'Overview'.'Other Information'.'anonymized name'" to "Organism.identifier[0].value";
-transform column "$.'run'" to "Organism.identifier[0].type" apply {{
-result = 'anonymized name'
-}};
-transform column "$.'run'.'Overview'.'Other Information'.'host subject id'" to "Organism.identifier[1].value";
-transform column "$.'run'" to "Organism.identifier[1].type" apply {{
-result = 'host subject id'
-}};
-transform column "$.'run'.'Overview'.'Other Information'.'host taxid'" to "Organism.identifier[2].value";
-transform column "$.'run'" to "Organism.identifier[2].type" apply {{
-result = 'host taxid'
-}};
-
+/* Study */
+transform column "$.'run'.'Overview'.'Description'.'Project name:'" to "Study.name";
+transform column "$.'run'.'Overview'.'Data Analysis'.'Experiment type:'" to "Study.types";
 
 /* Data Acquisition */
-
-
 transform column "$.'run'.'Overview'.'Other Information'.'collection date'" to "DataAcquisition.startDate[0]";
 transform column "$.'run'.'Overview'.'Other Information'.'collection time'" to "DataAcquisition.startDate[1]";
 
-
-
-
-/* Data Repository */ 
-
-
-transform column "$.'run'.'Overview'.'Other Information'.'ENA checklist'" to "DataRepository.name";
-
-
-
+/* Data Analysis */
+transform column "$.'run'.'Overview'.'Data Analysis'.'Analysis date:'" to "DataAnalysis.startDate";
+transform column "$.'run'.'Overview'.'Data Analysis'.'Pipeline version:'" to "DataAnalysis.uses";
 
 /* Instrument */
-
-
 transform column "$.'run'.'Overview'.'Other Information'.'instrument model'" to "Instrument.name";
