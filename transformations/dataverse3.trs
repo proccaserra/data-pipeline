@@ -45,7 +45,7 @@ let "access.accesstypes"  = "download";
 let "access[0].authorization"  = "none"; 
 let "access[1].authorization"  = "registration"; 
 let "access[0].authentication" = "none"; 
-let "access[1].authentication" = "simplelogin"; 
+let "access[1].authentication" = "simpleLogin"; 
 /*=============================Person=========================================*/
 
 /* Citation Field 1 */ 
