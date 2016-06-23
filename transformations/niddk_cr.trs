@@ -1,48 +1,48 @@
 /* Dataset Information */
-transform column "$.'acronym'" to "dataset.ID";
-transform column "$.'name'" to "dataset.title";
+transform column "$.'pr_nlx_152673_1'.'acronym'" to "dataset.ID";
+transform column "$.'pr_nlx_152673_1'.'name'" to "dataset.title";
 
 /* Data Repository Information */
-transform column "$.'name'" to "dataRepository.name" apply {{ result = 'NIDDK Central Repository' }};
-transform column "$.'name'" to "dataRepository.abbreviation" apply {{ result = 'NIDDK CDR' }};
-transform column "$.'name'" to "dataRepository.ID" apply {{ result = 'SCR:006542' }};
-transform column "$.'name'" to "dataRepository.homePage" apply {{ result = 'https://www.niddkrepository.org/' }};
+transform column "$.'pr_nlx_152673_1'.'name'" to "dataRepository.name" apply {{ result = 'NIDDK Central Repository' }};
+transform column "$.'pr_nlx_152673_1'.'name'" to "dataRepository.abbreviation" apply {{ result = 'NIDDK CDR' }};
+transform column "$.'pr_nlx_152673_1'.'name'" to "dataRepository.ID" apply {{ result = 'SCR:006542' }};
+transform column "$.'pr_nlx_152673_1'.'name'" to "dataRepository.homePage" apply {{ result = 'https://www.niddkrepository.org/' }};
 
 /* Access Information */
-transform column "$.'acronym'" to "access.accessURL" apply {{ result = 'https://www.niddkrepository.org/studies/icdb/' + value }};
+transform column "$.'pr_nlx_152673_1'.'acronym'" to "access.accessURL" apply {{ result = 'https://www.niddkrepository.org/studies/icdb/' + value }};
 let "access.accesstypes" = "download";
 let "access.authorization" = "registration";
 let "access.authentication" = "simpleLogin";
 
 /* Organization Information */
-transform column "$.'name'" to "organization.name" apply {{ result = 'National Institute of Diabetes and Digestive and Kidney Diseases' }};
-transform column "$.'name'" to "organization.abbreviation" apply {{ result = 'NIDDK' }};
-transform column "$.'name'" to "organization.ID" apply {{ result = 'SCR:012895' }};
-transform column "$.'name'" to "organization.homePage" apply {{ result = 'http://niddk.nih.gov/' }};
+transform column "$.'pr_nlx_152673_1'.'name'" to "organization.name" apply {{ result = 'National Institute of Diabetes and Digestive and Kidney Diseases' }};
+transform column "$.'pr_nlx_152673_1'.'name'" to "organization.abbreviation" apply {{ result = 'NIDDK' }};
+transform column "$.'pr_nlx_152673_1'.'name'" to "organization.ID" apply {{ result = 'SCR:012895' }};
+transform column "$.'pr_nlx_152673_1'.'name'" to "organization.homePage" apply {{ result = 'http://niddk.nih.gov/' }};
 
 /* Taxonomic Information */
-let "organism[0].scientificName" = "Homo sapiens";
+let "taxonomicInformation[0].name" = "Homo sapiens";
 
 /* Treatment */
-transform column "$.'dialysis_studies'" to "treatment.name" apply {{result='dialysis' if value.lower() == 'yes' else '' }};
+transform column "$.'pr_nlx_152673_1'.'dialysis_studies'" to "treatment.name" apply {{result='dialysis' if value.lower() == 'yes' else '' }};
 
 /* Disease Information */
-transform column "$.'conditions'" to "disease[].name" apply {{
+transform column "$.'pr_nlx_152673_1'.'conditions'" to "disease[].name" apply {{
 arr=re.split("\s*,\s*",value,)
 result=arr
 }};
 /* Items not included */
 /*
-transform column "$.'e_uid'" to "e_uid";
-transform column "$.'v_uid'" to "v_uid";
-transform column "$.'v_uuid'" to "v_uuid";
-transform column "$.'v_lastmodified'" to "v_lastmodified";
+transform column "$.'pr_nlx_152673_1'.'e_uid'" to "e_uid";
+transform column "$.'pr_nlx_152673_1'.'v_uid'" to "v_uid";
+transform column "$.'pr_nlx_152673_1'.'v_uuid'" to "v_uuid";
+transform column "$.'pr_nlx_152673_1'.'v_lastmodified'" to "v_lastmodified";
 
-transform column "$.'duration'" to "duration";
-transform column "$.'has_genotype_data'" to "has_genotype_data";
-transform column "$.'has_genotype_data_in_dbgap'" to "has_genotype_data_in_dbgap";
-transform column "$.'has_image_data'" to "has_image_data";
-transform column "$.'has_specimens'" to "has_specimens";
-transform column "$.'has_study_datasets'" to "has_study_datasets";
-transform column "$.'name'" to "organism[0].name" apply {{ result = 'human' }};
+transform column "$.'pr_nlx_152673_1'.'duration'" to "duration";
+transform column "$.'pr_nlx_152673_1'.'has_genotype_data'" to "has_genotype_data";
+transform column "$.'pr_nlx_152673_1'.'has_genotype_data_in_dbgap'" to "has_genotype_data_in_dbgap";
+transform column "$.'pr_nlx_152673_1'.'has_image_data'" to "has_image_data";
+transform column "$.'pr_nlx_152673_1'.'has_specimens'" to "has_specimens";
+transform column "$.'pr_nlx_152673_1'.'has_study_datasets'" to "has_study_datasets";
+transform column "$.'pr_nlx_152673_1'.'name'" to "organism[0].name" apply {{ result = 'human' }};
 */
