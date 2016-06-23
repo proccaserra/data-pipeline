@@ -8,6 +8,11 @@ transform column "$.'records'[*].Year" to "publication.dates";
 transform column "$.'records'[*].Description" to "publication.type";
 transform column "$.'records'[*].Authors" to "publication.authors";
 
+/* Access Information */
+let "access.accesstypes" = "download";
+let "access.authorization" = "registration";
+let "access.authentication" = "simpleLogin";
+
 /* Material */
 transform column "$.'group'" to "material.name";
 
