@@ -1,7 +1,13 @@
 /* Dataset Information */
-transform column "$.'title'" to "dataset.title";
 transform column "$.'id'" to "dataset.ID";
+transform column "$.'title'" to "dataset.title";
 transform column "$.'description'" to "dataset.description";
+
+/* Data Repository Information */
+let "dataRepository.name" = "OpenfMRI";
+let "dataRepository.abbreviation" = "OpenfMRI";
+let "dataRepository.ID" apply = "SCR:005031";
+let "dataRepository.homePage" = "http://openfmri.org/";
 
 /* Access Information */
 transform column "$.'link'" to "access.landingPage";
@@ -9,22 +15,17 @@ let "access.accesstypes" = "download";
 let "access.authorization" = "none";
 let "access.authentication" = "none,simpleLogin";
 
-/* Additional Information */
-transform column "$.'organism'" to "organism[0].name";
-
-transform column "$.'assay'" to "dataAcquisition.title";
-
-/* Data Repository Information */
-transform column "$.'id'" to "dataRepository.name" apply {{ result = 'OpenfMRI' }};
-transform column "$.'id'" to "dataRepository.abbreviation" apply {{ result = 'OpenfMRI' }};
-transform column "$.'id'" to "dataRepository.ID" apply {{ result = 'SCR:005031' }};
-transform column "$.'id'" to "dataRepository.homePage" apply {{ result = 'http://openfmri.org/' }};
-
 /* Organization Information */
-transform column "$.'id'" to "organization.name" apply {{ result = 'Stanford University' }};
-transform column "$.'id'" to "organization.abbreviation" apply {{ result = 'Stanford' }};
-transform column "$.'id'" to "organization.ID" apply {{ result = 'SCR:011538' }};
-transform column "$.'id'" to "organization.homePage" apply {{ result = 'http://www.stanford.edu/' }};
+let "organization.name" = "Stanford University";
+let "organization.abbreviation" = "Stanford";
+let "organization.ID" = "SCR:011538";
+let "organization.homePage" = "http://www.stanford.edu/";
+
+/* Taxonomic Information */
+transform column "$.'organism'" to "taxonomicInformation[0].name";
+
+/* Data Acquisition */
+transform column "$.'assay'" to "dataAcquisition.name";
 
 /* Items requiring some special formatting/review */
 /*
