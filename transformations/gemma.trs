@@ -16,7 +16,8 @@ transform columns "$.'Source'" , "$.'SourceAccession'" to "identifiers[0].ID" ap
 transform column "$.'GemmaDsId'" to "access.landingPage" apply {{ result='http://www.chibi.ubc.ca/Gemma/gene/showGene.html?id=' + value}};
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
-let "access.authentication" = "none";
+let "access[0].authentication" = "none"; 
+let "access[1].authentication" = "simpleLogin";
 
 /* Organization Information */
 let "organization.ID"= "SCR:011614";
