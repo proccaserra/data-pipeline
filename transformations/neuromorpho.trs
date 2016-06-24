@@ -12,7 +12,7 @@ let "dataRepository.homePage" = "http://neuromorpho.org/";
 transform column "$.'pr_nif_0000_00006_1'.'article'.'pmid'" to "publication.ID";
 
 /* Access Information */
-transform column "$.'neuron_name'" to "access.landingPage" apply {{ result = 'http://neuromorpho.org/neuron_info.jsp?neuron_name=' + value }};
+transform column "$.'pr_nif_0000_00006_1'.'neuron_name'" to "access.landingPage" apply {{ result = 'http://neuromorpho.org/neuron_info.jsp?neuron_name=' + value }};
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
 let "access.authentication" = "none";
@@ -54,18 +54,18 @@ transform column "$.'pr_nif_0000_00006_1'.'stain'" to "treatment.name";
 
 /* Items not included */
 /*
-transform column "$.'article'.'e_uid'" to "article.e_uid";
-transform column "$.'e_uid'" to "e_uid";
-transform column "$.'article'.'article_id'" to "article.article_id";
-transform column "$.'age_scale'" to "age_scale";
-transform column "$.'min_age'" to "min_age";
-transform column "$.'min_weight'" to "min_weight";
-transform column "$.'png_url'" to "png_url";
-transform column "$.'age_class'" to "age_class";
-transform column "$.'url_reference'" to "url_reference";
-transform column "$.'article'.'neuron_id'" to "article.neuron_id";
-transform column "$.'scientific_name'" to "scientific_name";
-transform column "$.'note'" to "dataset.note";
-transform column "$.'species'" to "organism.name";
-transform column "$.'gender'" to "organism.gender";
+transform column "$.'pr_nif_0000_00006_1'.'article'.'e_uid'" to "article.e_uid";
+transform column "$.'pr_nif_0000_00006_1'.'e_uid'" to "e_uid";
+transform column "$.'pr_nif_0000_00006_1'.'article'.'article_id'" to "article.article_id";
+transform column "$.'pr_nif_0000_00006_1'.'age_scale'" to "age_scale";
+transform column "$.'pr_nif_0000_00006_1'.'min_age'" to "min_age";
+transform column "$.'pr_nif_0000_00006_1'.'min_weight'" to "min_weight";
+transform column "$.'pr_nif_0000_00006_1'.'png_url'" to "png_url";
+transform column "$.'pr_nif_0000_00006_1'.'age_class'" to "age_class";
+transform column "$.'pr_nif_0000_00006_1'.'url_reference'" to "url_reference";
+transform column "$.'pr_nif_0000_00006_1'.'article'.'neuron_id'" to "article.neuron_id";
+transform column "$.'pr_nif_0000_00006_1'.'scientific_name'" to "scientific_name";
+transform column "$.'pr_nif_0000_00006_1'.'note'" to "dataset.note";
+transform column "$.'pr_nif_0000_00006_1'.'species'" to "organism.name";
+transform column "$.'pr_nif_0000_00006_1'.'gender'" to "organism.gender";
 */
