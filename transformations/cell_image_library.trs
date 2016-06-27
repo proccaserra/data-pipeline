@@ -45,6 +45,23 @@ arr.extend(re.split("\s*,\s*",value2))
 result=arr
 }};
 
+/* Dataq which needs to be reconciled with DATS 2.0 */
+transform column "$.'pr_nif_0000_37639_1'.'cellline'" to "cellline[].name" apply {{
+arr=re.split("\s*,\s*",value1,)
+arr.extend(re.split("\s*,\s*",value2))
+result=arr
+}};
+transform column "$.'pr_nif_0000_37639_1'.'cellularcomponent'" to "cellularcomponent[].name" apply {{
+arr=re.split("\s*,\s*",value1,)
+arr.extend(re.split("\s*,\s*",value2))
+result=arr
+}};
+transform columns "$.'pr_nif_0000_37639_1'.'biologicalprocess'", "$.'pr_nif_0000_37639_1'.'pathologicalprocess'"to "biologicalProcess[].name" apply {{
+arr=re.split("\s*,\s*",value1,)
+arr.extend(re.split("\s*,\s*",value2))
+result=arr
+}};
+
 /* Data import needs to be fixed */
 /*
 transform column "$.'pr_nif_0000_37639_1'.'attribution'" to "attribution";
@@ -72,19 +89,4 @@ transform column "$.'pr_nif_0000_37639_1'.'speciestaxaspecific'" to "speciestaxa
 transform column "$.'pr_nif_0000_37639_1'.'technicaldetails'" to "technicaldetails";
 transform column "$.'pr_nif_0000_37639_1'.'dataqualification'" to "dataqualification";
 transform column "$.'pr_nif_0000_37639_1'.'relationtointactcell'" to "relationtointactcell";
-transform column "$.'pr_nif_0000_37639_1'.'cellline'" to "cellline[].name" apply {{
-arr=re.split("\s*,\s*",value1,)
-arr.extend(re.split("\s*,\s*",value2))
-result=arr
-}};
-transform column "$.'pr_nif_0000_37639_1'.'cellularcomponent'" to "cellularcomponent[].name" apply {{
-arr=re.split("\s*,\s*",value1,)
-arr.extend(re.split("\s*,\s*",value2))
-result=arr
-}};
-transform columns "$.'pr_nif_0000_37639_1'.'biologicalprocess'", "$.'pr_nif_0000_37639_1'.'pathologicalprocess'"to "biologicalProcess[].name" apply {{
-arr=re.split("\s*,\s*",value1,)
-arr.extend(re.split("\s*,\s*",value2))
-result=arr
-}};
 */
