@@ -12,6 +12,7 @@ transform column "$.'Results'[*]" to "publication[].title" apply {{
 copy = value[:]
 result = value.split("Title\":\"")[1].split("\",\"URL\"")[0]
 }};
+transform column "$.'DOI'" to "publication.identifiers";
 
 /* Dimension */
 transform column "$.'Measures'[*]['Data Structure']['name']" to "dimension.name";
