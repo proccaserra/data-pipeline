@@ -23,8 +23,8 @@ transform column "$.'subset_dataset_id'" to "identifiers.ID" apply {{ result = '
 transform column "$.'subset_dataset_id'" to "access.landingPage" apply {{ result = 'http://www.ncbi.nlm.nih.gov/sites/GDSbrowser?acc=' + value }};
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
-let "access[0].authentication" = "none"; 
-let "access[1].authentication" = "simpleLogin";
+let "access.authentication[0]" = "none"; 
+let "access.authentication[1]" = "simpleLogin";
 
 /* Organization Information */
 let "organization.ID" = "SCR:006472";
