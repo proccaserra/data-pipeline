@@ -1,5 +1,5 @@
 /* Dataset Information */
-transform column "$.'identifier'" to "dataset.identifier";
+transform column "$.'identifier'" to "dataset.ID";
 transform column "$.'Title'" to "dataset.title";
 transform column "$.'Types'.'Study Type'" to "dataset.types";
 transform column "$.'Abstract'" to "dataset.description";
@@ -14,22 +14,22 @@ transform column "$.'DOI'" to "publication.identifiers";
 /* Access */
 transform column "$.'ResourceURL'" to "access.landingPage";
 let "access.accesstypes" = "download";
-let "access[0].authorization" = "duaIndividual";
-let "access[1].authorization" = "duaInstitution";
+let "access.authorization[0]" = "duaIndividual";
+let "access.authorization[1]" = "duaInstitution";
 let "access.authentication" = "simpleLogin";
 
 /* Dimension */
-transform column "$.'Measures'[*]['Data Structure']['name']" to "dimension.name";
-transform column "$.'Measures'[*]['Data Structure']['dimensionType']" to "dimension.types";
-transform column "$.'Measures'[*]['Data Structure']['partOf']" to "dimension.partOf";
+transform column "$.'Measures'[*].'Data Structure'" to "dimension[].name";
+transform column "$.'Measures'[*].'Elements'[*].'name'" to "dimension[].isAbout[]";
+transform column "$.'Measures'[*].'URL'" to "dimension[].landingPage";
 
 /* Material */
-transform column "$.'Cohorts'[*]['Type']" to "Material[].name";
-transform column "$.'Cohorts'[*]['Age']" to "Material[].characteristic.age";
-transform column "$.'Cohorts'[*]['Gender']" to "Material[].characteristic.gender";
+transform column "$.'Cohorts'[*]['Type']" to "material[].name";
+transform column "$.'Cohorts'[*]['Age']" to "material[].characteristic.age";
+transform column "$.'Cohorts'[*]['Gender']" to "material[].characteristic.gender";
 
 /* Study Information */
-transform column "$.'Measures'[*]['Data Structure']" to "Study.schedulesDataAcquisition";
+transform column "$.'Measures'[*].'Data Structure'" to "study.schedulesDataAcquisition[]";
 
 /* Items not included 
 transform column "$.'identifierScheme'" to "Study.identifierScheme";
