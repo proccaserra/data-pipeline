@@ -15,8 +15,8 @@ let "dataRepository.homePage" = "http://www.cellimagelibrary.org/";
 transform column "$.'pr_nif_0000_37639_1'.'id'" to "access.landingPage" apply {{ result = 'http://www.cellimagelibrary.org/images/' + value }};
 let "access.accesstypes"  = "download";
 let "access.authorization"  = "none";
-let "access[0].authentication" = "none";
-let "access[1].authentication" = "registration";
+let "access.authentication[0]" = "none";
+let "access.authentication[1]" = "registration";
 
 /* Organization Information */
 let "organization.ID" = "SCR:010600";
