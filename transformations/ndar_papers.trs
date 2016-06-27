@@ -15,14 +15,15 @@ result = copy.split("URL\":\"")[1].split("\"}")[0]
 }};
 
 
-/* TODO: Get the Elements information from Measures, and put into schedulesDataAcquisition[].measures[]*/
+/* schedulesDataAcquisition 'uses' field, using instrument schema*/ --> DIMENSION
+transform column "$.'Measures'[*]['Data Structure']" to "Study.schedulesDataAcquisition[].uses.name";
 
 /* Material */
 transform column "$.'Cohorts'[*]['Type']" to "Material[].name";
-transform column "$.'Cohorts'[*]['Age']" to "Material[].Characteristic[0].values[0]";
-transform column "$.'Cohorts'[*]['Age']" to "Material[].hasCharacteristic[0].name" apply {{ result = "Age" }};
-transform column "$.'Cohorts'[*]['Gender']" to "Material[].hasCharacteristic[1].values[0]";
-transform column "$.'Cohorts'[*]['Gender']" to "Material[].hasCharacteristic[1].name" apply {{ result = "Gender" }};
-/* Items not included */
+transform column "$.'Cohorts'[*]['Age']" to "Material[].characteristic.age";
+transform column "$.'Cohorts'[*]['Gender']" to "Material[].characteristic.gender";
+
+/* Items not included 
 transform column "$.'identifierScheme'" to "Study.identifierScheme";
 transform column "$.'Abstract'" to "Study.description";
+*/
