@@ -6,15 +6,15 @@ transform column "$.'description'" to "dataset.description";
 /* Data Repository Information */
 let "dataRepository.name" = "OpenfMRI";
 let "dataRepository.abbreviation" = "OpenfMRI";
-let "dataRepository.ID" apply = "SCR:005031";
+let "dataRepository.ID" = "SCR:005031";
 let "dataRepository.homePage" = "http://openfmri.org/";
 
 /* Access Information */
 transform column "$.'link'" to "access.landingPage";
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
-let "access[0].authentication" = "none"; 
-let "access[1].authentication" = "simpleLogin"; 
+let "access.authentication[0]" = "none"; 
+let "access.authentication[1]" = "simpleLogin"; 
 
 /* Organization Information */
 let "organization.name" = "Stanford University";
