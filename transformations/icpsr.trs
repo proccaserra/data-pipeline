@@ -14,10 +14,10 @@ transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'rel
 
 /* Access Information */
 transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'dataAccs'.'setAvail'.'accsPlac'.'@URI'" to "access.landingPage";
-let "access[0].accesstypes" = "download";
-let "access[1].accesstypes" = "enclave";
-let "access[0].authorization" = "duaInstitution";
-let "access[1].authorization" = "registration";
+let "access.accesstypes[0]" = "download";
+let "access.accesstypes[1]" = "enclave";
+let "access.authorization[0]" = "duaInstitution";
+let "access.authorization[1]" = "registration";
 let "access.authentication" = "simpleLogin";
 
 /* License */
