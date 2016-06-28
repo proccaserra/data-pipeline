@@ -17,12 +17,12 @@ transform column "$.'Study'.'Configuration'.'Publications'.'Publication'[*].'Jou
 transform column "$.'Study'.'Configuration'.'Publications'.'Publication'[*].'Journal'.'@authors'" to "publication.authors[]";
 
 /* Access Information */
-let "access[0].accesstypes" = "download";
-let "access[1].accesstypes" = "enclave";
-let "access[0].authorization" = "none";
-let "access[1].authorization" = "duaIndividual";
-let "access[0].authentication" = "simpleLogin"; 
-let "access[1].authentication" = "none"; 
+let "access.accesstypes[0]" = "download";
+let "access.accesstypes[1]" = "enclave";
+let "access.authorization[0]" = "none";
+let "access.authorization[1]" = "duaIndividual";
+let "access.authentication[0]" = "simpleLogin"; 
+let "access.authentication[1]" = "none"; 
 
 /* License Information */
 transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'@Policy_ID'" to "license.ID";
