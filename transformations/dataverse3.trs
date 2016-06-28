@@ -1,111 +1,56 @@
-/*=============================Dataset=========================================*/
+/* Dataset Information */
+transform column "$.'citation'.'fields'[*].'otherId'[*].'otherIdValue'" to "dataset.alternateIdentifiers[]";
+transform column "$.'citation'.'fields'[*].'title'" to "dataset[].title";
+transform column "$.'citation'.'fields'[*].'kindOfData'[*]" to "dataset[].types";
+transform column "$.'citation'.'fields'[*].'dsDescription'[*].'dsDescriptionValue'" to "dataset[].description";
+transform column "$.'citation'.'fields'[*].'keyword'[*].'keywordValue'" to "dataset[].keywords[]"; 
 
-transform column "$.'citation'.'fields'[*].'title'" to "Dataset[].title";
+/* Dataset Distribution */
+transform column "$.'citation'.'fields'[*].'distributor'[*].'distributorName'" to "datasetDistribution.distributor[]"; 
+transform column "$.'citation'.'fields'[*].'dateOfDeposit'" to "datasetDistribution.dateDeposited[]";
+transform column "$.'citation'.'fields'[*].'productionDate'" to "datasetDistribution.dateCreated[]";
+transform column "$.'citation'.'fields'[*].'distributionDate'" to "datasetDistribution.dateReleased[]"; 
 
-transform column "$.'citation'.'fields'[*].'dsDescription'[*].'dsDescriptionValue'" to "Dataset[].description[].value"; /* new created */
-transform column "$.'citation'.'fields'[*].'dsDescription'[*].'dsDescriptionDate'" to "Dataset[].description[].date"; /* new created */
-transform column "$.'citation'.'fields'[*].'dateOfDeposit'" to "Dataset[].depositDate"; /* new created */
-transform column "$.'citation'.'fields'[*].'kindOfData'[*]" to "Dataset[].dataType[]";
-transform column "$.'citation'.'fields'[*].'productionDate'" to "Dataset[].productionDate"; /* new created */
-transform column "$.'citation'.'fields'[*].'distributionDate'" to "Dataset[].distributionDate"; /* new created */
-transform column "$.'citation'.'fields'[*].'notesText'" to "Dataset[].description"; 
-transform column "$.'citation'.'fields'[*].'otherId'[*].'otherIdValue'" to "Dataset[].otherId[].identifier";  /* new created */
-
-/*=============================Access=========================================*/
+/* Access */
 let "access.accesstypes"  = "download"; 
 let "access.authorization[0]"  = "none"; 
 let "access.authorization[1]"  = "registration"; 
 let "access.authentication[0]" = "none"; 
 let "access.authentication[1]" = "simpleLogin"; 
 
-/*=============================Person=========================================*/
+/* Person */
+transform column "$.'citation'.'fields'[*].'datasetContact'[*].'datasetContactName'" to "person.name[]"; 
+transform column "$.'citation'.'fields'[*].'datasetContact'[*].'datasetContactAffiliation'" to "person.affiliation[]"; 
+transform column "$.'citation'.'fields'[*].'datasetContact'[*].'datasetContactEmail'" to "person.email[]"; 
 
-transform column "$.'citation'.'fields'[*].'datasetContact'[*].'datasetContactName'" to "Person[].name"; /* new created */
-transform column "$.'citation'.'fields'[*].'datasetContact'[*].'datasetContactAffiliation'" to "Person[].affiliation"; /* new created */
-transform column "$.'citation'.'fields'[*].'datasetContact'[*].'datasetContactEmail'" to "Person[].email"; /* new created */
-transform column "$.'citation'.'fields'[*].'depositor'" to "Person.depositor"; /* new created */
+/* Organization */
+transform column "$.'citation'.'fields'[*].'producer'[*].'producerName'" to "organization[].name"; /* new created */
+transform column "$.'citation'.'fields'[*].'producer'[*].'producerAbbreviation'" to "organization[].abbreviation"; /* new created */
+transform column "$.'citation'.'fields'[*].'producer'[*].'producerURL'" to "organization[].homePage"; /* new created */
 
-/*=============================Organization=========================================*/
-transform column "$.'citation'.'fields'[*].'producer'[*].'producerName'" to "Organization[]..name"; /* new created */
-transform column "$.'citation'.'fields'[*].'producer'[*].'producerAbbreviation'" to "Organization[].abbreviation"; /* new created */
-transform column "$.'citation'.'fields'[*].'producer'[*].'producerURL'" to "Organization[].homePage"; /* new created */
+/* DataAcquisition */
+transform column "$.'citation'.'fields'[*].'dateOfCollection'[*].'dateOfCollectionStart'" to "dataAcquisition[].startDate"; /* new created */
+transform column "$.'citation'.'fields'[*].'dateOfCollection'[*].'dateOfCollectionEnd'" to "dataAcquisition[].endDate"; /* new created */
 
-/* Dataset Distribution */
-transform column "$.'citation'.'fields'[*].'distributor'[*].'distributorName'" to "distributor[].title"; /* new created */
+/* Material */
+transform column "$.'citation'.'fields'[*].'relatedMaterial'[*]" to "material[].name";
 
-/*=============================DataAcquisition=========================================*/
+/* Grant */
+transform column "$.'citation'.'fields'[*].'grantNumber'[*].'grantNumberValuer'" to "grant[].funds"; 
+transform column "$.'citation'.'fields'[*].'grantNumber'[*].'grantNumberAgency'" to "grant[].funder"; 
 
-transform column "$.'citation'.'fields'[*].'dateOfCollection'[*].'dateOfCollectionStart'" to "DataAcquisition[].startDate"; /* new created */
-transform column "$.'citation'.'fields'[*].'dateOfCollection'[*].'dateOfCollectionEnd'" to "DataAcquisition[].endDate"; /* new created */
-transform column "$.'citation'.'fields'[*].'productionPlace'" to "DataAcquisition[].location "; /* new created */
+/* Study Inforamtion */
+transform column "$.'citation'.'fields'[*].'subject'[*]" to "study[].name[]"; 
+transform column "$.'citation'.'fields'[*].'keyword'[*].'keywordValue'" to "study[].keywords[]";
+transform column "$.'citation'.'fields'[*].'topicClassification'[*].'topicClassValue'" to "study[].types";
+transform column "$.'socialscience'.'fields'[*].'samplingProcedure'" to "study[].selectionCriteria"; 
+transform column "$.'socialscience'.'fields'[*].'universe'[*]" to "study.studyGroups[]"; 
 
-transform column "$.'socialscience'.'fields'[*].'timeMethod'" to "DataAcquisition[].timeMethod";  /* new created */
+/* Publication */
+transform column "$.'citation'.'fields'[*].'publication'[*].'publicationIDNumber'" to "publication[].ID"; 
 
-transform column "$.'socialscience'.'fields'[*].'frequencyOfDataCollection'" to "DataAcquisition[].frequency"; /* new created */
-
-transform column "$.'socialscience'.'fields'[*].'collectionMode'" to "DataAcquisition[].mode";  /* new created */
-transform column "$.'socialscience'.'fields'[*].'dataCollectionSituation'" to "DataAcquisition[].situation";  /* new created */
-
-/*=============================Material=========================================*/
-
-
-transform column "$.'citation'.'fields'[*].'relatedMaterial'[*]" to "Material[].name";
-
-
-/*=============================Grant=========================================*/
-
-
-transform column "$.'citation'.'fields'[*].'grantNumber'[*].'grantNumberValuer'" to "Grant[].funds"; 
-transform column "$.'citation'.'fields'[*].'grantNumber'[*].'grantNumberAgency'" to "Grant[].funder"; 
-
-
-
-/*=============================StudyGroup=========================================*/
-
-
-
-transform column "$.'socialscience'.'fields'[*].'universe'[*]" to "Studygroup[].name[]";  
-
-
-transform column "$.'socialscience'.'fields'[*].'samplingProcedure'" to "Studygroup[].selectionCriteria";  
-
-/*=============================Study=========================================*/
-
-
-transform column "$.'citation'.'fields'[*].'keyword'[*].'keywordValue'" to "Study[].keywords[].keyword"; /* new created */
-transform column "$.'citation'.'fields'[*].'topicClassification'[*].'topicClassValue'" to "Study[].types";  /* new created */
-transform column "$.'citation'.'fields'[*].'subject'[*]" to "Study[].name[]"; /* new created */
-
-/*=============================Publication=========================================*/
-
-/* Citation Field 19 */
-transform column "$.'citation'.'fields'[*].'publication'[*].'publicationIDNumber'" to "Publication[].identifier";  /* not tested */
-transform column "$.'citation'.'fields'[*].'publication'[*].'publicationIDType'" to "Publication[].identifierScheme";  /* not tested */
-transform column "$.'citation'.'fields'[*].'publication'[*].'publicationCitation'" to "Publication[].cites";  /* not tested */
-transform column "$.'citation'.'fields'[*].'publication'[*].'publicationURL'" to "Publication[].URL";  /* not tested */
-
-
-
-
-/*===========================Activity===============================================*/
-
-/* Socialscience Fields 6-7 */
-transform column "$.'socialscience'.'fields'[*].'cleaningOperations'" to "Activity[].cleaning"; /* new created */
-transform column "$.'socialscience'.'fields'[*].'weighting'" to "Activity[].weighting";  /* new created */
-
-
-/*===========================DataAnalysis===============================================*/
-
-transform column "$.'socialscience'.'fields'[*].'unitOfAnalysis'[*]" to "DataAnalysis[].unit[]";  /* new created */
-
-transform column "$.'socialscience'.'fields'[*].'samplingErrorEstimates'" to "DataAnalysis[].samplingError";  /* new created */
-transform column "$.'socialscience'.'fields'[*].'otherDataAppraisal'" to "DataAnalysis[].otherDataAppraisal"; /* new created */
-transform column "$.'socialscience'.'fields'[*].'responseRate'" to "DataAnalysis[].responseRate";  /* new created */
-
-
-/*===========================Instrument===============================================*/
-
-transform column "$.'socialscience'.'fields'[*].'researchInstrument'" to "Instrument.name";
+/* Instrument */
+transform column "$.'socialscience'.'fields'[*].'researchInstrument'" to "instrument.name";
 
 /* Item not included
 
@@ -139,9 +84,6 @@ transform column "$.'citation'.'fields'[*].'distributor'[*].'distributorURL'" to
 transform column "$.'citation'.'fields'[*].'distributor'[*].'distributorLogoURL'" to "Organization[].distributor[].logo"; /* new created */
 transform column "$.'citation'.'fields'[*].'distributor'[*].'distributorAffiliation'" to "Organization[].distributor[].affiliation"; /* new created */
 
-
-transform column "$.'citation'.'fields'[*].'keyword'[*].'keywordVocabulary'" to "Study[].keywords[].vocabulary"; /* new created */
-
 /*Geospatial Fields 0-2*/
 
 transform column "$.'geospatial'.'fields'[*].'geographicCoverage'[*].'country'" to "DataAcquisition[].location[].country";  /* new created */
@@ -156,5 +98,24 @@ transform column "$.'citation'.'fields'[*].'topicClassification'[*].'topicClassV
 transform column "$.'citation'.'fields'[*].'topicClassification'[*].'topicClassVocab'" to "Study[].studyType[].vocabulary";  /* new created */
 
 transform column "$.'citation'.'fields'[*].'keyword'[*].'keywordVocabularyURI'" to "Study[].keywords[].vocabularyURI"; /* new created */
+transform column "$.'citation'.'fields'[*].'dsDescription'[*].'dsDescriptionDate'" to "Dataset[].description[].date"; 
+transform column "$.'citation'.'fields'[*].'notesText'" to "Dataset[].description"; 
+transform column "$.'citation'.'fields'[*].'depositor'" to "Person.depositor"; 
+transform column "$.'citation'.'fields'[*].'keyword'[*].'keywordVocabulary'" to "Study[].keywordVocabulary[]"; 
+transform column "$.'citation'.'fields'[*].'publication'[*].'publicationIDType'" to "Publication[].identifierScheme";  /* not tested */
+transform column "$.'citation'.'fields'[*].'publication'[*].'publicationCitation'" to "Publication[].cites";  /* not tested */
+transform column "$.'citation'.'fields'[*].'publication'[*].'publicationURL'" to "Publication[].URL";  /* not tested */
+transform column "$.'socialscience'.'fields'[*].'timeMethod'" to "DataAcquisition[].timeMethod";  /* new created */
+transform column "$.'socialscience'.'fields'[*].'frequencyOfDataCollection'" to "DataAcquisition[].frequency"; /* new created */
+transform column "$.'socialscience'.'fields'[*].'collectionMode'" to "DataAcquisition[].mode";  /* new created */
+transform column "$.'socialscience'.'fields'[*].'dataCollectionSituation'" to "DataAcquisition[].situation";  /* new created */
+transform column "$.'socialscience'.'fields'[*].'cleaningOperations'" to "activity[].cleaning";
+transform column "$.'socialscience'.'fields'[*].'weighting'" to "Activity[].weighting"; 
+transform column "$.'socialscience'.'fields'[*].'unitOfAnalysis'[*]" to "DataAnalysis[].unit[]"; 
+transform column "$.'socialscience'.'fields'[*].'samplingErrorEstimates'" to "DataAnalysis[].samplingError";
+transform column "$.'socialscience'.'fields'[*].'otherDataAppraisal'" to "DataAnalysis[].otherDataAppraisal";
+transform column "$.'socialscience'.'fields'[*].'responseRate'" to "DataAnalysis[].responseRate";
+
+
 
 */
