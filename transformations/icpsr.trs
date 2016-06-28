@@ -4,6 +4,7 @@ transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'titlStm
 transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'prodStmt'.'producer'.'_$'" to "dataset.creator";
 transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'abstract'.'_$'" to "dataset.description";
 transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'subject'.'keyword'[*].'_$'" to "dataset.keyword[]";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'sumDscr'.'dataKind'[*].'_$'" to "dataset.types[]";
 
 /* Dataset Distribution */
 transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'verStmt'.'version'.'@date'" to "dataDistribution.dateReleased";
@@ -61,7 +62,6 @@ transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'sumDsc
 transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'sumDscr'.'timePrd'[*].'_$'" to "record.metadata.codeBook.stdyDscr.stdyInfo.sumDscr.timePrd[]";
 transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'sumDscr'.'nation'.'_$'" to "record.metadata.codeBook.stdyDscr.stdyInfo.sumDscr.nation";
 transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'sumDscr'.'geogCover'.'_$'" to "record.metadata.codeBook.stdyDscr.stdyInfo.sumDscr.geogCover";
-transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'sumDscr'.'dataKind'[*].'_$'" to "record.metadata.codeBook.stdyDscr.stdyInfo.sumDscr.dataKind[]";
 transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'method'.'dataColl'.'cleanOps'.'p'.'_$'" to "record.metadata.codeBook.stdyDscr.method.dataColl.cleanOps.p";
 transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'method'.'dataColl'.'cleanOps'.'list'.'@type'" to "record.metadata.codeBook.stdyDscr.method.dataColl.cleanOps.list.@type";
 transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'method'.'dataColl'.'cleanOps'.'list'.'itm'[*].'_$'" to "record.metadata.codeBook.stdyDscr.method.dataColl.cleanOps.list.itm[]";
