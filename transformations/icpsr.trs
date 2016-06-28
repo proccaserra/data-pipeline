@@ -2,15 +2,18 @@
 transform column "$.'record'.'header'.'identifier'.'_$'" to "dataset.identifier";
 transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'titlStmt'.'titl'.'_$'" to "dataset.title";
 transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'prodStmt'.'producer'.'_$'" to "dataset.creator";
-transform column"$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'abstract'.'_$'" to "dataset.description[]";
-transform column"$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'subject'.'keyword'[*].'_$'" to "dataset.keyword[]";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'abstract'.'_$'" to "dataset.description";
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'subject'.'keyword'[*].'_$'" to "dataset.keyword[]";
 
 /* Dataset Distribution */
 transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'verStmt'.'version'.'@date'" to "dataDistribution.dateReleased";
 
-/* Publication */
-transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'relPubl'[*].'citation'.'biblCit'.'_$'" to "publication.title";
-transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'relPubl'[*].'citation'.'distStmt'.'distribtr'" to "publication.authors";
+/* Citations */
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'relPubl'[*].'citation'.'titlStmt'.'titl'.'_$'" to "dataset.isCitedBy[].title";
+
+transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'relPubl'[*].'citation'.'rspStmt'.'AuthEnty'[*].'_$'" to "dataset.isCitedBy[].authors[]";
+
+transform columns "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'relPubl'[*].'citation'.'titlStmt'.'IDNo'[*].'@agency'", "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'relPubl'[*].'citation'.'titlStmt'.'IDNo'[*].'_$'" to "dataset.isCitedBy[].identifiers[]" apply {{ result = value1.lower() + ':' + value2 }};
 
 /* Access Information */
 transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'dataAccs'.'setAvail'.'accsPlac'.'@URI'" to "access.landingPage";
