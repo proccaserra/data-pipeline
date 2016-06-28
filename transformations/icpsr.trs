@@ -1,6 +1,7 @@
 /* Dataset Information */
 transform column "$.'record'.'header'.'identifier'.'_$'" to "dataset.identifier";
 transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'titlStmt'.'titl'.'_$'" to "dataset.title";
+transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'prodStmt'.'producer'.'_$'" to "dataset.creator";
 transform column"$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'abstract'.'_$'" to "dataset.description[]";
 transform column"$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'subject'.'keyword'[*].'_$'" to "dataset.keyword[]";
 
@@ -29,7 +30,6 @@ transform column "$.'record'.'metadata'.'codeBook'.'@version'" to "record.metada
 transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'titlStmt'.'IDNo'.'@agency'" to "record.metadata.codeBook.docDscr.citation.titlStmt.IDNo.@agency";
 transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'titlStmt'.'IDNo'.'_$'" to "record.metadata.codeBook.docDscr.citation.titlStmt.IDNo";
 transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'prodStmt'.'producer'.'@abbr'" to "record.metadata.codeBook.docDscr.citation.prodStmt.producer.@abbr";
-transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'prodStmt'.'producer'.'_$'" to "record.metadata.codeBook.docDscr.citation.prodStmt.producer";
 transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'prodStmt'.'copyright'.'_$'" to "record.metadata.codeBook.docDscr.citation.prodStmt.copyright";
 transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'verStmt'.'version'.'_$'" to "record.metadata.codeBook.docDscr.citation.verStmt.version";
 transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'holdings'.'@URI'" to "record.metadata.codeBook.docDscr.citation.holdings.@URI";
