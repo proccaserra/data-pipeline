@@ -2,8 +2,8 @@
 transform column "$.'SRA'.'STUDY_SET'.'STUDY'.'STUDY_LINKS'.'STUDY_LINK'.'URL_LINK'.'URL'.'_$'" to "access.accessURL";
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
-let "access[0].authentication" = "none";
-let "access[1].authentication" = "simpleLpgin";
+let "access.authentication[0]" = "none";
+let "access.authentication[1]" = "simpleLpgin";
 
 transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'@broker_name'" to "Dataset.storedIn";
 transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'@center_name'" to "Dataset.creator";
