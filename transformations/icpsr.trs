@@ -7,7 +7,7 @@ transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'subjec
 transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'sumDscr'.'dataKind'[*].'_$'" to "dataset.types[]";
 
 /* Dataset Distribution */
-transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'verStmt'.'version'.'@date'" to "dataDistribution.dateReleased";
+transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'verStmt'.'version'.'@date'" to "datasetDistribution.dateReleased";
 
 /* Citations */
 transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'relPubl'[*].'citation'.'titlStmt'.'titl'.'_$'" to "dataset.isCitedBy[].title";
@@ -34,6 +34,8 @@ transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'prodStm
 transform column "$.'record'.'metadata'.'codeBook'.'@schemaLocation'" to "dataStandard.name";
 transform column "$.'record'.'metadata'.'codeBook'.'@version'" to "dataStandard.version";
 
+/* Included Files */
+transform column "$.'record'.'metadata'.'codeBook'.'fileDscr'[*].'fileTxt'.'fileName'.'_$'" to "datasetDistribution.contents[]";
 
 /*Items not included
 transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'titlStmt'.'IDNo'.'@agency'" to "record.metadata.codeBook.docDscr.citation.titlStmt.IDNo.@agency";
@@ -77,7 +79,6 @@ transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'rel
 transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'relPubl'[*].'citation'.'holdings'.'_$'" to "record.metadata.codeBook.stdyDscr.othrStdyMat.relPubl[].citation.holdings";
 transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'relPubl'[*].'citation'.'prodStmt'.'prodDate'.'@date'" to "record.metadata.codeBook.stdyDscr.othrStdyMat.relPubl[].citation.prodStmt.prodDate.@date";
 transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'othrStdyMat'.'relPubl'[*].'citation'.'prodStmt'.'prodDate'.'_$'" to "record.metadata.codeBook.stdyDscr.othrStdyMat.relPubl[].citation.prodStmt.prodDate";
-transform column "$.'record'.'metadata'.'codeBook'.'fileDscr'[*].'fileTxt'.'fileName'.'_$'" to "record.metadata.codeBook.fileDscr[].fileTxt.fileName";
 
 transform column "$.'record'.'header'.'datestamp'.'_$'" to "record.header.datestamp";
 transform column "$.'record'.'header'.'repository'.'_$'" to "record.header.repository";
