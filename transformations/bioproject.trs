@@ -19,8 +19,8 @@ transform column "$.'Package'.'Project'.'Project'.'ProjectDescr'.'Publication'.'
 transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "access.landingpage" apply {{ result = 'http://www.ncbi.nlm.nih.gov/bioproject/' + value }};
 let "access.accesstypes"  = "download";
 let "access.authorization"  = "none";
-let "access[0].authentication" = "none"; 
-let "access[1].authentication" = "simpleLogin";
+let "access.authentication[0]" = "none"; 
+let "access.authentication[1]" = "simpleLogin";
 
 /* Organization Information */
 let "organization.ID" = "SCR:006472";
