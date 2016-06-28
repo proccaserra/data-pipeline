@@ -1,5 +1,5 @@
 /* Dataset Information */
-transform column "$.'record'.'header'.'identifier'.'_$'" to "dataset.identifier";
+transform column "$.'record'.'header'.'identifier'.'_$'" to "dataset.ID";
 transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'titlStmt'.'titl'.'_$'" to "dataset.title";
 transform column "$.'record'.'metadata'.'codeBook'.'docDscr'.'citation'.'prodStmt'.'producer'.'_$'" to "dataset.creator";
 transform column "$.'record'.'metadata'.'codeBook'.'stdyDscr'.'stdyInfo'.'abstract'.'_$'" to "dataset.description";
