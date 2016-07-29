@@ -36,6 +36,7 @@ Parameters can be used to query, filter and control the results returned by the 
 ### Examples
 
 * [http://api.datacite.org/dats?publisher-id=osti.nimh](http://api.datacite.org/dats?publisher-id=osti.nimh)
+* [http://api.datacite.org/dats?publisher-id=cdl.tcia&sort=updated](http://api.datacite.org/dats?publisher-id=cdl.tcia&sort=updated)
 * [http://api.datacite.org/dats?publisher-id=cdl.broad&sort=deposited&offset=2000](http://api.datacite.org/dats?publisher-id=cdl.broad&sort=deposited&offset=2000)
 * [http://api.datacite.org/dats?publisher-id=bl.lshtm&resource-type-id=dataset](http://api.datacite.org/dats?publisher-id=bl.lshtm&resource-type-id=dataset)
 
