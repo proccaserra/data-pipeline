@@ -1,8 +1,8 @@
 /* Dataset Information */
 transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "dataset.ID";
 transform columns "$.'Package'.'Project'.'Project'.'ProjectDescr'.'Name'.'_$'", "$.'Package'.'Project'.'Project'.'ProjectDescr'.'Title'.'_$'"  to "dataset.title" apply {{ result = value1 + ' : ' + value2; }};
+transform column "$.'Package'.'Project'.'Project'.'ProjectType'.'ProjectTypeSubmission'.'ProjectDataTypeSet'.'DataType'.'_$'" to "dataset.types[0]";
 transform column "$.'Package'.'Project'.'Project'.'ProjectDescr'.'Description'.'_$'" to "dataset.description" apply {{ result = re.compile(r'<.*?>').sub('',value) }};
-transform column "$.'Package'.'Project'.'Project'.'ProjectType'.'ProjectTypeSubmission'.'ProjectDataTypeSet'.'DataType'.'_$'" to "dataset.keywords[0]";
 
 /* Dataset Distribution Information */
 transform column "$.'Package'.'Project'.'Project'.'ProjectDescr'.'ProjectReleaseDate'.'_$'" to "datasetDistribution.dateReleased";
@@ -19,8 +19,8 @@ transform column "$.'Package'.'Project'.'Project'.'ProjectDescr'.'Publication'.'
 transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "access.landingpage" apply {{ result = 'http://www.ncbi.nlm.nih.gov/bioproject/' + value }};
 let "access.accesstypes"  = "download";
 let "access.authorization"  = "none";
-let "access[0].authentication" = "none"; 
-let "access[1].authentication" = "simpleLogin";
+let "access.authentication[0]" = "none"; 
+let "access.authentication[1]" = "simpleLogin";
 
 /* Organization Information */
 let "organization.ID" = "SCR:006472";

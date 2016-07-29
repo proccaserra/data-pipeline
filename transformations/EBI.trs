@@ -3,70 +3,70 @@ transform column "$.'run'.'Overview'.'Other Information'.'ENA checklist'" to "Da
 
 ﻿/* Access */
 transform column "$.'run'.'Downloads'.'Sequence Data'.'Predicted CDS'" to "access.downloadURL[0].URL";
-transform column "$.'run'" to "access.accessURL[0].name" apply {{
+transform column "$.'run'" to "access.accessURL[0]" apply {{
 result = 'Predicted CDS'
 }};
 transform column "$.'run'.'Downloads'.'Sequence Data'.'Predicted CDS without annotation'" to "Dataset.downloadURL[1].URL";
-transform column "$.'run'" to "access.accessURL[1].name" apply {{
+transform column "$.'run'" to "access.accessURL[1]" apply {{
 result = 'Predicted CDS without annotation'
 }};
 transform column "$.'run'.'Downloads'.'Sequence Data'.'Predicted ORF without annotation'" to "Dataset.downloadURL[2].URL";
-transform column "$.'run'" to "access.accessURL[2].name" apply {{
+transform column "$.'run'" to "access.accessURL[2]" apply {{
 result = 'Predicted ORF without annotation'
 }};
 transform column "$.'run'.'Downloads'.'Sequence Data'.'Processed nucleotide reads'" to "Dataset.downloadURL[3].URL";
-transform column "$.'run'" to "access.accessURL[3].name" apply {{
+transform column "$.'run'" to "access.accessURL[3]" apply {{
 result = 'Processed nucleotide reads'
 }};
 transform column "$.'run'.'Downloads'.'Sequence Data'.'Processed reads with annotation'" to "Dataset.downloadURL[4].URL";
-transform column "$.'run'" to "access.accessURL[4].name" apply {{
+transform column "$.'run'" to "access.accessURL[4]" apply {{
 result = 'Processed reads with annotation'
 }};
 transform column "$.'run'.'Downloads'.'Sequence Data'.'Processed reads with pCDS'" to "Dataset.downloadURL[5].URL";
-transform column "$.'run'" to "access.accessURL[5].name" apply {{
+transform column "$.'run'" to "access.accessURL[5]" apply {{
 result = 'Processed reads with pCDS'
 }};
 transform column "$.'run'.'Downloads'.'Sequence Data'.'Processed reads without annotation'" to "Dataset.downloadURL[6].URL";
-transform column "$.'run'" to "access.accessURL[6].name" apply {{
+transform column "$.'run'" to "access.accessURL[6]" apply {{
 result = 'Processed reads without annotation'
 }};
 transform column "$.'run'.'Downloads'.'Sequence Data'.'Submitted nucleotide reads'" to "Dataset.downloadURL[7].URL";
-transform column "$.'run'" to "access.accessURL[7].name" apply {{
+transform column "$.'run'" to "access.accessURL[7]" apply {{
 result = 'Submitted nucleotide reads'
 }};
 transform column "$.'run'.'Downloads'.'Taxonomic Analysis'.' OTUs, reads and taxonomic assignments'" to "Dataset.downloadURL[8].URL";
-transform column "$.'run'" to "access.accessURL[8].name" apply {{
+transform column "$.'run'" to "access.accessURL[8]" apply {{
 result = 'OTUs, reads and taxonomic assignments'
 }};
 transform column "$.'run'.'Downloads'.'Taxonomic Analysis'.' Phylogenetic tree'" to "Dataset.downloadURL[9].URL";
-transform column "$.'run'" to "access.accessURL[9].name" apply {{
+transform column "$.'run'" to "access.accessURL[9]" apply {{
 result = 'Phylogenetic tree'
 }};
 transform column "$.'run'.'Downloads'.'Taxonomic Analysis'.' Reads encoding 16S rRNA'" to "Dataset.downloadURL[10].URL";
-transform column "$.'run'" to "access.accessURL[10].name" apply {{
+transform column "$.'run'" to "access.accessURL[10]" apply {{
 result = 'Reads encoding 16S rRNA'
 }};
 
 /* Material */
 transform column "$.'run'.'Overview'.'Other Information'.'NCBI sample classification'" to "Material.identifier";
 transform column "$.'run'.'Overview'.'Other Information'.'common name'" to "Material.name";
-transform column "$.'run'.'Overview'.'Description'.'Classification:'" to "Material.derivesFrom[0].value";
+transform column "$.'run'.'Overview'.'Description'.'Classification:'" to "Material.derivesFrom[0]";
 transform column "$.'run'" to "Material[0].derivesFrom" apply {{
 result = 'classification'
 }};
-transform column "$.'run'.'Overview'.'Description'.'Sample name:'" to "Material.derivesFrom[1].value";
+transform column "$.'run'.'Overview'.'Description'.'Sample name:'" to "Material.derivesFrom[1]";
 transform column "$.'run'" to "Material[1].derivesFrom" apply {{
 result = 'sample name'
 }};
-transform column "$.'run'.'Overview'.'Other Information'.'body habitat'" to "Material.derivesFrom[2].value";
+transform column "$.'run'.'Overview'.'Other Information'.'body habitat'" to "Material.derivesFrom[2]";
 transform column "$.'run'" to "Material[2].derivesFrom" apply {{
 result = 'body habitat'
 }};
-transform column "$.'run'.'Overview'.'Other Information'.'body product'" to "Material.derivesFrom[3].value";
+transform column "$.'run'.'Overview'.'Other Information'.'body product'" to "Material.derivesFrom[3]";
 transform column "$.'run'" to "Material[3].derivesFrom" apply {{
 result = 'body product'
 }};
-transform column "$.'run'.'Overview'.'Other Information'.'body site'" to "Material.derivesFrom[4].value";
+transform column "$.'run'.'Overview'.'Other Information'.'body site'" to "Material.derivesFrom[4]";
 transform column "$.'run'" to "Material[4].derivesFrom" apply {{
 result = 'body site'
 }};
@@ -74,30 +74,30 @@ transform column "$.'run'.'Overview'.'Host Associated'.'Species:'" to
 "Material.taxonomicInformation";
 
 
-transform column "$.'run'.'Overview'.'Other Information'.'environment (biome)'" to "Material.hasCharacteristic[0].value";
+transform column "$.'run'.'Overview'.'Other Information'.'environment (biome)'" to "Material.hasCharacteristic[0]";
 transform column "$.'run''" to "Material[0].characteristics" apply {{
 result = 'biome'
 }};
-transform column "$.'run'.'Overview'.'Other Information'.'environment (feature)'" to "Material.hasCharacteristic[1].value";
+transform column "$.'run'.'Overview'.'Other Information'.'environment (feature)'" to "Material.hasCharacteristic[1]";
 transform column "$.'run''" to "Material[1].characteristics" apply {{
 result = 'feature'
 }};
-transform column "$.'run'.'Overview'.'Other Information'.'environment (material)'" to "Material.hasCharacteristic[2].value";
+transform column "$.'run'.'Overview'.'Other Information'.'environment (material)'" to "Material.hasCharacteristic[2]";
 transform column "$.'run''" to "Material[2].characteristics" apply {{
 result = 'material'
 }};
 
 /* Taxonomic Information */
 
-transform column "$.'run'.'Overview'.'Other Information'.'anonymized name'" to "taxonomicInformation.identifier[0].value";
+transform column "$.'run'.'Overview'.'Other Information'.'anonymized name'" to "taxonomicInformation.identifier[0]";
 transform column "$.'run'" to "taxonomicInformation[0].identifier" apply {{
 result = 'anonymized name'
 }};
-transform column "$.'run'.'Overview'.'Other Information'.'host subject id'" to "taxonomicInformation.identifier[1].value";
+transform column "$.'run'.'Overview'.'Other Information'.'host subject id'" to "taxonomicInformation.identifier[1]";
 transform column "$.'run'" to "taxonomicInformation[1].identifier" apply {{
 result = 'host subject id'
 }};
-transform column "$.'run'.'Overview'.'Other Information'.'host taxid'" to "taxonomicInformation.identifier[2].value";
+transform column "$.'run'.'Overview'.'Other Information'.'host taxid'" to "taxonomicInformation.identifier[2]";
 transform column "$.'run'" to "taxonomicInformation[2].identifier" apply {{
 result = 'host taxid'
 }};
@@ -105,28 +105,28 @@ transform column "$.'run'.'Overview'.'Other Information'.'host common name'" to 
 
 /* Activity */ 
 transform column "$.'run'.'Overview'.'Title'" to "Activity.name";
-transform column "$.'run'.'Overview'.'Other Information'.'altitude'" to "Activity.location[0].value";
+transform column "$.'run'.'Overview'.'Other Information'.'altitude'" to "Activity.location[0]";
 transform column "$.'run'" to "Activity[0].location" apply {{
 result = 'altitude'
 }};
 
-transform column "$.'run'.'Overview'.'Other Information'.'elevation'" to "Activity.location[1].value";
+transform column "$.'run'.'Overview'.'Other Information'.'elevation'" to "Activity.location[1]";
 transform column "$.'run'" to "Activity[1].location" apply {{
 result = 'elevation'
 }};
-transform column "$.'run'.'Overview'.'Other Information'.'geographic location (country and/or sea,region)'" to "Activity.location[2].value";
+transform column "$.'run'.'Overview'.'Other Information'.'geographic location (country and/or sea,region)'" to "Activity.location[2]";
 transform column "$.'run'" to "Activity[2].location" apply {{
 result = 'country and/or sea, region'
 }};
-transform column "$.'run'.'Overview'.'Other Information'.'geographic location (depth)'" to "Activity.location[3].value";
+transform column "$.'run'.'Overview'.'Other Information'.'geographic location (depth)'" to "Activity.location[3]";
 transform column "$.'run'" to "Activity[3].location" apply {{
 result = 'depth'
 }};
-transform column "$.'run'.'Overview'.'Other Information'.'geographic location (latitude)'" to "Activity.location[4].value";
+transform column "$.'run'.'Overview'.'Other Information'.'geographic location (latitude)'" to "Activity.location[4]";
 transform column "$.'run'" to "Activity[4].location" apply {{
 result = 'latitude'
 }};
-transform column "$.'run'.'Overview'.'Other Information'.'geographic location (longitude)'" to "Activity.location[5].value";
+transform column "$.'run'.'Overview'.'Other Information'.'geographic location (longitude)'" to "Activity.location[5]";
 transform column "$.'run'" to "Activity[5].location" apply {{
 result = 'longitude'
 }};

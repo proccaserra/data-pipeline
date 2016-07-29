@@ -27,8 +27,8 @@ transform columns "$.'record'.'metadata'.'oai_dc:dc'.'dc:identifier'[*].'_$'" to
 transform column "$.'record'.'header'.'fetchURL'.'_$'" to "access.landingPage";
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
-let "access[0].authentication" = "none"; 
-let "access[1].authentication" = "simpleLogin";
+let "access.authentication[0]" = "none"; 
+let "access.authentication[1]" = "simpleLogin";
 
 /* License Information */
 transform column "$.'record'.'metadata'.'oai_dc:dc'.'dc:rights'.'_$'" to "license.name";
@@ -38,11 +38,11 @@ let "organization.ID" = "SCR:005910";
 let "organization.name" = "Dryad Digital Repository";
 let "organization.abbreviation" = "Dryad";
 
-/* items not included in the model */
+/* items not included in the model 
 transform column "$.'record'.'header'.'setSpec'.'_$'" to "internal.setID";
 transform column "$.'record'.'header'.'setName'.'_$'" to "internal.setName";
 transform column "$.'record'.'header'.'recNum'.'_$'" to "internal.recNum";
 transform column "$.'record'.'metadata'.'oai_dc:dc'.'dc:date'[0].'_$'" to "datasetDistribution.accessionDate" apply toStandardDateTime("yyyy-MM-dd'T'HH:mm:ssZ");
 transform column "$.'record'.'metadata'.'oai_dc:dc'.'dc:date'[2].'_$'" to "datasetDistribution.issueDate" apply toStandardDate("yyyy-MM-dd'T'HH:mm:ssZ");
-
 transform column "$.'record'.'metadata'.'oai_dc:dc'.'dc:relation'.'_$'" to "dataset.relatedDataset" apply {{ result = 'hdl:' + value[22:]}};
+*/

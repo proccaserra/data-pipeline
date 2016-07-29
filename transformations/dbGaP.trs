@@ -1,7 +1,7 @@
 /* Dataset Information */
 transform column "$.'Study'.'@parentStudy'" to "dataset.ID";
 transform column "$.'Study'.'Configuration'.'StudyNameEntrez'.'_$'" to "dataset.title";
-transform column "$.'Study'.'Configuration'.'Description'.'_$'" to "dataset.keywords";
+transform column "$.'Study'.'Configuration'.'Description'.'_$'" to "dataset.description";
 
 /* Dataset Distribution */
 transform column "$.'Study'.'@createDate'" to "datadistribution.dateCreated";
@@ -17,12 +17,13 @@ transform column "$.'Study'.'Configuration'.'Publications'.'Publication'[*].'Jou
 transform column "$.'Study'.'Configuration'.'Publications'.'Publication'[*].'Journal'.'@authors'" to "publication.authors[]";
 
 /* Access Information */
-let "access[0].accesstypes" = "download";
-let "access[1].accesstypes" = "enclave";
-let "access[0].authorization" = "none";
-let "access[1].authorization" = "duaIndividual";
-let "access[0].authentication" = "simpleLogin"; 
-let "access[1].authentication" = "none"; 
+transform column "$.'Study'.'@parentStudy'" to "access.landingpage" apply {{ result = 'http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=' + value }};
+let "access.accesstypes[0]" = "download";
+let "access.accesstypes[1]" = "enclave";
+let "access.authorization[0]" = "none";
+let "access.authorization[1]" = "duaIndividual";
+let "access.authentication[0]" = "simpleLogin"; 
+let "access.authentication[1]" = "none"; 
 
 /* License Information */
 transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'@Policy_ID'" to "license.ID";
@@ -31,8 +32,8 @@ transform column "$.'Study'.'AuthorizedAccess'.'Policy'.'DocumentSet'.'DataUseCe
 
 /* Person */
 transform column "$.'Study'.'Configuration'.'Attributions'.'Header'[*].'AttName'.'_$'" to "person.name[]";
-transform column "$.'Study'.'Configuration'.'Attributions'.'Header'[*].'@title'" to "person.roles[]";
 transform column "$.'Study'.'Configuration'.'Attributions'.'Header'[*].'Institution'.'_$'" to "person.affiliations[]";
+transform column "$.'Study'.'Configuration'.'Attributions'.'Header'[*].'@title'" to "person.roles[]";
 
 /* Organization Information */
 transform column "$.'Study'.'AuthorizedAccess'.'DacInfo'.'@ssDacId'" to "organization.ID";
@@ -41,18 +42,18 @@ transform column "$.'Study'.'AuthorizedAccess'.'DacInfo'.'DacName'.'_$'" to "org
 transform column "$.'Study'.'AuthorizedAccess'.'DacInfo'.'DacUrl'.'_$'" to "organization.downloadURL";
 
 /* Study Information */
-transform column "$.'Study'.'Configuration'.'StudyTypes'.'StudyType'.'_$'" to "study.studyType";
-transform column "$.'Study'.'Configuration'.'StudyHistory'.'_$'" to "study.scheduledActivity";
+transform column "$.'Study'.'Configuration'.'StudyTypes'.'StudyType'.'_$'" to "study.types";
+transform column "$.'Study'.'Configuration'.'StudyHistory'.'_$'" to "study.schedulesActivity";
 transform column "$.'Study'.'Configuration'.'StudyInEx'.'_$'" to "study.selectionCriteria";
 
 /* Data Acquisition Information */
 transform column "$.'Study'.'Configuration'.'Data_Provider'.'_$'" to "dataAcquisition.performedBy";
 
-/* Data Analysis */s
-transform column "$.'Study'.'Analyses'.'Analysis'[*].'@pha'" to "dataAnalysis.identifier[]";
+/* Data Analysis */
+transform column "$.'Study'.'Analyses'.'Analysis'[*].'@pha'" to "dataAnalysis.ID[]";
 
 /* Study Group Information */
-transform column "$.'Study'.'Configuration'.'ConsentGroups'.'ConsentGroup'[*].'@groupNum'" to "studyGroup.identifier[]";
+transform column "$.'Study'.'Configuration'.'ConsentGroups'.'ConsentGroup'[*].'@groupNum'" to "studyGroup.ID[]";
 transform column "$.'Study'.'Configuration'.'ConsentGroups'.'ConsentGroup'[*].'@longName'" to "studyGroup.name[]";
 
 /* Disease Information */
