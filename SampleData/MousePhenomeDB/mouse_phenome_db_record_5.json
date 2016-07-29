@@ -1,4 +1,4 @@
-{
+{"pr_nif_0000_03160_1": {
   "e_uid": "MPD:481",
   "dataset_id": "MPD:481",
   "dataset_symbol": "Schalkwyk2",
@@ -16,5 +16,7 @@
   "gender": "male",
   "v_uid": "MPD:481",
   "v_uuid": "663ce5d1-b61c-5d68-8c2e-26cdd03d75f7",
-  "v_lastmodified": ""
-}
+  "v_lastmodified": "2016-05-04 16:12:19.333646",
+  "v_status": "C",
+  "v_lastmodified_epoch": 1.462378339333646E9
+}}

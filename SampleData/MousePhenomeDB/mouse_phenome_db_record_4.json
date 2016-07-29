@@ -1,20 +1,22 @@
-{
-  "e_uid": "MPD:475",
-  "dataset_id": "MPD:475",
-  "dataset_symbol": "Poon1",
-  "url": "http://phenome.jax.org/db/q?rtn=projects/details&sym=Poon1",
-  "title": "Cell proliferation in the rostral migratory stream of 9 inbred mouse strains",
-  "dataset_measurements": "BrdU+ cells of rostral migratory stream",
-  "specific_categories": "brain--morphology--size",
-  "broad_categories": "brain;morphology;size",
-  "reference": "2013 Poon A, Goldowitz D",
+{"pr_nif_0000_03160_1": {
+  "e_uid": "MPD:357",
+  "dataset_id": "MPD:357",
+  "dataset_symbol": "Lightfoot1",
+  "url": "http://phenome.jax.org/db/q?rtn=projects/details&sym=Lightfoot1",
+  "title": "Wheel running activity in 41 inbred mouse strains",
+  "dataset_measurements": "body weight at the start of testing;wheel running activity, mean distance;wheel running activity, mean duration;wheel running activity, mean speed",
+  "specific_categories": "body weight size and growth--body weight;exercise and endurance",
+  "broad_categories": "body weight size and growth;exercise and endurance;body weight",
+  "reference": "2010 Lightfoot JT, Leamy L, Pomp D",
   "datasettype": "phenotype strain survey",
   "description": "",
   "dataset_granularity": "individual mice",
   "strainpanel": "classical",
-  "nstrains": "9",
+  "nstrains": "41",
   "gender": "male and female",
-  "v_uid": "MPD:475",
-  "v_uuid": "1c0308fc-652e-564c-8a63-a2ac1758120f",
-  "v_lastmodified": ""
-}
+  "v_uid": "MPD:357",
+  "v_uuid": "1a37bb16-dbef-5907-b306-4bf1d34506ef",
+  "v_lastmodified": "2016-05-04 16:12:19.333646",
+  "v_status": "C",
+  "v_lastmodified_epoch": 1.462378339333646E9
+}}

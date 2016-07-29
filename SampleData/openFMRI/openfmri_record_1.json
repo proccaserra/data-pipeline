@@ -1,15 +1,18 @@
-{
-  "e_uid": "ds000005",
-  "title": "Mixed-gambles task",
-  "id": "ds000005",
-  "description": "<p>Subjects were presented with mixed (gain/loss) gambles, and decided whether they would accept each gamble. &nbsp;No outcomes of these gambles were presented during scanning, but after the scan three gambles were selected at random and played for real money.<\/p>",
-  "link": "https://openfmri.org/dataset/ds000005",
-  "cognitive_task_seq_name": "<a class=\"external\" target=\"_blank\" href=\"http://www.cognitiveatlas.org/id/trm_4cacee4a1d875\">1 mixed gambles task<\/a>",
-  "pubmed_id": "<a class=\"external\" target=\"_blank\" href=\"http://www.ncbi.nlm.nih.gov/pubmed/17255512\">PMID:17255512<\/a>",
+{"pr_nlx_144048_1": {
+  "e_uid": "ds000001",
+  "title": "Balloon Analog Risk-taking Task",
+  "id": "ds000001",
+  "description": "<p>Subjects perform the Balloon Analog Risk-taking Task in an event-related design.<\/p><p>Note: The original highres image for sub004 was not available, so the skull-stripped version is included as highres001.nii.gz<\/p>",
+  "link": "https://openfmri.org/dataset/ds000001",
+  "cognitive_task_seq_name": "<a class=\"external\" target=\"_blank\" href=\"http://www.cognitiveatlas.org/id/trm_4d559bcd67c18\">1 Balloon Analogue Risk Task (BART)<\/a>",
+  "task_name": "Balloon Analogue Risk Task (BART)",
+  "pubmed_id": "<a class=\"external\" target=\"_blank\" href=\"http://www.ncbi.nlm.nih.gov/pubmed/22675289\">PMID:22675289<\/a>",
   "organism": "human",
   "assay": "MRI",
   "nifid": "nlx_144048",
-  "v_uid": "ds000005",
-  "v_uuid": "c7ef38f4-01ac-5aee-aaa4-aefb5fabe717",
-  "v_lastmodified": ""
-}
+  "v_uid": "ds000001",
+  "v_uuid": "4ebcaf9b-863e-50db-adbc-f6d3e30751d0",
+  "v_lastmodified": "2016-06-06 09:37:14.817136",
+  "v_status": "E",
+  "v_lastmodified_epoch": 1.465205834817136E9
+}}

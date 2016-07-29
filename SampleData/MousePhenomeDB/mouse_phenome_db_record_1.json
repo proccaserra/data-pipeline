@@ -1,20 +1,22 @@
-{
-  "e_uid": "MPD:296",
-  "dataset_id": "MPD:296",
-  "dataset_symbol": "Eumorphia7",
-  "url": "http://phenome.jax.org/db/q?rtn=projects/details&sym=Eumorphia7",
-  "title": "Serum immunoglobulin concentrations in 6 inbred strains of mice",
-  "dataset_measurements": "immunoglobulin A (serum IgA);immunoglobulin G1 (serum IgG1);immunoglobulin G2a (serum IgG2a);immunoglobulin G2b (serum IgG2b);immunoglobulin G3 (serum IgG3);immunoglobulin M (serum IgM)",
-  "specific_categories": "immune system--immunoglobulins",
-  "broad_categories": "immune system;immunoglobulins",
-  "reference": "Eumorphia / Europhenome 2008 Eumorphia / Europhenome",
+{"pr_nif_0000_03160_1": {
+  "e_uid": "MPD:479",
+  "dataset_id": "MPD:479",
+  "dataset_symbol": "Rosen2",
+  "url": "http://phenome.jax.org/db/q?rtn=projects/details&sym=Rosen2",
+  "title": "Lateral septal nucleus morphology in 69 BXD recombinant inbred strains of mice",
+  "dataset_measurements": "lateral septum volume;lateral septum volume (adjusted)",
+  "specific_categories": "brain--morphology--size",
+  "broad_categories": "brain;morphology;size",
+  "reference": "2012 Rosen GD",
   "datasettype": "phenotype strain survey",
   "description": "",
   "dataset_granularity": "individual mice",
-  "strainpanel": "classical",
-  "nstrains": "6",
+  "strainpanel": "BXD",
+  "nstrains": "71",
   "gender": "male and female",
-  "v_uid": "MPD:296",
-  "v_uuid": "4e7964f5-857f-56cb-a497-f649a7f638b8",
-  "v_lastmodified": ""
-}
+  "v_uid": "MPD:479",
+  "v_uuid": "47b93622-a797-5928-9f46-34596e3c170a",
+  "v_lastmodified": "2016-05-04 16:12:19.333646",
+  "v_status": "C",
+  "v_lastmodified_epoch": 1.462378339333646E9
+}}

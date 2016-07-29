@@ -1,15 +1,18 @@
-{
-  "e_uid": "ds000051",
-  "title": "Cross-language repetition priming",
-  "id": "ds000051",
-  "description": "<p>Native Spanish speakers who were proficient in English performed an abstract-concrete judgment with single Spanish or English words. &nbsp;Each item was repeated once, either in the same language or in the other language.<\/p>",
-  "link": "https://openfmri.org/dataset/ds000051",
-  "cognitive_task_seq_name": "<a class=\"external\" target=\"_blank\" href=\"http://www.cognitiveatlas.org/id/trm_4ebd44cd88360\">1 abstract/concrete judgment: bilingual<\/a>",
-  "pubmed_id": "",
+{"pr_nlx_144048_1": {
+  "e_uid": "ds000052",
+  "title": "Classification learning and reversal",
+  "id": "ds000052",
+  "description": "<p>Subjects performed two blocks of an event-related probabilistic classification learning task. They then performed two more blocks of the same task with the reward contingencies reversed.<\/p>",
+  "link": "https://openfmri.org/dataset/ds000052",
+  "cognitive_task_seq_name": "<a class=\"external\" target=\"_blank\" href=\"http://www.cognitiveatlas.org/id/trm_4cacf22a22d80\">1 Probabilistic classification task<\/a>, <a class=\"external\" target=\"_blank\" href=\"http://www.cognitiveatlas.org/id/trm_4cacf22a22d80\">2 Probabilistic classification task<\/a>",
+  "task_name": "Probabilistic classification task",
+  "pubmed_id": "<a class=\"external\" target=\"_blank\" href=\"http://www.ncbi.nlm.nih.gov/pubmed/11734855\">PMID:11734855<\/a>",
   "organism": "human",
   "assay": "MRI",
   "nifid": "nlx_144048",
-  "v_uid": "ds000051",
-  "v_uuid": "e29a9740-7479-523c-bb29-ecd66882cec9",
-  "v_lastmodified": ""
-}
+  "v_uid": "ds000052",
+  "v_uuid": "30cfc51d-5f62-5a32-898d-e2c1e0d2bbf0",
+  "v_lastmodified": "2016-06-06 09:37:14.817136",
+  "v_status": "E",
+  "v_lastmodified_epoch": 1.465205834817136E9
+}}

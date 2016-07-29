@@ -1,7 +1,7 @@
 /* Dataset Information */
-transform column "$.'id'" to "dataset.ID";
-transform column "$.'title'" to "dataset.title";
-transform column "$.'description'" to "dataset.description";
+transform column "$.'pr_nlx_144048_1'.'id'" to "dataset.ID";
+transform column "$.'pr_nlx_144048_1'.'title'" to "dataset.title";
+transform column "$.'pr_nlx_144048_1'.'description'" to "dataset.description";
 
 /* Data Repository Information */
 let "dataRepository.name" = "OpenfMRI";
@@ -10,7 +10,7 @@ let "dataRepository.ID" = "SCR:005031";
 let "dataRepository.homePage" = "http://openfmri.org/";
 
 /* Access Information */
-transform column "$.'link'" to "access.landingPage";
+transform column "$.'pr_nlx_144048_1'.'link'" to "access.landingPage";
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
 let "access.authentication[0]" = "none"; 
@@ -23,10 +23,10 @@ let "organization.ID" = "SCR:011538";
 let "organization.homePage" = "http://www.stanford.edu/";
 
 /* Taxonomic Information */
-transform column "$.'organism'" to "taxonomicInformation[0].name";
+transform column "$.'pr_nlx_144048_1'.'organism'" to "taxonomicInformation[0].name";
 
 /* Data Acquisition */
-transform column "$.'assay'" to "dataAcquisition.name";
+transform column "$.'pr_nlx_144048_1'.'assay'" to "dataAcquisition.name";
 
 /* Items requiring some special formatting/review */
 /*

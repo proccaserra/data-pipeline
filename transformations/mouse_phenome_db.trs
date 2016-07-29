@@ -1,11 +1,11 @@
 /* Dataset Information */
-transform column "$.'dataset_id'" to "dataset.ID";
-transform column "$.'title'" to "dataset.title";
-transform column "$.'datasettype'" to "dataset.dataType";
-transform column "$.'description'" to "dataset.description";
+transform column "$.'pr_nif_0000_03160_1'.'dataset_id'" to "dataset.ID";
+transform column "$.'pr_nif_0000_03160_1'.'title'" to "dataset.title";
+transform column "$.'pr_nif_0000_03160_1'.'datasettype'" to "dataset.dataType";
+transform column "$.'pr_nif_0000_03160_1'.'description'" to "dataset.description";
 
 /* Dataset Distribution */
-transform column "$.'nstrains'" to "dataset.size";
+transform column "$.'pr_nif_0000_03160_1'.'nstrains'" to "dataset.size";
 
 /* Data Repository Information */
 let "dataRepository.name" = "Mouse Phenome Database";
@@ -14,14 +14,14 @@ let "dataRepository.ID" = "SCR:003212";
 let "dataRepository.homePage" = "http://phenome.jax.org/";
 
 /* Access Information */
-transform column "$.'dataset_symbol'" to "access.landingPage" apply {{ result = 'http://phenome.jax.org/db/q?rtn=projects/details&sym=' + value }};
+transform column "$.'pr_nif_0000_03160_1'.'dataset_symbol'" to "access.landingPage" apply {{ result = 'http://phenome.jax.org/db/q?rtn=projects/details&sym=' + value }};
 let "access.accesstypes" = "download";
 let "access.authorization" = "none";
 let "access.authentication" = "none";
 
 /* Dimension Information */
-transform column "$.'dataset_measurements'" to "dimension[].name" apply {{
-arr=re.split("\s*,\s*",value,)
+transform column "$.'pr_nif_0000_03160_1'.'dataset_measurements'" to "dimension[].name" apply {{
+arr=re.split("\s*;\s*",value,)
 result=arr
 }};
 
@@ -35,7 +35,7 @@ let "organization.homePage" = "http://www.jax.org/index.html";
 let "taxonomicinformation[0].name" = "mus musculus";
 
 /* Additional Taxonomic Information */
-transform column "$.'strainpanel'" to "taxonomicinformation[0].strain";
+transform column "$.'pr_nif_0000_03160_1'.'strainpanel'" to "taxonomicinformation[0].strain";
 
 /* Items not included */
 /*
