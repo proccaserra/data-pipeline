@@ -3,6 +3,10 @@ transform column "$.'experiment'.'accession'.'_$'" to "dataset.ID";
 transform column "$.'experiment'.'name'.'_$'" to "dataset.title";
 transform column "$.'experiment'.'experimenttype'.'_$'" to "dataset.types";
 transform column "$.'experiment'.'description'.'text'.'_$'" to "dataset.description";
+/* SUGGESTED MODIFICATIONS -Dataset Information */
+transform column "$.'idf.txt'.'Comment[AEExperimentType]'.'_$'"  to "dataset.types";
+transform column "$.'idf.txt'.'Comment[AEExperimentType]'.'_$'"  to "dataSet.types.dataType.information";
+
 let "dataset.keywords[0]" = "functional genomics";
 
 /* Dataset distribution */
@@ -22,6 +26,11 @@ let "access.authorization"  = "none";
 let "access.authentication[0]" = "none"; 
 let "access.authentication[1]" = "simpleLogin";
 
+
+/* ADDITION Data Distribution Information */
+let "DataSet.availableAs.Distribution.conformsTo.DataStandard[].name = "MAGE-Tab";
+
+
 /* Organization Information */
 let "organization.ID" = "SCR:004727";
 let "organization.name" = "European Bioinformatics Institute";
@@ -29,7 +38,16 @@ let "organization.abbreviation" = "EBI";
 let "organization.homePage" = "http://www.ebi.ac.uk/";
 
 /* Treatment */
-transform column "$.'experiment'.'experimentdesign'.'_$'" to "treatment.name";
+//transform column "$.'experiment'.'experimentdesign'.'_$'" to "treatment.name";
+/* SUGGESTED CHANGES Treatment */
+//transform column "$.'experiment'.'experimentdesign'.'_$'" to "s";
+transform column "$.'experiment'.'experimentdesign'.'_$'".'_$'" to "Study.studyType.Annotation.value";
+transform column "$.'experiment'.'experimentdesigntermaccessionnumber'.'url'.'_$'" to "Study.studyType.Annotation.ontologyTermIRI";
+//transform column "$.'experiment'.'experimentdesign'.'_$'" to "treatment.name";
+transform column "$.'idf.txt'.'Experimental Factor Name'.'_$'" to "Treatment.name";
+transform column "$.'idf.txt'.'Experimental Factor Type'.'_$'" to "Treatment.(agent || intensity || duration)";
+transform column "$.'idf.txt'.'Experimental Factor Type Term Accession Number'.'_$'" to "Treatment.IdentifierInformation.identifier";
+transform column "$.'idf.txt'.'Experimental Factor Type Term Source REF'.'_$'" to "Treatment.IdentifierInformation.identifierSource";
 
 /* Data Acquisition Information */
 transform column "$.'experiment'.'arraydesign'.'accession'.'_$'" to "dataAcquisition.ID";

@@ -4,6 +4,11 @@ transform column "$.'pr_nif_0000_37639_1'.'id'" to "dataset.title" apply {{ resu
 transform column "$.'pr_nif_0000_37639_1'.'imagedescription'" to "dataset.description";
 transform column "$.'pr_nif_0000_37639_1'.'parameterimaged'" to "dataset.dimensions";
 transform column "$.'pr_nif_0000_37639_1'.'itemtype'" to "dataset.types";
+/*ADDITION to Dataset Information  */
+transform column "$.'pr_nif_0000_37639_1'.'imagetype'" to "dataSet.types.dataType.information";
+transform column "$.'pr_nif_0000_37639_1'.'parametersimaged'" to "dataSet.types.dataType.information"; //in addition to dataset.dimensions
+transform column "$.'pr_nif_0000_37639_1'.'imagingmode'" to "dataSet.types.dataType.method";
+transform column "$.'pr_nif_0000_37639_1'.'processinghistory'" to "dataSet.types.dataType.information";
 
 /* Data Repository Information */
 let "dataRepository.ID" = "SCR:003510";
@@ -18,6 +23,13 @@ let "access.authorization"  = "none";
 let "access.authentication[0]" = "none";
 let "access.authentication[1]" = "registration";
 
+/* ADDITION Data Distribution Information */
+transform column "$.'pr_nif_0000_37639_1'.'imagedatadownloadoptions' to "DataSet.availableAs.Distribution.conformsTo.DataStandard[].name = apply {{
+arr=re.split("\s*,\s*",value,)
+result=arr
+}};
+
+
 /* Organization Information */
 let "organization.ID" = "SCR:010600";
 let "organization.name" = "American Society for Cell Biology";
@@ -31,17 +43,30 @@ result=arr
 }};
 
 /* Treatment */
-transform column "$.'pr_nif_0000_37639_1'.'preparation'" to "treatment.name";
-transform column "$.'pr_nif_0000_37639_1'.'visualizationmethods'" to "treatment.agent";
+//transform column "$.'pr_nif_0000_37639_1'.'preparation'" to "treatment.name";
+//transform column "$.'pr_nif_0000_37639_1'.'visualizationmethods'" to "treatment.agent";
+/*SUGGESTED_CHANGES Treatment -> SAMPLE PROCESSING*/
+transform column "$.'pr_nif_0000_37639_1'.'preparation'" to "Activity.name";
+transform column "$.'pr_nif_0000_37639_1'.'visualizationmethods'" to "Activity.fullName";
+
 
 /* Data Acquisition Information */
 transform column "$.'pr_nif_0000_37639_1'.'imagingmode'" to "dataAcquisition.name";
 
+
+
 /* Biological Entity */
-transform column "$.'pr_nif_0000_37639_1'.'celltype'" to "BiologicalEntity[].name" apply {{
+//transform column "$.'pr_nif_0000_37639_1'.'celltype'" to "BiologicalEntity[].name" apply {{
+//arr=re.split("\s*,\s*",value,)
+//result=arr
+}};
+/*SUGGESTED CHANGES Biological Entity */
+transform column "$.'pr_nif_0000_37639_1'.'celltype'" to "dataSet.isAbout.BiologicalEntity[].name" apply {{
 arr=re.split("\s*,\s*",value,)
 result=arr
 }};
+transform column "$.'pr_nif_0000_37639_1'.'celltype'" to "dataSet.isAbout.BiologicalEntity[].identifiers.identifierInformation.identifier"; 
+transform column "$.'pr_nif_0000_37639_1'.'celltype'" to "dataSet.isAbout.BiologicalEntity[].identifiers.identifierInformation.identifierSchema="GO";
 
 /* Dataq which needs to be reconciled with DATS 2.0 */
 transform column "$.'pr_nif_0000_37639_1'.'cellline'" to "cellline[].name" apply {{
@@ -60,7 +85,10 @@ result=arr
 
 /* Data import needs to be fixed */
 /*
-transform column "$.'pr_nif_0000_37639_1'.'attribution'" to "attribution";
+//transform column "$.'pr_nif_0000_37639_1'.'attribution'" to "attribution";
+/*SUGGESTED CHANGES
+transform column "$.'pr_nif_0000_37639_1'.'attribution'" to "dataSet.creators.Person.fullName"; //TODO:add regex to extract GO id.
+transform column "$.'pr_nif_0000_37639_1'.'link'" to "dataSet.creators.Person.affiliations.organization.name";
 */
 
 /* Data not included */
